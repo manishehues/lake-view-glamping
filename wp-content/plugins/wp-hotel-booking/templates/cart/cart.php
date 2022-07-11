@@ -61,15 +61,15 @@ global $hb_settings; ?>
 										</a>
 									</td>
 									<td class="hb_room_type">
-										<a href="<?php echo get_permalink( $room->ID ); ?>"><?php echo apply_filters( 'hb_cart_room_name', $room->name, $room->ID ); ?><?php printf( '%s', $room->capacity_title ? ' (' . $room->capacity_title . ')' : '' ); ?></a>
+										<div><a href="<?php echo get_permalink( $room->ID ); ?>"><?php echo apply_filters( 'hb_cart_room_name', $room->name, $room->ID ); ?><?php printf( '%s', $room->capacity_title ? ' (' . $room->capacity_title . ')' : '' ); ?></a></div>
 									</td>
-									<td class="hb_capacity"><?php echo sprintf( _n( '%d adult', '%d adults', $room->capacity, 'wp-hotel-booking' ), $room->capacity ); ?> </td>
+									<td class="hb_capacity"><div><?php echo sprintf( _n( '%d adult', '%d adults', $room->capacity, 'wp-hotel-booking' ), $room->capacity ); ?> </div></td>
 									<td class="hb_quantity">
-										<?php echo esc_html( $num_of_rooms ); ?>
+									<div><?php echo esc_html( $num_of_rooms ); ?></div>
 									</td>
-									<td class="hb_check_in"><?php echo date_i18n( hb_get_date_format(), strtotime( $room->get_data( 'check_in_date' ) ) ) ?></td>
-									<td class="hb_check_out"><?php echo date_i18n( hb_get_date_format(), strtotime( $room->get_data( 'check_out_date' ) ) ) ?></td>
-									<td class="hb_night"><?php echo hb_count_nights_two_dates( $room->get_data( 'check_out_date' ), $room->get_data( 'check_in_date' ) ) ?></td>
+									<td class="hb_check_in"><div><?php echo date_i18n( hb_get_date_format(), strtotime( $room->get_data( 'check_in_date' ) ) ) ?></div></td>
+									<td class="hb_check_out"><div><?php echo date_i18n( hb_get_date_format(), strtotime( $room->get_data( 'check_out_date' ) ) ) ?></div></td>
+									<td class="hb_night"><div><?php echo hb_count_nights_two_dates( $room->get_data( 'check_out_date' ), $room->get_data( 'check_in_date' ) ) ?></div></td>
 									<td class="hb_gross_total">
 										<?php echo hb_format_price( $room->total ); ?>
 									</td>
