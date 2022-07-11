@@ -162,13 +162,13 @@ TEMPLATE
 			],
 		],
 		'social'           => [
-			'profiles'           => [
-				'sameUsername' => [
+			'profiles' => [
+				'sameUsername'   => [
 					'enable'   => [ 'type' => 'boolean', 'default' => false ],
 					'username' => [ 'type' => 'string' ],
 					'included' => [ 'type' => 'array', 'default' => [ 'facebookPageUrl', 'twitterUrl', 'pinterestUrl', 'instagramUrl', 'youtubeUrl', 'linkedinUrl' ] ]
 				],
-				'urls'         => [
+				'urls'           => [
 					'facebookPageUrl' => [ 'type' => 'string' ],
 					'twitterUrl'      => [ 'type' => 'string' ],
 					'instagramUrl'    => [ 'type' => 'string' ],
@@ -181,10 +181,10 @@ TEMPLATE
 					'wikipediaUrl'    => [ 'type' => 'string' ],
 					'myspaceUrl'      => [ 'type' => 'string' ],
 					'googlePlacesUrl' => [ 'type' => 'string' ]
-				]
+				],
+				'additionalUrls' => [ 'type' => 'string' ]
 			],
-			'siteSocialProfiles' => [ 'type' => 'array' ],
-			'facebook'           => [
+			'facebook' => [
 				'general'  => [
 					'enable'                  => [ 'type' => 'boolean', 'default' => true ],
 					'defaultImageSourcePosts' => [ 'type' => 'string', 'default' => 'default' ],
@@ -214,7 +214,7 @@ TEMPLATE
 					'usePostTagsInTags'   => [ 'type' => 'boolean', 'default' => true ]
 				]
 			],
-			'twitter'            => [
+			'twitter'  => [
 				'general'  => [
 					'enable'                  => [ 'type' => 'boolean', 'default' => true ],
 					'useOgData'               => [ 'type' => 'boolean', 'default' => true ],
@@ -634,6 +634,10 @@ TEMPLATE
 			if ( isset( $options['advanced']['taxonomies']['included'] ) ) {
 				$dbOptions['advanced']['taxonomies']['included']['value'] = $this->sanitizeField( $options['advanced']['taxonomies']['included'], 'array' );
 			}
+		}
+
+		if ( isset( $options['social']['profiles']['additionalUrls'] ) ) {
+			$dbOptions['social']['profiles']['additionalUrls'] = preg_replace( '/\h/', "\n", $options['social']['profiles']['additionalUrls'] );
 		}
 
 		// Tools.

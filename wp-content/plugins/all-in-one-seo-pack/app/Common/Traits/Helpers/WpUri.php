@@ -206,7 +206,7 @@ trait WpUri {
 	 * @return string      The formatted image URL.
 	 */
 	public function removeImageDimensions( $url ) {
-		return $this->isValidAttachment( $url ) ? preg_replace( '#(-[0-9]*x[0-9]*)#', '', $url ) : $url;
+		return $this->isValidAttachment( $url ) ? preg_replace( '#(-[0-9]*x[0-9]*|-scaled)#', '', $url ) : $url;
 	}
 
 	/**

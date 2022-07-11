@@ -32,17 +32,16 @@ function custom_body_class( array $classes ) {
 }
 
 
-// add_action('template_redirect', 'redirect_if_404');
-// function redirect_if_404() {
+add_action('template_redirect', 'redirect_if_404');
+function redirect_if_404() {
 	
-//     if ( is_404() ) {
-//         // Remember to change the /path-to-go with the URL you like to redirect the users.
-//         // 301 is permanent redirect. 302 is Temporary redirect.
-//         wp_redirect(esc_url(home_url('/')), 301);
-//         // And here will stop the file execution.
-//         exit();
-//     }
-// }
-
+    if ( is_404() ) {
+        // Remember to change the /path-to-go with the URL you like to redirect the users.
+        // 301 is permanent redirect. 302 is Temporary redirect.
+        wp_redirect(esc_url(home_url('/')), 301);
+        // And here will stop the file execution.
+        exit();
+    }
+}
 
 

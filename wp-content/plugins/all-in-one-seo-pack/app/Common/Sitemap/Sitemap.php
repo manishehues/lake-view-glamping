@@ -24,7 +24,7 @@ class Sitemap {
 		$this->root          = new Root();
 		$this->query         = new Query();
 		$this->file          = new File();
-		$this->image         = new Image();
+		$this->image         = new Image\Image();
 		$this->ping          = new Ping();
 		$this->priority      = new Priority();
 		$this->output        = new Output();
@@ -68,6 +68,7 @@ class Sitemap {
 		remove_action( 'init', 'wp_sitemaps_get_server' );
 		add_filter( 'wp_sitemaps_enabled', '__return_false' );
 	}
+
 	/**
 	 * Checks if static sitemap files prevent dynamic sitemap generation.
 	 *

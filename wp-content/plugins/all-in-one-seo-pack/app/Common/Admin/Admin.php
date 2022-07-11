@@ -1121,7 +1121,7 @@ class Admin {
 			'twitter_image_custom_fields',
 			'schema_type_options',
 			'local_seo',
-			'tabs'
+			'options'
 		];
 	}
 

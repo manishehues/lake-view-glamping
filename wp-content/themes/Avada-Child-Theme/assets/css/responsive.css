@@ -210,6 +210,16 @@
     .hotel-booking-search ul li.hb-form-field.submitBtn{
         max-width:none;
     }
+
+    .cartPageWrap{
+        max-width:calc(100% - 60px);
+        margin:30px auto;
+    }
+
+    .wp-hotel-booking-thank-you .msgWrap{
+        max-width:calc(100% - 60px);
+    }
+    
     
     
 }
@@ -582,6 +592,53 @@
         border:none!important;
     }
 
+    .singleDomeBokking .snglDomeWrap{
+        display:block;
+    }
+    .singleDomeBokking .leftSide{
+        max-width:100%;
+    }
+
+    body.single-hb_room #homePageBanner{
+        width:calc(60px + 100%);
+    }
+    .hb_single_room .hb_single_room_details .hb_single_room_tabs_content{
+        padding-top:100px;;
+    }
+    .singleDomeBokking .rightSide{
+        max-width:200px;
+    }
+    .singleDomeBokking .snglDomeWrap .hb_room_gallery > div{
+        width:100%;
+    }
+    .singleDomeBokking .snglDomeWrap div.camera_fakehover{
+        width:100%;
+        margin-bottom:2.5px;
+    }
+    .singleDomeBokking .snglDomeWrap .hb_room_gallery > div ul li.pix_thumb{
+        width:calc(25% - 5px);
+        float:left;
+        margin:2.5px;        
+    }
+    .camera_thumbs_cont > div{
+        float:none;
+        width:auto;
+        margin:0 -2.5px;
+    }
+
+    .hb-order-new-customer .hb-form-table.col-2{
+        width:100% !important
+    }
+    .hb-order-new-customer .hb-form-table.col-2 ul{
+        width:100%!important
+    }
+    .hb_table{
+        display:grid;
+    }
+    
+
+}    
+
 @media screen and (min-width:769px) and (max-width:928px){
     #main{
         margin-top:0!important;
@@ -730,6 +787,24 @@
     .siteFooter .fusion-column:first-child{
         margin-bottom:40px;
     }
+
+    .hb-select-extra-results .extrasLisiting{
+        width:calc(100% - 60px);
+    }
+    .extrasDetails .hb_extra_detail_price label{
+        top:-28px;
+    }
+    .hb-select-extra-results ul.list-room-extra li label.checkBox{
+        width:30px;
+        margin-top:6px;
+    }
+    .hb-select-extra-results ul.list-room-extra li label.checkBox input{
+        width:20px;
+        height:20px;
+    }
+    .hb-select-extra-results ul.list-room-extra li .extrasDetails{
+        width:calc(100% - 35px);
+    }
 }
 
 @media screen and (max-width:735px){
@@ -852,11 +927,25 @@
         transform: translateX(-50%);
     }
 }
-}
+
 
 @media screen and (max-width:666px){
     #allBlog .featPost{
         display:none;
+    }
+
+    #hotel-booking-cart .hb_capacity, #hotel-booking-payment .hb_capacity, 
+    #hotel-booking-cart table tr.hb_checkout_item td, 
+    #hotel-booking-payment table tr.hb_checkout_item td{
+        
+    }
+
+    .hb-message{
+        padding:0 15px;
+    }
+    body.wp-hotel-booking-thank-you #main .fusion-row{
+        margin-top:30px;
+        margin-bottom:30px;
     }
 }
 
@@ -1127,6 +1216,51 @@
         max-height:40px;
         width:100%;
     }
+
+    .hb_single_room .hb_single_room_details .hb_single_room_tabs_content #hb_room_description h4{
+        margin-top:0
+    }
+    .priceDetails .price{
+        margin-bottom:0;
+    }
+
+    .hb-message{
+        font-size:28px;
+    }
+    .wp-hotel-booking-thank-you .msgWrap{
+        max-width:calc(100% - 30px);
+        padding:20px
+    }
+    table.table.booking_item_table{
+        display:grid
+    }
+    .wp-hotel-booking-thank-you .msgWrap .customer-details,
+    .booking-notes{
+        width:100%;
+    }
+    .booking-notes{
+        font-size:20px;
+    }
+    .wp-hotel-booking-thank-you .msgWrap .customer-details ul.hb-form-table li label{
+        margin-bottom:-5px;
+    }
+
+    .wp-hotel-booking-thank-you .msgWrap .customer-details ul.hb-form-table li{
+        margin:6px 0;
+        font-size:20px;
+    }
+
+    .booking-notes label{
+        font-size:20px;
+    }
+    .booking-notes{
+        font-size:15px;
+    }
+
+    body.wp-hotel-booking-thank-you #content{
+        margin-bottom:0;
+    }
+
     
 }
       
@@ -1160,5 +1294,30 @@
     }
     .slideText .entryContent p{
         font-size:16px;
+    }
+    .extrasDetails .hb_extra_detail_price label{
+        position: relative;
+        top:0;
+        left:0;
+        margin-top:10px;
+        margin-bottom:10px;;
+    }
+    .hb-select-extra-results .extrasLisiting{
+        width:calc(100% - 30px);
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+    .stepsButton{
+        padding:0;
+    }
+    .stepsButton .hb_button{
+        font-size:14px;
+        padding:12px;
+    }
+    .stepsButton .hb_button i{
+        font-size:0;
+    }
+    .extrasLisiting .extrasTitle{
+        font-size:30px;
     }
 }

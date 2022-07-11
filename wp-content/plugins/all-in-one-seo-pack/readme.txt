@@ -3,7 +3,7 @@ Contributors: aioseo, smub, benjaminprojas
 Tags: SEO, Google Search Console, XML Sitemap, meta description, schema, meta title, rich snippets, woocommerce seo, local seo, open graph, google news sitemap, video sitemap, robots.txt, seo audit, content analysis, seo plugin, redirection
 Requires at least: 4.9
 Tested up to: 6.0
-Stable tag: 4.2.1.1
+Stable tag: 4.2.2
 License: GPLv2 or later
 Requires PHP: 5.4
 
@@ -210,6 +210,32 @@ Visit <a href="http://www.wpbeginner.com/" rel="friend" title="WPBeginner">WPBeg
 
 
 == Changelog ==
+
+**New in Version 4.2.2**
+
+* New: Individual User Profile Social Tab will allow users to set their social urls. Support was also added for additional social network accounts with a filter.
+* New: Translation API: New filters to allow third party translation plugins to change AIOSEO's data.
+* New: Sitemap now supports images in ACF fields.
+* New: Pre-publish panel now warns about post's social data ( facebook/twitter ).
+* Updated: Switched to Web Workers for TruSEO in order to increase performance.
+* Updated: AIOSEO's post editor sidebar has been redesigned and is now easier to use.
+* Updated: Backwards compatibility with WordPress 5.0.
+* Updated: Removed deprecated ping endpoint for Bing.
+* Updated: Sitemap's 'Exclude Images' option now excludes images regardless of third party code using the sitemap filters.
+* Updated: Search Appearance Media now have a new smart tag for the media's description.
+* Updated: Redirect's excluded paths now account for the home page.
+* Updated: When adding a redirect the source and target URLs are normalized to prevent errors when redirecting.
+* Fixed: Access control for the post's metabox now shows the correct tab for each capability.
+* Fixed: AIOSEO's strings now are completely translatable on available languages.
+* Fixed: SEO Analyzer image alt attribute tags are now parsed correctly.
+* Fixed: Title and description for custom home pages now work as expected.
+* Fixed: Prevent sitemap ping when a post has 'Limit Modified Date'.
+* Fixed: Title and description for custom post type archives now work as expected.
+* Fixed: Elementor error when editing the content of a post.
+* Fixed: Sitemap error when using static sitemaps.
+* Fixed: Removed check for a physical robots.txt on ajax/cron calls.
+* Fixed: SEO Metabox and Sidebar Snippet title and description sync.
+* Fixed: Private terms no longer get added to the `articleSection` in the schema markup.
 
 **New in Version 4.2.1.1**
 
@@ -935,6 +961,6 @@ AIOSEO is the original WordPress SEO plugin, and it's trusted by over 3 million 
 
 == Upgrade Notice ==
 
-= 4.2.1.1 =
+= 4.2.2 =
 
 This update adds major improvements and bugfixes.

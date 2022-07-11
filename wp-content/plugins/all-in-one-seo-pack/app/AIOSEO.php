@@ -273,8 +273,9 @@ namespace AIOSEO\Plugin {
 			if ( ! empty( $version ) ) {
 				$this->isDev = true;
 
-				// Fix SSL certificate invalid in our local environments.
-				add_filter( 'https_ssl_verify', '__return_false' );
+				if ( file_exists( AIOSEO_DIR . '/build/filters.php' ) ) {
+					require_once AIOSEO_DIR . '/build/filters.php';
+				}
 			}
 
 			if ( $proDir && 'pro' === $version ) {

@@ -27,8 +27,7 @@ class Output {
 
 		// phpcs:disable VariableAnalysis.CodeAnalysis.VariableAnalysis.UnusedVariable
 		$charset       = get_option( 'blog_charset' );
-		$advanced      = aioseo()->options->sitemap->general->advancedSettings->enable;
-		$excludeImages = aioseo()->options->sitemap->general->advancedSettings->excludeImages;
+		$excludeImages = aioseo()->sitemap->helpers->excludeImages();
 		$generation    = ! isset( aioseo()->sitemap->isStatic ) || aioseo()->sitemap->isStatic ? __( 'statically', 'all-in-one-seo-pack' ) : __( 'dynamically', 'all-in-one-seo-pack' );
 
 		echo '<?xml version="1.0" encoding="' . esc_attr( $charset ) . "\"?>\r\n";

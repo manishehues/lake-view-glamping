@@ -58,6 +58,7 @@ trait Vue {
 			'urls'             => [
 				'domain'            => $this->getSiteDomain(),
 				'mainSiteUrl'       => $this->getSiteUrl(),
+				'siteLogo'          => aioseo()->helpers->getSiteLogoUrl(),
 				'home'              => home_url(),
 				'restUrl'           => rest_url(),
 				'editScreen'        => admin_url( 'edit.php' ),
@@ -102,7 +103,8 @@ trait Vue {
 					'optionsReading'   => admin_url( 'options-reading.php' ),
 					'scheduledActions' => admin_url( '/tools.php?page=action-scheduler&status=pending&s=aioseo' ),
 					'generalSettings'  => admin_url( 'options-general.php' )
-				]
+				],
+				'truSeoWorker'      => aioseo()->core->assets->jsUrl( 'src/app/tru-seo/analyzer/main.js' )
 			],
 			'backups'          => [],
 			'importers'        => [],
@@ -216,9 +218,6 @@ trait Vue {
 				'maxVideoPreview'                => null === $post->robots_max_videopreview ? - 1 : (int) $post->robots_max_videopreview,
 				'maxImagePreview'                => $post->robots_max_imagepreview,
 				'modalOpen'                      => false,
-				'tabs'                           => ( ! empty( $post->tabs ) )
-					? json_decode( $post->tabs )
-					: json_decode( Models\Post::getDefaultTabsOptions() ),
 				'generalMobilePrev'              => false,
 				'socialMobilePreview'            => false,
 				'og_object_type'                 => ! empty( $post->og_object_type ) ? $post->og_object_type : 'default',
@@ -251,7 +250,8 @@ trait Vue {
 				'limit_modified_date'            => ( (int) $post->limit_modified_date ) === 0 ? false : true,
 				'redirects'                      => [
 					'modalOpen' => false
-				]
+				],
+				'options'                        => Models\Post::getOptionsDefaults( $post->options )
 			];
 
 			$data['user']['siteAuthors'] = $this->getSiteAuthors();

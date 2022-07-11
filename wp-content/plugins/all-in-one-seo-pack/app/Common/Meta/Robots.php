@@ -260,11 +260,14 @@ class Robots {
 	protected function globalValues( $optionOrder = [], $isDynamicOption = false ) {
 		$robotsMeta = [];
 		if ( count( $optionOrder ) ) {
-			$options = $isDynamicOption ? aioseo()->dynamicOptions->noConflict()->searchAppearance : aioseo()->options->noConflict()->searchAppearance;
+			$options = $isDynamicOption
+				? aioseo()->dynamicOptions->noConflict( true )->searchAppearance
+				: aioseo()->options->noConflict()->searchAppearance;
+
 			foreach ( $optionOrder as $option ) {
 				if ( ! $options->has( $option, false ) ) {
 					return;
-				};
+				}
 				$options = $options->$option;
 			}
 

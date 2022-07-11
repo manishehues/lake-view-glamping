@@ -267,7 +267,7 @@ if ( '/sitemap.rss' === $sitemapPath ) {
 						<th class="left">
 							<?php _e( 'URL', 'all-in-one-seo-pack' ); ?>
 						</th>
-						<?php if ( ! $advanced || ! apply_filters( 'aioseo_sitemap_images', $excludeImages ) ) : ?>
+						<?php if ( ! aioseo()->sitemap->helpers->excludeImages() ) : ?>
 							<th>
 								<?php
 								aioseo()->templates->getTemplate(
@@ -385,8 +385,7 @@ if ( '/sitemap.rss' === $sitemapPath ) {
 								</xsl:if>
 							</xsl:for-each>
 						</td>
-
-						<?php if ( ! $advanced || ! apply_filters( 'aioseo_sitemap_images', $excludeImages ) ) : ?>
+						<?php if ( ! aioseo()->sitemap->helpers->excludeImages() ) : ?>
 						<td>
 							<div class="item-count">
 								<xsl:value-of select="count(image:image)"/>

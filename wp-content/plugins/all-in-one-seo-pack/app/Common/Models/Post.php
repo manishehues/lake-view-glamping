@@ -28,7 +28,7 @@ class Post extends Model {
 	 *
 	 * @var array
 	 */
-	protected $jsonFields = [ 'images', 'videos' ]; // TODO: Update this.
+	protected $jsonFields = [ 'images', 'videos', 'options' ]; // TODO: Update this.
 
 	/**
 	 * Fields that should be hidden when serialized.
@@ -306,7 +306,6 @@ class Post extends Model {
 			? parent::getDefaultSchemaOptions( wp_json_encode( $data['schema_type_options'] ) )
 			: parent::getDefaultSchemaOptions();
 		// Miscellaneous
-		$thePost->tabs                        = ! empty( $data['tabs'] ) ? wp_json_encode( $data['tabs'] ) : parent::getDefaultTabsOptions();
 		$thePost->local_seo                   = ! empty( $data['local_seo'] ) ? wp_json_encode( $data['local_seo'] ) : null;
 		$thePost->limit_modified_date         = isset( $data['limit_modified_date'] ) ? rest_sanitize_boolean( $data['limit_modified_date'] ) : 0;
 		$thePost->updated                     = gmdate( 'Y-m-d H:i:s' );
@@ -487,5 +486,28 @@ class Post extends Model {
 		}
 
 		return $keyphrases;
+	}
+
+	/**
+	 * Returns the defaults for the keyphrases column.
+	 *
+	 * @since 4.2.2
+	 *
+	 * @param  string $options The database keyphrases.
+	 * @return array           The defaults.
+	 */
+	public static function getOptionsDefaults( $options = '' ) {
+		$defaults = [
+			'linkFormat' => [
+				'internalLinkCount'      => 0,
+				'linkAssistantDismissed' => false
+			]
+		];
+
+		if ( empty( $options ) ) {
+			return json_decode( wp_json_encode( $defaults ) );
+		}
+
+		return $options;
 	}
 }

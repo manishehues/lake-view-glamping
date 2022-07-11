@@ -480,4 +480,17 @@ trait ThirdParty {
 
 		return false;
 	}
+
+	/**
+	 * Checks whether the WooCommerce Follow Up Emails plugin is active.
+	 *
+	 * @since 4.2.2
+	 *
+	 * @return bool Whether the plugin is active.
+	 */
+	public function isWooCommerceFollowupEmailsActive() {
+		$isActive = defined( 'FUE_VERSION' ) || is_plugin_active( 'woocommerce-follow-up-emails/woocommerce-follow-up-emails.php' );
+
+		return $isActive;
+	}
 }

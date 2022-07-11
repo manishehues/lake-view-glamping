@@ -16,6 +16,9 @@ defined( 'ABSPATH' ) || exit();
 
 get_header(); ?>
 
+<div id="booking-results" class="section">
+	<div class="fusion-row">
+
 <?php
 /**
  * hotel_booking_before_main_content hook
@@ -62,10 +65,13 @@ do_action( 'hotel_booking_archive_description' ); ?>
  */
 do_action( 'hotel_booking_after_main_content' ); ?>
 
+</div>
+</div>
+
 <?php
 /**
  * hotel_booking_sidebar hook
  */
-do_action( 'hotel_booking_sidebar' ); ?>
+//do_action( 'hotel_booking_sidebar' ); ?>
 
 <?php get_footer(); ?>
