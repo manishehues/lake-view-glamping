@@ -926,6 +926,22 @@
         left:50%;
         transform: translateX(-50%);
     }
+
+    .hb-order-existing-customer ul.hb-form-table{
+        display:block;
+    }
+    .hb-order-existing-customer ul.hb-form-table li input{
+        height:55px;
+        border-radius:3px!important;
+    }
+    .hb-order-existing-customer ul.hb-form-table li button.btn{
+        height:55px;
+        min-width:100%;
+        border-radius:3px!important;
+    }
+    .hb-order-existing-customer ul.hb-form-table li label{
+        left:15px;
+    }
 }
 
 
@@ -946,6 +962,61 @@
     body.wp-hotel-booking-thank-you #main .fusion-row{
         margin-top:30px;
         margin-bottom:30px;
+    }
+
+    #hotel-booking-cart table tr.hb_checkout_item td, #hotel-booking-payment table tr.hb_checkout_item td{
+        display:block;
+        padding-top:2px!important;
+        padding-bottom:2px!important;
+        clear: both;
+    }
+
+    #hotel-booking-cart table tr.hb_checkout_item td::before{
+        font-weight:normal
+    }
+    #hotel-booking-cart table tr.hb_checkout_item td.hb_room_type::before{
+        content:'Room Type';
+        float:left;
+    }
+    #hotel-booking-cart table tr.hb_checkout_item td div{
+        float:right
+    }
+    #hotel-booking-cart table tr.hb_checkout_item td.hb_capacity::before{
+        content:'Capacity';
+        float:left;
+    }
+    #hotel-booking-cart table tr.hb_checkout_item td.hb_quantity::before{
+        content:'Dome';
+        float:left;
+    }
+    #hotel-booking-cart table tr.hb_checkout_item td.hb_check_in::before{
+        content:'Check-In';
+        float:left;
+    }
+    #hotel-booking-cart table tr.hb_checkout_item td.hb_check_out::before{
+        content:'Check-Out';
+        float:left;
+    }
+
+    #hotel-booking-cart table tr.hb_checkout_item td.hb_night::before{
+        content:'Night';
+        float:left;
+    }
+    #hotel-booking-cart table tr.hb_checkout_item td.hb_gross_total {
+        width: 100%;
+        text-align: right !important;
+    }
+    #hotel-booking-cart .hb_advance_payment .hb-align-right, #hotel-booking-payment .hb_advance_payment .hb-align-right, #hotel-booking-cart .hb_advance_grand_total .hb-align-right, #hotel-booking-payment .hb_advance_grand_total .hb-align-right, #hotel-booking-cart .hb_advance_tax .hb-align-right, #hotel-booking-payment .hb_advance_tax .hb-align-right, #hotel-booking-cart .hb_sub_total .hb-align-right, #hotel-booking-payment .hb_sub_total .hb-align-right{
+        width:100%;
+        display:block;
+        border:none;
+        text-align: left;
+        font-size:35px;
+    }
+
+    .cartPageTable.hb_table thead,
+    .checkout .hb_table thead{
+        display:none;
     }
 }
 
@@ -1259,6 +1330,15 @@
 
     body.wp-hotel-booking-thank-you #content{
         margin-bottom:0;
+    }
+
+    .cartPageWrap{
+        max-width:calc(100% - 30px);
+        margin:15px auto;
+        padding:15px;
+    }
+    .cartPageTable.hb_table{
+        margin-bottom:0!important;
     }
 
     
