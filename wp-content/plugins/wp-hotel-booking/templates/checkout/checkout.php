@@ -21,7 +21,7 @@ defined( 'ABSPATH' ) || exit;
  */
 global $hb_settings;
 $cart = WP_Hotel_Booking::instance()->cart; ?>
-<div class="cartPageWrap checkout">
+<div id="#hotel-booking-cart" class="cartPageWrap checkout">
 	
 	<?php do_action( 'hotel_booking_before_checkout_form' ); ?>
 
