@@ -18,6 +18,25 @@
     .fusion-body .speFeatures .entryContent h2{
         margin-bottom:15px!important
     }    
+
+    .bookEngin{
+        height:105px;
+    }
+    .hotel-booking-search .hb_input_field{
+        height:50px;
+    }
+    .hotel-booking-search .hb_input_field input{
+        height:35px;
+        font-size:16px!important;
+    }
+    .hotel-booking-search .hb_input_field select,
+    .hotel-booking-search .btn.btn-primary{
+        height:50px;
+        font-size:16px;
+    }
+    .hotel-booking-search .hb_input_field label{
+        font-size:11px;
+    }
 }
 
 @media screen and (max-width:1365px){
@@ -37,6 +56,7 @@
         padding-top:60px!important;
         padding-bottom:60px!important;
     }
+    
 
     .entryContent h2{
         font-size:50px!important;
@@ -51,8 +71,7 @@
     }
     
 
-    .bookEngin {
-        height: 225px;
+    .bookEngin {        
         position: relative;
         z-index: 999;
     }
@@ -96,6 +115,14 @@
     }
     .fusion-body .rotateCircle .fusion-imageframe.logo{
         width:140px
+    }
+
+    .fusion-header-wrapper .fusion-main-menu ul li.menu-item a{
+        font-size:12px;
+    }
+
+    .entryContent h1{
+        font-size:75px!important;
     }
 
     .dome.row-reverse .contArea h2{
@@ -179,6 +206,9 @@
     }
     .fusion-body .specialQuote.domeFeatures .discover{
         margin-top:20px;
+    }
+    .hotel-booking-search ul li.hb-form-field.submitBtn{
+        max-width:none;
     }
     
     
@@ -543,7 +573,14 @@
     body.has-sidebar #main #content{
         margin-bottom:50px;
     }
-}
+
+    #hotel-booking-results .hb-search-results > .hb-room:first-child{
+        padding-top:0!important;
+    }
+    #hotel-booking-results .hb-search-results > .hb-room:last-child{
+        padding-bottom:0!important;
+        border:none!important;
+    }
 
 @media screen and (min-width:769px) and (max-width:928px){
     #main{
@@ -658,6 +695,41 @@
     .entryContent h1{
         font-size:70px!important;
     }
+
+    .bookEngin{
+        height:auto;
+        padding:20px!important;
+    }
+
+    .hotel-booking-search ul{
+        display:block;
+    }
+    .hotel-booking-search ul li{
+        float:left;
+        width:100%
+    }
+    .hotel-booking-search ul li.hb-form-field{
+        float:left;
+        width:50%;
+        max-width:none;
+        padding:0 5px;
+        margin:5px 0;
+    }
+    .dome .bigImg.mobile{
+        text-align: center;
+    }
+    .entryContent h2{
+        font-size:35px;
+    }
+    footer .fusion-row .fusion-columns .col-lg-3:first-child .menu li{
+        padding:0 10px;
+    }
+    footer .fusion-row .fusion-columns .col-lg-3:first-child .menu li a{
+        font-size:12px;
+    }
+    .siteFooter .fusion-column:first-child{
+        margin-bottom:40px;
+    }
 }
 
 @media screen and (max-width:735px){
@@ -715,6 +787,71 @@
     .siteFooter img.mobile{
         display:block!important
     }
+    
+    .hb-search-results li.hb-room .hb-room-content{
+        display:block;
+    }
+    #hotel-booking-results .hb-search-results > .hb-room .hb-room-thumbnail{
+        float:left;
+        width:100%!important
+    }
+    #hotel-booking-results .hb-search-results > .hb-room .hb-room-info{
+        margin-left:0;
+        float:left;
+        width:calc(100% - 250px)!important;
+    }
+    .hb-search-results li.hb-room .hb-room-content .hb-room-prising{
+        float:right;
+        width:150px;
+        min-width:auto;    
+    }
+    .hb-search-results li.hb-room .hb-room-content .hb-room-prising .hb_search_price h2{
+        font-size:35px!important
+    }
+    .hb-search-results .hb-booking-room-details{
+        min-width:auto;
+    }
+    #hotel-booking-results .hb-search-results > .hb-room .hb-room-meta li.hb_search_add_to_cart .btn{
+        font-size:16px;
+        padding:12px 20px;
+    }
+    .hb-search-results li.hb-room .hb-room-content .hb-room-info .selectedDates span{
+        display:block;
+    }
+    .hb-search-results li.hb-room .hb-room-content .hb-room-info .selectedDates{
+        line-height:1.1em;
+    }
+    #hotel-booking-results .hb-search-results > .hb-room .hb-room-info{
+        width:calc(100% - 30px)!important;
+        margin-left:15px;
+        margin-right:0;
+        text-align: center;
+        padding:35px 15px!important;
+        margin-top:-80px;
+        background:#fff;
+    }
+    .hb-search-results li.hb-room .hb-room-content .hb-room-info .selectedDates .small{
+        float:none;
+        display:inline-block;
+    }
+    .hb-search-results li.hb-room .hb-room-content .hb-room-prising{
+        float:none;
+        width:200px;
+        margin:auto;
+        text-align: center;
+    }
+    .hb-search-results .hb-booking-room-details::before{
+        left:50%;
+        transform: translateX(-50%);;
+    }
+    .hb-search-results .hb-booking-room-details{
+        width:300px;
+    }
+    .hb-booking-room-details{
+        left:50%;
+        transform: translateX(-50%);
+    }
+}
 }
 
 @media screen and (max-width:666px){
@@ -781,9 +918,7 @@
         font-size:20px;
     }
     .bookEngin{
-        padding-left:15px!important;
-        padding-right:15px!important;
-        height:140px;
+        padding:15px!important        
     }
 
     .fusion-header-wrapper .fusion-header-v1 .fusion-flyout-mobile-menu{        
@@ -987,16 +1122,43 @@
         margin-top:0;
         margin-bottom:0;
     }
+
+    .arrowImg img{
+        max-height:40px;
+        width:100%;
+    }
     
 }
       
 
 @media screen and (max-width:479px){
+    #slidingbar-area .slide-excerpt h2, #slidingbar-area ul, .counter-box-content, .fusion-alert, .fusion-blog-layout-timeline .fusion-timeline-date, .fusion-body #main .tribe-events .datepicker, .fusion-body .tribe-common .tribe-common-b2, .fusion-body .tribe-common .tribe-common-b3, .fusion-footer-widget-area .slide-excerpt h2, .fusion-footer-widget-area ul, .fusion-progressbar .progress-title, .fusion-project-details-tb .project-info h4, .gform_wrapper .gfield_description, .gform_wrapper label, .jtwt .jtwt_tweet, .post-content blockquote, .project-content .project-info h4, .review blockquote q, .sidebar .jtwt .jtwt_tweet, .sidebar .slide-excerpt h2, body{
+        font-size:14px;
+    }
     .fusion-body .specialQuote .snglFeat{
         width:calc(100% - 30px) !important;
     }
     .domeFeatures.specialQuote .entryContent ul li{
         font-size:14px;
         margin:1.5px 0;
+    }
+
+    .fusion-body .allDomes .slick-list{
+        padding:0 50px!important
+    }
+    .arrowImg{
+        margin-top:30px;
+    }
+    .entryContent h1{
+        font-size:50px!important
+    }
+    .homePageBanner .entryContent.fusion-text h3, .heroBanner.commanBanner .entryContent.fusion-text h3{
+        font-size:25px!important
+    }
+    .slideText .entryContent h2{
+        padding:0;
+    }
+    .slideText .entryContent p{
+        font-size:16px;
     }
 }

@@ -355,6 +355,9 @@ body.logged-in .fusion-header-wrapper{
     top:0;
     left:50%;
     transform: translateX(-50%);
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 .fusion-header-wrapper .navArea{
     display:flex;
@@ -409,6 +412,10 @@ body.logged-in .fusion-header-wrapper{
 
 .fusion-body .fusion-header-wrapper.fusion-is-sticky .fusion-main-menu ul li.menu-item a{
     font-size:16px;    
+} 
+
+.fusion-header-wrapper .fusion-main-menu{
+    float:none;
 }
 
 
@@ -835,6 +842,13 @@ body.logged-in .fusion-header-wrapper{
   padding-top: 100px!important;
   overflow: hidden;
 }
+
+
+.siteFooter{
+    display:block;
+    clear:both
+}
+
 
 
 .siteFooter .fusion-footer .fusion-footer-widget-area > .fusion-row:first-child {
