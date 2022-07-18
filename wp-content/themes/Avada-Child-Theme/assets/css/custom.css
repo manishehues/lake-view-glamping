@@ -362,6 +362,7 @@ body.logged-in .fusion-header-wrapper{
 .fusion-header-wrapper .navArea{
     display:flex;
     align-items: center;
+	width:auto;
 }
 .fusion-header-wrapper .fusion-main-menu ul li.menu-item{
     padding-left:25px;
@@ -1285,6 +1286,10 @@ background-size: cover;
     position: absolute;
     left:0;
     height:100%;
+}
+
+.fusion-body #singleDome .navSlider .slick-list .slick-track{
+	transform:unset!important
 }
 .fusion-body #singleDome .leftSide{
     overflow: hidden;
