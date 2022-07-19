@@ -1,0 +1,32 @@
+[18-Jul-2022 06:18:50 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 953)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 953)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 06:20:05 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 954)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 954)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 06:22:54 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 955)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 955)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 06:29:37 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 956)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 956)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114

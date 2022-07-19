@@ -316,3 +316,215 @@ Stack trace:
 			ORDER BY lake641_posts.post_date DESC
 			
 		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 06:02:50 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 946)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 946)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 06:03:02 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 947)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 947)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 06:11:40 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 951)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 951)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 06:14:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 952)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 952)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 07:38:37 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 957)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 957)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 07:41:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 07:43:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 07:55:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 07:55:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 07:55:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 07:56:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 07:56:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 08:49:47 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 961)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 961)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 09:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/http.php on line 493
+[18-Jul-2022 09:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/http.php on line 494
+[18-Jul-2022 09:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/admin-ajax.php on line 27
+[18-Jul-2022 09:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/admin-ajax.php on line 28
+[18-Jul-2022 09:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/functions.php on line 6764
+[18-Jul-2022 09:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/includes/misc.php on line 1381
+[18-Jul-2022 09:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/functions.php on line 6878
+[18-Jul-2022 09:21:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/http.php on line 493
+[18-Jul-2022 09:21:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/http.php on line 494
+[18-Jul-2022 09:21:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/admin-ajax.php on line 27
+[18-Jul-2022 09:21:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/admin-ajax.php on line 28
+[18-Jul-2022 09:21:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/functions.php on line 6764
+[18-Jul-2022 09:21:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/includes/misc.php on line 1381
+[18-Jul-2022 09:21:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/functions.php on line 6878
+[18-Jul-2022 09:21:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/http.php on line 493
+[18-Jul-2022 09:21:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/http.php on line 494
+[18-Jul-2022 09:21:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/admin-ajax.php on line 27
+[18-Jul-2022 09:21:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/admin-ajax.php on line 28
+[18-Jul-2022 09:21:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/functions.php on line 6764
+[18-Jul-2022 09:21:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/includes/misc.php on line 1381
+[18-Jul-2022 09:21:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/functions.php on line 6878
+[18-Jul-2022 09:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/http.php on line 493
+[18-Jul-2022 09:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/http.php on line 494
+[18-Jul-2022 09:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/admin-ajax.php on line 27
+[18-Jul-2022 09:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/admin-ajax.php on line 28
+[18-Jul-2022 09:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/functions.php on line 6764
+[18-Jul-2022 09:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-admin/includes/misc.php on line 1381
+[18-Jul-2022 09:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-hooks.php:21) in /home4/woazuymy/public_html/lake-view-glamping/wp-includes/functions.php on line 6878
+[18-Jul-2022 09:50:58 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 965)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 965)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
+[18-Jul-2022 10:03:07 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 10:05:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 10:05:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  A' at line 3 for query 
+			SELECT   lake641_posts.*
+			FROM lake641_posts 
+                INNER JOIN  AS ord_item ON ord_item.order_id = lake641_posts.ID
+            
+			WHERE 1=1  AND lake641_posts.post_type = 'fusion_form' AND ((lake641_posts.post_status = 'publish'))
+			GROUP BY  lake641_posts.ID 
+			ORDER BY lake641_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_builder_activate, FusionBuilder::get_instance, FusionBuilder->__construct, FusionBuilder->init, do_action('fusion_builder_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, fusion_element_form, Fusion_Builder_Form_Helper::fusion_form_creator_form_list, fusion_cached_query, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Jul-2022 12:07:55 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php:114
+Stack trace:
+#0 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/cart/class-wphb-cart.php(465): WPHB_Sessions->set('booking_id', 983)
+#1 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/booking/wphb-booking-functions.php(113): WPHB_Cart->set_booking('booking_id', 983)
+#2 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(79): hb_create_booking(Array, Array)
+#3 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-checkout.php(110): WPHB_Checkout->create_booking()
+#4 /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/wphb-functions.php(993): WPHB_Checkout->process_checkout()
+#5 /home4/woazuymy/ in /home4/woazuymy/public_html/lake-view-glamping/wp-content/plugins/wp-hotel-booking/includes/class-wphb-sessions.php on line 114
