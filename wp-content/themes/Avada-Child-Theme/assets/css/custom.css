@@ -51,6 +51,10 @@ h1 strong{
     border-radius:4px!important;
     margin-top:15px;   
 }
+.btn.small {
+    font-size: 16px;
+    padding: 8px 30px;
+}
 .btn.btn-primary,
 #hotel-booking-results form .hb_button.hb_checkout, #hotel-booking-results form button.hb_add_to_cart, #hotel-booking-results form button[type="submit"]{
     background:var(--sec-color);
