@@ -68,12 +68,12 @@ defined( 'ABSPATH' ) || exit;
                 </div>
             </li>
             <li class="hb-form-field">
-                <label class="hb-form-field-label"><?php _e( 'State', 'wp-hotel-booking' ); ?>
+                <label class="hb-form-field-label"><?php _e( 'State/Province ', 'wp-hotel-booking' ); ?>
                     <span class="hb-required">*</span></label>
 
                 <div class="hb-form-field-input">
                     <input type="text" name="state" value="<?php echo esc_attr( $customer->state ); ?>"
-                           placeholder="<?php _e( 'State', 'wp-hotel-booking' ); ?>" required/>
+                           placeholder="<?php _e( 'State/Province', 'wp-hotel-booking' ); ?>" required/>
                 </div>
             </li>
         </ul>

@@ -1,0 +1,3 @@
+jQuery(document).ready(function(){var ajaxurl='https://lake-view-glamping.ehuesdev.com/wp-admin/admin-ajax.php';if(0<jQuery('.fusion-login-nonce').length){jQuery.get(ajaxurl,{'action':'fusion_login_nonce'},function(response){jQuery('.fusion-login-nonce').html(response)})}})
+;jQuery(document).ready(function(){jQuery("li.menu-item-has-children").click(function(){console.log("dddddddddddd");jQuery(this).toggleClass("open-Submenu");jQuery(this).find(".sub-menu").toggle()})})
+;
