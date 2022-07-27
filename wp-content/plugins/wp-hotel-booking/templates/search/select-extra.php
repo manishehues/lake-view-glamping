@@ -30,7 +30,7 @@ $cart_item = $cart->get_cart_item( $cart_id ); ?>
 			<h3 class="extrasTitle">Add Extra Services</h3>
 			<ul class="list-room-extra">
 				<?php foreach ( $room_extra as $key => $extra ) { ?>
-					<li data-price="<?php echo esc_attr( $extra->amount_singular ); ?>">						
+					<li data-price="<?php echo esc_attr( $extra->regular_price ); ?>">						
 						<label class="checkBox" for="<?php echo esc_attr( 'hb-ex-room-' . $extra->ID . '-' . $key ) ?>">
 							<input type="<?php echo $extra->required ? 'hidden' : 'checkbox'; ?>"
 								name="hb_optional_quantity_selected[<?php echo esc_attr( $extra->ID ); ?>]"
@@ -55,7 +55,7 @@ $cart_item = $cart->get_cart_item( $cart_id ); ?>
 									<?php } ?>
 									<?php //} ?>
 									<label>
-										<strong><?php echo $extra->price; ?></strong>
+										<strong><?php echo $extra->regular_price; ?></strong>
 										<small><?php printf( '/ %s', $extra->respondent_name ? $extra->respondent_name : __( 'Package', 'wp-hotel-booking' ) ) ?></small>
 									</label>
 								</div>

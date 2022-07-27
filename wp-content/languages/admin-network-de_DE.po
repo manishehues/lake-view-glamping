@@ -1,15 +1,23 @@
-# Translation of WordPress - 5.9.x - Development - Administration - Network Admin in German
-# This file is distributed under the same license as the WordPress - 5.9.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.0.x - Development - Administration - Network Admin in German
+# This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-28 00:08:58+0000\n"
+"PO-Revision-Date: 2022-05-02 20:47:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: de\n"
-"Project-Id-Version: WordPress - 5.9.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.0.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/network/upgrade.php:141
+msgid "WordPress has been updated! Next and final step is to individually upgrade the sites in your network."
+msgstr "WordPress wurde aktualisiert! Der nächste und letzte Schritt besteht darin, die Websites in deinem Netzwerk einzeln zu aktualisieren."
+
+#: wp-admin/network/site-new.php:40
+msgid "Cannot create an empty site."
+msgstr "Es kann keine leere Website erstellt werden."
 
 #. translators: %s: wp-config.php
 #: wp-admin/includes/network.php:463
@@ -677,7 +685,7 @@ msgstr "Gib den <strong>Pfad oder die Domain</strong> an, um nach einer Website 
 
 #: wp-admin/network/index.php:43
 msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
-msgstr "Gib eine <strong>E-Mail-Adresse oder einen Benutzernamen</strong> an, um nach einem Benutzer zu suchen. Benutze einen Platzhalter, um nach Teilen eines Benutzernamens zu suchen, wie z.&nbsp;B. Nutzer&#42;."
+msgstr "Gib eine <strong>E-Mail-Adresse oder einen Benutzernamen</strong> an, um nach einem Benutzer zu suchen. Benutze einen Platzhalter, um nach Teilen eines Benutzernamens zu suchen, wie z. B. Nutzer&#42;."
 
 #: wp-admin/network/index.php:41
 msgid "To add a new site, <strong>click Create a New Site</strong>."
@@ -723,10 +731,6 @@ msgstr "Von hier aus kannst du:"
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
 msgstr "Willkommen in der Netzwerkverwaltung. Diese Bereiche der Administration werden für die Verwaltung aller Aspekte deines Multisite-Netzwerks verwendet."
 
-#: wp-admin/network/upgrade.php:141
-msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "WordPress wurde aktualisiert! Bevor du aber weitermachen kannst, müssen die einzelnen Websites in deinem Netzwerk ebenfalls noch aktualisiert werden."
-
 #: wp-admin/network/upgrade.php:24
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Benutze diese Ansicht nur, wenn du auf eine neue Version von WordPress durch Aktualisierungen/Verfügbare Aktualisierungen aktualisiert hast; etwa über das Netzwerk-Administrationsmenü oder die Toolbar. Durch Klick auf den &#8222;Netzwerk aktualisieren&#8220;-Button wirst du schrittweise durch jede Website im Netzwerk geführt, immer fünf zugleich, um sicherzustellen, dass alle Datenbank-Updates angewandt wurden."
@@ -743,7 +747,7 @@ msgstr "Unterverzeichnis-Netzwerke können mit eigenen wp-content-Verzeichnissen
 
 #: wp-admin/network.php:64
 msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
-msgstr "Füge die bezeichneten Zeilen Code zur wp-config.php (kurz vor <code>/*... stop editing...*/</code>) und <code>.htaccess </code> hinzu (ersetzt die bestehenden WordPress-Regeln)."
+msgstr "Füge die bezeichneten Zeilen Code zur wp-config.php (kurz vor <code>/*... stop editing...*/</code>) und <code>.htaccess</code> hinzu (ersetzt die bestehenden WordPress-Regeln)."
 
 #: wp-admin/network/settings.php:441
 msgid "Language Settings"
@@ -1129,8 +1133,8 @@ msgid "If this process fails for any reason, users logging in to their sites wil
 msgstr "Falls der Vorgang aus irgendeinem Grund abbricht, wird er automatisch ausgeführt, sobald sich ein Benutzer auf seiner Website anmeldet."
 
 #: wp-admin/network/upgrade.php:25
-msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
-msgstr "Falls keine Aktualisierungen durchgeführt wurden, macht ein Klick auf diesen Button auch nichts kaputt."
+msgid "If a version update to core has not happened, clicking this button will not affect anything."
+msgstr "Wenn noch kein Versions-Update des Cores stattgefunden hat, hat ein Klick auf diesen Button keine Auswirkungen."
 
 #: wp-admin/network/themes.php:301
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
@@ -1168,7 +1172,7 @@ msgid "The following words are reserved for use by WordPress functions and canno
 msgstr "Die folgenden Begriffe sind für die Verwendung durch WordPress-Funktionen reserviert und können nicht als Website-Namen verwendet werden: %s"
 
 #: wp-admin/network/upgrade.php:125
-msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgid "If your browser does not start loading the next page automatically, click this link:"
 msgstr "Falls dein Browser nicht automatisch zur nächsten Seite weiterleitet, klicke auf folgenden Link:"
 
 #: wp-admin/network/settings.php:302
@@ -1178,10 +1182,6 @@ msgstr "Für den Fall, dass bestimmte Domains für die Registrierung verboten we
 #: wp-admin/network/settings.php:282
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Für den Fall, dass die Website-Registrierungen auf bestimmte Domains beschränkt werden sollen. Bitte eine Domain je Zeile."
-
-#: wp-admin/network/site-new.php:40
-msgid "Can&#8217;t create an empty site."
-msgstr "Eine leere Website kann nicht erstellt werden."
 
 #: wp-admin/network/users.php:268
 msgid "Users removed from spam."
@@ -1250,7 +1250,7 @@ msgstr "Erlaubte Dateitypen"
 #. translators: %s: Number of megabytes to limit uploads to.
 #: wp-admin/network/settings.php:398
 msgid "Limit total size of files uploaded to %s MB"
-msgstr "Gesamt-Speicherplatz pro Website limitieren auf %s&nbsp;MB"
+msgstr "Gesamt-Speicherplatz pro Website auf %s MB begrenzen"
 
 #: wp-admin/network/settings.php:384
 msgid "The URL for the first comment on a new site."
@@ -1422,4 +1422,4 @@ msgstr "Schon vorhandener Benutzername oder vorhandene E-Mail-Adresse."
 
 #: wp-admin/network/user-new.php:41
 msgid "Cannot create an empty user."
-msgstr "Es kann kein leerer Benutzer angelegt werden."
+msgstr "Es kann kein leerer Benutzer erstellt werden."

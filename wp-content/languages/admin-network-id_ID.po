@@ -1,15 +1,23 @@
-# Translation of WordPress - 5.9.x - Development - Administration - Network Admin in Indonesian
-# This file is distributed under the same license as the WordPress - 5.9.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.0.x - Development - Administration - Network Admin in Indonesian
+# This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-27 13:38:34+0000\n"
+"PO-Revision-Date: 2022-06-05 03:06:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: id\n"
-"Project-Id-Version: WordPress - 5.9.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.0.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/network/upgrade.php:141
+msgid "WordPress has been updated! Next and final step is to individually upgrade the sites in your network."
+msgstr "WordPress telah diperbarui! Langkah selanjutnya dan terakhir adalah melakukan peningkatan satu per satu situs di jaringan Anda."
+
+#: wp-admin/network/site-new.php:40
+msgid "Cannot create an empty site."
+msgstr "Tidak dapat membuat situs kosong."
 
 #. translators: %s: wp-config.php
 #: wp-admin/includes/network.php:463
@@ -723,10 +731,6 @@ msgstr "Dari sini Anda dapat:"
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
 msgstr "Selamat datang di Admin Jaringan. Area Layar Administrasi ini digunakan untuk mengatur berbagai aspek dari Jaringan Multi-situs Anda."
 
-#: wp-admin/network/upgrade.php:141
-msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "WordPress berhasil diperbarui! Sebelum kami meninggalkan Anda, kami perlu meningkatkan situs-situs pada jaringan Anda satu per satu."
-
 #: wp-admin/network/upgrade.php:24
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Hanya gunakan halaman ini ketika ingin memperbarui WordPress ke versi terbaru melalui Pembaruan/Pembaruan Tersedia (via menu navigasi Administrasi Jaringan atau dari Baris Perkakas). Klik tombol Tingkatkan Jaringan akan berjalan satu per satu melalui setiap situs pada jaringan, sekaligus lima sekali jalan, dan memastikan pembaruan basis data diterapkan."
@@ -1127,7 +1131,7 @@ msgid "If this process fails for any reason, users logging in to their sites wil
 msgstr "Jika proses ini gagal untuk alasan apapun, pengguna yang masuk log ke situs mereka akan memaksa pembaruan yang sama."
 
 #: wp-admin/network/upgrade.php:25
-msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgid "If a version update to core has not happened, clicking this button will not affect anything."
 msgstr "Jika versi pembaruan untuk inti belum terjadi, mengklik tombol ini tidak akan berpengaruh apa-apa."
 
 #: wp-admin/network/themes.php:301
@@ -1164,8 +1168,8 @@ msgid "The following words are reserved for use by WordPress functions and canno
 msgstr "Kata-kata berikut ini telah digunakan oleh fungsi WordPress dan tidak dapat digunakan sebagai nama situs: %s"
 
 #: wp-admin/network/upgrade.php:125
-msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
-msgstr "Jika peramban Anda tidak mulai memuat halaman berikutnya secara otomatis, klik taut ini:"
+msgid "If your browser does not start loading the next page automatically, click this link:"
+msgstr "Jika peramban Anda tidak mulai memuat halaman berikutnya secara otomatis, klik tautan ini:"
 
 #: wp-admin/network/settings.php:302
 msgid "If you want to ban domains from site registrations. One domain per line."
@@ -1174,10 +1178,6 @@ msgstr "Jika Anda ingin mencegah domain dari pendaftaran situs. Satu domain per 
 #: wp-admin/network/settings.php:282
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Jika Anda ingin membatasi pendaftaran situs untuk domain tertentu. Satu domain per baris."
-
-#: wp-admin/network/site-new.php:40
-msgid "Can&#8217;t create an empty site."
-msgstr "Tidak dapat menciptakan situs kosong."
 
 #: wp-admin/network/users.php:268
 msgid "Users removed from spam."

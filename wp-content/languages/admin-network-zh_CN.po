@@ -1,15 +1,23 @@
-# Translation of WordPress - 5.9.x - Development - Administration - Network Admin in Chinese (China)
-# This file is distributed under the same license as the WordPress - 5.9.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.0.x - Development - Administration - Network Admin in Chinese (China)
+# This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-21 23:58:04+0000\n"
+"PO-Revision-Date: 2022-06-04 10:34:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: zh_CN\n"
-"Project-Id-Version: WordPress - 5.9.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.0.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/network/upgrade.php:141
+msgid "WordPress has been updated! Next and final step is to individually upgrade the sites in your network."
+msgstr "WordPress已成功升级！接下来，您需要单独升级您站点网络中的每个站点，即可完成升级。"
+
+#: wp-admin/network/site-new.php:40
+msgid "Cannot create an empty site."
+msgstr "不能创建空站点。"
 
 #. translators: %s: wp-config.php
 #: wp-admin/includes/network.php:463
@@ -706,10 +714,6 @@ msgstr "从这里您可以："
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
 msgstr "欢迎来到网络管理。这个管理页面可用来管理您的多站点网络的所有方面。"
 
-#: wp-admin/network/upgrade.php:141
-msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "WordPress已成功升级！在您接手前，我们需要单独升级您站点网络中的每个站点。"
-
 #: wp-admin/network/upgrade.php:24
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "请在“更新”或“可用更新”页面（通过“管理网络”区域的导航菜单或“工具栏”来进入）升级到最新WordPress版本之后再使用本页面。点击“升级网络”按钮，WordPress将自动依次升级站点网络中的所有站点（5个一次），并确保所有站点的数据库处于最新结构。"
@@ -742,7 +746,7 @@ msgstr "现在已经不能在设置页面添加超级管理员了。您需前往
 
 #: wp-admin/network/site-users.php:265
 msgid "Enter the username and email."
-msgstr "输入用户名和邮箱地址。"
+msgstr "输入用户名和电子邮箱地址。"
 
 #: wp-admin/network/site-users.php:262
 msgid "User created."
@@ -927,7 +931,7 @@ msgstr "原始配置步骤作为参考如下所示。"
 
 #: wp-admin/includes/network.php:369
 msgid "Your email address."
-msgstr "您的邮箱地址。"
+msgstr "您的电子邮箱地址。"
 
 #: wp-admin/includes/network.php:360
 msgid "What would you like to call your network?"
@@ -1110,7 +1114,7 @@ msgid "If this process fails for any reason, users logging in to their sites wil
 msgstr "若更新的过程因故中断或失败，登录站点的用户将被要求继续进行更新。"
 
 #: wp-admin/network/upgrade.php:25
-msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgid "If a version update to core has not happened, clicking this button will not affect anything."
 msgstr "若您没有升级WordPress核心，点击这个按钮是不会起任何作用的。"
 
 #: wp-admin/network/themes.php:301
@@ -1147,8 +1151,8 @@ msgid "The following words are reserved for use by WordPress functions and canno
 msgstr "以下保留字词仅供 WordPress 函数使用，无法用作站点名称：%s"
 
 #: wp-admin/network/upgrade.php:125
-msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
-msgstr "若您的站点不自动加载下一页，请点击："
+msgid "If your browser does not start loading the next page automatically, click this link:"
+msgstr "若您的浏览器不自动加载下一页，请点击："
 
 #: wp-admin/network/settings.php:302
 msgid "If you want to ban domains from site registrations. One domain per line."
@@ -1157,10 +1161,6 @@ msgstr "如果您想禁止使用下列电子邮箱域名的用户注册站点。
 #: wp-admin/network/settings.php:282
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "若您想把站点的注册限制于某些域名。每行一个域名。"
-
-#: wp-admin/network/site-new.php:40
-msgid "Can&#8217;t create an empty site."
-msgstr "不能创建空站点。"
 
 #: wp-admin/network/users.php:268
 msgid "Users removed from spam."
@@ -1329,7 +1329,7 @@ msgstr "若邮箱地址在数据库中不存在，新用户将被创建。"
 
 #: wp-admin/network/site-new.php:260
 msgid "Admin Email"
-msgstr "管理员邮箱地址"
+msgstr "管理员邮箱"
 
 #: wp-admin/network/site-new.php:276
 msgid "Add Site"
@@ -1397,7 +1397,7 @@ msgstr "允许新站点注册"
 
 #: wp-admin/network/site-users.php:268
 msgid "Duplicated username or email address."
-msgstr "用户名或邮箱地址重复。"
+msgstr "用户名或电子邮箱地址重复。"
 
 #: wp-admin/network/user-new.php:41
 msgid "Cannot create an empty user."

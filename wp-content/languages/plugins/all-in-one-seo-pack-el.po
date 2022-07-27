@@ -1,0 +1,971 @@
+# Translation of Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-14 17:27:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release)\n"
+
+#: languages/aioseo-pro.php:5515
+msgid "Schema Settings"
+msgstr "Ρυθμίσεις Schema"
+
+#: languages/aioseo-lite.php:4252 languages/aioseo-pro.php:5428
+msgid "Roadside Assistance"
+msgstr "Οδική Βοήθεια"
+
+#: languages/aioseo-lite.php:854 languages/aioseo-pro.php:1170
+msgid "Bagage Tracking"
+msgstr "Παρακολούθηση Αποσκευής"
+
+#: languages/aioseo-lite.php:3778 languages/aioseo-pro.php:4783
+msgid "Package Tracking"
+msgstr "Παρακολούθηση Πακέτου"
+
+#: languages/aioseo-lite.php:1789 languages/aioseo-pro.php:2301
+msgid "Emergency"
+msgstr "Επείγον"
+
+#: languages/aioseo-lite.php:1361 languages/aioseo-pro.php:1768
+msgid "Credit Card Support"
+msgstr "Υποστήριξη Πιστωτικής Κάρτας"
+
+#: languages/aioseo-lite.php:4230 languages/aioseo-pro.php:5387
+msgid "Reservations"
+msgstr "Κρατήσεις"
+
+#: languages/aioseo-lite.php:4298 languages/aioseo-pro.php:5478
+msgid "Sales"
+msgstr "Πωλήσεις"
+
+#: languages/aioseo-lite.php:904 languages/aioseo-pro.php:1228
+msgid "Bill Payment"
+msgstr "Πληρωμή Λογαριασμού"
+
+#: languages/aioseo-lite.php:907 languages/aioseo-pro.php:1231
+msgid "Billing Support"
+msgstr "Υποστήριξη Χρέωσης"
+
+#: languages/aioseo-lite.php:4932 languages/aioseo-pro.php:6357
+msgid "Technical Support"
+msgstr "Τεχνική Υποστήριξη"
+
+#: languages/aioseo-lite.php:1424 languages/aioseo-pro.php:1851
+#: dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Customer Support"
+msgstr "Υποστήριξη Πελατών"
+
+#: languages/aioseo-lite.php:3855 languages/aioseo-pro.php:4876
+#: dist/Lite/assets/blocks.eafeffc4.js:1
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "Phone Number"
+msgstr "Αριθμός Τηλεφώνου"
+
+#: languages/aioseo-lite.php:3727 languages/aioseo-pro.php:4698
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+msgid "Organization Name"
+msgstr "Όνομα Οργανισμού"
+
+#: languages/aioseo-pro.php:5042
+msgid "Posts"
+msgstr "Άρθρα"
+
+#: app/Common/Breadcrumbs/Tags.php:197
+msgid "The page number."
+msgstr "Ο αριθμός της σελίδας"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: languages/aioseo-lite.php:6080 languages/aioseo-pro.php:7831
+#: dist/Lite/assets/js/GettingStarted.60511ae3.js:1
+msgid "Welcome to %1$s"
+msgstr "Καλωσήρθατε στο %s"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: languages/aioseo-lite.php:4103 languages/aioseo-pro.php:5201
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Read the %1$s user guide"
+msgstr "Διαβάστε τον οδηγό χρήστη του %s"
+
+#. Translators: 1 - The plugin name ("All in One SEO).
+#: app/Common/Api/Tools.php:116
+msgid "%1$s Debug Info"
+msgstr "Πληροφορίες Αποσφαλμάτωσης %s"
+
+#: languages/aioseo-pro.php:3583
+msgid "Include Custom Fields"
+msgstr "Συμπερίληψη Προσαρμοσμένων Πεδίων"
+
+#: languages/aioseo-lite.php:805 languages/aioseo-pro.php:1113
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Author Pages"
+msgstr "Σελίδες Συντάκτη"
+
+#: languages/aioseo-lite.php:705 languages/aioseo-pro.php:942
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Archive Pages"
+msgstr "Σελίδες Αρχείου"
+
+#: languages/aioseo-pro.php:2388
+msgid "Enable this option to look for videos in custom fields as well."
+msgstr "Ενεργοποιήστε αυτήν την επιλογή για αναζήτηση βίντεο και στα προσαρμοσμένα πεδία."
+
+#: languages/aioseo-lite.php:1610 languages/aioseo-pro.php:2083
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Disallow"
+msgstr "Απαγόρευση"
+
+#: languages/aioseo-lite.php:569 languages/aioseo-pro.php:766
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Allow"
+msgstr "Να επιτρέπεται"
+
+#: languages/aioseo-lite.php:4292 languages/aioseo-pro.php:5469
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Rule"
+msgstr "Κανόνας"
+
+#: languages/aioseo-lite.php:1956 languages/aioseo-pro.php:2528
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Exclude Images"
+msgstr "Εξαίρεση Εικόνων"
+
+#: languages/aioseo-lite.php:1959 languages/aioseo-pro.php:2531
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Exclude Images from your sitemap."
+msgstr "Εξαίρεση Εικόνων στον χάρτη ιστοτόπου σας."
+
+#: app/Common/Tools/SystemStatus.php:57
+msgid "Site Language"
+msgstr "Γλώσσα Ιστότοπου"
+
+#: app/Common/Tools/SystemStatus.php:53 app/Common/Utils/Tags.php:481
+#: app/Common/Utils/Tags.php:493 languages/aioseo-lite.php:4671
+#: languages/aioseo-pro.php:6054
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+msgid "Site Title"
+msgstr "Τίτλος Ιστότοπου"
+
+#: app/Common/Tools/SystemStatus.php:97
+msgid "Search Engine Visibility"
+msgstr "Εμφάνιση σε μηχανές αναζήτησης"
+
+#: languages/aioseo-lite.php:4505 languages/aioseo-pro.php:5756
+#: dist/Lite/assets/js/FeatureManager.be6ecdab.js:1
+msgid "SEO for Categories, Tags and Custom Taxonomies"
+msgstr "SEO για Κατηγορίες, Ετικέτες και Προσαρμοσμένες Ταξινομίες"
+
+#: languages/aioseo-lite.php:493 languages/aioseo-pro.php:656
+msgid "Advanced support for e-commerce"
+msgstr "Προηγμένη υποστήριξη για e-commerce"
+
+#: app/Common/Migration/SocialMeta.php:75 languages/aioseo-lite.php:5799
+#: languages/aioseo-pro.php:7483 dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Use Content for Autogenerated Descriptions"
+msgstr "Χρήση Περιεχομένου για Αυτόματα Δημιουργημένες Περιγραφές"
+
+#: languages/aioseo-lite.php:2277 languages/aioseo-pro.php:2932
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Get Started"
+msgstr "Πρώτα βήματα"
+
+#: languages/aioseo-lite.php:5677 languages/aioseo-pro.php:7348
+#: dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+#: languages/aioseo-lite.php:643 languages/aioseo-pro.php:868
+#: dist/Lite/assets/js/AnalyzeCompetitorSite.c2334136.js:1
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+#: dist/Lite/assets/js/Score.c797a6c0.js:1
+msgid "Analyze"
+msgstr "Ανάλυση"
+
+#. Description of the plugin
+msgid "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 80 million downloads since 2007."
+msgstr "SEO για το WordPress. Χαρακτηριστικά όπως XML Sitemaps, SEO για προσαρμοσμένους τύπους δημοσίευσης, SEO για ιστολόγια ή ιστότοπους επιχειρήσεων, SEO για ιστότοπους ηλεκτρονικού εμπορίου, και πολλά άλλα. Περισσότερες από 80 εκατομμύρια λήψεις από το 2007."
+
+#: languages/aioseo-lite.php:5802 languages/aioseo-pro.php:7486
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Use Custom Blocklists"
+msgstr "Χρησιμοποιήστε Προσαρμοσμένες Λίστες Αποκλεισμού"
+
+#: languages/aioseo-lite.php:917 languages/aioseo-pro.php:1241
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Block Bad Bots using HTTP"
+msgstr "Αποκλεισμός Κακών Bots χρησιμοποιώντας HTTP"
+
+#: languages/aioseo-lite.php:920 languages/aioseo-pro.php:1244
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Block Referral Spam using HTTP"
+msgstr "Αποκλεισμός Ανεπιθύμητων Παραπομπών χρησιμοποιώντας HTTP"
+
+#: languages/aioseo-lite.php:2707 languages/aioseo-pro.php:3412
+#: dist/Lite/assets/js/Main.aca85fc1.js:1
+#: dist/Lite/assets/js/Media.154d894a.js:1
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Image SEO"
+msgstr "SEO Εικόνας"
+
+#. Translators: This is an action link users can click to purchase a license
+#. for All in One SEO Pro.
+#: app/Lite/Admin/Admin.php:42 app/Lite/Admin/Admin.php:71
+#: app/Lite/Main/Filters.php:63 languages/aioseo-lite.php:5712
+#: languages/aioseo-pro.php:7382 dist/Lite/assets/js/Index.15fee59c.js:1
+#: dist/Lite/assets/js/SitemapsPro.22c2b81a.js:1
+msgid "Upgrade to Pro"
+msgstr "Αναβαθμίστε σε Pro"
+
+#. Translators: This is an action link users can click to open our general
+#. documentation page.
+#: app/Lite/Main/Filters.php:58
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#. Translators: This is an action link users can click to open the General
+#. Settings menu.
+#: app/Common/Admin/Admin.php:560 app/Lite/Main/Filters.php:48
+#: languages/aioseo-lite.php:4517 languages/aioseo-pro.php:5768
+#: dist/Lite/assets/js/ImportExport.cc0a3377.js:1
+msgid "SEO Settings"
+msgstr "Ρυθμίσεις SEO"
+
+#: languages/aioseo-lite.php:2011 languages/aioseo-pro.php:2629
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: languages/aioseo-lite.php:2008 languages/aioseo-pro.php:2626
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Facebook Admin ID"
+msgstr "ID Διαχειριστή Facebook"
+
+#: app/Common/Views/sitemap/html/widget-options.php:97
+#: languages/aioseo-lite.php:4920 languages/aioseo-pro.php:6342
+#: dist/Lite/assets/blocks.eafeffc4.js:1
+#: dist/Lite/assets/js/Breadcrumbs.9ead1bef.js:1
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Taxonomies"
+msgstr "Ταξινομίες"
+
+#: app/Common/Sitemap/Output.php:31
+msgid "dynamically"
+msgstr "δυναμικά"
+
+#: languages/aioseo-lite.php:2984 languages/aioseo-pro.php:3776
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Last Modified"
+msgstr "Τροποποιήθηκε"
+
+#: languages/aioseo-lite.php:1839 languages/aioseo-pro.php:2379
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Enable Sitemap Indexes"
+msgstr "Ενεργοποίηση Ευρετηρίων Χάρτη Ιστοτόπου"
+
+#: app/Common/Sitemap/Xsl.php:35 languages/aioseo-lite.php:432
+#: languages/aioseo-pro.php:577
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Additional Pages"
+msgstr "Πρόσθετες Σελίδες"
+
+#: languages/aioseo-lite.php:3786 languages/aioseo-pro.php:4792
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Page URL"
+msgstr "Διεύθυνση URL Σελίδας"
+
+#: languages/aioseo-lite.php:415 languages/aioseo-pro.php:553
+#: dist/Lite/assets/js/Redirects.6fee9279.js:1
+msgid "Add URL"
+msgstr "Προσθέστε διεύθυνση URL"
+
+#: app/Common/Views/sitemap/html/widget-options.php:74
+#: languages/aioseo-lite.php:3975 languages/aioseo-pro.php:5035
+#: dist/Lite/assets/blocks.eafeffc4.js:1
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Post Types"
+msgstr "Τύποι Δημοσίευσης"
+
+#: app/Common/Views/sitemap/xsl/default.php:293
+msgid "Change Frequency"
+msgstr "Αλλαγή Συχνότητας"
+
+#: app/Common/Views/sitemap/xsl/default.php:306 languages/aioseo-lite.php:4029
+#: languages/aioseo-pro.php:5095
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Priority"
+msgstr "Προτεραιότητα"
+
+#: languages/aioseo-lite.php:4833 languages/aioseo-pro.php:6249
+#: dist/Lite/assets/js/SystemStatus.a5a15c4a.js:1
+#: dist/Lite/assets/link-format/link-format-block.js:6
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: languages/aioseo-lite.php:4311 languages/aioseo-pro.php:5495
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: languages/aioseo-lite.php:1044 languages/aioseo-pro.php:1396
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/Redirects.6fee9279.js:1
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226 languages/aioseo-lite.php:3386
+#: languages/aioseo-pro.php:4317
+msgid "No"
+msgstr "Όχι"
+
+#. Translators: This is an action link users can click to open our premium
+#. support.
+#: app/Lite/Main/Filters.php:53 languages/aioseo-lite.php:4887
+#: languages/aioseo-pro.php:6305 dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: languages/aioseo-lite.php:2693 languages/aioseo-pro.php:3398
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/Locations.b11c6517.js:1
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "Image"
+msgstr "Εικόνα"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226 languages/aioseo-lite.php:6205
+#: languages/aioseo-pro.php:7973
+msgid "Yes"
+msgstr "Ναι"
+
+#: languages/aioseo-lite.php:2734 languages/aioseo-pro.php:3441
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/ImportExport.cc0a3377.js:1
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: languages/aioseo-lite.php:4870 languages/aioseo-pro.php:6287
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: app/Common/Tools/SystemStatus.php:49 languages/aioseo-lite.php:5903
+#: languages/aioseo-pro.php:7625 dist/Lite/assets/js/SitemapsPro.22c2b81a.js:1
+msgid "Version"
+msgstr "Έκδοση"
+
+#: languages/aioseo-lite.php:2400 languages/aioseo-pro.php:3051
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: languages/aioseo-lite.php:1736 languages/aioseo-pro.php:2239
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+#: dist/Lite/assets/link-format/link-format-block.js:6
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: languages/aioseo-lite.php:5615 languages/aioseo-pro.php:7261
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Twitter"
+msgstr "Twitter"
+
+#: languages/aioseo-lite.php:4054 languages/aioseo-pro.php:5127
+msgid "Profile"
+msgstr "Προφίλ"
+
+#: languages/aioseo-lite.php:6055 languages/aioseo-pro.php:7805
+msgid "Website"
+msgstr "Ιστότοπος "
+
+#: languages/aioseo-lite.php:940 languages/aioseo-pro.php:1269
+msgid "Book"
+msgstr "Βιβλίο"
+
+#: app/Common/Admin/Admin.php:389 app/Common/Admin/SiteHealth.php:91
+msgid "SEO"
+msgstr "SEO"
+
+#: app/Common/Admin/Admin.php:542
+msgid "Edit SEO"
+msgstr "Επεξεργασία SEO"
+
+#: app/Common/Tools/SystemStatus.php:177 languages/aioseo-pro.php:4685
+msgid "Operating System"
+msgstr "Λειτουργικό Σύστημα"
+
+#: languages/aioseo-lite.php:358 languages/aioseo-pro.php:461
+msgid "Activity"
+msgstr "Δραστηριότητα"
+
+#: languages/aioseo-lite.php:520 languages/aioseo-pro.php:700
+msgid "Album"
+msgstr "Άλμπουμ"
+
+#: languages/aioseo-lite.php:867 languages/aioseo-pro.php:1183
+msgid "Bar"
+msgstr "Μπαρ"
+
+#: languages/aioseo-lite.php:930 languages/aioseo-pro.php:1254
+#: dist/Lite/assets/js/Breadcrumbs.9ead1bef.js:1
+#: dist/Lite/assets/js/Category.d8aff096.js:1
+msgid "Blog"
+msgstr "Ιστολόγιο"
+
+#: languages/aioseo-lite.php:1038 languages/aioseo-pro.php:1386
+msgid "Cafe"
+msgstr "Καφετέρια"
+
+#: languages/aioseo-lite.php:1218 languages/aioseo-pro.php:1613
+msgid "Company"
+msgstr "Εταιρεία"
+
+#: languages/aioseo-lite.php:1343 languages/aioseo-pro.php:1747
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "Country"
+msgstr "Χώρα"
+
+#: languages/aioseo-lite.php:2005 languages/aioseo-pro.php:2623
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Facebook"
+msgstr "Facebook"
+
+#: languages/aioseo-lite.php:2055 languages/aioseo-pro.php:2684
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "Featured Image"
+msgstr "Επιλεγμένη εικόνα"
+
+#: languages/aioseo-pro.php:2844 dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Front Page"
+msgstr "Αρχική Σελίδα"
+
+#: app/Common/Tools/SystemStatus.php:186 languages/aioseo-lite.php:3318
+#: languages/aioseo-pro.php:4236 dist/Lite/assets/publish-panel.943b05d2.js:1
+msgid "N/A"
+msgstr "Δεν είναι διαθέσιμο"
+
+#: languages/aioseo-lite.php:3615 languages/aioseo-pro.php:4573
+msgid "Off"
+msgstr "Κλείσιμο"
+
+#: languages/aioseo-lite.php:3724 languages/aioseo-pro.php:4695
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+msgid "Organization"
+msgstr "Οργανισμός"
+
+#: languages/aioseo-lite.php:3832 languages/aioseo-pro.php:4852
+#: dist/Lite/assets/js/SeoSiteAnalysisResults.e4bdebc2.js:4
+msgid "Performance"
+msgstr "Απόδοση"
+
+#: languages/aioseo-lite.php:3919 languages/aioseo-pro.php:4955
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Please wait..."
+msgstr "Παρακαλούμε περιμένετε…"
+
+#: languages/aioseo-lite.php:4246 languages/aioseo-pro.php:5408
+msgid "Restaurant"
+msgstr "Εστιατόριο"
+
+#: languages/aioseo-lite.php:4334 languages/aioseo-pro.php:5524
+msgid "School"
+msgstr "Σχολείο"
+
+#: languages/aioseo-lite.php:4538 languages/aioseo-pro.php:5790
+msgid "Server"
+msgstr "Διακομιστής"
+
+#: languages/aioseo-lite.php:5665 languages/aioseo-pro.php:7315
+msgid "University"
+msgstr "Πανεπιστήμιο"
+
+#: app/Common/Tools/SystemStatus.php:243 languages/aioseo-lite.php:352
+#: languages/aioseo-pro.php:455 dist/Lite/assets/js/SystemStatus.a5a15c4a.js:1
+msgid "Active Theme"
+msgstr "Ενεργό Θέμα"
+
+#: languages/aioseo-lite.php:5981 languages/aioseo-pro.php:7705
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Watch video tutorials"
+msgstr "Παρακολουθήστε τα βίντεο εκμάθησης"
+
+#: languages/aioseo-lite.php:5884 languages/aioseo-pro.php:7603
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "User Agent"
+msgstr "User Agent"
+
+#: languages/aioseo-lite.php:1601 languages/aioseo-pro.php:2071
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Directory Path"
+msgstr "Διαδρομή Καταλόγου"
+
+#: languages/aioseo-lite.php:6188 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "XML Sitemap"
+msgstr "Χάρτης Ιστότοπου XML"
+
+#: languages/aioseo-lite.php:578 languages/aioseo-pro.php:779
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
+msgstr "Σας επιτρέπει να προσδιορίσετε τον μέγιστο αριθμό άρθρων σε ένα χάρτη ιστοτόπου (έως και 50.000)."
+
+#: languages/aioseo-lite.php:2841 languages/aioseo-pro.php:3587
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Include Date Archives in your sitemap."
+msgstr "Συμπεριλάβετε Αρχεία Ημερομηνιών στον χάρτη ιστοτόπου σας."
+
+#: languages/aioseo-lite.php:2837 languages/aioseo-pro.php:3577
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Include Author Archives in your sitemap."
+msgstr "Συμπεριλάβετε Αρχεία Συντακτών στον χάρτη ιστοτόπου σας."
+
+#: languages/aioseo-lite.php:2324 languages/aioseo-pro.php:2975
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Getting started? Read the Beginners Guide"
+msgstr "Ξεκινάτε Τώρα; Διαβάστε τον Οδηγό για Αρχάριους"
+
+#: languages/aioseo-lite.php:4265 languages/aioseo-pro.php:5441
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: languages/aioseo-lite.php:4269 languages/aioseo-pro.php:5445
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Robots.txt Editor"
+msgstr "Επεξεργαστής Robots.txt"
+
+#: languages/aioseo-lite.php:7 languages/aioseo-pro.php:7
+#: dist/Lite/assets/js/HtaccessEditor.a368249e.js:1
+msgid ".htaccess Editor"
+msgstr "Επεξεργαστής .htaccess"
+
+#: languages/aioseo-lite.php:4780 languages/aioseo-pro.php:6183
+msgid "Sport"
+msgstr "Άθλημα"
+
+#: languages/aioseo-lite.php:2606 languages/aioseo-pro.php:3277
+msgid "Hotel"
+msgstr "Ξενοδοχείο"
+
+#: languages/aioseo-lite.php:4789 languages/aioseo-pro.php:6192
+msgid "Sports Team"
+msgstr "Αθλητική Ομάδα"
+
+#: languages/aioseo-lite.php:864 languages/aioseo-pro.php:1180
+msgid "Band"
+msgstr "Συγκρότημα"
+
+#: languages/aioseo-lite.php:3543 languages/aioseo-pro.php:4496
+msgid "Non-Profit"
+msgstr "Μη Κερδοσκοπική"
+
+#: languages/aioseo-lite.php:361 languages/aioseo-pro.php:464
+msgid "Actor"
+msgstr "Ηθοποιός"
+
+#: languages/aioseo-lite.php:780 languages/aioseo-pro.php:1080
+msgid "Athlete"
+msgstr "Αθλητής"
+
+#: languages/aioseo-lite.php:1586 languages/aioseo-pro.php:2056
+msgid "Director"
+msgstr "Σκηνοθέτης"
+
+#: languages/aioseo-lite.php:3311 languages/aioseo-pro.php:4229
+msgid "Musician"
+msgstr "Μουσικός"
+
+#: languages/aioseo-lite.php:3928 languages/aioseo-pro.php:4967
+msgid "Politician"
+msgstr "Πολιτικός"
+
+#: languages/aioseo-lite.php:4057 languages/aioseo-pro.php:5136
+msgid "Public Figure"
+msgstr "Δημόσιο Πρόσωπο"
+
+#: languages/aioseo-lite.php:1133 languages/aioseo-pro.php:1515
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "City"
+msgstr "Πόλη"
+
+#: languages/aioseo-lite.php:1691 languages/aioseo-pro.php:2189
+msgid "Drink"
+msgstr "Ποτό"
+
+#: languages/aioseo-lite.php:1064 languages/aioseo-pro.php:1426
+msgid "Cause"
+msgstr "Σκοπός"
+
+#: languages/aioseo-lite.php:4786 languages/aioseo-pro.php:6189
+msgid "Sports League"
+msgstr "Αθλητική Λίγκα"
+
+#: languages/aioseo-lite.php:2975 languages/aioseo-pro.php:3761
+msgid "Landmark"
+msgstr "Ορόσημο"
+
+#: languages/aioseo-lite.php:5610 languages/aioseo-pro.php:7256
+msgid "TV Show"
+msgstr "Τηλεοπτική Εκπομπή"
+
+#: languages/aioseo-lite.php:2213 languages/aioseo-pro.php:2861
+msgid "Game"
+msgstr "Παιχνίδι"
+
+#: languages/aioseo-lite.php:3299 languages/aioseo-pro.php:4212
+msgid "Movie"
+msgstr "Ταινία"
+
+#: languages/aioseo-lite.php:4039 languages/aioseo-pro.php:5112
+msgid "Product"
+msgstr "Προϊόν"
+
+#: languages/aioseo-lite.php:4762 languages/aioseo-pro.php:6163
+msgid "Song"
+msgstr "Τραγούδι"
+
+#: languages/aioseo-lite.php:1939 languages/aioseo-pro.php:2510
+msgid "Episode"
+msgstr "Επεισόδιο"
+
+#: languages/aioseo-lite.php:742 languages/aioseo-pro.php:1038
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Schema.96c42510.js:1
+msgid "Article"
+msgstr "Άρθρο"
+
+#: languages/aioseo-lite.php:4668 languages/aioseo-pro.php:6051
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Site Name"
+msgstr "Όνομα Ιστότοπου"
+
+#: languages/aioseo-lite.php:2082 languages/aioseo-pro.php:2709
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "First Image in Content"
+msgstr "Πρώτη Εικόνα στο Περιεχόμενο"
+
+#: languages/aioseo-lite.php:2699 languages/aioseo-pro.php:3404
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "Image from Custom Field"
+msgstr "Εικόνα Από Προσαρμοσμένο Πεδίο"
+
+#: languages/aioseo-lite.php:2079 languages/aioseo-pro.php:2706
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "First Available Image"
+msgstr "Πρώτη Διαθέσιμη Εικόνα"
+
+#: app/Common/Migration/SocialMeta.php:83
+msgid "Run Shortcodes in Title"
+msgstr "Τρέξτε Shortcodes στον Τίτλο"
+
+#: app/Common/Migration/SocialMeta.php:79
+msgid "Run Shortcodes in Description"
+msgstr "Τρέξτε Shortcodes στην Περιγραφή"
+
+#: languages/aioseo-lite.php:3942 languages/aioseo-pro.php:4981
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "Post Author Image"
+msgstr "Εικόνα Συντάκτη Άρθρου"
+
+#: languages/aioseo-lite.php:1404 languages/aioseo-pro.php:1827
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "Custom Image"
+msgstr "Προσαρμοσμένη Εικόνα"
+
+#: languages/aioseo-lite.php:5621 languages/aioseo-pro.php:7267
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Twitter Card Type"
+msgstr "Τύπος Κάρτας Twitter"
+
+#: languages/aioseo-lite.php:824 languages/aioseo-pro.php:1139
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Automatically Generate Article Tags"
+msgstr "Αναπαράγετε Αυτόματα Ετικέτες Άρθρων"
+
+#: languages/aioseo-lite.php:748 languages/aioseo-pro.php:1044
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Article Tags"
+msgstr "Ετικέτες Άρθρου"
+
+#: languages/aioseo-lite.php:3839 languages/aioseo-pro.php:4859
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+msgid "Person"
+msgstr "Πρόσωπο"
+
+#: languages/aioseo-pro.php:6130
+msgid "Social Settings"
+msgstr "Κοινωνικές Ρυθμίσεις"
+
+#: languages/aioseo-lite.php:4656 languages/aioseo-pro.php:6011
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "Show Twitter Author"
+msgstr "Εμφάνιση Συντάκτη Twitter"
+
+#: languages/aioseo-lite.php:745 languages/aioseo-pro.php:1041
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Article Section"
+msgstr "Τμήμα Άρθρου"
+
+#: languages/aioseo-lite.php:4893 languages/aioseo-pro.php:6311
+msgid "System Status"
+msgstr "Κατάσταση Συστήματος"
+
+#: app/Common/Tools/SystemStatus.php:185
+msgid "Memory Usage"
+msgstr "Χρήση Μνήμης"
+
+#: app/Common/Tools/SystemStatus.php:189
+msgid "MySQL Version"
+msgstr "Έκδοση MYSQL"
+
+#: app/Common/Tools/SystemStatus.php:197
+msgid "PHP Version"
+msgstr "Έκδοση PHP"
+
+#: app/Common/Tools/SystemStatus.php:201
+msgid "PHP Memory Limit"
+msgstr "Όριο Μνήμης PHP"
+
+#: app/Common/Tools/SystemStatus.php:78 languages/aioseo-lite.php:1474
+#: languages/aioseo-pro.php:1913 dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: languages/aioseo-pro.php:5508
+msgid "Scan Now"
+msgstr "Σαρώστε Τώρα"
+
+#: languages/aioseo-lite.php:3605 languages/aioseo-pro.php:4564
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Object Type"
+msgstr "Τύπος Αντικειμένου"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153
+msgid "Not set"
+msgstr "Μη ρυθμισμένο"
+
+#: languages/aioseo-lite.php:3625 languages/aioseo-pro.php:4583
+msgid "On"
+msgstr "On"
+
+#: app/Common/Tools/SystemStatus.php:205
+msgid "PHP Max Upload Size"
+msgstr "PHP Μέγιστο Μέγεθος Μεταφόρτωσης"
+
+#: app/Common/Tools/SystemStatus.php:209
+msgid "PHP Max Post Size"
+msgstr "PHP Μέγιστο Μέγεθος Άρθρου"
+
+#: app/Common/Tools/SystemStatus.php:213
+msgid "PHP Max Script Execution Time"
+msgstr "PHP Μέγιστος Χρόνος Εκτέλεσης Δέσμης Ενεργειών"
+
+#. Plugin Name of the plugin
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: app/Common/Tools/SystemStatus.php:81
+msgid "Multisite"
+msgstr "Multisite"
+
+#: languages/aioseo-lite.php:5956 languages/aioseo-pro.php:7683
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "View the Changelog"
+msgstr "Προβολή του Αρχείου Καταγραφής Αλλαγών"
+
+#: app/Common/Admin/Admin.php:200 languages/aioseo-lite.php:2052
+#: languages/aioseo-pro.php:2678 dist/Lite/assets/js/Main.5e368f07.js:1
+msgid "Feature Manager"
+msgstr "Διαχειριστής Χαρακτηριστικών"
+
+#: languages/aioseo-lite.php:5921 languages/aioseo-pro.php:7645
+#: dist/Lite/assets/js/Main.aca85fc1.js:1
+#: dist/Lite/assets/js/VideoSitemap.fb16ccf6.js:1
+msgid "Video Sitemap"
+msgstr "Χάρτη Ιστοτόπου Βίντεο"
+
+#: languages/aioseo-lite.php:1739 languages/aioseo-pro.php:2242
+#: dist/Lite/assets/js/HtaccessEditor.a368249e.js:1
+msgid "Edit .htaccess"
+msgstr "Επεξεργασία .htaccess"
+
+#: app/Common/Tools/SystemStatus.php:73
+msgid "Site URL"
+msgstr "Διεύθυνση URL Ιστοτόπου"
+
+#: app/Common/Tools/SystemStatus.php:69
+msgid "Home URL"
+msgstr "Διεύθυνση URL Αρχικής Σελίδας"
+
+#: app/Common/Tools/SystemStatus.php:221
+msgid "PHP IPTC Support"
+msgstr "Υποστήριξη PHP IPTC"
+
+#: app/Common/Tools/SystemStatus.php:225
+msgid "PHP XML Support"
+msgstr "Υποστήριξη PHP XML"
+
+#: languages/aioseo-lite.php:412 languages/aioseo-pro.php:547
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Add Rule"
+msgstr "Προσθήκη Κανόνα"
+
+#: languages/aioseo-lite.php:490 languages/aioseo-pro.php:653
+#: dist/Lite/assets/js/Advanced.9a30e93c.js:1
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+#: dist/Lite/assets/js/DisplayInfo.9f7ab376.js:1
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+#: dist/Lite/assets/js/Redirects.6fee9279.js:1
+msgid "Advanced Settings"
+msgstr "Προηγμένες Ρυθμίσεις"
+
+#: languages/aioseo-lite.php:1994 languages/aioseo-pro.php:2595
+#: dist/Lite/assets/js/ImportExport.cc0a3377.js:1
+msgid "Export Settings"
+msgstr "Εξαγωγή Ρυθμίσεων"
+
+#: languages/aioseo-lite.php:799 languages/aioseo-pro.php:1101
+#: dist/Lite/assets/js/WebmasterTools.b4f630fe.js:1
+msgid "Author"
+msgstr "Συντάκτης"
+
+#: languages/aioseo-lite.php:2153 languages/aioseo-pro.php:2783
+msgid "Food"
+msgstr "Φαγητό"
+
+#: languages/aioseo-lite.php:4443 languages/aioseo-pro.php:5684
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Select which Post Types appear in your sitemap."
+msgstr "Επιλέξτε ποιοι Τύποι Δημοσίευσης εμφανίζονται στο sitemap σας."
+
+#: app/Common/Utils/Tags.php:499
+msgid "Site Description"
+msgstr "Περιγραφή Ιστότοπου"
+
+#: app/Common/Tools/SystemStatus.php:217
+msgid "PHP Exif Support"
+msgstr "Υποστήριξη PHP Exif"
+
+#: app/Common/Admin/Admin.php:301 app/Common/Models/Post.php:440
+#: app/Common/Views/sitemap/html/widget-options.php:13
+#: languages/aioseo-lite.php:5419 languages/aioseo-pro.php:7027
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Title"
+msgstr "Τίτλος"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153 languages/aioseo-lite.php:1604
+#: languages/aioseo-pro.php:2077
+msgid "Disabled"
+msgstr "Απενεργοποιημένες"
+
+#: languages/aioseo-lite.php:1857 languages/aioseo-pro.php:2404
+msgid "Enabled"
+msgstr "Ενεργές"
+
+#: app/Common/Utils/Tags.php:532 languages/aioseo-lite.php:1568
+#: languages/aioseo-pro.php:2038 dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: languages/aioseo-lite.php:1646 languages/aioseo-pro.php:2137
+msgid "Display Settings"
+msgstr "Εμφάνιση ρυθμίσεων"
+
+#: languages/aioseo-lite.php:2592 languages/aioseo-pro.php:3263
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "Home Page Settings"
+msgstr "Ρυθμίσεις Αρχικής Σελίδας"
+
+#: languages/aioseo-lite.php:1571 languages/aioseo-pro.php:2041
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Description Format"
+msgstr "Μορφή περιγραφής"
+
+#: languages/aioseo-lite.php:5376 languages/aioseo-pro.php:6973
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "This option allows you to toggle the use of Meta Keywords throughout the whole of the site."
+msgstr "Αυτή η επιλογή σας επιτρέπει να εναλλάξετε την χρήση των Μεταστοιχείων Λέξεων Κλειδιών σε όλο τον ιστότοπο."
+
+#: languages/aioseo-lite.php:1079 languages/aioseo-pro.php:1453
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Check this if you want your categories for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "Επιλέξτε αυτό αν θέλετε οι κατηγορίες σας για ένα συγκεκριμένο άρθρο να χρησιμοποιούνται ως Μεταστοιχειακές Λέξεις Κλειδιά για αυτό το άρθρο (επιπρόσθετα σε οποιεσδήποτε λέξεις κλειδιά έχετε καθορίσει στην οθόνη Επεξεργασία Άρθρου)."
+
+#: languages/aioseo-lite.php:1085 languages/aioseo-pro.php:1459
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Check this if you want your tags for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "Επιλέξτε αυτό αν θέλετε οι ετικέτες σας για ένα συγκεκριμένο άρθρο να χρησιμοποιούνται ως Μεταστοιχειακές Λέξεις Κλειδιά για αυτό το άρθρο (επιπρόσθετα σε οποιεσδήποτε λέξεις κλειδιά έχετε καθορίσει στην οθόνη Επεξεργασία Άρθρου)."
+
+#: app/Common/Admin/Admin.php:162 languages/aioseo-lite.php:2224
+#: languages/aioseo-pro.php:2876 dist/Lite/assets/js/Main.bedd85b2.js:1
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: languages/aioseo-lite.php:848 languages/aioseo-pro.php:1164
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Bad Bot Blocker"
+msgstr "Αποκλειστής Κακού Bot"
+
+#: languages/aioseo-lite.php:5545 languages/aioseo-pro.php:7186
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Track Blocked Bots"
+msgstr "Ανιχνεύστε Αποκλεισμένα Bots"
+
+#: languages/aioseo-lite.php:5887 languages/aioseo-pro.php:7606
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "User Agent Blocklist"
+msgstr "Λίστα Αποκλεισμού User Agent"
+
+#: languages/aioseo-lite.php:4170 languages/aioseo-pro.php:5310
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Referer Blocklist"
+msgstr "Λίστα Αποκλεισμού Παραπομπών"
+
+#. Translators: 1 - The IP address. 2 - The user agent.
+#: app/Common/Tools/BadBotBlocker.php:228
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr "Αποκλεισμένο bot με IP %1$s -- βρέθηκε αντιστοιχία user agent %2$s στην λίστα αποκλεισμένων."
+
+#. Translators: 1 - The IP address. 2 - The referer.
+#: app/Common/Tools/BadBotBlocker.php:237
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr "Αποκλεισμένο bot με IP %1$s -- βρέθηκε αντιστοιχία παραπομπής %2$s στην λίστα αποκλεισμένων."

@@ -287,7 +287,7 @@ class WPHB_Product_Room_Base extends WPHB_Product_Abstract {
 	/**
 	 * @return array
 	 */
-	function get_booking_room_details() {
+	function get_booking_room_details($no_tax=false) {
 		$details            = array();
 		$room_details_total = 0;
 		$start_date         = $this->get_data( 'check_in_date' );
@@ -299,6 +299,11 @@ class WPHB_Product_Room_Base extends WPHB_Product_Abstract {
 		$tax = false;
 		if ( hb_price_including_tax() ) {
 			$tax = true;
+		}
+
+		if($no_tax){
+			$tax = false;
+
 		}
 
 		$nights = hb_count_nights_two_dates( $end_date, $start_date );

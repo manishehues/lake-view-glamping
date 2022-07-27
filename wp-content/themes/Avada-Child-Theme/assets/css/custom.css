@@ -366,7 +366,7 @@ body.logged-in .fusion-header-wrapper{
 .fusion-header-wrapper .navArea{
     display:flex;
     align-items: center;
-	width:auto;
+	width:max-content;
 }
 .fusion-header-wrapper .fusion-main-menu ul li.menu-item{
     padding-left:25px;
@@ -1061,9 +1061,9 @@ footer .fusion-row .fusion-columns .col-lg-3:first-child .menu li.current-menu-i
     left:50%;
     transform:translateX(-50%);
 }
-.fusion-header-wrapper .fusion-main-menu ul li.menu-item.current_page_parent .sub-menu li.menu-item.current_page_item a,
+.fusion-header-wrapper .fusion-main-menu ul li.menu-item.current-menu-parent .sub-menu li.menu-item.current-menu-item a,
 .fusion-header-wrapper .fusion-main-menu ul li.menu-item .sub-menu li.menu-item:hover a{
-    color:var(--white)
+    color:var(--white)!important
 }
 
 
@@ -1330,6 +1330,9 @@ background-size: cover;
 .fusion-body #singleDome .leftSide{
     overflow: hidden;
 }
+
+
+
 .fusion-body #singleDome .leftSide .fusion-row{
     margin-left:0!important;
     margin-right:0!important;
@@ -1338,12 +1341,10 @@ background-size: cover;
 .fusion-body #singleDome .leftSide > .fusion-column-wrapper {
     margin:0;
 }
-.fusion-body #singleDome .mainSlider{
-    width:calc(100% - 184px) !important;
-    float:right;
-    
-    margin-bottom:0!important;
-}
+.fusion-body #singleDome .mainSlider {
+    width: calc(100% - 184px) !important;
+    float: right;    
+  }
 .singleDome .slick-vertical .slick-slide{
     border:none;
     margin-bottom:6px;
@@ -1428,7 +1429,7 @@ table.table tbody tr:nth-child(2n){
 .fusion-body #singleDome .domePrice .entryContent h2{
     font-size:45px!important;
     line-height:normal!important;
-    margin-bottom:-10px!important;
+    margin-bottom:0!important;
 }
 .fusion-body #singleDome .domePrice .entryContent h2 sub{
     font-size:25px!important;
@@ -1862,6 +1863,7 @@ body.single-post .siteFooter .fusion-footer .fusion-footer-widget-area > .fusion
     background:var(--white);
     border-radius:5px;
     height:60px;
+    overflow: hidden;
 }
 
 
@@ -1905,11 +1907,30 @@ body.single-post .siteFooter .fusion-footer .fusion-footer-widget-area > .fusion
     font-size:14px;
 }
 
+
+
+.hotel-booking-search .hb_input_field.error,
+.hotel-booking-search .hb_input_field .hb-form-field-input.error select{
+    box-shadow:inset 0px 0px 0px 1px red;
+    background:rgb(255, 199, 199);
+}
+
+.hotel-booking-search .hb_input_field.error label{
+    color:red;
+    opacity: 1;
+}
+
+
+
 .hb_input_field:after{
     transform: translateY(-50%);
     font-size: 15px;
     right:15px;
     top:50%;
+}
+
+.hotel-booking-search .hb_input_field.error:after{
+    color:red
 }
 
 .hb-form-field.adults .hb_input_field:after{
@@ -2115,7 +2136,13 @@ body.single-post .siteFooter .fusion-footer .fusion-footer-widget-area > .fusion
     background:#fafafa
 }
 
+.hb-search-results .hb-booking-room-details table tfoot td.hb_search_item_total_description{    
+    opacity: 0;
+}   
+
 /* ========== Single Dome =========== */
+
+
 
 .singleDomeBokking .hb_single_room{
     float:left;
@@ -2127,8 +2154,8 @@ body.single-post .siteFooter .fusion-footer .fusion-footer-widget-area > .fusion
 }
 
 .singleDomeBokking .snglDomeWrap{
-    display:flex;
-    justify-content: space-between;
+    /* display:flex;
+    justify-content: space-between; */
 }
 .singleDomeBokking .leftSide{
     max-width:75%;
@@ -2143,10 +2170,10 @@ body.single-post .siteFooter .fusion-footer .fusion-footer-widget-area > .fusion
     border:none!important;
 }
 
-.singleDomeBokking .rightSide{
+/* .singleDomeBokking .rightSide{
     max-width:calc(25% - 50px);
     flex:1 1 auto;
-}
+} */
 
 .singleDomeBokking .snglDomeWrap .hb_room_gallery > div{
     float:left;
@@ -2195,7 +2222,7 @@ body.single-post .siteFooter .fusion-footer .fusion-footer-widget-area > .fusion
     color:var(--pri-color);
 }
 .priceDetails .price{    
-    margin-top:25px;
+    margin-top:15px;
     float:left;
     width:100%;
 }
@@ -2231,7 +2258,13 @@ body.single-post .siteFooter .fusion-footer .fusion-footer-widget-area > .fusion
 
 .hb_single_room .hb_single_room_details .hb_single_room_tabs_content{
     padding-bottom:0;
+    padding-top:0;
 }
+
+#hb_room_description > p{
+    margin:0!important
+}
+
 
 body #homePageBanner{
     position: relative;
@@ -2532,6 +2565,20 @@ body.wp-hotel-booking-thank-you #main >  .fusion-row{
     float:right;
 }
 
+.hb_table tbody tr.hb_advance_tax{
+    background:yellow
+}
+
+.hb_table tbody tr.hb_advance_tax td{
+    padding-left:15px!important;
+    padding-right:15px!important;
+    font-weight:bold;
+    color:var(--pri-color);
+    font-size:20px;
+    font-family:var(--h4_typography-font-family);
+}
+
+
 
 /* ========== Checkout Page ========== */
 
@@ -2741,4 +2788,12 @@ body.wp-hotel-booking-thank-you #main .fusion-row{
     width:60%;
     font-size:16px;
     font-weight:normal;
+}
+
+.notFound{
+    text-align: center;
+}
+
+.notFound h4{
+    margin-bottom:0;
 }

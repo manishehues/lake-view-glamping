@@ -67,7 +67,9 @@ $single_purchase = get_option( 'tp_hotel_booking_single_purchase' );
 					<li class="hb_search_price">
 						<p><?php _e( 'Price:', 'wp-hotel-booking' ); ?></p>
 						<h2
-							class="hb_search_item_price"><?php echo hb_format_price( $room->amount_singular ); ?></h2>
+							class="hb_search_item_price"><?php echo hb_format_price( $room->amount_singular_exclude_tax ); ?></h2>
+
+							<?php //print_r($room->amount_singular_exclude_tax);?>
 						<div class="hb_view_price">
 							<a href=""
 							class="hb-view-booking-room-details"><?php _e( 'Price Detail', 'wp-hotel-booking' ); ?></a>

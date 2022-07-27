@@ -1,5 +1,6 @@
 <?php
 define( 'WP_CACHE', true );
+
 /**
  * The base configuration for WordPress
  *
@@ -18,26 +19,19 @@ define( 'WP_CACHE', true );
  *
  * @package WordPress
  */
-
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'woazuymy_lake' );
-
 /** Database username */
-define( 'DB_USER', 'woazuymy_lake' );
-
+define( 'DB_USER', 'root' );
 /** Database password */
-define( 'DB_PASSWORD', 'Shinda@11' );
-
+define( 'DB_PASSWORD', '' );
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
-
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
-
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
-
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -57,9 +51,7 @@ define( 'AUTH_SALT',        '%e%a+h-5Q=_ r0|ogX&$F7]-N?SV6a+D4![xoQE5]zWv.D1M|h=
 define( 'SECURE_AUTH_SALT', 'Mr$Id8nF(ajk1A1S g.j#*)jr>iyT?k0;4ge89CX;pi6.JwHy`Kp:AL*|Y@|TZ1=' );
 define( 'LOGGED_IN_SALT',   '+wR!z}vcBeNK0:{uv,%mjSXQ9){Zq+N7o`wj-pM|?#|:hhJF7w7{.4slj{AB0[Pk' );
 define( 'NONCE_SALT',       '70{X)O]QN#nxje++s#S~;]0cwcd{dTx)<I~*Ed!wgvnI]?8QSp}og;AsfXTe/i6N' );
-
 /**#@-*/
-
 /**
  * WordPress database table prefix.
  *
@@ -67,7 +59,6 @@ define( 'NONCE_SALT',       '70{X)O]QN#nxje++s#S~;]0cwcd{dTx)<I~*Ed!wgvnI]?8QSp}
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'lake641_';
-
 /**
  * For developers: WordPress debugging mode.
  *
@@ -82,17 +73,11 @@ $table_prefix = 'lake641_';
  */
 define( 'WP_DEBUG', false );
 define('ALLOW_UNFILTERED_UPLOADS', true);
-
 /* Add any custom values between this line and the "stop editing" line. */
-
-
-
 /* That's all, stop editing! Happy publishing. */
-
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
-
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';

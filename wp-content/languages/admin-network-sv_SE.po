@@ -1,15 +1,23 @@
-# Translation of WordPress - 5.9.x - Development - Administration - Network Admin in Swedish
-# This file is distributed under the same license as the WordPress - 5.9.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.0.x - Development - Administration - Network Admin in Swedish
+# This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-19 02:41:40+0000\n"
+"PO-Revision-Date: 2022-05-29 17:52:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: sv_SE\n"
-"Project-Id-Version: WordPress - 5.9.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.0.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/network/upgrade.php:141
+msgid "WordPress has been updated! Next and final step is to individually upgrade the sites in your network."
+msgstr "WordPress har uppdaterats! Nästa och sista steget är att individuellt uppgradera webbplatserna i ditt nätverk."
+
+#: wp-admin/network/site-new.php:40
+msgid "Cannot create an empty site."
+msgstr "Kan inte skapa en tom webbplats."
 
 #. translators: %s: wp-config.php
 #: wp-admin/includes/network.php:463
@@ -62,7 +70,7 @@ msgstr[1] "%s teman kommer att uppdateras automatiskt."
 
 #: wp-admin/network/themes.php:226
 msgid "Sorry, you are not allowed to change themes automatic update settings."
-msgstr "Du saknar behörighet att ändra inställningarna för automatisk uppdateringar av teman."
+msgstr "Du har inte behörighet att ändra inställningarna för automatiska uppdateringar av teman."
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:321
 msgid "No themes are currently available."
@@ -175,7 +183,7 @@ msgstr "Användarnamnet och en länk för att ange lösenord kommer att skickas 
 #. translators: %s: New network admin email.
 #: wp-admin/network/settings.php:176
 msgid "There is a pending change of the network admin email to %s."
-msgstr "En ändring av e-postadressen för nätverksadministratören till %s inväntar bekräftelse."
+msgstr "En ändring av e-postadressen för nätverksadministration till %s inväntar bekräftelse."
 
 #: wp-admin/includes/network.php:332
 msgid "Sub-domain Installation"
@@ -205,28 +213,28 @@ msgstr "%s-webbplatser"
 
 #: wp-admin/network/themes.php:102
 msgid "Sorry, you are not allowed to delete themes for this site."
-msgstr "Du saknar behörighet för att radera teman för den här webbplatsen."
+msgstr "Du har inte behörighet att ta bort teman för denna webbplats."
 
 #: wp-admin/network/themes.php:14
 msgid "Sorry, you are not allowed to manage network themes."
-msgstr "Du saknar behörighet att hantera teman i nätverket."
+msgstr "Du har inte behörighet att hantera teman i nätverket."
 
 #: wp-admin/network/sites.php:321
 msgid "Sorry, you are not allowed to delete that site."
-msgstr "Du saknar behörighet för att radera den webbplatsen."
+msgstr "Du har inte behörighet för att ta bort den webbplatsen."
 
 #: wp-admin/network/site-themes.php:14
 msgid "Sorry, you are not allowed to manage themes for this site."
-msgstr "Du saknar behörighet för att hantera teman för den här webbplatsen."
+msgstr "Du har inte behörighet att hantera teman för denna webbplats."
 
 #: wp-admin/network/site-new.php:17
 msgid "Sorry, you are not allowed to add sites to this network."
-msgstr "Du saknar behörighet för att lägga till webbplatser i det här nätverket."
+msgstr "Du har inte behörighet att lägga till webbplatser i detta nätverk."
 
 #: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
 #: wp-admin/network/site-users.php:14
 msgid "Sorry, you are not allowed to edit this site."
-msgstr "Du saknar behörighet för att redigera den här webbplatsen."
+msgstr "Du har inte behörighet att redigera denna webbplats."
 
 #: wp-admin/network/settings.php:375
 msgid "The email address of the first comment author on a new site."
@@ -258,7 +266,7 @@ msgstr "%1$s av %2$s"
 
 #: wp-admin/network/site-new.php:220
 msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
-msgstr "Endast små bokstäver (a-z), siffror och bindestreck är tillåtna."
+msgstr "Endast gemener (a-z), siffror och bindestreck är tillåtna."
 
 #. translators: %s: wp-config.php
 #: wp-admin/includes/network.php:540
@@ -723,10 +731,6 @@ msgstr "Här kan du:"
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
 msgstr "Välkommen till din nätverksadministration. Denna del av administrationen används för att hantera alla aspekter av ditt webbplatsnätverk."
 
-#: wp-admin/network/upgrade.php:141
-msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "WordPress har uppdaterats! Innan vi låter dig fortsätta så behöver vi uppdatera webbplatserna i nätverket individuellt."
-
 #: wp-admin/network/upgrade.php:24
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Använd denna sida när du har uppdaterat till en ny WordPress-version via Uppdateringar/Tillgängliga uppdateringar (via nätverksadministrationens meny eller verktygsfält). Genom att klicka på knappen ”Uppdatera nätverk” kommer varje webbplats i nätverket stegas igenom, fem i taget, och kontrolleras så att alla databasuppdateringar genomförts."
@@ -816,7 +820,7 @@ msgstr "Nej, gå tillbaka till listan över teman"
 
 #: wp-admin/network/themes.php:174
 msgid "Yes, delete this theme"
-msgstr "Ja, radera detta tema"
+msgstr "Ja, ta bort detta tema"
 
 #: wp-admin/network/themes.php:160
 msgid "Are you sure you want to delete these themes?"
@@ -832,7 +836,7 @@ msgstr "Detta tema kan vara aktivt på andra webbplatser i nätverket."
 
 #: wp-admin/network/themes.php:137
 msgid "Delete Theme"
-msgstr "Radera tema"
+msgstr "Ta bort tema"
 
 #: wp-admin/network/site-themes.php:213
 msgid "Network enabled themes are not shown on this screen."
@@ -864,11 +868,11 @@ msgstr "Ogiltigt webbplats-ID."
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:168
 msgid "Sorry, you are not allowed to delete the site %s."
-msgstr "Du saknar behörighet att radera webbplatsen %s."
+msgstr "Du har inte behörighet att ta bort webbplatsen %s."
 
 #: wp-admin/network/sites.php:40
 msgid "Clicking on bold headings can re-sort this table."
-msgstr "Genom att klicka på rubrikerna i fetstil så kan denna tabell omsorteras."
+msgstr "Klicka på rubrikerna i fetstil för att sortera om denna tabell."
 
 #: wp-admin/network/sites.php:37
 msgid "Delete which is a permanent action after the confirmation screens."
@@ -1092,7 +1096,7 @@ msgstr "Driftsinställningarna har fält för nätverkets namn och administrativ
 
 #: wp-admin/network/users.php:235
 msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
-msgstr "Massåtgärden kommer att permanent radera valda användare, eller markera/avmarkera de som valts som skräppostare. Skräpanvändare kommer att få sina inlägg borttagna och kommer inte att kunna registrera sig med samma e-postadress igen."
+msgstr "Massåtgärden kommer att ta bort valda användare permanent, eller markera/avmarkera de som valts som skräpposter. Skräpanvändare kommer att få inlägg borttagna och kommer inte kunna registrera sig med samma e-postadresser igen."
 
 #: wp-admin/network/users.php:233
 msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
@@ -1127,8 +1131,8 @@ msgid "If this process fails for any reason, users logging in to their sites wil
 msgstr "Om denna process av någon anledning misslyckas kommer samma uppdatering att genomföras automatiskt när användare loggar in på sina webbplatser."
 
 #: wp-admin/network/upgrade.php:25
-msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
-msgstr "Om ingen uppdatering av WordPress skett så kommer inte denna knapp att påverka någonting."
+msgid "If a version update to core has not happened, clicking this button will not affect anything."
+msgstr "Om ingen uppdatering av WordPress-kärnan har skett påverkas ingenting om man trycker på denna knapp."
 
 #: wp-admin/network/themes.php:301
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
@@ -1164,8 +1168,8 @@ msgid "The following words are reserved for use by WordPress functions and canno
 msgstr "Följande ord är reserverade för användning av funktioner i WordPress och kan inte användas som webbplatsnamn: %s"
 
 #: wp-admin/network/upgrade.php:125
-msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
-msgstr "Om du inte skickas vidare automatiskt, klicka på följande knapp:"
+msgid "If your browser does not start loading the next page automatically, click this link:"
+msgstr "Om din webbläsare inte börjar ladda nästa sida automatiskt, klicka på denna länk:"
 
 #: wp-admin/network/settings.php:302
 msgid "If you want to ban domains from site registrations. One domain per line."
@@ -1174,10 +1178,6 @@ msgstr "Om du vill förbjuda domäner från webbplatsregistreringar. En domän p
 #: wp-admin/network/settings.php:282
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Om du vill begränsa webbplatsregistreringar till vissa domäner. En domän per rad."
-
-#: wp-admin/network/site-new.php:40
-msgid "Can&#8217;t create an empty site."
-msgstr "Kan inte skapa en tom webbplats."
 
 #: wp-admin/network/users.php:268
 msgid "Users removed from spam."
@@ -1201,7 +1201,7 @@ msgstr "Webbplats avmarkerad för skräppostning."
 
 #: wp-admin/network/users.php:271
 msgid "Users deleted."
-msgstr "Användare raderade."
+msgstr "Användare borttagna."
 
 #: wp-admin/network/users.php:265
 msgid "Users marked as spam."
@@ -1225,11 +1225,11 @@ msgstr "Webbplats arkiverad."
 
 #: wp-admin/network/sites.php:318
 msgid "Site deleted."
-msgstr "Webbplats raderad."
+msgstr "Webbplats borttagen."
 
 #: wp-admin/network/sites.php:315
 msgid "Sites deleted."
-msgstr "Webbplatser raderade."
+msgstr "Webbplatser borttagna."
 
 #: wp-admin/network/sites.php:106 wp-admin/network/sites.php:224
 msgid "Sorry, you are not allowed to change the current site."
@@ -1286,7 +1286,7 @@ msgstr "Användarkonton kan skapas"
 
 #: wp-admin/network/settings.php:204
 msgid "Registration is disabled"
-msgstr "Registreringar har inaktiverats"
+msgstr "Registrering är inaktiverad"
 
 #: wp-admin/network/settings.php:494
 msgid "Enable administration menus"
@@ -1330,7 +1330,7 @@ msgstr "Välkomstmeddelande som skickas via e-post till nya webbplatsägare."
 
 #: wp-admin/network/settings.php:257
 msgid "Users are not allowed to register these sites. Separate names by spaces."
-msgstr "Användare kan ej registrera dessa webbplatser. Separera namn med mellanslag."
+msgstr "Användare får inte registrera dessa webbplatser. Separera namn med mellanslag."
 
 #: wp-admin/network/settings.php:232
 msgid "Send the network admin an email notification every time someone registers a site or user account"
@@ -1358,7 +1358,7 @@ msgstr "Standardspråk"
 
 #: wp-admin/network/settings.php:420
 msgid "Max upload file size"
-msgstr "Maximal storlek för filuppladdning"
+msgstr "Maximal filstorlek för uppladdning"
 
 #: wp-admin/network/settings.php:380
 msgid "First Comment URL"
@@ -1394,7 +1394,7 @@ msgstr "Förbjudna e-postdomäner"
 
 #: wp-admin/network/settings.php:263
 msgid "Limited Email Registrations"
-msgstr "Begränsad e-postregistrering"
+msgstr "Begränsade e-postregistreringar"
 
 #: wp-admin/network/settings.php:244
 msgid "Banned Names"

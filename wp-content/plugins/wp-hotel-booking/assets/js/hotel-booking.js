@@ -762,25 +762,29 @@
 			_self.find('input, select').removeClass('error');
 			var $check_in = $('#check_in_date_' + unique);
 			if ($check_in.val() === '' || !isDate($check_in.datepicker('getDate'))) {
-				$check_in.addClass('error');
+				$check_in.parent().addClass('error');
 				return false;
 			}
+			
+
 
 			var $check_out = $('#check_out_date_' + unique);
 			if ($check_out.val() === '' || !isDate($check_out.datepicker('getDate'))) {
-				$check_out.addClass('error');
+				$check_out.parent().addClass('error');
 				return false;
 			}
 
 			if ($check_in.datepicker('getDate') === null) {
-				$check_in.addClass('error');
+				$check_in.parent().addClass('error');
 				return false;
 			}
 
 			if ($check_out.datepicker('getDate') === null) {
-				$check_out.addClass('error');
+				$check_out.parent().addClass('error');
 				return false;
 			}
+
+
 
 			var check_in = new Date($check_in.datepicker('getDate')),
 				check_out = new Date($check_out.datepicker('getDate')),
@@ -791,8 +795,13 @@
 			// }
 
 			if (check_in.compareWith(check_out) >= 0) {
-				$check_in.addClass('error');
+				$check_in.parent().addClass('error');
 				error = true;
+				return false;
+			}
+
+			if (jQuery("#adults_capacity").val() == 0) {
+				jQuery("#adults_capacity").parent().addClass('error');
 				return false;
 			}
 

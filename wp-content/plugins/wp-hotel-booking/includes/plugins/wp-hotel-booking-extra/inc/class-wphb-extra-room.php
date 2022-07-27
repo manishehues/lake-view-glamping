@@ -47,6 +47,7 @@ if ( ! class_exists( 'HB_Room_Extra' ) ) {
 			$extras = get_post_meta( $this->ID, $this->_meta_key, true );
 
 
+
 			$results = array();
 			if ( ! empty( $extras ) ) {
 				foreach ( $extras as $k => $post_id ) {
@@ -55,6 +56,8 @@ if ( ! class_exists( 'HB_Room_Extra' ) ) {
 					}
 					$package              = HB_Extra_Package::instance( $post_id );
 					$ext                  = new stdClass();
+
+
 					$ext->ID              = (int) $post_id;
 					$ext->title           = $package->title;
 					$ext->description     = $package->description;
@@ -62,9 +65,11 @@ if ( ! class_exists( 'HB_Room_Extra' ) ) {
 					$ext->respondent      = $package->respondent;
 					$ext->respondent_name = $package->respondent_name;
 					$ext->price           = hb_format_price( $ext->amount_singular );
+					$ext->regular_price           = hb_format_price( $package->regular_price );
 					$ext->selected        = get_post_meta( $post_id, 'tp_hb_extra_room_selected', true );
 					$ext->required        = $package->required;
 					$results[$post_id]    = $ext;
+
 				}
 
 			}

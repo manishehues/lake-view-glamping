@@ -1,0 +1,1526 @@
+# Translation of Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-19 19:43:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release)\n"
+
+#: languages/aioseo-pro.php:2416
+msgid "Enhanced Search"
+msgstr "Erweiterte Suche"
+
+#: app/Common/Tools/SystemStatus.php:98
+msgid "Hidden"
+msgstr "Ausgeblendet"
+
+#: app/Common/Tools/SystemStatus.php:98
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: app/Common/Tools/SystemStatus.php:77
+msgid "Permalink Structure"
+msgstr "Permalink-Struktur"
+
+#: app/Common/Tools/SystemStatus.php:42
+msgid "Latest version:"
+msgstr "Neueste Version:"
+
+#: app/Common/Tools/SystemStatus.php:89
+msgid "User Count"
+msgstr "Anzahl der Benutzer"
+
+#: app/Common/Tools/SystemStatus.php:182
+msgid "unknown"
+msgstr "unbekannt"
+
+#: app/Common/Tools/SystemStatus.php:181 languages/aioseo-pro.php:7793
+msgid "Web Server"
+msgstr "Webserver"
+
+#: app/Common/Tools/SystemStatus.php:121
+msgid "Constants"
+msgstr "Konstanten"
+
+#: app/Common/Tools/SystemStatus.php:106
+msgid "Base URL:"
+msgstr "Basis-URL:"
+
+#: app/Common/Tools/SystemStatus.php:104
+msgid "Url:"
+msgstr "URL:"
+
+#: app/Common/Tools/SystemStatus.php:103
+msgid "Path:"
+msgstr "Pfad:"
+
+#: app/Common/Social/Twitter.php:228
+msgid "Written by"
+msgstr "Verfasst von"
+
+#: app/Common/Tools/BadBotBlocker.php:223
+msgid "(Invalid IP)"
+msgstr "(Ungültige IP-Adresse)"
+
+#: app/Common/Tools/SystemStatus.php:174 languages/aioseo-lite.php:4541
+#: languages/aioseo-pro.php:5793 dist/Lite/assets/js/SystemStatus.a5a15c4a.js:1
+msgid "Server Info"
+msgstr "Server-Info"
+
+#: app/Common/Tools/SystemStatus.php:65 languages/aioseo-lite.php:5414
+#: languages/aioseo-pro.php:7022 dist/Lite/assets/js/OpeningHours.a7db377d.js:1
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "Timezone"
+msgstr "Zeitzone"
+
+#: app/Common/Tools/RobotsTxt.php:374 languages/aioseo-lite.php:1544
+#: languages/aioseo-pro.php:1999
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/ImportExport.cc0a3377.js:1
+#: dist/Lite/assets/js/Redirects.6fee9279.js:1
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Delete"
+msgstr "Löschen"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aioseo.com/"
+msgstr "https://aioseo.com/"
+
+#: app/Common/Utils/Tags.php:542
+msgid "Categories"
+msgstr "Kategorien"
+
+#: app/Common/Admin/SiteHealth.php:329 app/Common/Admin/SiteHealth.php:395
+msgid "Search Page"
+msgstr "Suchseite"
+
+#: app/Common/Admin/SiteHealth.php:327 app/Common/Admin/SiteHealth.php:393
+#: languages/aioseo-pro.php:1104
+msgid "Author Archives"
+msgstr "Autor-Archive"
+
+#: app/Common/Admin/SiteHealth.php:323 app/Common/Admin/SiteHealth.php:389
+msgid "Paginated Content"
+msgstr "Paginierter Inhalt"
+
+#: app/Common/Admin/SiteHealth.php:328 app/Common/Admin/SiteHealth.php:394
+#: languages/aioseo-pro.php:1873
+msgid "Date Archives"
+msgstr "Datumsarchive"
+
+#: app/Common/Admin/SiteHealth.php:283
+msgid "Go to Plugins"
+msgstr "Gehe zu Plugins"
+
+#: app/Common/Admin/SiteHealth.php:121
+msgid "Go to Settings > Reading"
+msgstr "Gehe zu Einstellungen > Lesen"
+
+#: app/Common/Admin/SiteHealth.php:128
+msgid "Your site appears in search results"
+msgstr "Deine Website erscheint in den Suchergebnissen"
+
+#: app/Common/Admin/SiteHealth.php:81
+msgid "Nofollowed content"
+msgstr "Nofollow-Inhalt"
+
+#: app/Common/Admin/SiteHealth.php:73
+msgid "Noindexed content"
+msgstr "Noindex-Inhalt"
+
+#: app/Common/Admin/SiteHealth.php:295
+msgid "Fantastic! By updating to the latest version, you have access to all the latest features, bug fixes and security improvements."
+msgstr "Fantastisch! Mit dem Upgrade auf die aktuelle Version hast du Zugriff auf alle neuen Funktionen, Fehlerbehebungen und Sicherheitsverbesserungen."
+
+#: app/Common/Admin/SiteHealth.php:207
+msgid "Your Organization Name and Logo are set"
+msgstr "Name und Logo deiner Organisation sind eingestellt"
+
+#: app/Common/Admin/SiteHealth.php:194
+msgid "Your Organization Name and/or Logo are blank"
+msgstr "Name und/oder Logo deiner Organisation sind leer"
+
+#: app/Common/Admin/SiteHealth.php:164
+msgid "Your Site Title and Tagline are set"
+msgstr "Website-Titel und Untertitel sind eingestellt"
+
+#: languages/aioseo-lite.php:1153 languages/aioseo-pro.php:1536
+#: dist/Lite/assets/js/Monsterinsights.eb9a3aa3.js:1
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Click here"
+msgstr "Hier klicken"
+
+#: app/Common/Migration/GeneralSettings.php:471
+#: app/Common/Migration/SocialMeta.php:110 languages/aioseo-lite.php:3009
+#: languages/aioseo-pro.php:3808 dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Learn More"
+msgstr "Mehr erfahren"
+
+#: app/Common/Utils/Tags.php:326
+msgid "The last name of the post author."
+msgstr "Der Nachname des Beitragsautors"
+
+#: languages/aioseo-lite.php:4285 languages/aioseo-pro.php:5462
+#: dist/Lite/assets/js/RssContent.b9155beb.js:1
+msgid "RSS Content Settings"
+msgstr "RSS-Inhaltseinstellungen"
+
+#: app/Common/Admin/Admin.php:397 app/Common/Admin/Admin.php:640
+#: languages/aioseo-lite.php:3598 languages/aioseo-pro.php:4551
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: app/Common/Admin/SiteHealth.php:157
+msgid "Go to Settings > General"
+msgstr "Gehe zu Einstellungen > Allgemein"
+
+#: app/Common/Views/sitemap/xsl/default.php:102
+#: app/Common/Views/sitemap/xsl/default.php:190
+#: app/Common/Views/sitemap/xsl/default.php:268
+#: app/Common/Views/sitemap/xsl/templates/header.php:37
+#: languages/aioseo-pro.php:7447
+msgid "URL"
+msgstr "URL"
+
+#: languages/aioseo-lite.php:319 languages/aioseo-pro.php:400
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Access our Premium Support"
+msgstr "Zugang zum Premium-Support"
+
+#: languages/aioseo-lite.php:3379 languages/aioseo-pro.php:4302
+#: dist/Lite/assets/js/Main.aca85fc1.js:1
+#: dist/Lite/assets/js/NewsSitemap.89c692b5.js:1
+msgid "News Sitemap"
+msgstr "News-Sitemap"
+
+#: app/Common/Views/sitemap/html/widget-options.php:124
+#: languages/aioseo-lite.php:4064 languages/aioseo-pro.php:5150
+#: dist/Lite/assets/blocks.eafeffc4.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+msgid "Publish Date"
+msgstr "Veröffentlichungsdatum"
+
+#: languages/aioseo-lite.php:4289 languages/aioseo-pro.php:5466
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "RSS Sitemap"
+msgstr "RSS-Sitemap"
+
+#: app/Common/Admin/Notices/Review.php:95
+msgid "Yes I love it"
+msgstr "Ja, ich liebe es"
+
+#: app/Common/Admin/Notices/Review.php:96 languages/aioseo-lite.php:3587
+#: languages/aioseo-pro.php:4540 dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Not Really..."
+msgstr "Nicht wirklich …"
+
+#: languages/aioseo-lite.php:3578 languages/aioseo-pro.php:4531
+#: dist/Lite/assets/js/AboutUs.e72ab34f.js:1
+#: dist/Lite/assets/js/SitemapsPro.22c2b81a.js:1
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: languages/aioseo-lite.php:2950 languages/aioseo-pro.php:3734
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+#: dist/Lite/assets/js/TitleDescription.01bda3b3.js:1
+msgid "Keywords"
+msgstr "Schlüsselwörter"
+
+#: languages/aioseo-lite.php:1576 languages/aioseo-pro.php:2046
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: languages/aioseo-lite.php:4036 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Priority Support"
+msgstr "Bevorzugter Support"
+
+#: languages/aioseo-lite.php:3565 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Not Available"
+msgstr "Nicht verfügbar"
+
+#: languages/aioseo-lite.php:1243 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Complete Support"
+msgstr "Vollständiger Support"
+
+#: languages/aioseo-lite.php:3040 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Limited Support"
+msgstr "Begrenzter Support"
+
+#: languages/aioseo-lite.php:4351 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Search Engine Optimization (SEO)"
+msgstr "Suchmaschinenoptimierung (SEO)"
+
+#: languages/aioseo-lite.php:4327 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Schema Rich Snippets"
+msgstr "Schema Rich Snippets"
+
+#: languages/aioseo-lite.php:6136 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "WooCommerce Integration"
+msgstr "WooCommerce-Integration"
+
+#: languages/aioseo-lite.php:6575 languages/aioseo-pro.php:8467
+#: dist/Lite/assets/js/AboutUs.e72ab34f.js:1
+msgid "Yup, we know a thing or two about building awesome products that customers love."
+msgstr "Jepp, wir wissen ein oder zwei Dinge darüber wie man tolle Produkte entwickelt, die Kunden lieben."
+
+#: languages/aioseo-lite.php:6139 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "WooCommerce Products only"
+msgstr "Nur WooCommerce-Produkte"
+
+#: languages/aioseo-lite.php:3986 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Posts, Pages, Categories and Tags only"
+msgstr "Nur Beiträge, Seiten, Kategorien und Schlagwörter"
+
+#: app/Common/Admin/Admin.php:300
+msgid "(no title)"
+msgstr "(kein Titel)"
+
+#: app/Common/Admin/Admin.php:299 languages/aioseo-pro.php:515
+msgid "Add Link"
+msgstr "Link hinzufügen"
+
+#: app/Common/Admin/Admin.php:465
+msgid "Check Google Cache"
+msgstr "Google Cache prüfen"
+
+#: app/Common/Admin/Admin.php:460
+msgid "Check links to this URL"
+msgstr "Links zu dieser URL prüfen"
+
+#. Translators: 1 - The marketing site anchor name ("aioseo.com").
+#: app/Lite/Admin/Connect.php:288
+msgid "Plugin installed & activated."
+msgstr "Plugin installiert und aktiviert."
+
+#: languages/aioseo-lite.php:326 languages/aioseo-pro.php:410
+#: dist/Lite/assets/js/AboutUs.e72ab34f.js:1
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: languages/aioseo-lite.php:2864 languages/aioseo-pro.php:3613
+#: dist/Lite/assets/js/AboutUs.e72ab34f.js:1
+msgid "Install Plugin"
+msgstr "Plugin installieren"
+
+#: languages/aioseo-lite.php:343 languages/aioseo-pro.php:446
+#: dist/Lite/assets/js/AboutUs.e72ab34f.js:1
+#: dist/Lite/assets/js/SitemapsPro.22c2b81a.js:1
+msgid "Activated"
+msgstr "Aktiviert"
+
+#: languages/aioseo-lite.php:2931 languages/aioseo-pro.php:3714
+#: dist/Lite/assets/js/Success.ca5d59e1.js:1
+msgid "Join our Community"
+msgstr "Werde Teil unserer Community"
+
+#: languages/aioseo-lite.php:4890 languages/aioseo-pro.php:6308
+#: dist/Lite/assets/flyout-menu.8eb59140.js:1
+msgid "Support & Docs"
+msgstr "Support und Dokumentationen"
+
+#: app/Common/Admin/Admin.php:304
+msgid "Link has been inserted."
+msgstr "Link wurde eingefügt."
+
+#: app/Common/Admin/Admin.php:302
+msgid "No results found."
+msgstr "Keine Ergebnisse gefunden."
+
+#: app/Common/Admin/Admin.php:298
+msgid "Update"
+msgstr "Aktualisierung"
+
+#: app/Common/Admin/Admin.php:892
+msgid "Give us a 5-star rating!"
+msgstr "Gib uns eine 5-Sterne-Bewertung!"
+
+#: app/Common/Admin/Admin.php:475
+msgid "Facebook Debugger"
+msgstr "Facebook Debugger"
+
+#: app/Common/Admin/Admin.php:490
+msgid "CSS Validator"
+msgstr "CSS Validator"
+
+#: app/Common/Admin/Admin.php:485
+msgid "HTML Validator"
+msgstr "HTML Validator"
+
+#: app/Common/Admin/Admin.php:500
+msgid "Mobile-Friendly Test"
+msgstr "Test auf Mobilfreundlichkeit"
+
+#: app/Common/Admin/Admin.php:495
+msgid "Google Page Speed Test"
+msgstr "Google Page Speed Test"
+
+#: app/Common/Admin/Admin.php:452
+msgid "Analyze this page"
+msgstr "Diese Seite analysieren"
+
+#: app/Common/Admin/Notices/Review.php:106
+#: app/Common/Admin/Notices/Review.php:161
+msgid "I already did"
+msgstr "Habe ich bereits gemacht"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:104
+#: app/Common/Admin/Notices/Review.php:159 languages/aioseo-lite.php:3619
+#: languages/aioseo-pro.php:4577 dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Ok, you deserve it"
+msgstr "Ok, du verdienst es"
+
+#. Translators: This is an action link users can click to open a feature
+#. request.
+#: app/Lite/Main/Filters.php:30 languages/aioseo-lite.php:4866
+#: languages/aioseo-pro.php:6279 dist/Lite/assets/flyout-menu.8eb59140.js:1
+msgid "Suggest a Feature"
+msgstr "Eine Funktion vorschlagen"
+
+#: app/Common/Admin/Admin.php:208 languages/aioseo-lite.php:305
+#: languages/aioseo-pro.php:382 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "About Us"
+msgstr "Über uns"
+
+#: app/Common/Admin/Notices/Review.php:105
+#: app/Common/Admin/Notices/Review.php:160 languages/aioseo-lite.php:3556
+#: languages/aioseo-pro.php:4517 dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Nope, maybe later"
+msgstr "Danke, vielleicht später"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:99 languages/aioseo-lite.php:2333
+#: languages/aioseo-pro.php:2984 dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Give feedback"
+msgstr "Feedback geben"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Notices/Review.php:92 languages/aioseo-lite.php:715
+#: languages/aioseo-pro.php:953 dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Are you enjoying %1$s?"
+msgstr "Gefällt dir %1$s?"
+
+#: languages/aioseo-lite.php:2609 languages/aioseo-pro.php:3280
+msgid "hourly"
+msgstr "stündlich"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:600
+#: languages/aioseo-lite.php:3355 languages/aioseo-pro.php:4277
+msgid "never"
+msgstr "nie"
+
+#: languages/aioseo-lite.php:6198 languages/aioseo-pro.php:7966
+msgid "yearly"
+msgstr "jährlich"
+
+#: languages/aioseo-lite.php:600 languages/aioseo-pro.php:804
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "always"
+msgstr "immer"
+
+#. Author of the plugin
+msgid "All in One SEO Team"
+msgstr "All in One SEO Team"
+
+#: languages/aioseo-lite.php:364 languages/aioseo-pro.php:467
+msgid "Ad free (no banner adverts)"
+msgstr "Werbefrei (keine Bannerwerbung)"
+
+#: languages/aioseo-lite.php:3734 languages/aioseo-pro.php:4706
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Organize sitemap entries into distinct files in your sitemap. We recommend you enable this setting if your sitemap contains more than 1,000 URLs."
+msgstr "Organisiere Sitemap-Einträge in verschiedenen Dateien in deiner Sitemap. Wir empfehlen, diese Einstellung zu aktivieren, wenn deine Sitemap mehr als 1.000 URLs enthält."
+
+#: languages/aioseo-pro.php:5515
+msgid "Schema Settings"
+msgstr "Schema-Einstellungen"
+
+#: languages/aioseo-lite.php:3778 languages/aioseo-pro.php:4783
+msgid "Package Tracking"
+msgstr "Paketverfolgung"
+
+#: languages/aioseo-lite.php:4252 languages/aioseo-pro.php:5428
+msgid "Roadside Assistance"
+msgstr "Pannenhilfe"
+
+#: languages/aioseo-lite.php:1789 languages/aioseo-pro.php:2301
+msgid "Emergency"
+msgstr "Notfälle"
+
+#: languages/aioseo-lite.php:1361 languages/aioseo-pro.php:1768
+msgid "Credit Card Support"
+msgstr "Kreditkarten-Support"
+
+#: languages/aioseo-lite.php:904 languages/aioseo-pro.php:1228
+msgid "Bill Payment"
+msgstr "Rechnungszahlung"
+
+#: languages/aioseo-lite.php:907 languages/aioseo-pro.php:1231
+msgid "Billing Support"
+msgstr "Abrechnungs-Unterstützung"
+
+#: languages/aioseo-lite.php:4230 languages/aioseo-pro.php:5387
+msgid "Reservations"
+msgstr "Reservierungen"
+
+#: languages/aioseo-lite.php:4298 languages/aioseo-pro.php:5478
+msgid "Sales"
+msgstr "Verkäufe"
+
+#: languages/aioseo-lite.php:4932 languages/aioseo-pro.php:6357
+msgid "Technical Support"
+msgstr "Technischer Support"
+
+#: languages/aioseo-lite.php:1424 languages/aioseo-pro.php:1851
+#: dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Customer Support"
+msgstr "Kunden Support"
+
+#: languages/aioseo-lite.php:3727 languages/aioseo-pro.php:4698
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+msgid "Organization Name"
+msgstr "Name des Unternehmens"
+
+#: languages/aioseo-lite.php:3855 languages/aioseo-pro.php:4876
+#: dist/Lite/assets/blocks.eafeffc4.js:1
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: languages/aioseo-pro.php:5042
+msgid "Posts"
+msgstr "Beiträge"
+
+#: languages/aioseo-lite.php:696 languages/aioseo-pro.php:933
+msgid "Archive"
+msgstr "Archiv"
+
+#: app/Common/Utils/Tags.php:335 languages/aioseo-lite.php:1055
+#: languages/aioseo-pro.php:1417 dist/Lite/assets/js/Breadcrumbs.9ead1bef.js:1
+msgid "Category"
+msgstr "Kategorie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:637
+msgid "year"
+msgstr "Jahr"
+
+#: app/Common/Breadcrumbs/Breadcrumbs.php:281
+msgid "Page"
+msgstr "Seite"
+
+#: languages/aioseo-lite.php:1615 languages/aioseo-pro.php:2091
+#: dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Dismiss"
+msgstr "Verwerfe"
+
+#: app/Common/Admin/Notices/Review.php:100 languages/aioseo-lite.php:3521
+#: languages/aioseo-pro.php:4462 dist/Lite/assets/js/Index.15fee59c.js:1
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "No thanks"
+msgstr "Nein, danke"
+
+#: app/Common/Admin/Notices/Notices.php:425
+#: app/Common/Admin/Notices/Notices.php:474
+#: app/Common/Admin/Notices/Notices.php:550 app/Common/Api/Wizard.php:271
+#: app/Common/Api/Wizard.php:304
+#: app/Common/ImportExport/RankMath/TitleMeta.php:417
+#: app/Common/Migration/GeneralSettings.php:747
+#: app/Common/Migration/Helpers.php:168
+msgid "Remind Me Later"
+msgstr "Später daran erinnern"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: languages/aioseo-lite.php:6080 languages/aioseo-pro.php:7831
+#: dist/Lite/assets/js/GettingStarted.60511ae3.js:1
+msgid "Welcome to %1$s"
+msgstr "Willkommen bei %1$s"
+
+#: app/Common/Tools/SystemStatus.php:337 languages/aioseo-lite.php:2801
+#: languages/aioseo-pro.php:3521 dist/Lite/assets/js/SystemStatus.a5a15c4a.js:1
+msgid "Inactive Plugins"
+msgstr "Inaktive Plugins"
+
+#: app/Common/Tools/SystemStatus.php:305 languages/aioseo-lite.php:349
+#: languages/aioseo-pro.php:452 dist/Lite/assets/js/SystemStatus.a5a15c4a.js:1
+msgid "Active Plugins"
+msgstr "Aktive Plugins"
+
+#. Translators: 1 - The plugin name ("All in One SEO).
+#: app/Common/Api/Tools.php:116
+msgid "%1$s Debug Info"
+msgstr "%s-Debug-Info"
+
+#: languages/aioseo-lite.php:6195 languages/aioseo-pro.php:7960
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Yandex Webmaster Tools"
+msgstr "Yandex Webmaster Tools"
+
+#: languages/aioseo-lite.php:861 languages/aioseo-pro.php:1177
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Baidu Webmaster Tools"
+msgstr "Baidu Webmaster Tools"
+
+#: languages/aioseo-lite.php:805 languages/aioseo-pro.php:1113
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Author Pages"
+msgstr "Autor-Seiten"
+
+#: languages/aioseo-lite.php:705 languages/aioseo-pro.php:942
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Archive Pages"
+msgstr "Archiv-Seiten"
+
+#: languages/aioseo-pro.php:3583
+msgid "Include Custom Fields"
+msgstr "Individuelle Felder einbinden"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:33
+msgid "This sitemap contains"
+msgstr "Diese Sitemap enthält"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:40
+#: languages/aioseo-lite.php:5780 languages/aioseo-pro.php:7455
+#: dist/Lite/assets/js/Locations.b11c6517.js:1
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "URLs"
+msgstr "URLs"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:52
+msgid "sitemaps"
+msgstr "Sitemaps"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:22
+msgid "this is an XML Sitemap, meant to be consumed by search engines like Google or Bing."
+msgstr "dies ist eine XML-Sitemap, die von Suchmaschinen wie Google oder Bing verwendet wird."
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:22
+msgid "Generated by"
+msgstr "Erstellt von"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:45
+msgid "This sitemap index contains"
+msgstr "Diese Sitemap-Indexdatei enthält"
+
+#: languages/aioseo-pro.php:2388
+msgid "Enable this option to look for videos in custom fields as well."
+msgstr "Aktiviere diese Option, um auch in benutzerdefinierten Feldern nach Videos zu suchen."
+
+#: app/Common/Utils/Tags.php:482 app/Common/Utils/Tags.php:494
+msgid "Your site title."
+msgstr "Dein Website-Titel."
+
+#: languages/aioseo-lite.php:2441 languages/aioseo-pro.php:3099
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+#: languages/aioseo-lite.php:914 languages/aioseo-pro.php:1238
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Bing Webmaster Tools"
+msgstr "Bing Webmaster Tools"
+
+#: languages/aioseo-lite.php:1610 languages/aioseo-pro.php:2083
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Disallow"
+msgstr "Nicht zulassen"
+
+#: languages/aioseo-lite.php:569 languages/aioseo-pro.php:766
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Allow"
+msgstr "Erlauben"
+
+#: languages/aioseo-lite.php:4292 languages/aioseo-pro.php:5469
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Rule"
+msgstr "Regel"
+
+#: languages/aioseo-lite.php:1956 languages/aioseo-pro.php:2528
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Exclude Images"
+msgstr "Bilder ausschließen"
+
+#: languages/aioseo-lite.php:1869 languages/aioseo-pro.php:2426
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Ensure URL Consistency"
+msgstr "URL-Konsistenz sicherstellen"
+
+#: app/Common/Tools/SystemStatus.php:53 app/Common/Utils/Tags.php:481
+#: app/Common/Utils/Tags.php:493 languages/aioseo-lite.php:4671
+#: languages/aioseo-pro.php:6054
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+msgid "Site Title"
+msgstr "Titel der Webseite"
+
+#: app/Common/Tools/SystemStatus.php:57
+msgid "Site Language"
+msgstr "Sprache der Webseite"
+
+#: app/Common/Tools/SystemStatus.php:97
+msgid "Search Engine Visibility"
+msgstr "Sichtbarkeit für Suchmaschinen"
+
+#: languages/aioseo-lite.php:4505 languages/aioseo-pro.php:5756
+#: dist/Lite/assets/js/FeatureManager.be6ecdab.js:1
+msgid "SEO for Categories, Tags and Custom Taxonomies"
+msgstr "SEO für Kategorien, Tags und benutzerdefinierte Taxonomien"
+
+#: languages/aioseo-lite.php:2277 languages/aioseo-pro.php:2932
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Get Started"
+msgstr "Erste Schritte"
+
+#: languages/aioseo-lite.php:5677 languages/aioseo-pro.php:7348
+#: dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Upgrade"
+msgstr "Aktualisierung"
+
+#: languages/aioseo-lite.php:643 languages/aioseo-pro.php:868
+#: dist/Lite/assets/js/AnalyzeCompetitorSite.c2334136.js:1
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+#: dist/Lite/assets/js/Score.c797a6c0.js:1
+msgid "Analyze"
+msgstr "Analysieren"
+
+#: languages/aioseo-lite.php:2707 languages/aioseo-pro.php:3412
+#: dist/Lite/assets/js/Main.aca85fc1.js:1
+#: dist/Lite/assets/js/Media.154d894a.js:1
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Image SEO"
+msgstr "SEO für Bilder"
+
+#: languages/aioseo-lite.php:5802 languages/aioseo-pro.php:7486
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Use Custom Blocklists"
+msgstr "Benutzerdefinierte Blockliste verwenden"
+
+#: languages/aioseo-lite.php:920 languages/aioseo-pro.php:1244
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Block Referral Spam using HTTP"
+msgstr "Referral Spam mittels HTTP blockieren"
+
+#: languages/aioseo-lite.php:917 languages/aioseo-pro.php:1241
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Block Bad Bots using HTTP"
+msgstr "Bad Bots mittels HTTP blockieren"
+
+#. Translators: This is an action link users can click to purchase a license
+#. for All in One SEO Pro.
+#: app/Lite/Admin/Admin.php:42 app/Lite/Admin/Admin.php:71
+#: app/Lite/Main/Filters.php:63 languages/aioseo-lite.php:5712
+#: languages/aioseo-pro.php:7382 dist/Lite/assets/js/Index.15fee59c.js:1
+#: dist/Lite/assets/js/SitemapsPro.22c2b81a.js:1
+msgid "Upgrade to Pro"
+msgstr "Auf Pro upgraden"
+
+#. Translators: This is an action link users can click to open our general
+#. documentation page.
+#: app/Lite/Main/Filters.php:58
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#. Translators: This is an action link users can click to open the General
+#. Settings menu.
+#: app/Common/Admin/Admin.php:560 app/Lite/Main/Filters.php:48
+#: languages/aioseo-lite.php:4517 languages/aioseo-pro.php:5768
+#: dist/Lite/assets/js/ImportExport.cc0a3377.js:1
+msgid "SEO Settings"
+msgstr "SEO Einstellungen"
+
+#: languages/aioseo-lite.php:3031 languages/aioseo-pro.php:3849
+#: dist/Lite/assets/js/GeneralSettings.2695c011.js:1
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: languages/aioseo-lite.php:2008 languages/aioseo-pro.php:2626
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Facebook Admin ID"
+msgstr "Facebook Administrator-ID"
+
+#: languages/aioseo-lite.php:2011 languages/aioseo-pro.php:2629
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Facebook App ID"
+msgstr "Facebook App-ID"
+
+#: languages/aioseo-lite.php:3280 languages/aioseo-pro.php:4190
+msgid "monthly"
+msgstr "monatlich"
+
+#: app/Common/Views/sitemap/html/widget-options.php:97
+#: languages/aioseo-lite.php:4920 languages/aioseo-pro.php:6342
+#: dist/Lite/assets/blocks.eafeffc4.js:1
+#: dist/Lite/assets/js/Breadcrumbs.9ead1bef.js:1
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Taxonomies"
+msgstr "Taxonomien"
+
+#: app/Common/Views/sitemap/xsl/default.php:306 languages/aioseo-lite.php:4029
+#: languages/aioseo-pro.php:5095
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Priority"
+msgstr "Priorität"
+
+#: app/Common/Sitemap/Xsl.php:35 languages/aioseo-lite.php:432
+#: languages/aioseo-pro.php:577
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Additional Pages"
+msgstr "Zusätzliche Seiten"
+
+#: languages/aioseo-lite.php:415 languages/aioseo-pro.php:553
+#: dist/Lite/assets/js/Redirects.6fee9279.js:1
+msgid "Add URL"
+msgstr "URL hinzufügen"
+
+#: app/Common/Sitemap/Output.php:31
+msgid "dynamically"
+msgstr "dynamisch"
+
+#: languages/aioseo-lite.php:3786 languages/aioseo-pro.php:4792
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Page URL"
+msgstr "Seiten URL"
+
+#: languages/aioseo-lite.php:1839 languages/aioseo-pro.php:2379
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Enable Sitemap Indexes"
+msgstr "Sitemap-Indexierungen einschalten"
+
+#: languages/aioseo-lite.php:2984 languages/aioseo-pro.php:3776
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Last Modified"
+msgstr "Zuletzt bearbeitet"
+
+#: languages/aioseo-lite.php:6073 languages/aioseo-pro.php:7824
+msgid "weekly"
+msgstr "wöchentlich"
+
+#: languages/aioseo-lite.php:1427 languages/aioseo-pro.php:1854
+msgid "daily"
+msgstr "täglich"
+
+#: app/Common/Views/sitemap/html/widget-options.php:74
+#: languages/aioseo-lite.php:3975 languages/aioseo-pro.php:5035
+#: dist/Lite/assets/blocks.eafeffc4.js:1
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Post Types"
+msgstr "Inhaltstypen"
+
+#: languages/aioseo-lite.php:490 languages/aioseo-pro.php:653
+#: dist/Lite/assets/js/Advanced.9a30e93c.js:1
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+#: dist/Lite/assets/js/DisplayInfo.9f7ab376.js:1
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+#: dist/Lite/assets/js/Redirects.6fee9279.js:1
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#. Translators: This is an action link users can click to open our premium
+#. support.
+#: app/Lite/Main/Filters.php:53 languages/aioseo-lite.php:4887
+#: languages/aioseo-pro.php:6305 dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Support"
+msgstr "Support"
+
+#: languages/aioseo-lite.php:5615 languages/aioseo-pro.php:7261
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Twitter"
+msgstr "Twitter"
+
+#: languages/aioseo-lite.php:2400 languages/aioseo-pro.php:3051
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226 languages/aioseo-lite.php:6205
+#: languages/aioseo-pro.php:7973
+msgid "Yes"
+msgstr "Ja"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226 languages/aioseo-lite.php:3386
+#: languages/aioseo-pro.php:4317
+msgid "No"
+msgstr "Nein"
+
+#: languages/aioseo-lite.php:1044 languages/aioseo-pro.php:1396
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/Redirects.6fee9279.js:1
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: languages/aioseo-lite.php:4833 languages/aioseo-pro.php:6249
+#: dist/Lite/assets/js/SystemStatus.a5a15c4a.js:1
+#: dist/Lite/assets/link-format/link-format-block.js:6
+msgid "Submit"
+msgstr "Absenden"
+
+#: languages/aioseo-lite.php:2005 languages/aioseo-pro.php:2623
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Facebook"
+msgstr "Facebook"
+
+#: languages/aioseo-lite.php:2841 languages/aioseo-pro.php:3587
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Include Date Archives in your sitemap."
+msgstr "Füge Datums-Archive deiner Sitemap hinzu."
+
+#: languages/aioseo-lite.php:2837 languages/aioseo-pro.php:3577
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Include Author Archives in your sitemap."
+msgstr "Füge Autorenarchive deiner Sitemap hinzu."
+
+#: app/Common/Tools/SystemStatus.php:243 languages/aioseo-lite.php:352
+#: languages/aioseo-pro.php:455 dist/Lite/assets/js/SystemStatus.a5a15c4a.js:1
+msgid "Active Theme"
+msgstr "Aktives Theme"
+
+#: languages/aioseo-lite.php:1601 languages/aioseo-pro.php:2071
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Directory Path"
+msgstr "Verzeichnispfad"
+
+#: languages/aioseo-lite.php:578 languages/aioseo-pro.php:779
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
+msgstr "Erlaubt dir, die maximale Anzahl von Beiträgen in einer Sitemap (bis zu 50.000) festzulegen."
+
+#: languages/aioseo-lite.php:4443 languages/aioseo-pro.php:5684
+#: dist/Lite/assets/js/GeneralSitemap.b78637aa.js:1
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+#: dist/Lite/assets/js/RssSitemap.21994c64.js:1
+msgid "Select which Post Types appear in your sitemap."
+msgstr "Wähle aus, welche Post Types in deiner Sitemap auftauchen."
+
+#: languages/aioseo-lite.php:412 languages/aioseo-pro.php:547
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Add Rule"
+msgstr "Regel hinzufügen"
+
+#: languages/aioseo-lite.php:6188 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "XML Sitemap"
+msgstr "XML Sitemap"
+
+#: app/Common/Tools/SystemStatus.php:73
+msgid "Site URL"
+msgstr "Seiten URL"
+
+#: app/Common/Tools/SystemStatus.php:69
+msgid "Home URL"
+msgstr "Home URL"
+
+#: app/Common/Tools/SystemStatus.php:81
+msgid "Multisite"
+msgstr "Multisite"
+
+#: languages/aioseo-lite.php:5884 languages/aioseo-pro.php:7603
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "User Agent"
+msgstr "User Agent"
+
+#: languages/aioseo-lite.php:930 languages/aioseo-pro.php:1254
+#: dist/Lite/assets/js/Breadcrumbs.9ead1bef.js:1
+#: dist/Lite/assets/js/Category.d8aff096.js:1
+msgid "Blog"
+msgstr "Blog"
+
+#: languages/aioseo-pro.php:2844 dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Front Page"
+msgstr "Startseite"
+
+#: languages/aioseo-lite.php:5956 languages/aioseo-pro.php:7683
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "View the Changelog"
+msgstr "Changelog ansehen"
+
+#: languages/aioseo-lite.php:5981 languages/aioseo-pro.php:7705
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Watch video tutorials"
+msgstr "Einführungsvideos ansehen"
+
+#: languages/aioseo-lite.php:2324 languages/aioseo-pro.php:2975
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Getting started? Read the Beginners Guide"
+msgstr "Du fängst gerade erst an? Lies die Einführung für Einsteiger"
+
+#: app/Common/Admin/Admin.php:200 languages/aioseo-lite.php:2052
+#: languages/aioseo-pro.php:2678 dist/Lite/assets/js/Main.5e368f07.js:1
+msgid "Feature Manager"
+msgstr "Feature Manager"
+
+#: languages/aioseo-lite.php:4265 languages/aioseo-pro.php:5441
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: languages/aioseo-lite.php:3832 languages/aioseo-pro.php:4852
+#: dist/Lite/assets/js/SeoSiteAnalysisResults.e4bdebc2.js:4
+msgid "Performance"
+msgstr "Leistung"
+
+#: languages/aioseo-lite.php:4311 languages/aioseo-pro.php:5495
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Save"
+msgstr "Speichern"
+
+#: languages/aioseo-lite.php:3919 languages/aioseo-pro.php:4955
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Please wait..."
+msgstr "Bitte warten ..."
+
+#: languages/aioseo-lite.php:358 languages/aioseo-pro.php:461
+msgid "Activity"
+msgstr "Aktivität"
+
+#: languages/aioseo-lite.php:4780 languages/aioseo-pro.php:6183
+msgid "Sport"
+msgstr "Sport"
+
+#: languages/aioseo-lite.php:867 languages/aioseo-pro.php:1183
+msgid "Bar"
+msgstr "Bar"
+
+#: languages/aioseo-lite.php:1218 languages/aioseo-pro.php:1613
+msgid "Company"
+msgstr "Firma"
+
+#: languages/aioseo-lite.php:1038 languages/aioseo-pro.php:1386
+msgid "Cafe"
+msgstr "Cafe"
+
+#: languages/aioseo-lite.php:4054 languages/aioseo-pro.php:5127
+msgid "Profile"
+msgstr "Profil"
+
+#: languages/aioseo-lite.php:4057 languages/aioseo-pro.php:5136
+msgid "Public Figure"
+msgstr "Öffentliche Person"
+
+#: languages/aioseo-lite.php:1133 languages/aioseo-pro.php:1515
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "City"
+msgstr "Stadt"
+
+#: languages/aioseo-lite.php:1343 languages/aioseo-pro.php:1747
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "Country"
+msgstr "Land"
+
+#: languages/aioseo-lite.php:2975 languages/aioseo-pro.php:3761
+msgid "Landmark"
+msgstr "Sehenswürdigkeit"
+
+#: languages/aioseo-lite.php:520 languages/aioseo-pro.php:700
+msgid "Album"
+msgstr "Album"
+
+#: languages/aioseo-lite.php:940 languages/aioseo-pro.php:1269
+msgid "Book"
+msgstr "Buch"
+
+#: languages/aioseo-lite.php:1691 languages/aioseo-pro.php:2189
+msgid "Drink"
+msgstr "Getränk"
+
+#: languages/aioseo-lite.php:2153 languages/aioseo-pro.php:2783
+msgid "Food"
+msgstr "Essen"
+
+#: languages/aioseo-lite.php:2213 languages/aioseo-pro.php:2861
+msgid "Game"
+msgstr "Spiel"
+
+#: languages/aioseo-lite.php:3299 languages/aioseo-pro.php:4212
+msgid "Movie"
+msgstr "Film"
+
+#: languages/aioseo-lite.php:4039 languages/aioseo-pro.php:5112
+msgid "Product"
+msgstr "Produkt"
+
+#: languages/aioseo-lite.php:4762 languages/aioseo-pro.php:6163
+msgid "Song"
+msgstr "Song"
+
+#: languages/aioseo-lite.php:5610 languages/aioseo-pro.php:7256
+msgid "TV Show"
+msgstr "Fernsehserie"
+
+#: app/Common/Admin/Admin.php:389 app/Common/Admin/SiteHealth.php:91
+msgid "SEO"
+msgstr "SEO"
+
+#: app/Common/Admin/Admin.php:542
+msgid "Edit SEO"
+msgstr "SEO bearbeiten"
+
+#. Plugin Name of the plugin
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: app/Common/Tools/SystemStatus.php:49 languages/aioseo-lite.php:5903
+#: languages/aioseo-pro.php:7625 dist/Lite/assets/js/SitemapsPro.22c2b81a.js:1
+msgid "Version"
+msgstr "Version"
+
+#: languages/aioseo-lite.php:2734 languages/aioseo-pro.php:3441
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/ImportExport.cc0a3377.js:1
+msgid "Import"
+msgstr "Importieren"
+
+#: languages/aioseo-lite.php:1994 languages/aioseo-pro.php:2595
+#: dist/Lite/assets/js/ImportExport.cc0a3377.js:1
+msgid "Export Settings"
+msgstr "Export Einstellungen"
+
+#: languages/aioseo-lite.php:780 languages/aioseo-pro.php:1080
+msgid "Athlete"
+msgstr "Sportler"
+
+#: languages/aioseo-lite.php:1586 languages/aioseo-pro.php:2056
+msgid "Director"
+msgstr "Regisseur"
+
+#: languages/aioseo-lite.php:3311 languages/aioseo-pro.php:4229
+msgid "Musician"
+msgstr "Musiker"
+
+#: languages/aioseo-lite.php:3928 languages/aioseo-pro.php:4967
+msgid "Politician"
+msgstr "Politiker"
+
+#: languages/aioseo-lite.php:1939 languages/aioseo-pro.php:2510
+msgid "Episode"
+msgstr "Folge"
+
+#: languages/aioseo-lite.php:742 languages/aioseo-pro.php:1038
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Schema.96c42510.js:1
+msgid "Article"
+msgstr "Artikel"
+
+#: languages/aioseo-lite.php:5921 languages/aioseo-pro.php:7645
+#: dist/Lite/assets/js/Main.aca85fc1.js:1
+#: dist/Lite/assets/js/VideoSitemap.fb16ccf6.js:1
+msgid "Video Sitemap"
+msgstr "Video Sitemap"
+
+#: languages/aioseo-lite.php:1739 languages/aioseo-pro.php:2242
+#: dist/Lite/assets/js/HtaccessEditor.a368249e.js:1
+msgid "Edit .htaccess"
+msgstr ".htaccess ändern"
+
+#: languages/aioseo-lite.php:864 languages/aioseo-pro.php:1180
+msgid "Band"
+msgstr "Band"
+
+#: languages/aioseo-lite.php:4334 languages/aioseo-pro.php:5524
+msgid "School"
+msgstr "Schule"
+
+#: languages/aioseo-lite.php:5665 languages/aioseo-pro.php:7315
+msgid "University"
+msgstr "Universität"
+
+#: languages/aioseo-lite.php:361 languages/aioseo-pro.php:464
+msgid "Actor"
+msgstr "Schauspieler"
+
+#: languages/aioseo-lite.php:2606 languages/aioseo-pro.php:3277
+msgid "Hotel"
+msgstr "Hotel"
+
+#: languages/aioseo-lite.php:4246 languages/aioseo-pro.php:5408
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: languages/aioseo-lite.php:1064 languages/aioseo-pro.php:1426
+msgid "Cause"
+msgstr "Anliegen"
+
+#: languages/aioseo-lite.php:4786 languages/aioseo-pro.php:6189
+msgid "Sports League"
+msgstr "Sportliga"
+
+#: languages/aioseo-lite.php:4789 languages/aioseo-pro.php:6192
+msgid "Sports Team"
+msgstr "Sportteam"
+
+#: languages/aioseo-lite.php:4668 languages/aioseo-pro.php:6051
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Site Name"
+msgstr "Website-Name"
+
+#: languages/aioseo-lite.php:2055 languages/aioseo-pro.php:2684
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: languages/aioseo-lite.php:4870 languages/aioseo-pro.php:6287
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: languages/aioseo-lite.php:5621 languages/aioseo-pro.php:7267
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Twitter Card Type"
+msgstr "Twitter Card Type"
+
+#: languages/aioseo-lite.php:4656 languages/aioseo-pro.php:6011
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "Show Twitter Author"
+msgstr "Twitter Autor anzeigen"
+
+#: languages/aioseo-lite.php:824 languages/aioseo-pro.php:1139
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Automatically Generate Article Tags"
+msgstr "Artikel Tags automatisch erstellen"
+
+#: app/Common/Tools/SystemStatus.php:78 languages/aioseo-lite.php:1474
+#: languages/aioseo-pro.php:1913 dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Default"
+msgstr "Standard"
+
+#: languages/aioseo-pro.php:5508
+msgid "Scan Now"
+msgstr "Jetzt scannen"
+
+#: languages/aioseo-lite.php:3605 languages/aioseo-pro.php:4564
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Object Type"
+msgstr "Object Type"
+
+#: languages/aioseo-lite.php:4893 languages/aioseo-pro.php:6311
+msgid "System Status"
+msgstr "Systemstatus"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153
+msgid "Not set"
+msgstr "Nicht festgelegt"
+
+#: app/Common/Tools/SystemStatus.php:205
+msgid "PHP Max Upload Size"
+msgstr "PHP Maximale Upload Größe"
+
+#: app/Common/Tools/SystemStatus.php:209
+msgid "PHP Max Post Size"
+msgstr "PHP Maximale Beitragsgröße"
+
+#: languages/aioseo-lite.php:3942 languages/aioseo-pro.php:4981
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "Post Author Image"
+msgstr "Autorenbild posten"
+
+#: languages/aioseo-lite.php:2079 languages/aioseo-pro.php:2706
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "First Available Image"
+msgstr "Erstes erhältliches Bild "
+
+#: languages/aioseo-lite.php:3839 languages/aioseo-pro.php:4859
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+msgid "Person"
+msgstr "Person"
+
+#: languages/aioseo-lite.php:748 languages/aioseo-pro.php:1044
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Article Tags"
+msgstr "Artikel Tags"
+
+#: languages/aioseo-lite.php:745 languages/aioseo-pro.php:1041
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Article Section"
+msgstr "Artikelbereich"
+
+#: languages/aioseo-lite.php:3724 languages/aioseo-pro.php:4695
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+msgid "Organization"
+msgstr "Organisation"
+
+#: languages/aioseo-pro.php:6130
+msgid "Social Settings"
+msgstr "Settings für Social Media"
+
+#: languages/aioseo-lite.php:2693 languages/aioseo-pro.php:3398
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/Locations.b11c6517.js:1
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "Image"
+msgstr "Bild"
+
+#: languages/aioseo-lite.php:1404 languages/aioseo-pro.php:1827
+#: dist/Lite/assets/js/Image.ec6b7346.js:1
+msgid "Custom Image"
+msgstr "Eigenes Image"
+
+#: app/Common/Tools/SystemStatus.php:201
+msgid "PHP Memory Limit"
+msgstr "PHP Memory Limit"
+
+#: languages/aioseo-lite.php:3625 languages/aioseo-pro.php:4583
+msgid "On"
+msgstr "On"
+
+#: languages/aioseo-lite.php:3615 languages/aioseo-pro.php:4573
+msgid "Off"
+msgstr "Off"
+
+#: app/Common/Tools/SystemStatus.php:177 languages/aioseo-pro.php:4685
+msgid "Operating System"
+msgstr "Betriebssystem"
+
+#: languages/aioseo-lite.php:4538 languages/aioseo-pro.php:5790
+msgid "Server"
+msgstr "Server"
+
+#: app/Common/Tools/SystemStatus.php:197
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: languages/aioseo-lite.php:799 languages/aioseo-pro.php:1101
+#: dist/Lite/assets/js/WebmasterTools.b4f630fe.js:1
+msgid "Author"
+msgstr "Autor"
+
+#: languages/aioseo-lite.php:6055 languages/aioseo-pro.php:7805
+msgid "Website"
+msgstr "Website"
+
+#: languages/aioseo-lite.php:1736 languages/aioseo-pro.php:2239
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+#: dist/Lite/assets/link-format/link-format-block.js:6
+#: dist/Lite/assets/posts-table.d43becef.js:1
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: app/Common/Tools/SystemStatus.php:185
+msgid "Memory Usage"
+msgstr "Arbeitsspeicherauslastung"
+
+#: app/Common/Tools/SystemStatus.php:186 languages/aioseo-lite.php:3318
+#: languages/aioseo-pro.php:4236 dist/Lite/assets/publish-panel.943b05d2.js:1
+msgid "N/A"
+msgstr "n.&nbsp;a."
+
+#: languages/aioseo-lite.php:3843 languages/aioseo-pro.php:4863
+#: dist/Lite/assets/js/AdditionalInformation.d2f64136.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+msgid "Person or Organization"
+msgstr "Person oder Organisation"
+
+#: app/Common/Tools/SystemStatus.php:189
+msgid "MySQL Version"
+msgstr "MySQL-Version"
+
+#: languages/aioseo-lite.php:5633 languages/aioseo-pro.php:7279
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Twitter Title"
+msgstr "Twitter-Titel"
+
+#: languages/aioseo-lite.php:7 languages/aioseo-pro.php:7
+#: dist/Lite/assets/js/HtaccessEditor.a368249e.js:1
+msgid ".htaccess Editor"
+msgstr ".htaccess-Editor"
+
+#: languages/aioseo-lite.php:4269 languages/aioseo-pro.php:5445
+#: dist/Lite/assets/js/RobotsEditor.80ec3f05.js:1
+msgid "Robots.txt Editor"
+msgstr "Robots.txt-Editor"
+
+#: app/Common/Utils/Tags.php:532 languages/aioseo-lite.php:1568
+#: languages/aioseo-pro.php:2038 dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "Description"
+msgstr "Beschreibung"
+
+#: app/Common/Admin/Admin.php:301 app/Common/Models/Post.php:440
+#: app/Common/Views/sitemap/html/widget-options.php:13
+#: languages/aioseo-lite.php:5419 languages/aioseo-pro.php:7027
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+msgid "Title"
+msgstr "Titel"
+
+#: languages/aioseo-lite.php:1646 languages/aioseo-pro.php:2137
+msgid "Display Settings"
+msgstr "Anzeigeeinstellungen"
+
+#: languages/aioseo-lite.php:1857 languages/aioseo-pro.php:2404
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153 languages/aioseo-lite.php:1604
+#: languages/aioseo-pro.php:2077
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: languages/aioseo-lite.php:1571 languages/aioseo-pro.php:2041
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Description Format"
+msgstr "Beschreibungs-Format"
+
+#: languages/aioseo-lite.php:2592 languages/aioseo-pro.php:3263
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "Home Page Settings"
+msgstr "Homepage Einstellungen"
+
+#: languages/aioseo-lite.php:812 languages/aioseo-pro.php:1124
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Autogenerate Descriptions"
+msgstr "Beschreibungen automatisch erstellen"
+
+#: languages/aioseo-lite.php:1863 languages/aioseo-pro.php:2410
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Enhanced Ecommerce"
+msgstr "Erweiterte E-Commerce"
+
+#: languages/aioseo-lite.php:1866 languages/aioseo-pro.php:2413
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Enhanced Link Attribution"
+msgstr "Erweiterte Link Attribution"
+
+#: languages/aioseo-lite.php:2414 languages/aioseo-pro.php:3065
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Google Analytics ID"
+msgstr "Google Analytics ID"
+
+#: languages/aioseo-lite.php:5578 languages/aioseo-pro.php:7219
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Tracking Domain"
+msgstr "Domain tracken"
+
+#: languages/aioseo-lite.php:5560 languages/aioseo-pro.php:7201
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Track Multiple Domains"
+msgstr "Mehrere Domains tracken"
+
+#: languages/aioseo-lite.php:421 languages/aioseo-pro.php:562
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Additional Domains"
+msgstr "Zusätzliche Domains"
+
+#: languages/aioseo-lite.php:672 languages/aioseo-pro.php:900
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Anonymize IP Addresses"
+msgstr "IP Adressen anonymisieren"
+
+#: languages/aioseo-lite.php:5566 languages/aioseo-pro.php:7207
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Track Outbound Links"
+msgstr "Ausgehende Links tracken"
+
+#: languages/aioseo-lite.php:3880 languages/aioseo-pro.php:4913
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Pinterest Site Verification"
+msgstr "Pinterest Site Verification"
+
+#: languages/aioseo-lite.php:3493 languages/aioseo-pro.php:4427
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "No Pagination for Canonical URLs"
+msgstr "Keine Paginierung für kanonische URLs"
+
+#: languages/aioseo-lite.php:3789 languages/aioseo-pro.php:4796
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Paged Format"
+msgstr "Format paginiert"
+
+#: languages/aioseo-lite.php:1625 languages/aioseo-pro.php:2109
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Display Advertiser Tracking"
+msgstr "Advertiser Tracking anzeigen"
+
+#: languages/aioseo-lite.php:3173 languages/aioseo-pro.php:4064
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Manage Google Analytics"
+msgstr "Google Analytics verwalten"
+
+#: languages/aioseo-lite.php:5376 languages/aioseo-pro.php:6973
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "This option allows you to toggle the use of Meta Keywords throughout the whole of the site."
+msgstr "Diese Einstellung ermöglicht dir, die Verwendung von Meta-Schlüsselwörtern über die gesamte Website ein- und auszuschalten."
+
+#: languages/aioseo-lite.php:1079 languages/aioseo-pro.php:1453
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Check this if you want your categories for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "Markiere dieses Feld, wenn du Kategorien für einen bestimmten Beitrag (zusätzlich zu allen Schlüsselwörtern, die die beim Bearbeiten des Beitrags festlegst) als Meta-Schlüsselwörter verwenden möchtest."
+
+#: languages/aioseo-lite.php:1085 languages/aioseo-pro.php:1459
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Check this if you want your tags for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "Markiere dieses Feld, wenn du die für einen Beitrag verwendeten Schlagwörter (zusätzlich zu den bei der Beitragsbearbeitung festgelegten Schlüsselwörtern) als Meta-Schlüsselwörter für diesen Beitrag verwenden möchtest. "
+
+#: languages/aioseo-lite.php:848 languages/aioseo-pro.php:1164
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Bad Bot Blocker"
+msgstr "Bad Bot Blocker"
+
+#: languages/aioseo-lite.php:5545 languages/aioseo-pro.php:7186
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Track Blocked Bots"
+msgstr "Blockierte Bots verfolgen"
+
+#: languages/aioseo-lite.php:5887 languages/aioseo-pro.php:7606
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "User Agent Blocklist"
+msgstr "User Agent Blocklist"
+
+#: languages/aioseo-lite.php:4170 languages/aioseo-pro.php:5310
+#: dist/Lite/assets/js/BadBotBlocker.df2fcb97.js:1
+msgid "Referer Blocklist"
+msgstr "Referer Blocklist"
+
+#: app/Common/Admin/Admin.php:162 languages/aioseo-lite.php:2224
+#: languages/aioseo-pro.php:2876 dist/Lite/assets/js/Main.bedd85b2.js:1
+msgid "General Settings"
+msgstr "Haupteinstellungen"
+
+#. Translators: 1 - The IP address. 2 - The user agent.
+#: app/Common/Tools/BadBotBlocker.php:228
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr "Blockierter Bot mit der IP %1$s  -- übereinstimmend mit User-Agent %2$s in der Blockierliste."
+
+#. Translators: 1 - The IP address. 2 - The referer.
+#: app/Common/Tools/BadBotBlocker.php:237
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr "Bot mit IP %1$s blockiert -- stimmt überein mit Eintrag %2$s in der Blockliste."

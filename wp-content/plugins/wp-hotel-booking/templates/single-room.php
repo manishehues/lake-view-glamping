@@ -16,13 +16,8 @@ defined( 'ABSPATH' ) || exit();
 
 get_header(); ?>
 
-
-<?php the_field('header_part'); ?>
-
-
-<div id="singleDomeBokking" class="section shortContainer singleDomeBokking">
-	<div class="fusion-row">
-		<?php
+<div id="singleDomeBokking" class="shortContainer singleDomeBokking">
+	<?php
 		/**
 		 * hotel_booking_before_main_content hook
 		 */
@@ -50,7 +45,6 @@ get_header(); ?>
 		 */
 		// do_action( 'hotel_booking_sidebar' );
 		?>
-	</div>
 </div>
 
 <?php get_footer(); ?>

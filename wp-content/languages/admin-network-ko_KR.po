@@ -1,15 +1,23 @@
-# Translation of WordPress - 5.9.x - Development - Administration - Network Admin in Korean
-# This file is distributed under the same license as the WordPress - 5.9.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.0.x - Development - Administration - Network Admin in Korean
+# This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-18 18:55:05+0000\n"
+"PO-Revision-Date: 2022-05-07 00:40:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: ko_KR\n"
-"Project-Id-Version: WordPress - 5.9.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.0.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/network/upgrade.php:141
+msgid "WordPress has been updated! Next and final step is to individually upgrade the sites in your network."
+msgstr "워드프레스를 업데이트했습니다! 다음의 마지막 단계는 네트워크의 사이트를 개별적으로 업그레이드해야 합니다."
+
+#: wp-admin/network/site-new.php:40
+msgid "Cannot create an empty site."
+msgstr "빈 사이트를 생성할 수 없습니다."
 
 #. translators: %s: wp-config.php
 #: wp-admin/includes/network.php:463
@@ -706,10 +714,6 @@ msgstr "여기에서 할 수 있는 일:"
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
 msgstr "네트워크 관리자에 오신 것을 환영합니다. 관리자 화면의 이 영역은 다중사이트 네트워크의 모든 측면을 관리하기 위해 사용합니다."
 
-#: wp-admin/network/upgrade.php:141
-msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "워드프레스를 업데이트했습니다! 보내기 전에, 네트워크의 사이트를 개별적으로 업그레이드할 필요가 있습니다."
-
 #: wp-admin/network/upgrade.php:24
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "(네트워크 관리 탐색 메뉴 또는 도구 모음을 통한) 업데이트/사용 가능한 업데이트를 통해 새 버전의 워드프레스로 업데이트 한 후에만 이 화면을 사용하세요. 네트워크 업그레이드 버튼을 누르면 네트워크의 각 사이트를 한 번에 5개씩 살펴보고 데이터베이스 업데이트를 적용하였는지 확인합니다."
@@ -1110,8 +1114,8 @@ msgid "If this process fails for any reason, users logging in to their sites wil
 msgstr "어떤 이유로든 이 절차가 실패하면, 자신의 사이트에 로그인한 사용자는 같은 업데이트를 강제할 것입니다."
 
 #: wp-admin/network/upgrade.php:25
-msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
-msgstr "코어에 대한 버전 업데이트가 발생하지 않으면, 이 버튼을 누르면 아무 것에도 영향을 미치지 않습니다."
+msgid "If a version update to core has not happened, clicking this button will not affect anything."
+msgstr "코어에 대한 버전 업데이트가 발생하지 않을 경우, 이 버튼을 클릭하면 아무 것에도 영향을 미치지 않습니다."
 
 #: wp-admin/network/themes.php:301
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
@@ -1147,8 +1151,8 @@ msgid "The following words are reserved for use by WordPress functions and canno
 msgstr "다음 단어는 WordPress 기능에서 사용하기 위해 유보한 것이며 사이트 이름으로는 사용할 수 없습니다: %s"
 
 #: wp-admin/network/upgrade.php:125
-msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
-msgstr "브라우저가 다음 페이지를 자동으로 로드하지 않으면 이 링크를 누르세요:"
+msgid "If your browser does not start loading the next page automatically, click this link:"
+msgstr "브라우저가 다음 페이지를 자동으로 로드하지 않을 경우 이 링크를 클릭하세요:"
 
 #: wp-admin/network/settings.php:302
 msgid "If you want to ban domains from site registrations. One domain per line."
@@ -1157,10 +1161,6 @@ msgstr "만약 사이트 등록에 특정 도메인을 차단하기를 원한다
 #: wp-admin/network/settings.php:282
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "사이트 등록을 특정 도메인에 제한하기 원한다면, 줄당 한 도메인입니다."
-
-#: wp-admin/network/site-new.php:40
-msgid "Can&#8217;t create an empty site."
-msgstr "빈 사이트를 만들 수 없습니다."
 
 #: wp-admin/network/users.php:268
 msgid "Users removed from spam."

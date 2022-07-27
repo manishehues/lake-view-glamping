@@ -38,7 +38,7 @@ if ( post_password_required() ) {
     <div class="summary entry-summary">
 
 		<div class="snglDomeWrap">
-			<div class="leftSide gallery-info">
+			<div class="gallery-info">
 				<?php
 					/**
 					 * hotel_booking_single_room_title hook
@@ -52,7 +52,7 @@ if ( post_password_required() ) {
 					/**
 					 * hotel_booking_single_room_gallery hook
 					 */
-					do_action( 'hotel_booking_single_room_gallery' );
+					//do_action( 'hotel_booking_single_room_gallery' );  
 
 					/**
 					 * hotel_booking_single_room_infomation hook
@@ -60,7 +60,7 @@ if ( post_password_required() ) {
 					do_action( 'hotel_booking_single_room_infomation' );
 				?>
 			</div>
-			<div class="rightSide priceDetails">
+			<div style="display:none" class="rightSide priceDetails">
 				<?php
 					/**
 					 * hotel_booking_single_room_title hook
@@ -70,7 +70,7 @@ if ( post_password_required() ) {
 					/**
 					 * hotel_booking_loop_room_price hook
 					 */
-					do_action( 'hotel_booking_loop_room_price' );
+					//do_action( 'hotel_booking_loop_room_price' );
 
 					/**
 					 * hotel_booking_single_room_gallery hook

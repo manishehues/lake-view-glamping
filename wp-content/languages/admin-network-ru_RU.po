@@ -1,15 +1,23 @@
-# Translation of WordPress - 5.9.x - Development - Administration - Network Admin in Russian
-# This file is distributed under the same license as the WordPress - 5.9.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.0.x - Development - Administration - Network Admin in Russian
+# This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-16 23:42:44+0000\n"
+"PO-Revision-Date: 2022-05-02 22:11:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: ru\n"
-"Project-Id-Version: WordPress - 5.9.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.0.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/network/upgrade.php:141
+msgid "WordPress has been updated! Next and final step is to individually upgrade the sites in your network."
+msgstr "WordPress был обновлён! Следующим (и последним шагом) будет обновление каждого сайта в сети."
+
+#: wp-admin/network/site-new.php:40
+msgid "Cannot create an empty site."
+msgstr "Нельзя создать пустой сайт."
 
 #. translators: %s: wp-config.php
 #: wp-admin/includes/network.php:463
@@ -740,10 +748,6 @@ msgstr "Здесь вы можете:"
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
 msgstr "Добро пожаловать в панель управления сетью. Эта часть экранов управления используется для настройки всех аспектов работы вашей сети."
 
-#: wp-admin/network/upgrade.php:141
-msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "WordPress был обновлён! Прежде чем продолжить работу, нужно обновить базу данных каждого сайта вашей сети."
-
 #: wp-admin/network/upgrade.php:24
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Используйте этот экран только после обновления до новой версии WordPress со страницы &laquo;Обновления > Все обновления&raquo; (через меню раздела &laquo;Администрирование сети&raquo; или через верхнюю панель). При нажатии на кнопку &laquo;Обновить сеть&raquo; для каждого сайта сети (по пять за один раз) будет запущена процедура обновления базы данных."
@@ -1144,7 +1148,7 @@ msgid "If this process fails for any reason, users logging in to their sites wil
 msgstr "Если этот процесс по какой-либо причине прервётся, пользователи запустят то же самое обновление при входе на свои сайты."
 
 #: wp-admin/network/upgrade.php:25
-msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgid "If a version update to core has not happened, clicking this button will not affect anything."
 msgstr "Если ядро WordPress не обновлялось, нажатие этой кнопки ни на что не повлияет."
 
 #: wp-admin/network/themes.php:301
@@ -1181,7 +1185,7 @@ msgid "The following words are reserved for use by WordPress functions and canno
 msgstr "Следующие слова зарезервированы для применения в функциях WordPress и не могут быть использованы в качестве имени сайта: %s"
 
 #: wp-admin/network/upgrade.php:125
-msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgid "If your browser does not start loading the next page automatically, click this link:"
 msgstr "Если браузер не начинает загрузку следующей страницы автоматически, перейдите по ссылке:"
 
 #: wp-admin/network/settings.php:302
@@ -1191,10 +1195,6 @@ msgstr "Если вы хотите запретить регистрацию с 
 #: wp-admin/network/settings.php:282
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Если вы хотите разрешить регистрацию только с адресами из определённых доменов. Один домен на строку."
-
-#: wp-admin/network/site-new.php:40
-msgid "Can&#8217;t create an empty site."
-msgstr "Нельзя создать пустой сайт."
 
 #: wp-admin/network/users.php:268
 msgid "Users removed from spam."

@@ -1,15 +1,23 @@
-# Translation of WordPress - 5.9.x - Development - Administration - Network Admin in Italian
-# This file is distributed under the same license as the WordPress - 5.9.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.0.x - Development - Administration - Network Admin in Italian
+# This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-23 16:47:37+0000\n"
+"PO-Revision-Date: 2022-06-03 09:40:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: it\n"
-"Project-Id-Version: WordPress - 5.9.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.0.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/network/upgrade.php:141
+msgid "WordPress has been updated! Next and final step is to individually upgrade the sites in your network."
+msgstr "WordPress è stato aggiornato! Il prossimo e ultimo passo è di aggiornare, uno a uno, i siti nel tuo network."
+
+#: wp-admin/network/site-new.php:40
+msgid "Cannot create an empty site."
+msgstr "Non è possibile creare un sito vuoto."
 
 #. translators: %s: wp-config.php
 #: wp-admin/includes/network.php:463
@@ -297,7 +305,7 @@ msgstr "Scegli se vuoi usare sottodomini o sotto directory per i siti del tuo ne
 #. search for mod_rewrite.
 #: wp-admin/includes/network.php:216
 msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
-msgstr "Se %1$s è disattivata, chiedi all'amministratore di abilitare quel modulo, o di guardare la <a href=\"%2$s\">documentazione Apache</a> o <a href=\"%3$s\">altrove</a> per avere aiuto sulla sua creazione."
+msgstr "Se %1$s è disabilitato, chiedi all'amministratore di abilitare quel modulo, o di guardare la <a href=\"%2$s\">documentazione Apache</a> o <a href=\"%3$s\">altrove</a> per avere aiuto sulla sua creazione."
 
 #. translators: %s: mod_rewrite
 #: wp-admin/includes/network.php:206
@@ -347,17 +355,17 @@ msgstr "Tema corrotto:"
 #. translators: %s: Theme name.
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:599
 msgid "Network Disable %s"
-msgstr "Disattiva %s dal network"
+msgstr "Disabilita %s dal network"
 
 #. translators: %s: Theme name.
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:596
 msgid "Disable %s"
-msgstr "Disattiva %s"
+msgstr "Disabilita %s"
 
 #. translators: %s: Theme name.
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:573
 msgid "Network Enable %s"
-msgstr "Attiva %s nel network "
+msgstr "Attiva %s nel network"
 
 #. translators: %s: Theme name.
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:570
@@ -367,12 +375,12 @@ msgstr "Attiva %s"
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:472
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:606
 msgid "Network Disable"
-msgstr "Disattiva dal network"
+msgstr "Disabilita dal network"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:472
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:606
 msgid "Disable"
-msgstr "Disattiva"
+msgstr "Disabilita"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:469
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:580
@@ -551,7 +559,7 @@ msgstr "Stai per contrassegnare il sito %s come per adulti."
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:78
 msgid "You are about to delete the site %s."
-msgstr "Stai per cancellare il sito %s."
+msgstr "Stai per eliminare il sito %s."
 
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:76
@@ -723,10 +731,6 @@ msgstr "Da qui puoi:"
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
 msgstr "Benvenuto nell'Amministrazione del Network. Quest'area delle Schermate di Amministrazione serve a gestire tutti gli aspetti del tuo Network Multisito."
 
-#: wp-admin/network/upgrade.php:141
-msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "WordPress &#233; stato aggiornato correttamente! Prima di lasciarti andare, abbiamo bisogno di aggiornare singolarmente i siti del network."
-
 #: wp-admin/network/upgrade.php:24
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Utilizza questa schermata una volta che si è aggiornato ad una nuova versione di WordPress tramite Aggiornamenti/Aggiornamenti disponibili (nel menu di navigazione Amministrazione network o tramite la Barra strumenti). Facendo clic sul pulsante Aggiorna il network si scorreranno i singoli siti del network, cinque alla volta, assicurandosi che siano applicati tutti gli aggiornamenti al database."
@@ -804,7 +808,7 @@ msgstr "Informazioni sito aggiornate."
 
 #: wp-admin/network/themes.php:418
 msgid "You cannot delete a theme while it is active on the main site."
-msgstr "Non è possibile cancellare un tema mentre è attivo sul sito principale."
+msgstr "Non è possibile eliminare un tema mentre è attivo sul sito principale."
 
 #: wp-admin/network/themes.php:302
 msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
@@ -832,7 +836,7 @@ msgstr "Questo tema può essere attivo in un altro sito del network."
 
 #: wp-admin/network/themes.php:137
 msgid "Delete Theme"
-msgstr "Cancella tema"
+msgstr "Elimina tema"
 
 #: wp-admin/network/site-themes.php:213
 msgid "Network enabled themes are not shown on this screen."
@@ -864,7 +868,7 @@ msgstr "ID sito non valido."
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:168
 msgid "Sorry, you are not allowed to delete the site %s."
-msgstr "Non disponi del permesso per cancellare il sito %s."
+msgstr "Non disponi del permesso per eliminare il sito %s."
 
 #: wp-admin/network/sites.php:40
 msgid "Clicking on bold headings can re-sort this table."
@@ -1127,8 +1131,8 @@ msgid "If this process fails for any reason, users logging in to their sites wil
 msgstr "Se questa procedura fallisce per qualsiasi motivo, gli utenti che si collegheranno ai loro siti forzeranno il medesimo aggiornamento."
 
 #: wp-admin/network/upgrade.php:25
-msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
-msgstr "Se non vi è stato un aggiornamento di versione dei file di core, fare clic su questo pulsante non avrà alcun effetto."
+msgid "If a version update to core has not happened, clicking this button will not affect anything."
+msgstr "Se non c'è stato un aggiornamento di versione dei file del core, fare clic su questo pulsante non avrà alcun effetto."
 
 #: wp-admin/network/themes.php:301
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
@@ -1164,8 +1168,8 @@ msgid "The following words are reserved for use by WordPress functions and canno
 msgstr "Le seguenti parole sono riservate per l'utilizzo da parte delle funzioni di WordPress e non possono essere utilizzate come nomi per i siti: %s"
 
 #: wp-admin/network/upgrade.php:125
-msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
-msgstr "Se il proprio browser non inizia a caricare automaticamente la pagina successiva fare clic su questo link:"
+msgid "If your browser does not start loading the next page automatically, click this link:"
+msgstr "Se il tuo browser non inizia a caricare automaticamente la pagina successiva fai clic su questo link:"
 
 #: wp-admin/network/settings.php:302
 msgid "If you want to ban domains from site registrations. One domain per line."
@@ -1174,10 +1178,6 @@ msgstr "Se desideri impedire a specifici domini email la registrazione ai siti. 
 #: wp-admin/network/settings.php:282
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Se desideri consentire solo a specifici domini email di registrarsi ai siti. Inserisci un dominio per riga."
-
-#: wp-admin/network/site-new.php:40
-msgid "Can&#8217;t create an empty site."
-msgstr "Non è possibile creare un sito vuoto."
 
 #: wp-admin/network/users.php:268
 msgid "Users removed from spam."

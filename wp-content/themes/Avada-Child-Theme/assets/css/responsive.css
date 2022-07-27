@@ -6,6 +6,10 @@
     .fusion-body .subSame .contArea .entryContent h3{
         padding-right:0;
     }
+
+    .fusion-body .fusion-builder-column-1.rotateCircle.smallBanner{
+        right:0;
+    }
 }
 
 @media screen and (max-width:1599px){
@@ -200,8 +204,7 @@
     .fusion-body #singleDome .navSlider .fusion-imageframe{
         max-width:calc(100% - 10px);        
     }
-    .fusion-body #singleDome .rightSide{
-        width:100%!important;
+    .fusion-body #singleDome .rightSide{        
         max-width:250px!important;
     }
     .fusion-body .specialQuote.domeFeatures .discover{
@@ -635,6 +638,17 @@
     .hb_table{
         display:grid;
     }
+
+    .gallerySlider{
+        margin-bottom:120px;
+    }
+
+    #singleDome .fusion-text-4 .btnArea{
+        display:none;
+    }
+    .fusion-body #singleDome .rightSide{        
+        width:100%!important
+    }
     
 
 }    
@@ -1018,6 +1032,21 @@
     .checkout .hb_table thead{
         display:none;
     }
+
+    #hotel-booking-cart table tr.hb_checkout_item.package td {
+        display: unset;
+    }
+
+    #hotel-booking-cart table tr.hb_checkout_item.package td:first-child{
+        display:none;
+    }
+
+    #hotel-booking-cart table tr.hb_checkout_item.package td {
+        display: inline-block;
+        width: auto;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+      }
 }
 
 
@@ -1399,5 +1428,11 @@
     }
     .extrasLisiting .extrasTitle{
         font-size:30px;
+    }
+
+    .hb_table tbody tr.hb_sub_total td, .hb_table tbody tr.hb_advance_grand_total td, .hb_table tbody tr.hb_advance_payment td,
+    .hb_table tbody tr.hb_advance_tax td{
+        font-size:16px!important;
+        font-weight:normal
     }
 }

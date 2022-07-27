@@ -44,4 +44,19 @@ function redirect_if_404() {
     }
 }
 
+add_shortcode('domes_gallery','hotel_booking_single_room_gallery1');
 
+function hotel_booking_single_room_gallery1(){
+    ob_start();
+    do_action( 'hotel_booking_single_room_gallery' );
+    return ob_get_clean();
+}
+
+
+add_shortcode('domes_price','hotel_booking_loop_room_price1');
+
+function hotel_booking_loop_room_price1(){
+    ob_start();
+    do_action( 'hotel_booking_loop_room_price' );
+    return ob_get_clean();
+}

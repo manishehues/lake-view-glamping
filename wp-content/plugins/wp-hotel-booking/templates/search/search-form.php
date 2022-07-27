@@ -58,11 +58,13 @@ $uniqid         = uniqid();
 
             <li class="hb-form-field adults">
 				<div class="hb-form-field-input hb_input_field">				
-					<div class="hb-form-field-input">						
+					<div class="hb-form-field-input">				
 						<?php
 						hb_dropdown_numbers(
 							array(
+								'id'              	=> 'adults_capacity',
 								'name'              => 'adults_capacity',
+								'required'			=>true,
 								'min'               => 1,
 								'max'               => hb_get_max_capacity_of_rooms(),
 								'show_option_none'  => __( 'Adults', 'wp-hotel-booking' ),

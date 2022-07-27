@@ -41,10 +41,12 @@ do_action( 'hb_before_search_result' ); ?>
 					?>
 				</nav>
 			<?php } else { ?>
-				<p><?php _e( 'No room found.', 'wp-hotel-booking' ); ?></p>
-				<p>
-					<a href="<?php echo hb_get_url(); ?>"><?php _e( 'Search again!', 'wp-hotel-booking' ); ?></a>
-				</p>
+				<div class="notFound">
+					<h4><?php _e( 'No room found.', 'wp-hotel-booking' ); ?></h4>				
+					<div class="btnArea">
+						<a class="btn btn-primary small" href="<?php echo site_url('/booking'); ?>"><?php _e( 'Search again!', 'wp-hotel-booking' ); ?></a>
+					</div>
+				</div>				
 			<?php } ?>
 		</div>
 	</div>

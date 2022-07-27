@@ -23,16 +23,19 @@ $prices        = hb_room_get_selected_plan( get_the_ID() );
 $prices        = isset( $prices->prices ) ? $prices->prices : array();
 ?>
 
-<div class="selectedDates">
-	<div class="small checkIn"><span>Check-In :</span> <strong><?php echo hb_get_request( 'check_in_date' )?></strong></div>
-	<div class="small checkOut"><span>Check-Out :</span> <strong><?php echo hb_get_request( 'check_out_date' )?></strong></div>
-	<div class="small adults"><span>Adults :</span> <strong><?php echo hb_get_request( 'capacity' ); ?></strong></div>
-</div>
+
+<?php if(hb_get_request( 'check_in_date') !="" && hb_get_request( 'check_out_date' )): ?>
+	<div class="selectedDates">
+		<div class="small checkIn"><span>Check-In :</span> <strong><?php echo hb_get_request( 'check_in_date')?></strong></div>
+		<div class="small checkOut"><span>Check-Out :</span> <strong><?php echo hb_get_request( 'check_out_date' )?></strong></div>
+		<div class="small adults"><span>Adults :</span> <strong><?php echo hb_get_request( 'capacity' ); ?></strong></div>
+	</div>
+<?php endif; ?>
 
 <?php if ( $prices ) {
 	$min_price = is_numeric( min( $prices ) ) ? min( $prices ) : 0;
 	$max_price = is_numeric( max( $prices ) ) ? max( $prices ) : 0;
-	$min = $min_price + ( hb_price_including_tax() ? ( $min_price * hb_get_tax_settings() ) : 0 );
+	$min = $min_price;// + ( hb_price_including_tax() ? ( $min_price * hb_get_tax_settings() ) : 0 );
 	$max = $max_price + ( hb_price_including_tax() ? ( $max_price * hb_get_tax_settings() ) : 0 );
 	?>
 	<form name="hb-search-results" class="hb-search-room-results single-purchase">
@@ -66,7 +69,15 @@ $prices        = isset( $prices->prices ) ? $prices->prices : array();
 		</div>
 
 		<div class="btnArea">
-			<button class="hb_add_to_cart btn btn-primary">Book <?php the_title(); ?></button>
+
+			<?php if(hb_get_request( 'check_in_date') ==NULL || hb_get_request( 'check_out_date' ) == NULL): ?>
+				<a href="<?php echo site_url('/booking');?>" class="hb_add_to_cart btn btn-primary">Book <?php the_title(); ?></a href="">
+			
+			<?php else : ?>
+				
+				<button class="hb_add_to_cart btn btn-primary">Book <?php the_title(); ?></button>
+			<?php endif; ?>
+
 		</div>
 	</form>
 
