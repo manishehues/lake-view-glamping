@@ -1,0 +1,464 @@
+# Translation of Plugins - GA Google Analytics - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - GA Google Analytics - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-24 10:31:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - GA Google Analytics - Stable (latest release)\n"
+
+#: ga-google-analytics.php:327
+msgid "Error: your tracking code begins with"
+msgstr "Ошибка: ваш код отслеживания начинается с"
+
+#: ga-google-analytics.php:328
+msgid "(for Google Tag Manager), which is not supported. Please try again with a supported tracking code."
+msgstr "(для Google Tag Manager), который не поддерживается. Повторите попытку с поддерживаемым кодом отслеживания."
+
+#: inc/settings-display.php:223
+msgid "Enable tracking in WP Admin Area (adds tracking code only; to view stats log into your Google account)"
+msgstr "Включить отслеживание в админке WP (добавляет только код отслеживания; для просмотра статистики войдите в свою учетную запись Google)"
+
+#: inc/settings-display.php:49
+msgid "Check out the"
+msgstr "Проверьте"
+
+#: inc/settings-display.php:234
+msgid "More Options"
+msgstr "Дополнительные параметры"
+
+#: inc/settings-display.php:50
+msgid "PRO Version"
+msgstr "Версия PRO"
+
+#: inc/settings-display.php:50 inc/settings-display.php:237
+msgid "GA Google Analytics Pro"
+msgstr "GA Google Analytics Pro"
+
+#: ga-google-analytics.php:134
+msgid "Get GA Pro!"
+msgstr "Приобретите GA Pro!"
+
+#: ga-google-analytics.php:135
+msgid "Go&nbsp;Pro"
+msgstr "Перейдите на&nbsp;Pro"
+
+#: ga-google-analytics.php:154
+msgid "Homepage"
+msgstr "Главная страница"
+
+#: inc/settings-display.php:180
+msgid "for Global Site Tag. This is useful for things like"
+msgstr "для глобального тега отслеживания. Это полезно для таких вещей, как"
+
+#: inc/settings-display.php:181
+msgid "tracker objects"
+msgstr "объекты отслеживания"
+
+#: inc/settings-display.php:183
+msgid "optimize"
+msgstr "оптимизировать"
+
+#: inc/settings-display.php:196
+msgid "Note: you can use"
+msgstr "Примечание: вы можете использовать"
+
+#: inc/settings-display.php:236
+msgid "For advanced features, check out"
+msgstr "Для получения расширенных возможностей ознакомьтесь с"
+
+#: inc/settings-display.php:195
+msgid "user opt-out"
+msgstr "отказ пользователя"
+
+#: inc/settings-display.php:202
+msgid "Custom Code"
+msgstr "Произвольный код"
+
+#: inc/settings-display.php:164
+msgid "Tracking Code Location"
+msgstr "Местоположение кода отслеживания"
+
+#: inc/settings-display.php:212
+msgid "Custom Code Location"
+msgstr "Местоположение пользовательского кода"
+
+#: inc/settings-display.php:215
+msgid "Display Custom Code"
+msgstr "Отображать пользовательский код"
+
+#: ga-google-analytics.php:125
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/settings-display.php:21
+msgid "Overview"
+msgstr "Обзор"
+
+#: inc/settings-display.php:182 inc/settings-display.php:194
+#: inc/settings-display.php:196
+msgid "and"
+msgstr "и"
+
+#: inc/settings-display.php:216
+msgid "after"
+msgstr "после"
+
+#: inc/settings-display.php:215
+msgid "before"
+msgstr "перед"
+
+#: ga-google-analytics.php:183
+msgid " or higher, and has been deactivated! "
+msgstr " или выше, и был отключен! "
+
+#: ga-google-analytics.php:401
+msgid "(default)"
+msgstr "(по умолчанию)"
+
+#: ga-google-analytics.php:159
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "Нажмите здесь для того чтобы оценить этот плагин на WordPress.org"
+
+#: ga-google-analytics.php:245
+msgid "Default options restored."
+msgstr "Настройки по умолчанию восстановлены."
+
+#: inc/settings-display.php:139
+msgid "Enhanced Link Attribution"
+msgstr "Улучшенная атрибуция ссылки"
+
+#: ga-google-analytics.php:85 inc/support-panel.php:5
+msgid "Google Analytics"
+msgstr "Google Аналитика"
+
+#: inc/settings-display.php:92
+msgid "Google Analytics account"
+msgstr "Учётная запись Google Analytics"
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#: ga-google-analytics.php:395
+msgid "Legacy"
+msgstr "Наследовать"
+
+#: inc/settings-display.php:135
+msgid "Link Attribution"
+msgstr "Атрибуты ссылки"
+
+#: ga-google-analytics.php:249
+msgid "No changes made to options."
+msgstr "Настройки не изменены."
+
+#: ga-google-analytics.php:184
+msgid "Please return to the"
+msgstr "Пожалуйста, вернитесь в"
+
+#: ga-google-analytics.php:153 inc/settings-display.php:34
+#: inc/settings-display.php:282
+msgid "Plugin Homepage"
+msgstr "Страница плагина"
+
+#: inc/settings-display.php:33 inc/settings-display.php:106
+msgid "Plugin Settings"
+msgstr "Настройки плагина"
+
+#: ga-google-analytics.php:160
+msgid "Rate this plugin"
+msgstr "Оцените этот плагин"
+
+#: inc/settings-display.php:252
+msgid "Restore Defaults"
+msgstr "Восстановить значения по умолчанию"
+
+#: ga-google-analytics.php:472
+msgid "Restore default plugin options"
+msgstr "Сбросить настройки плагина"
+
+#: inc/settings-display.php:244
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: inc/support-panel.php:66
+msgid "Thank you for using"
+msgstr "Благодарим за использование"
+
+#: inc/support-panel.php:64
+msgid "donation"
+msgstr "пожертвование"
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
+
+#: ga-google-analytics.php:182
+msgid "requires WordPress "
+msgstr "требует WordPress "
+
+#: ga-google-analytics.php:185
+msgid "to upgrade WordPress and try again."
+msgstr "чтобы обновить WordPress и попробуйте снова."
+
+#: inc/support-panel.php:62
+msgid "books"
+msgstr "книги"
+
+#: inc/support-panel.php:63
+msgid "plugins"
+msgstr "плагины"
+
+#: ga-google-analytics.php:405
+msgid "(new method)"
+msgstr "(новый метод)"
+
+#: ga-google-analytics.php:377 ga-google-analytics.php:381
+msgid ")"
+msgstr ")"
+
+#: inc/settings-display.php:285
+msgid "@"
+msgstr "@"
+
+#. Plugin Name of the plugin
+#: ga-google-analytics.php:66 ga-google-analytics.php:84
+msgid "GA Google Analytics"
+msgstr "GA Google Analytics"
+
+#. Plugin URI of the plugin
+msgid "https://perishablepress.com/google-analytics-plugin/"
+msgstr "https://perishablepress.com/google-analytics-plugin/"
+
+#: inc/settings-display.php:82 inc/support-panel.php:68
+msgid "or"
+msgstr "или"
+
+#: inc/settings-display.php:266
+msgid "Show Support"
+msgstr "Оказать поддержку"
+
+#: inc/settings-display.php:118
+msgid "Tracking Method"
+msgstr "Метод отслеживания"
+
+#: inc/support-panel.php:69
+msgid "Your generous support helps to ensure future development of"
+msgstr "Ваша щедрая поддержка помогает обеспечить будущее развитие"
+
+#: inc/settings-display.php:78
+msgid "Visit the \"Plugin Settings\" panel"
+msgstr "Перейти на панель \"Настройки плагина"
+
+#: ga-google-analytics.php:185
+msgid "WP Admin Area"
+msgstr "Область администратора WP"
+
+#: inc/settings-display.php:75
+msgid "How to use this plugin:"
+msgstr "Как использовать этот плагин:"
+
+#: inc/settings-display.php:32 inc/settings-display.php:63
+msgid "How to Use"
+msgstr "Как использовать"
+
+#: inc/settings-display.php:227
+msgid "Admin Users"
+msgstr "Пользователи-администраторы"
+
+#: inc/settings-display.php:9
+msgid "Toggle all panels"
+msgstr "Переключить все панели"
+
+#. Description of the plugin
+msgid "Adds your Google Analytics Tracking Code to your WordPress site."
+msgstr "Добавляет код отслеживания Google Analytics на ваш сайт WordPress."
+
+#: inc/settings-display.php:130 inc/settings-display.php:138
+#: inc/settings-display.php:146 inc/settings-display.php:154
+msgid "Enable support for"
+msgstr "Включить поддержку для"
+
+#: ga-google-analytics.php:394 inc/settings-display.php:82
+msgid "Global Site Tag"
+msgstr "Глобальный тег отслеживания"
+
+#: ga-google-analytics.php:409
+msgid "(deprecated)"
+msgstr "(устаревший)"
+
+#: inc/settings-display.php:114
+msgid "GA Tracking ID"
+msgstr "ID отслеживания GA"
+
+#: inc/settings-display.php:143 inc/settings-display.php:147
+msgid "IP Anonymization"
+msgstr "Анонимизация IP"
+
+#: inc/settings-display.php:151 inc/settings-display.php:155
+msgid "Force SSL"
+msgstr "Принудительное использование SSL"
+
+#: ga-google-analytics.php:381
+msgid "Include tracking code in page footer (via"
+msgstr "Включить код отслеживания в подвал (footer) страницы (через"
+
+#: ga-google-analytics.php:377
+msgid "Include tracking code in page head (via"
+msgstr "Включить код отслеживания в заголовок (head) страницы (через"
+
+#: ga-google-analytics.php:281 ga-google-analytics.php:287
+msgid "Cheatin&rsquo; huh?"
+msgstr "Хакер, что ли?"
+
+#: inc/settings-display.php:168
+msgid "Tip: Google recommends including the tracking code in the page head, but including it in the footer can benefit page performance."
+msgstr "Совет: Google рекомендует включать код отслеживания в head страницы, но включение его в footer может положительно сказаться на производительности страницы."
+
+#: inc/settings-display.php:169
+msgid "If in doubt, go with the head option."
+msgstr "Если сомневаетесь, выбирайте вариант head."
+
+#: inc/settings-display.php:29
+msgid "This plugin adds the GA Tracking Code to your site. Log in to your Google account to view your stats."
+msgstr "Этот плагин добавляет код отслеживания GA на ваш сайт. Войдите в свой аккаунт Google, чтобы просмотреть статистику."
+
+#: inc/settings-display.php:38
+msgid "If you like this plugin, please"
+msgstr "Если вам нравится этот плагин, пожалуйста"
+
+#: inc/settings-display.php:39
+msgid "THANK YOU for your support!"
+msgstr "Спасибо за Вашу поддержку!"
+
+#: inc/settings-display.php:40
+msgid "give it a 5-star rating"
+msgstr "оцените нас на 5 звёзд"
+
+#: inc/settings-display.php:79
+msgid "Enter your GA Tracking ID"
+msgstr "Введите свой ID отслеживания GA"
+
+#: inc/settings-display.php:81
+msgid "Choose either"
+msgstr "Выберите один из вариантов"
+
+#: inc/settings-display.php:84
+msgid "Configure any other plugin settings as desired (optional)"
+msgstr "Настройте любые другие параметры плагина по желанию (необязательно)"
+
+#: inc/settings-display.php:87
+msgid "Save changes and done. After 24-48 hours, you can log into your Google Analytics account to view your stats."
+msgstr "Сохраните изменения и готово. Через 24-48 часов вы можете войти в свою учетную запись Google Analytics, чтобы просмотреть свою статистику."
+
+#: inc/settings-display.php:91
+msgid "Note that it can take 24-48 hours after adding the tracking code before any analytical data appears in your"
+msgstr "Обратите внимание, что может пройти от 24 до 48 часов после добавления кода отслеживания, прежде чем какие-либо аналитические данные появятся в вашем аккаунте."
+
+#: inc/settings-display.php:93
+msgid "To check that the GA tacking code is included, look at the source code of your web page(s). Learn more at the"
+msgstr "Чтобы убедиться, что код отслеживания GA включен, просмотрите исходный код своих веб-страниц. Узнайте больше на"
+
+#: inc/settings-display.php:94
+msgid "Google Analytics Help Center"
+msgstr "Справочный центр Google Аналитики"
+
+#: inc/settings-display.php:174
+msgid "Custom Tracker Objects"
+msgstr "Пользовательские объекты отслеживания"
+
+#: inc/settings-display.php:178
+msgid "Any code entered here will be added to"
+msgstr "Любой введенный здесь код будет добавлен в"
+
+#: ga-google-analytics.php:393 inc/settings-display.php:81
+msgid "Universal Analytics"
+msgstr "Universal Analytics"
+
+#: inc/settings-display.php:179
+msgid "for Universal Analytics, or added to"
+msgstr "для Universal Analytics или добавлен в"
+
+#: inc/settings-display.php:188
+msgid "Custom GA Code"
+msgstr "Пользовательский код GA"
+
+#: inc/settings-display.php:192
+msgid "Any code entered here will be added to the GA code snippet. This is useful for things like creating"
+msgstr "Любой введенный здесь код будет добавлен во фрагмент кода GA. Это полезно для таких вещей, как создание"
+
+#: inc/settings-display.php:206
+msgid "Here you may specify any markup to be displayed in the"
+msgstr "Здесь вы можете указать любую разметку, которая будет отображаться в"
+
+#: ga-google-analytics.php:114
+msgid "Are you sure you want to restore all default options?"
+msgstr "Вы уверены, что хотите восстановить все параметры по умолчанию?"
+
+#: inc/settings-display.php:207
+msgid "section (or in the footer, depending on the \"Tracking Code Location\" setting, above)."
+msgstr "(или в footer, в зависимости от настройки \"Местоположение кода отслеживания\", приведенной выше)."
+
+#: inc/settings-display.php:216
+msgid "the GA tracking code (leave unchecked to display"
+msgstr "код отслеживания GA (оставьте не отмеченным, чтобы отображать"
+
+#: inc/settings-display.php:216
+msgid "the tracking code)"
+msgstr "код отслеживания)"
+
+#: inc/settings-display.php:220
+msgid "Admin Area"
+msgstr "Область администратора"
+
+#: inc/settings-display.php:230
+msgid "Disable tracking of Admin-level users"
+msgstr "Отключить отслеживание пользователей уровня администратора"
+
+#: inc/settings-display.php:256
+msgid "Click the link to restore the default plugin options."
+msgstr "Щелкните ссылку, чтобы восстановить параметры плагина по умолчанию."
+
+#: inc/settings-display.php:284
+msgid "Jeff Starr on Twitter"
+msgstr "Jeff Starr в Twitter"
+
+#: inc/settings-display.php:286
+msgid "Obsessive Web Development"
+msgstr "Навязчивая веб-разработка"
+
+#: inc/support-panel.php:58
+msgid "Perishable Press Books"
+msgstr "Perishable Press Books"
+
+#: inc/support-panel.php:59
+msgid "Plugin Planet"
+msgstr "Plugin Planet"
+
+#: inc/support-panel.php:60
+msgid "Donate via PayPal"
+msgstr "Пожертвовать через PayPal"
+
+#: inc/support-panel.php:67
+msgid "Please show support by purchasing one of my"
+msgstr "Пожалуйста, окажите поддержку, купив один из моих"
+
+#: inc/support-panel.php:68
+msgid "or by making a"
+msgstr "или путем внесения"
+
+#: inc/support-panel.php:70
+msgid "and is greatly appreciated."
+msgstr "и очень ценится."
+
+#: inc/support-panel.php:72
+msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+msgstr "Пожертвование любого размера помогает мне продолжать разработку этого бесплатного плагина и других замечательных ресурсов WordPress."
+
+#: inc/settings-display.php:283
+msgid "by"
+msgstr "от "

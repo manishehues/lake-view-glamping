@@ -1,0 +1,79 @@
+.hotel_booking_calendar {
+    padding: 15px;
+}
+
+.calendar_setup {
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.calendar_setup .remove-plan {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    color: #999;
+}
+
+.calendar_setup .remove-plan:hover {
+    color: #d05d5d;
+}
+
+hotel-calendar {
+    margin-left: 50px;
+    width: 75%;
+    display: inline-block;
+}
+
+.hotel_block_pull_left {
+    float: left;
+    width: 50%;
+}
+
+.pull_room {
+    float: left;
+    width: 50%
+}
+
+.block-message {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.block-message.success {
+    color: #28A220;
+}
+
+.block-message.error {
+    color: #E66A12;
+}
+
+.remove-plan {
+    display: block;
+}
+
+.hotel_booking_calendar .text-center.picker-day.picker-empty {
+    visibility: hidden;
+}
+
+.button.text-center.picker-navigate {
+    width: 40px;
+    font-weight: bold;
+}
+
+.hotel_booking_calendar .text-center.picker-month {
+    width: calc(100% - 80px);
+    font-weight: bold;
+}
+
+.hotel_booking_calendar .select-block-rooms {
+    vertical-align: top;
+    width: 20%;
+}

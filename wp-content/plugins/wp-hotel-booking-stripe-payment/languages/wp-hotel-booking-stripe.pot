@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-21 13:18+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wp-hotel-booking-stripe.php:104
+msgid ""
+"The <strong>WP Hotel Booking</strong> is not installed and/or activated. "
+"Please install and/or activate before you can using <strong>WP Hotel Booking "
+"Stripe Payment</strong> add-on."
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:54
+msgid "Stripe"
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:55
+msgid "Pay with Stripe"
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:121
+#, php-format
+msgid "%s - Order %s"
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:132
+#, php-format
+msgid "%s. Please try again"
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:149
+msgid "Please try again"
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:231
+msgid "There was a problem connecting to the payment gateway."
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:234
+msgid "Empty response."
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:242
+msgid "Invalid response."
+msgstr ""
+
+#: inc/class-hb-payment-gateway-stripe.php:263
+msgid "Pay with Credit card"
+msgstr ""
+
+#: inc/views/strip-settings.php:29
+msgid "Enable"
+msgstr ""
+
+#: inc/views/strip-settings.php:36
+msgid "Test Mode Enable"
+msgstr ""
+
+#: inc/views/strip-settings.php:43
+msgid "Test Secret Key"
+msgstr ""
+
+#: inc/views/strip-settings.php:49
+msgid "Test Publishable Key"
+msgstr ""
+
+#: inc/views/strip-settings.php:55
+msgid "Live Secret Key"
+msgstr ""
+
+#: inc/views/strip-settings.php:61
+msgid "Live Publishable Key"
+msgstr ""

@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-20 10:01+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wp-hotel-booking-block.php:80
+msgid ""
+"The <strong>WP Hotel Booking</strong> is not installed and/or activated. "
+"Please install and/or activate before you can using <strong>WP Hotel Booking "
+"Block Room</strong> add-on."
+msgstr ""
+
+#: inc/class-hb-block.php:56
+msgctxt "post type general name"
+msgid "Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:57
+msgctxt "post type singular name"
+msgid "Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:58
+msgctxt "admin menu"
+msgid "Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:59
+msgctxt "add new on admin bar"
+msgid "Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:60
+msgctxt "block"
+msgid "Add New"
+msgstr ""
+
+#: inc/class-hb-block.php:61
+msgid "Add New Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:62
+msgid "New Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:63
+msgid "Edit Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:64
+msgid "View Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:65
+msgid "All Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:66
+msgid "Search Blocked"
+msgstr ""
+
+#: inc/class-hb-block.php:67
+msgid "Parent Blocked:"
+msgstr ""
+
+#: inc/class-hb-block.php:68
+msgid "No blocked found."
+msgstr ""
+
+#: inc/class-hb-block.php:69
+msgid "No blocked found in Trash."
+msgstr ""
+
+#: inc/class-hb-block.php:74
+msgid "Blocked days."
+msgstr ""
+
+#: inc/class-hb-block.php:102 inc/class-hb-block.php:103
+msgid "Block Special Date"
+msgstr ""
+
+#: inc/class-hb-block.php:134
+msgid "Request has error. Please try again."
+msgstr ""
+
+#: inc/class-hb-block.php:148
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/class-hb-block.php:172 inc/class-hb-block.php:173
+msgid "Block item"
+msgstr ""
+
+#: inc/class-hb-block.php:203
+msgid "Update Completed."
+msgstr ""
+
+#: inc/class-hb-block.php:213
+msgid "You must Login System"
+msgstr ""
+
+#: inc/class-hb-block.php:304
+msgid "Something went wrong. Please try again!"
+msgstr ""
+
+#: inc/class-hb-block.php:314 inc/class-hb-block.php:322
+msgid "Remove completed!"
+msgstr ""
+
+#: inc/admin/views/block.php:28
+msgid "Delete"
+msgstr ""
+
+#: inc/admin/views/block.php:36
+msgid "Add Specific Calendar"
+msgstr ""
+
+#: inc/admin/views/block.php:37
+msgid "Update"
+msgstr ""
