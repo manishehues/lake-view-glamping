@@ -60,6 +60,10 @@
         padding-top:60px!important;
         padding-bottom:60px!important;
     }
+
+    .hb-message.message{
+        margin-bottom:0!important;
+    }
     
 
     .entryContent h2{
@@ -1049,9 +1053,40 @@
 
     #hotel-booking-cart table tr.hb_checkout_item.package td {
         display: inline-block;
-        width: auto;
+        width: 25%;
         padding-top: 15px !important;
         padding-bottom: 15px !important;
+      }
+
+
+      .hb_table tbody tr.hb_sub_total td, .hb_table tbody tr.hb_advance_grand_total td, .hb_table tbody tr.hb_advance_payment td,
+      .hb_table tbody tr.hb_coupon td.hb_coupon_remove span.hb-remove-coupon_code, .hb_table tbody tr.hb_coupon td.hb_coupon_remove span.hb-align-right{
+        font-size:18px;
+        width:100%;
+      } 
+
+      .hb_table tbody tr.hb_coupon td.hb_coupon_remove span.hb-align-right{
+        float:left;
+        font-size:35px;
+        text-align: left;
+      }
+
+      .cartPageWrap .hb_table tbody tr.hb_coupon button{
+        position: relative;
+        top:0;
+        width:100%;
+        font-size:17px;
+        height:50px!important;
+        right:0;
+        margin:0!important        
+      }
+
+      .cartPageWrap .hb_table tbody tr.hb_coupon input[type="text"]{                
+        font-size: 25px !important;
+        background: #eee !important;
+        font-size: 20px !important;
+        border-radius: 5px !important;
+        margin-bottom: 10px !important;                
       }
 }
 

@@ -2505,6 +2505,81 @@ body.wp-hotel-booking-thank-you #main >  .fusion-row{
     background:none;
 }
 
+.hb_table tbody tr.hb_coupon td{
+    border-top:1px solid var(--pri-color);
+    border-right:1px solid var(--pri-color);
+    position: relative;
+    padding:10px!important;
+}
+
+.hb_table tbody tr.hb_coupon td.hb_coupon_remove{
+    background:var(--sec-color);
+}
+
+.hb_table tbody tr.hb_coupon td.hb_coupon_remove span.hb-remove-coupon_code,
+.hb_table tbody tr.hb_coupon td.hb_coupon_remove span.hb-align-right{
+    font-family: var(--h4_typography-font-family);
+    font-size: 25px;
+    line-height: normal;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: var(--thi-color);
+}
+
+.hb_table tbody tr.hb_coupon td.hb_coupon_remove span.hb-align-right{
+    float:right;
+}
+
+.hb_table tbody tr.hb_coupon td.hb_coupon_remove p{
+    position: absolute;
+    left: 8px;
+    font-size: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cartPageWrap .hb_table tbody tr.hb_coupon input::placeholder{
+    opacity: 0.1;
+}
+
+.cartPageWrap .hb_table tbody tr.hb_coupon input[type="text"],
+.cartPageWrap .hb_table tbody tr.hb_coupon button{
+    margin-top:0!important;
+    margin-bottom:0!important;
+}
+
+
+.cartPageWrap .hb_table tbody tr.hb_coupon input[type="text"] {
+    height: 50px;
+    width: 100% !important;
+    font-size: 25px !important;
+}
+
+.cartPageWrap .hb_table tbody tr.hb_coupon button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: calc(100% - 20px);
+    width: 250px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: var(--h4_typography-font-family);
+    background:var(--sec-color)!important;
+    color:var(--thi-color);
+    cursor:pointer;
+  }
+  .cartPageWrap .hb_table tbody tr.hb_coupon button:hover{
+    background:var(--pri-color)!important
+  }
+
+  .hb-message.message{
+    margin-top: 45px;
+    margin-bottom: -55px;
+  }
+
+
+
+
 .hb_table tbody tr.hb_checkout_item.package td,
 .hb_table tbody tr.hb_checkout_item.package td a{
     color:var(--pri-color);
@@ -2550,7 +2625,7 @@ body.wp-hotel-booking-thank-you #main >  .fusion-row{
     background:var(--pri-color)
 }
 .hb_table tbody tr.hb_sub_total td{
-    padding-top:25px!important;
+    /* padding-top:25px!important; */
 }
 
 .hb_table tbody tr.hb_advance_payment td{
