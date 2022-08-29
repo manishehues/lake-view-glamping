@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Redirection - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-21 12:53:51+0000\n"
+"PO-Revision-Date: 2022-07-29 17:11:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,6 +18,10 @@ msgstr "Manuell installation"
 #: redirection-strings.php:188 redirection.js:2
 msgid "Importing failed."
 msgstr "Importen misslyckades."
+
+#: redirection-strings.php:187 redirection.js:2
+msgid "Import finished."
+msgstr "Import slutförd."
 
 #: redirection-strings.php:176 redirection.js:2
 msgid "Redirection is now installed!"
@@ -94,6 +98,10 @@ msgstr "Permalänkflytt"
 #: redirection-strings.php:678 redirection.js:2
 msgid "HTTP Cache Header"
 msgstr "HTTP-cacheheader"
+
+#: redirection-strings.php:651 redirection.js:2
+msgid "Decide how Redirection updates itself, if needed."
+msgstr "Bestäm hur Redirection uppdaterar sig självt, om det behövs."
 
 #: redirection-strings.php:650 redirection.js:2
 msgid "Data Upgrade"
@@ -206,6 +214,10 @@ msgstr "Visa data"
 #: redirection-strings.php:634 redirection.js:2
 msgid "Track redirect hits and date of last access. Contains no user information."
 msgstr "Spåra omdirigeringsträffar och datum för senaste åtkomst. Innehåller ingen användarinformation."
+
+#: redirection-strings.php:633 redirection.js:2
+msgid "Log \"external\" redirects - those not from Redirection. This can increase your log size and contains no user information."
+msgstr "Logga ”externa” omdirigeringar, som inte kommer från Redirection. Detta kan öka din loggs storlek och innehåller ingen användarinformation."
 
 #: redirection-strings.php:632 redirection.js:2
 msgid "Logging"
@@ -1612,7 +1624,7 @@ msgstr "Tilläggsimporterare"
 msgid "The following redirect plugins were detected on your site and can be imported from."
 msgstr "Följande omdirigeringstillägg hittades på din webbplats och kan importeras från."
 
-#: redirection-strings.php:288 redirection.js:2
+#: redirection-strings.php:288
 msgid "total = "
 msgstr "totalt = "
 

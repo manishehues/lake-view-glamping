@@ -123,7 +123,7 @@ defined( 'ABSPATH' ) || exit;
 
                 <div class="hb-form-field-input">
                     <input type="text" name="fax" value="<?php echo esc_attr( $customer->fax ); ?>"
-                           placeholder="<?php _e( 'Fax', 'wp-hotel-booking' ); ?>"/>
+                           placeholder="<?php _e( 'Fax', 'wp-hotel-booking' ); ?>" required/>
                 </div>
             </li>
         </ul>

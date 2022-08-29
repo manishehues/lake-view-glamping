@@ -333,7 +333,8 @@ class WPHB_Booking {
 					$product_id    = $order_item['product_id'];
 					$order_item_id = hb_add_order_item( $this->id, array(
 						'order_item_name' => get_the_title( $product_id ),
-						'order_item_type' => 'line_item'
+						'order_item_type' => 'line_item',
+						'dome_id' => $product_id,
 					) );
 					$parents[ $k ] = $order_item_id;
 
@@ -352,6 +353,7 @@ class WPHB_Booking {
 					$product_id    = $order_item['product_id'];
 					$order_item_id = hb_add_order_item( $this->id, array(
 						'order_item_name'   => get_the_title( $product_id ),
+						'dome_id' => $product_id,
 						'order_item_type'   => 'sub_item',
 						'order_item_parent' => $parents[ $order_item['parent_id'] ]
 					) );

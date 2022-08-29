@@ -281,3 +281,30 @@ if ( ! function_exists( 'hotel_booking_widget_init' ) ) {
 		register_widget( 'HB_Widget_Mini_Cart' );
 	}
 }
+
+
+
+add_action('booking_status_checkout_hook', 'booking_status_checkout_update');
+
+function booking_status_checkout_update() {
+	global $wpdb;
+	$sql = "SELECT item_meta.hotel_booking_order_item_id, odr.order_id
+
+			FROM $wpdb->hotel_booking_order_itemmeta as item_meta,  
+				$wpdb->hotel_booking_order_items as odr
+
+			WHERE item_meta.meta_key = 'check_out_date'
+				AND DATE(FROM_UNIXTIME(item_meta.meta_value)) < DATE(now())
+				AND item_meta.hotel_booking_order_item_id = odr.order_item_id 
+				AND odr.is_checkout = 0";
+
+	$results = $wpdb->get_results($sql);
+
+	foreach ($results as $result) {
+
+		$wpdb->update($wpdb->hotel_booking_order_items, array('is_checkout' => 1), array('order_id' => $result->order_id));
+
+		$wpdb->update($wpdb->posts, array('post_status' => 'hb-checkedout'), array('ID' => $result->order_id));
+	}
+	
+}

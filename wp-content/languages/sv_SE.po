@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.0.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-06 20:15:20+0000\n"
+"PO-Revision-Date: 2022-08-17 08:56:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -768,17 +768,17 @@ msgid "Displays posts on the homepage, or on the Posts page if a static homepage
 msgstr "Visar inlägg på startsidan eller på inläggssidan om en statisk startsida är inställd."
 
 #. translators: %1s: file name; %2s: slug value found.
-#: wp-includes/block-patterns.php:271
+#: wp-includes/block-patterns.php:267
 msgid "Could not register file \"%s\" as a block pattern (\"Title\" field missing)"
 msgstr "Kunde inte registrera fil ”%s” som ett blockmönster (”Rubrik”-fält saknas)"
 
 #. translators: %1s: file name; %2s: slug value found.
-#: wp-includes/block-patterns.php:253
+#: wp-includes/block-patterns.php:249
 msgid "Could not register file \"%1$s\" as a block pattern (invalid slug \"%2$s\")"
 msgstr "Kunde inte registrera fil ”%1$s” som ett blockmönster (ogiltig slug ”%2$s”)"
 
 #. translators: %s: file name.
-#: wp-includes/block-patterns.php:240
+#: wp-includes/block-patterns.php:236
 msgid "Could not register file \"%s\" as a block pattern (\"Slug\" field missing)"
 msgstr "Kunde inte registrera fil ”%s” som ett blockmönster (”Slug”-fält saknas)"
 
@@ -1145,7 +1145,7 @@ msgstr "Menyn kan inte tas bort."
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-menus-controller.php:373
 msgid "Menus do not support trashing. Set '%s' to delete."
-msgstr "Menyer kan inte läggas i papperskorgen. Ange ”%s” för att ta bort."
+msgstr "Menyer kan inte hanteras via papperskorgen. Ange ”%s” för att ta bort."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-menus-controller.php:103
 msgid "Sorry, you are not allowed to view menus."
@@ -4986,7 +4986,7 @@ msgstr "Unikt namn som identifierar stilen."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:552
 msgid "Block style variations."
-msgstr "Variationer av blockstilar."
+msgstr "Varianter av blockstilar."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:538
 msgid "Editor style handle."
@@ -7329,7 +7329,7 @@ msgstr "Använd den anpassade HTML-widgeten för att lägga till valfri HTML-kod
 #. translators: %s: New email address.
 #: wp-includes/user.php:3720
 msgid "Your email address has not been updated yet. Please check your inbox at %s for a confirmation email."
-msgstr "Din e-postadress har ännu inte uppdaterats. Kontrollera inkorgen för %s för att se om du har fått en e-postbekräftelse."
+msgstr "Din e-postadress har inte uppdaterats ännu. Kontrollera din inkorg på %s för en e-postbekräftelse."
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
 #. those are placeholders.
@@ -9218,7 +9218,7 @@ msgstr "Ange en giltig YouTube-URL."
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:896
 msgid "Users do not support trashing. Set '%s' to delete."
-msgstr "Användare kan hanteras via papperskorgen. Ange ”%s” för att ta bort."
+msgstr "Användare kan inte hanteras via papperskorgen. Ange ”%s” för att ta bort."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:697
@@ -11108,7 +11108,7 @@ msgstr "Denna webbplats har inte aktiverats än. Om du har problem med att aktiv
 #. translators: %s: Email address.
 #: wp-signup.php:681 wp-signup.php:839
 msgid "Check your inbox at %s and click the link given."
-msgstr "Kolla din inkorg för %s och klicka på angiven länk."
+msgstr "Kontrollera din inkorg på %s och klicka på länken som anges."
 
 #. translators: %s: Menu name.
 #: wp-includes/nav-menu.php:340 wp-includes/nav-menu.php:355

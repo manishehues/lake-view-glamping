@@ -682,6 +682,20 @@
 
 		tomorrow.setDate(today.getDate() + start_plus);
 
+
+		var array = jQuery("#datepicker1").data('blocked_dates');
+
+	  	console.log(array);
+
+	  	var block_dates = [];
+		jQuery.each(array, function(idx2,val2) {                    
+			//var str = idx2 + ":" + val2;
+			block_dates.push(val2);
+		});
+	  	console.log(block_dates);
+
+
+
 		$('input[id^="check_in_date"]').datepicker({
 			dateFormat     : hotel_booking_i18n.date_time_format,
 			firstDay       : hotel_booking_i18n.date_start,
@@ -693,6 +707,18 @@
 			minDate        : today,
 			maxDate        : '+365D',
 			numberOfMonths : 1,
+			beforeShowDay: function(date){
+
+				
+		        var string = jQuery.datepicker.formatDate('yy-mm-dd', date);
+
+	        	if(block_dates.indexOf(string) == -1){
+
+	        		return [ true,'' ];
+	        	}
+	        	return [ block_dates.indexOf(string) == -1,'blocked-dates'];
+
+		    },
 			onSelect       : function () {
 				var unique = $(this).attr('id');
 				unique = unique.replace('check_in_date_', '');
@@ -724,6 +750,15 @@
 			minDate        : tomorrow,
 			maxDate        : '+365D',
 			numberOfMonths : 1,
+			beforeShowDay: function(date){
+		        var string = jQuery.datepicker.formatDate('yy-mm-dd', date);
+
+	        	if(block_dates.indexOf(string) == -1){
+
+	        		return [ true,'' ];
+	        	}
+	        	return [ block_dates.indexOf(string) == -1,'blocked-dates'];
+		    },
 			onSelect       : function () {
 				var unique = $(this).attr('id');
 				unique = unique.replace('check_out_date_', '');

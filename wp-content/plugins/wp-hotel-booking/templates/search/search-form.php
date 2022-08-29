@@ -19,6 +19,13 @@ $check_out_date = hb_get_request( 'check_out_date' );
 $adults         = hb_get_request( 'adults', 0 );
 $max_child      = hb_get_request( 'max_child', 0 );
 $uniqid         = uniqid();
+
+
+
+$booking_dates = Hotel_Booking_Block::instance()->get_bookings_dates_frontend();
+
+
+//SELECT meta_value FROM `wp_hotel_booking_order_itemmeta` WHERE meta_key = 'product_id' GROUP by meta_value;
 ?>
 
 <div id="hotel-booking-search-<?php echo uniqid(); ?>" class="hotel-booking-search">
@@ -107,4 +114,33 @@ $uniqid         = uniqid();
 			</li>
         </ul>		
     </form>
+
+    <div id="datepicker1" data-blocked_dates='<?php echo json_encode($booking_dates);?>'></div>
+
+    <script>
+		/*jQuery( function() {
+
+
+	  	var array = jQuery("#datepicker1").data('blocked_dates');
+
+	  	console.log(array);
+
+	  	var block_dates = [];
+		jQuery.each(array, function(idx2,val2) {                    
+			//var str = idx2 + ":" + val2;
+			block_dates.push(val2);
+		});
+	  	console.log(block_dates);
+
+
+	    jQuery( "#datepicker1" ).datepicker({
+		    beforeShowDay: function(date){
+		        var string = jQuery.datepicker.formatDate('yy-mm-dd', date);
+		        return [ block_dates.indexOf(string) == -1 ]
+		    }
+		});
+
+	  } );*/
+  </script>
+
 </div>

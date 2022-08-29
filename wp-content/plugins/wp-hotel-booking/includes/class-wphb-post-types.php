@@ -782,6 +782,16 @@ if ( ! class_exists( 'WPHB_Post_Types' ) ) {
 				'label_count'               => _n_noop( 'Completed <span class="count">(%s)</span>', 'Completed <span class="count">(%s)</span>', 'wp-hotel-booking' )
 			);
 			register_post_status( 'hb-completed', $args );
+
+			$args = array(
+				'label'                     => _x( 'Checked Out', 'Booking status', 'wp-hotel-booking' ),
+				'public'                    => true,
+				'exclude_from_search'       => false,
+				'show_in_admin_all_list'    => true,
+				'show_in_admin_status_list' => true,
+				'label_count'               => _n_noop( 'Checked Out <span class="count">(%s)</span>', 'Checked Out <span class="count">(%s)</span>', 'wp-hotel-booking' )
+			);
+			register_post_status( 'hb-checkedout', $args );
 		}
 	}
 }

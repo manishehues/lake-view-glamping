@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-22 10:26:47+0000\n"
+"PO-Revision-Date: 2022-08-11 19:49:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,1130 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: nl\n"
 "Project-Id-Version: Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release)\n"
+
+#: languages/aioseo-pro.php:5422
+msgid "Reviews"
+msgstr "Beoordelingen"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:67 dist/Lite/assets/blocks.eafeffc4.js:9
+msgid "%1$s can automatically output a table of contents based on your heading tags below. Search engines sometimes use table of contents in search results or rich snippets which can help you increase your rankings."
+msgstr "%1$s kan automatisch een inhoudsopgave maken op basis van je koptekst tags hieronder. Zoekmachines maken soms gebruik van inhoudsopgaven in zoekresultaten of rich snippets, wat je kan helpen je positie te verbeteren."
+
+#: languages/aioseo-pro.php:470 dist/Lite/assets/blocks.eafeffc4.js:9
+msgid "Add a heading block below to begin generating the Table of Contents."
+msgstr "Voeg hieronder een koptekst blok toe om te beginnen met het genereren van de inhoudsopgave."
+
+#: languages/aioseo-pro.php:983 dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Are you sure you want to delete these links?"
+msgstr "Weet je zeker dat je al deze links wil verwijderen?"
+
+#: languages/aioseo-pro.php:995 dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Are you sure you want to delete this link?"
+msgstr "Weet je zeker dat je deze link wil verwijderen?"
+
+#: languages/aioseo-pro.php:2249 dist/Lite/assets/blocks.eafeffc4.js:9
+msgid "Edit HTML Anchor:"
+msgstr "HTML anker bewerken:"
+
+#: languages/aioseo-pro.php:3463
+msgid "Import from a JSON file..."
+msgstr "Van een JSON bestand importeren..."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:6526 dist/Lite/assets/blocks.eafeffc4.js:9
+msgid "The HTML anchor allows %1$s to link directly to your header from this table of contents block. Feel free to edit if you want, but an anchor is required. For headings without an anchor, %1$s will automatically generate them."
+msgstr "Met het HTML anker staat %1$s toe vanuit dit inhoudsopgave blok rechtstreeks naar je header te linken. Voel je vrij om te bewerken als je dat wil, maar een anker is vereist. Voor kopteksten zonder anker zal %1$s ze automatisch genereren."
+
+#: languages/aioseo-pro.php:8109
+msgid "You can use this section to add any URLs to your sitemap which aren’t a part of your WordPress installation. For example, if you have a contact form that you would like to be included on your sitemap you can enter the information manually."
+msgstr "Je kunt deze sectie gebruiken om URL's aan je sitemap toe te voegen die geen deel uitmaken van je WordPress installatie. Als je bijvoorbeeld een contactformulier hebt dat je in je sitemap wil opnemen, kun je de informatie handmatig invoeren."
+
+#: languages/aioseo-lite.php:4813 languages/aioseo-pro.php:6217
+msgid "Store"
+msgstr "Winkel"
+
+#: app/Common/Utils/Tags.php:907
+msgid "Sample Parent Term Name"
+msgstr "Voorbeeld hoofdterm naam"
+
+#: app/Common/Admin/SlugMonitor.php:118
+msgid "The permalink for this post just changed! This could result in 404 errors for your site visitors."
+msgstr "De permalink voor dit bericht is zojuist veranderd! Dit kan resulteren in 404 fouten voor je site bezoekers."
+
+#: app/Common/Utils/Tags.php:527
+msgid "Parent Term"
+msgstr "Hoofdterm"
+
+#: app/Common/Utils/Tags.php:528
+msgid "The name of the parent term of the current term."
+msgstr "De naam van de hoofdterm van de huidige term."
+
+#: languages/aioseo-lite.php:10 languages/aioseo-pro.php:10
+msgid "'Custom Role ' + roleNumber"
+msgstr "'Custom Role ' + roleNumber"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:195 languages/aioseo-pro.php:218
+msgid "%1$s Table of Contents"
+msgstr "%1$s inhoudsopgave"
+
+#. Translators: 1 - Opening bold HTML tag, 2 - Closing bold HTML tag, 3 -
+#. Initial score range, 4 - Final score range.
+#: languages/aioseo-lite.php:292 languages/aioseo-pro.php:369
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+#: dist/Lite/assets/js/SeoAuditChecklist.707ac253.js:1
+msgid "A very good score is between %1$s%3$d and %4$d%2$s."
+msgstr "Een zeer goede score ligt tussen %1$s%3$d en %4$d%2$s ."
+
+#: languages/aioseo-lite.php:767 languages/aioseo-pro.php:1067
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "at least one"
+msgstr "tenminste een"
+
+#: languages/aioseo-lite.php:981 languages/aioseo-pro.php:1316
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Build a Better %1$s"
+msgstr "Bouw een betere %1$s"
+
+#. Translators: 1 - Opening link tag, 2 - Closing link tag.
+#: languages/aioseo-lite.php:1460 languages/aioseo-pro.php:1897
+#: dist/Lite/assets/js/HtmlSitemap.b2b51bfb.js:1
+msgid "Dedicated HTML Sitemaps do not work while using \"plain\" permalinks. Please update your %1$spermalink structure%2$s to use this option."
+msgstr "Dedicated HTML sitemaps werken niet bij gebruik van \"plain\" permalinks. Werk je %1$spermalink structuur%2$s bij om deze optie te gebruiken."
+
+#: languages/aioseo-lite.php:1628 languages/aioseo-pro.php:2112
+msgid "Display Block"
+msgstr "Weergave blok"
+
+#: languages/aioseo-lite.php:1679 languages/aioseo-pro.php:2177
+msgid "Done"
+msgstr "Klaar"
+
+#: languages/aioseo-lite.php:2029 languages/aioseo-pro.php:2650
+msgid "FAQ Options"
+msgstr "FAQ opties"
+
+#: languages/aioseo-lite.php:2035
+msgid "FAQPage schema is a Pro feature."
+msgstr "FAQPage schema is een Pro functie."
+
+#. Translators: 1 - Opening bold HTML tag, 2 - Closing bold HTML tag, 3 -
+#. Score.
+#: languages/aioseo-lite.php:2165 languages/aioseo-pro.php:2795
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+#: dist/Lite/assets/js/SeoAuditChecklist.707ac253.js:1
+msgid "For best results, you should strive for %1$s%3$d and above%2$s."
+msgstr "Voor de beste resultaten zou je moeten streven naar %1$s%3$d en meer dan%2$s."
+
+#: languages/aioseo-lite.php:2260 languages/aioseo-pro.php:2912
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Get improved features and faster fixes by sharing non-sensitive data via usage tracking that shows us how %1$s is being used. No personal data is tracked or stored."
+msgstr "Krijg verbeterde functies en snellere reparaties door niet-gevoelige gegevens te delen via gebruiks tracering die ons laat zien hoe %1$s wordt gebruikt. Er worden geen persoonsgegevens bijgehouden of opgeslagen."
+
+#: languages/aioseo-lite.php:2271 languages/aioseo-pro.php:2926
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/Overview.d0d35d60.js:1
+msgid "Get relevant suggestions for adding internal links to all your content as well as finding any orphaned posts that have no internal links."
+msgstr "Krijg relevante suggesties voor het toevoegen van interne links aan al je inhoud en het vinden van verweesde berichten die geen interne links hebben."
+
+#: languages/aioseo-lite.php:2468 languages/aioseo-pro.php:3126
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Great choice! Get started with MonsterInsights today to see how people find and use your website."
+msgstr "Goede keuze! Ga vandaag nog aan de slag met MonsterInsights om te zien hoe mensen je site vinden en gebruiken."
+
+#: languages/aioseo-lite.php:2847 languages/aioseo-pro.php:3593
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "IndexNow"
+msgstr "IndexNow"
+
+#: languages/aioseo-lite.php:3069 languages/aioseo-pro.php:3915
+msgid "List style"
+msgstr "Lijststijl"
+
+#: languages/aioseo-lite.php:3220 languages/aioseo-pro.php:4121
+#: dist/Lite/assets/js/App.3e986f86.js:1
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+#: dist/Lite/assets/js/SearchAppearance.cbd6ce3c.js:1
+#: dist/Lite/assets/js/TitleDescription.01bda3b3.js:1
+msgid "Meta Description"
+msgstr "Metabeschrijving"
+
+#: languages/aioseo-lite.php:3331 languages/aioseo-pro.php:4253
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Needs improvement"
+msgstr "Heeft verbetering nodig"
+
+#: languages/aioseo-lite.php:3568 languages/aioseo-pro.php:4520
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Not Enough Words"
+msgstr "Niet genoeg woorden"
+
+#: languages/aioseo-lite.php:3699 languages/aioseo-pro.php:4664
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+#: dist/Lite/assets/js/RssContent.b9155beb.js:1
+msgid "Open Your RSS Feed"
+msgstr "Open je RSS feed"
+
+#: languages/aioseo-lite.php:2524 languages/aioseo-pro.php:3193
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Headlines with 20-30% common words are more likely to get clicks."
+msgstr "Kopregels met 20-30% gewone woorden hebben meer kans op klikken."
+
+#: languages/aioseo-lite.php:548 languages/aioseo-pro.php:735
+msgid "All in One SEO is perfect for business owners, bloggers, designers, developers, photographers, and basically everyone else. If you want to optimize your WordPress SEO, then you need to use All in One SEO Pack."
+msgstr "All in One SEO is perfect voor ondernemers, bloggers, ontwerpers, ontwikkelaars, fotografen, en eigenlijk voor iedereen. Als je je WordPress SEO wil optimaliseren, dan moet je All in One SEO pack gebruiken."
+
+#: languages/aioseo-lite.php:4164 languages/aioseo-pro.php:5304
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Reduce Word Count"
+msgstr "Beperk het aantal woorden"
+
+#: languages/aioseo-lite.php:4224 languages/aioseo-pro.php:5384
+msgid "Reorder"
+msgstr "Herschikken"
+
+#: languages/aioseo-lite.php:4227
+msgid "Reordering the headings in the Table of Contents block is a feature that can only be used by Pro users. Upgrade to Pro to unlock this advanced functionality."
+msgstr "Het herschikken van de kopteksten in het inhoudsopgave blok is een functie die alleen door Pro gebruikers kan worden gebruikt. Upgrade naar Pro om deze geavanceerde functionaliteit te ontgrendelen."
+
+#. Translators: The short plugin name ("AIOSEO Pro").
+#: languages/aioseo-lite.php:5322
+msgid "This feature is available only for %1$s users"
+msgstr "Deze functie is alleen beschikbaar voor %1$s gebruikers"
+
+#: languages/aioseo-lite.php:5434 languages/aioseo-pro.php:7047
+msgid "Title Wrapper"
+msgstr "Title wrapper"
+
+#: languages/aioseo-lite.php:5469 languages/aioseo-pro.php:7100
+#: dist/Lite/assets/js/SocialProfiles.76322b34.js:1
+msgid "To let search engines know which profiles are associated with this site, enter them below:"
+msgstr "Geef hieronder de profielen waarvan je wil dat zoekmachines weten dat ze gelinkt zijn aan deze site:"
+
+#: languages/aioseo-lite.php:5515 languages/aioseo-pro.php:7145
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Too Many Words"
+msgstr "Teveel woorden"
+
+#: languages/aioseo-lite.php:5900 languages/aioseo-pro.php:7622
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "VAT ID:"
+msgstr "BTW ID:"
+
+#: languages/aioseo-lite.php:5969 languages/aioseo-pro.php:7693
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Want to get the most out of Clarity? Integrate Clarity with Google Analytics using MonsterInsights today!"
+msgstr "Wil je het maximale uit Clarity halen? Integreer Clarity vandaag nog met Google analytics via MonsterInsights!"
+
+#: languages/aioseo-lite.php:6115 languages/aioseo-pro.php:7873
+msgid "Who should use AIOSEO?"
+msgstr "Waarom gebruik maken van AIOSEO?"
+
+#: languages/aioseo-lite.php:6145 languages/aioseo-pro.php:7907
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Word balance"
+msgstr "Woordbalans"
+
+#: languages/aioseo-lite.php:6176 languages/aioseo-pro.php:7944
+msgid "Write a question..."
+msgstr "Schrijf een vraag..."
+
+#: languages/aioseo-lite.php:6179 languages/aioseo-pro.php:7947
+msgid "Write an answer..."
+msgstr "Schrijf een antwoord..."
+
+#: languages/aioseo-lite.php:6211 languages/aioseo-pro.php:7979
+#: dist/Lite/assets/js/ToolsSettings.004b222f.js:1
+msgid "Yes, count me in!"
+msgstr "Ja, reken op mij!"
+
+#: languages/aioseo-lite.php:6260 languages/aioseo-pro.php:8075
+msgid "You can choose to hide this block from appearing on the front-end of your site, but we will still output the JSON schema for it."
+msgstr "Je kunt ervoor kiezen om dit blok te verbergen voor de frontend van je site, maar we zullen nog steeds het JSON schema ervoor uitvoeren."
+
+#: languages/aioseo-lite.php:6410 languages/aioseo-pro.php:8282
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Your headline would be more likely to get clicks if it had more uncommon words."
+msgstr "Je kopregel zou eerder klikken krijgen als deze meer ongebruikelijke woorden bevat."
+
+#: languages/aioseo-lite.php:4899 languages/aioseo-pro.php:6317
+msgid "Table of Contents Settings"
+msgstr "Inhoudsopgave instellingen"
+
+#: languages/aioseo-pro.php:5952
+msgid "Show or hide the saturday hours."
+msgstr "Toon of verberg de zaterdag uren."
+
+#: languages/aioseo-pro.php:5955
+msgid "Show or hide the sunday hours."
+msgstr "Toon of verberg de zondag uren."
+
+#: languages/aioseo-pro.php:5958
+msgid "Show or hide the Tax ID."
+msgstr "Toon of verberg het BTW ID."
+
+#: languages/aioseo-pro.php:5961
+msgid "Show or hide the thursday hours."
+msgstr "Toon of verberg de donderdag uren."
+
+#: languages/aioseo-pro.php:5964
+msgid "Show or hide the title."
+msgstr "Toon of verberg de titel."
+
+#: languages/aioseo-pro.php:5967
+msgid "Show or hide the tuesday hours."
+msgstr "Toon of verberg de dinsdag uren."
+
+#: languages/aioseo-pro.php:5970
+msgid "Show or hide the Vat ID."
+msgstr "Toon of verberg het BTW ID."
+
+#: languages/aioseo-pro.php:5973
+msgid "Show or hide the wednesday hours."
+msgstr "Toon of verberg de woensdag uren."
+
+#: languages/aioseo-pro.php:6373
+msgid "Terrain"
+msgstr "Terrein"
+
+#: languages/aioseo-pro.php:6406
+msgid "The address label."
+msgstr "Het adres label."
+
+#: languages/aioseo-pro.php:6467
+msgid "The email label."
+msgstr "Het e-mail label."
+
+#: languages/aioseo-pro.php:6522
+msgid "The height of the map. You may use a percentage or a fixed height in pixels."
+msgstr "De hoogte van de kaart. Je kan een percentage of een vaste hoogte in pixels gebruiken."
+
+#. Translators: 1 - Opening link tag. 2 - Closing link tag.
+#: languages/aioseo-pro.php:6556
+msgid "The license key provided has expired. Please %1$srenew your license%2$s to continue receiving automatic updates."
+msgstr "De opgegeven licentiesleutel is verlopen. Vernieuw %1$sje sleutel%2$s om automatische updates te blijven ontvangen."
+
+#: languages/aioseo-pro.php:6625
+msgid "The phone label."
+msgstr "Het telefoon label."
+
+#: languages/aioseo-pro.php:6720
+msgid "The Tax ID label."
+msgstr "Het BTW ID label."
+
+#: languages/aioseo-pro.php:6761
+msgid "The VAT ID label."
+msgstr "Het BTW ID label."
+
+#: languages/aioseo-pro.php:6771
+msgid "The width of the map. You may use a percentage or a fixed width in pixels."
+msgstr "De breedte van de kaart. Je kan een percentage of een vaste breedte in pixels gebruiken."
+
+#: languages/aioseo-pro.php:6979
+msgid "This product changed my entire life - I cannot recommend it enough!"
+msgstr "Dit product heeft mijn hele leven veranderd - ik kan het niet genoeg aanbevelen!"
+
+#: languages/aioseo-pro.php:7583
+msgid "Use the map below to set your exact location. Search for an address, select a business or click anywhere to place a marker."
+msgstr "Gebruik de kaart hieronder om je exacte locatie te bepalen. Zoek een adres, selecteer een bedrijf of klik ergens om een marker te plaatsen."
+
+#: languages/aioseo-pro.php:7589
+msgid "Use the smart tags above to define your address format (used in blocks, widgets and shortcodes)."
+msgstr "Gebruik de smart tags hierboven om je adres formaat te definiëren (gebruikt in blokken, widgets en shortcodes)."
+
+#: languages/aioseo-pro.php:7847
+msgid "What an awesome product!"
+msgstr "Wat een fantastisch product!"
+
+#. Translators: 1 - Maps Embed API documentation link.
+#: languages/aioseo-pro.php:8169
+msgid "You selected a Place (from Google Places) but your Maps Embed API is not enabled. For a more seamless experience and rich information cards please enable it in your Google Project. %1$s"
+msgstr "Je hebt een plaats geselecteerd (van Google Places) maar je Maps Embed API is niet ingeschakeld. Voor een meer naadloze ervaring en rijke informatie kaarten kan je deze inschakelen in je Google project. %1$s"
+
+#. Translators: 1 - The plugin name ("All in One SEO"), 2 - Add license key
+#. text.
+#: languages/aioseo-pro.php:8199
+msgid "You're using %1$s but no license key has been entered. Add your %2$s."
+msgstr "Je gebruikt %1$s, maar er is geen licentiesleutel ingevoerd. Voeg je %2$s toe."
+
+#. Translators: 1 - The plugin name ("All in One SEO"), 2 - Renew text.
+#: languages/aioseo-pro.php:8203
+msgid "You're using %1$s but your license has expired. %2$s."
+msgstr "Je gebruikt %1$s, maar je licentie is verlopen. %2$s."
+
+#: languages/aioseo-pro.php:8233
+msgid "Your current marker"
+msgstr "Je huidige marker"
+
+#: languages/aioseo-pro.php:8473
+msgid "Zoom"
+msgstr "Zoom"
+
+#: languages/aioseo-pro.php:6479
+msgid "The fax label."
+msgstr "Het fax label."
+
+#: languages/aioseo-pro.php:3708
+msgid "John Doe"
+msgstr "John Doe"
+
+#: languages/aioseo-pro.php:5934
+msgid "Show or hide the fax number."
+msgstr "Toon of verberg het faxnummer."
+
+#: languages/aioseo-lite.php:6578 languages/aioseo-pro.php:8470
+#: dist/Lite/assets/post-settings.a66db60e.js:1
+msgid "Zip Code"
+msgstr "Postcode"
+
+#: languages/aioseo-pro.php:333
+msgid "A Location ID if Multiple Locations is on."
+msgstr "Een locatie ID als Meerdere locaties is ingeschakeld."
+
+#: languages/aioseo-pro.php:1156
+msgid "Back to Links Report"
+msgstr "Terug naar links rapport"
+
+#: languages/aioseo-pro.php:1434
+msgid "Chamber of Commerce ID"
+msgstr "Kamer van Koophandel ID"
+
+#: languages/aioseo-pro.php:1719
+msgid "Coordinates"
+msgstr "Coördinaten"
+
+#: languages/aioseo-pro.php:1931
+msgid "Default Map Style"
+msgstr "Standaard kaart stijl"
+
+#: languages/aioseo-pro.php:2659
+msgid "FAQs"
+msgstr "FAQs"
+
+#: languages/aioseo-pro.php:3318
+msgid "Hybrid"
+msgstr "Hybride"
+
+#: languages/aioseo-pro.php:3788
+msgid "Latitude"
+msgstr "Breedtegraad"
+
+#: languages/aioseo-pro.php:3852
+msgid "license key now"
+msgstr "licentiesleutel nu"
+
+#: languages/aioseo-pro.php:4029
+msgid "Longitude"
+msgstr "Lengtegraad"
+
+#: languages/aioseo-pro.php:4923
+msgid "Place ID"
+msgstr "Plaats ID"
+
+#: languages/aioseo-pro.php:5381
+msgid "Renew your license now"
+msgstr "Vernieuw nu je licentie"
+
+#: languages/aioseo-pro.php:5425
+msgid "Roadmap"
+msgstr "Roadmap"
+
+#: languages/aioseo-pro.php:5484
+msgid "Satellite"
+msgstr "Satelliet"
+
+#: languages/aioseo-pro.php:5638
+msgid "Select a currency..."
+msgstr "Selecteer een valuta..."
+
+#: languages/aioseo-pro.php:5648
+msgid "Select a price indicator..."
+msgstr "Selecteer een prijs indicator..."
+
+#: languages/aioseo-pro.php:5922
+msgid "Show or hide labels ( ‘Address:’, ‘Phone:’, ‘Fax:’, ‘Email:’, etc )."
+msgstr "Toon of verberg label (\"Adres:\", \"Telefoon:\", \"Fax:\", \"E-mail:\", enz.)."
+
+#: languages/aioseo-pro.php:5925
+msgid "Show or hide the address."
+msgstr "Toon of verberg het adres."
+
+#: languages/aioseo-pro.php:5931
+msgid "Show or hide the email."
+msgstr "Toon of verberg de e-mail."
+
+#: languages/aioseo-pro.php:5937
+msgid "Show or hide the friday hours."
+msgstr "Toon of verberg de vrijdag uren."
+
+#: languages/aioseo-pro.php:5943
+msgid "Show or hide the label."
+msgstr "Toon of verberg het label."
+
+#: languages/aioseo-pro.php:5946
+msgid "Show or hide the monday hours."
+msgstr "Toon of verberg de maandag uren."
+
+#: languages/aioseo-pro.php:5949
+msgid "Show or hide the phone number."
+msgstr "Toon of verberg het telefoonnummer."
+
+#: languages/aioseo-pro.php:594
+msgid "Address Format"
+msgstr "Adres format"
+
+#: languages/aioseo-pro.php:2441
+msgid "Enter a frequently asked question, e.g. \"Do you accept refunds?\""
+msgstr "Voer een vaak gestelde vraag in, bijvoorbeeld: \"Accepteer je terugbetalingen?\""
+
+#: languages/aioseo-pro.php:2477
+msgid "Enter the answer, e.g. \"Yes, we have a 14 day refund policy. No questions asked. For more information, please read our Terms & Conditions.\""
+msgstr "Voer het antwoord in, bijv. \"Ja, we hebben een 14 dagen terugbetalingsbeleid. Geen vragen gesteld. Voor meer informatie, lees onze algemene voorwaarden.\""
+
+#: languages/aioseo-pro.php:5919
+msgid "Show or hide icons ( address, phone, fax, email )."
+msgstr "Toon of verberg pictogrammen (adres, telefoon, fax, e-mail)."
+
+#: languages/aioseo-pro.php:5928
+msgid "Show or hide the business name."
+msgstr "Toon of verberg de bedrijfsnaam."
+
+#: languages/aioseo-pro.php:5940
+msgid "Show or hide the icon."
+msgstr "Toon of verberg het pictogram."
+
+#: languages/aioseo-pro.php:3165
+msgid "Headline"
+msgstr "Kopregel"
+
+#. Translators: 1 - The number of posts.
+#: languages/aioseo-pro.php:32
+msgid "%1$d more post"
+msgid_plural "%1$d more posts"
+msgstr[0] "%1$d meer bericht"
+msgstr[1] "%1$d meer berichten"
+
+#. Translators: 1 - The amount of phrases.
+#: languages/aioseo-pro.php:28
+msgid "%1$d more phrase"
+msgid_plural "%1$d more phrases"
+msgstr[0] "%1$d meer zin"
+msgstr[1] "%1$d meer zinnen"
+
+#. Translators: 1 - Opening link tag, 2 - Closing link tag.
+#: languages/aioseo-lite.php:6482 languages/aioseo-pro.php:8373
+#: dist/Lite/assets/js/RssContent.b9155beb.js:1
+msgid "Your RSS feed has been disabled. Disabling the global RSS feed is NOT recommended. This will prevent users from subscribing to your content and can hurt your SEO rankings. You can re-enable the global RSS feed in the %1$scrawl content settings%2$s."
+msgstr "Je RSS feed is uitgeschakeld. Het uitschakelen van de globale RSS feed wordt NIET aanbevolen. Dit zal voorkomen dat gebruikers zich abonneren op je inhoud en kan je SEO rangschikking schaden. Je kan de globale RSS feed weer inschakelen in de %1$scrawl inhoud instellingen%2$s."
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag.
+#: languages/aioseo-lite.php:6251 languages/aioseo-pro.php:8066
+#: dist/Lite/assets/js/Facebook.d1b5113f.js:1
+#: dist/Lite/assets/js/Twitter.e2bca838.js:1
+msgid "You are using a static home page which is found under Pages. You can %1$sedit your home page settings%2$s directly to change the title, meta and image."
+msgstr "Je gebruikt een statische startpagina die te vinden is onder Pagina's. Je kan de instellingen van je homepage %1$sdirect openen%2$s om de titel, meta en afbeelding te bewerken."
+
+#: languages/aioseo-lite.php:6257 languages/aioseo-pro.php:8072
+#: dist/Lite/assets/js/SocialProfiles.9591afec.js:1
+msgid "You can add additional social profile URLs here, separated by a new line."
+msgstr "Je kan hier extra URL's van sociale profielen toevoegen, gescheiden door een nieuwe regel."
+
+#: languages/aioseo-lite.php:6182 languages/aioseo-pro.php:7950
+msgid "Write your post title to see the analyzer data. This Headline Analyzer tool enables you to write irresistible SEO headlines that drive traffic, shares, and rank better in search results."
+msgstr "Schrijf een berichttitel om de analyzer gegevens te bekijken. De kopregel analyzer tool stelt je in staat onweerstaanbaar SEO vriendelijke headlines te schrijven die meer bezoekers trekken, meer delen op sociale media en beter scoren in de zoekresultaten."
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag.
+#: languages/aioseo-lite.php:6246 languages/aioseo-pro.php:8061
+#: dist/Lite/assets/js/GlobalSettings.4dd41ba8.js:1
+msgid "You are using a static home page which is found under Pages. You can %1$sedit your home page settings%2$s directly to change the title and description."
+msgstr "Je gebruikt een statische homepage die te vinden is onder Pagina's. Je kan de instellingen van je homepage %1$sdirect openen%2$s om de titel en beschrijving te bewerken."
+
+#. Translators: 1 - Opening HTML strong tag, 2 - Closing HTML strong tag.
+#: languages/aioseo-lite.php:6267 languages/aioseo-pro.php:8082
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+msgid "You can import additional page URL's to your sitemap using a CSV file. The following 4 columns are required: %1$sPage URL, Priority, Frequency, Date Modified.%2$s"
+msgstr "Je kan extra pagina URL's importeren in je sitemap door gebruik te maken van een CSV bestand. De volgende 4 kolommen zijn vereist: %1$sPagina URL, Prioriteit, Frequentie, Gewijzigde datum.%2$s"
+
+#: languages/aioseo-lite.php:6338 languages/aioseo-pro.php:8188
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "You're almost there! Once you complete the SEO setup your site will be optimized to rank in search engine results!"
+msgstr "Je bent er bijna! Zodra je klaar bent met de SEO setup zal je site geoptimaliseerd zijn om te scoren in de zoekmachine resultaten!"
+
+#: languages/aioseo-lite.php:5512 languages/aioseo-pro.php:7142
+msgid "Too Long 😑"
+msgstr "Te lang 😑"
+
+#: languages/aioseo-lite.php:5524 languages/aioseo-pro.php:7154
+msgid "Too Short 🙃"
+msgstr "Te kort 🙃"
+
+#. Translators: 1 - The post type plural name.
+#: languages/aioseo-lite.php:5539 languages/aioseo-pro.php:7174
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Total %1$s"
+msgstr "Totaal %1$s"
+
+#: languages/aioseo-lite.php:5754 languages/aioseo-pro.php:7423
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Upgrade to Pro Today!"
+msgstr "Upgrade naar Pro vandaag!"
+
+#: languages/aioseo-lite.php:5776 languages/aioseo-pro.php:7450
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+msgid "URL already exists."
+msgstr "URL bestaat al."
+
+#. Translators: 1 - The singular label for the current post type.
+#: languages/aioseo-lite.php:5935 languages/aioseo-pro.php:7665
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "View %1$s"
+msgstr "Bekijk %1$s"
+
+#: languages/aioseo-lite.php:6133 languages/aioseo-pro.php:7901
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Without a Focus Keyphrase"
+msgstr "Zonder een focus keyphrase"
+
+#: languages/aioseo-lite.php:5399 languages/aioseo-pro.php:7002
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "This will help prevent search engines from crawling every variation of your pages with all the unrecognized query arguments. Only enable this if you understand exactly what it does as it can have a significant impact on your site."
+msgstr "Dit zal helpen voorkomen dat zoekmachines elke variatie van je pagina's crawlen met alle niet-herkende query argumenten. Schakel dit alleen in als je precies begrijpt wat het doet, want het kan een grote impact hebben op je site."
+
+#: languages/aioseo-lite.php:5402 languages/aioseo-pro.php:7005
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "This will permanently remove the selected pages from the additional pages sitemap."
+msgstr "Dit zal de geselecteerde pagina's permanent verwijderen uit de extra pagina's sitemap."
+
+#: languages/aioseo-lite.php:5405 languages/aioseo-pro.php:7008
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "This will permanently remove this page from the additional pages sitemap."
+msgstr "Dit zal deze pagina permanent verwijderen uit de extra pagina's sitemap."
+
+#: languages/aioseo-lite.php:5648 languages/aioseo-pro.php:7298
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+msgid "Unable to read CSV file. Please check if the file is valid and try again."
+msgstr "Kan CSV-bestand niet lezen. Controleer of het bestand geldig is en probeer het opnieuw."
+
+#: languages/aioseo-lite.php:5596 languages/aioseo-pro.php:7237
+msgid "Try New Headline"
+msgstr "Probeer een nieuwe kopregel"
+
+#. Translators: 1 - The short plugin name ("AIOSEO"), 2 - "Learn More" link.
+#: languages/aioseo-lite.php:5373 languages/aioseo-pro.php:6970
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "This option allows you to control whether %1$s should parse shortcodes when generating data such as the SEO title/meta description. Enabling this setting may cause conflicts with third-party plugins/themes. %2$s"
+msgstr "Met deze optie kan je bepalen of %1$s shortcodes moet parsen bij het genereren van gegevens zoals de SEO titel/meta beschrijving. Het inschakelen van deze instelling kan conflicten veroorzaken met plugins/thema's van derden. %2$s"
+
+#. Translators: 1 - Plugin Short Name ("AIOSEO").
+#: languages/aioseo-lite.php:5294 languages/aioseo-pro.php:6855
+#: dist/Lite/assets/js/Advanced.9a30e93c.js:1
+msgid "This displays %1$s widgets on the dashboard."
+msgstr "Dit geeft %1$s widgets weer op het dashboard."
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-lite.php:5352 languages/aioseo-pro.php:6945
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "This is a global feed of your site output in the Atom format. %1$s"
+msgstr "Dit is een globale feed van je site output in Atom format. %1$s"
+
+#. Translators: 1 - Opening link and span tags, 2 - Closing span tag, 3 -
+#. Closing link tag.
+#: languages/aioseo-lite.php:5345 languages/aioseo-pro.php:6938
+msgid "This headline analyzer is part of AIOSEO to help you increase your traffic. %1$sAnalyze your site further here%2$s →%3$s"
+msgstr "Deze kopregel analyzer is onderdeel van AIOSEO om je te helpen je verkeer te verhogen. %1$sAnalyseer je site hier verder%2$s →%3$s"
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-lite.php:5356 languages/aioseo-pro.php:6949
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "This is a global feed of your site output in the RDF/RSS 1.0 format. %1$s"
+msgstr "Dit is een globale feed van je site output in RDF/RSS 1.0 formaat. %1$s"
+
+#: languages/aioseo-lite.php:4354 languages/aioseo-pro.php:5548
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Search Feed"
+msgstr "Zoek feed"
+
+#: languages/aioseo-lite.php:4366 languages/aioseo-pro.php:5560
+msgid "Search Preview"
+msgstr "Zoekopdracht voorbeeld"
+
+#: languages/aioseo-lite.php:4455 languages/aioseo-pro.php:5702
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Select which Taxonomies should include an RSS feed."
+msgstr "Selecteer welke taxonomieën een RSS feed moeten bevatten."
+
+#: languages/aioseo-lite.php:4520 languages/aioseo-pro.php:5771
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "SEO Setup"
+msgstr "SEO installatie"
+
+#: languages/aioseo-lite.php:4884 languages/aioseo-pro.php:6302
+msgid "Super! 🔥🔥🔥"
+msgstr "Super! 🔥🔥🔥"
+
+#: languages/aioseo-lite.php:4926 languages/aioseo-pro.php:6348
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Taxonomy Feeds"
+msgstr "Taxonomie feeds"
+
+#: languages/aioseo-lite.php:4974 languages/aioseo-pro.php:6416
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "The authors feed allows your users to subscribe to any new content written by a specific author."
+msgstr "Met de auteurs feed kunnen je gebruikers zich abonneren op alle nieuwe inhoud geschreven door een specifieke auteur."
+
+#: languages/aioseo-lite.php:5030 languages/aioseo-pro.php:6482
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+msgid "The file that you've currently selected is not a CSV file."
+msgstr "Het bestand dat je momenteel hebt geselecteerd, is geen CSV-bestand."
+
+#: languages/aioseo-lite.php:5162 languages/aioseo-pro.php:6664
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "The search feed description allows visitors to subscribe to your content based on a specific search term."
+msgstr "Met de beschrijving van de zoekfeed kunnen bezoekers zich abonneren op je inhoud op basis van een specifieke zoekterm."
+
+#: languages/aioseo-lite.php:5126 languages/aioseo-pro.php:6622
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "The paginated RSS feeds are for any posts or pages that are paginated."
+msgstr "De gepagineerde RSS feeds zijn voor alle berichten of pagina's die gepagineerd zijn."
+
+#: languages/aioseo-lite.php:4438 languages/aioseo-pro.php:5675
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Select which post type archives should include an RSS feed. This only applies to post types that include an archive page."
+msgstr "Selecteer welk berichttype archief een RSS feed moet bevatten. Dit is alleen van toepassing op berichttypes die een archief pagina bevatten."
+
+#: languages/aioseo-lite.php:4508 languages/aioseo-pro.php:5759
+msgid "SEO Headline Analyzer"
+msgstr "SEO kopregel analyzer"
+
+#: languages/aioseo-lite.php:4802 languages/aioseo-pro.php:6205
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Static Posts Page Feed"
+msgstr "Statische berichten pagina feed"
+
+#: languages/aioseo-lite.php:4971 languages/aioseo-pro.php:6413
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "The attachments feed allows users to subscribe to any changes to your site made to media file categories."
+msgstr "Met de bijlagen feed kunnen gebruikers zich abonneren op alle wijzigingen die op je site worden aangebracht in mediabestand categorieën."
+
+#: languages/aioseo-lite.php:5054 languages/aioseo-pro.php:6512
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "The global comments feed allows users to subscribe to any new comments added to your site."
+msgstr "Met de globale reacties feed kunnen gebruikers zich abonneren op alle nieuwe reacties die aan je site worden toegevoegd."
+
+#: languages/aioseo-lite.php:5057 languages/aioseo-pro.php:6515
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "The global RSS feed is how users subscribe to any new content that has been created on your site."
+msgstr "De globale RSS feed is de manier waarop gebruikers zich abonneren op alle nieuwe inhoud die op je site is gecreëerd."
+
+#. Translators: 1 - "WordPress 5.2", 2 - "Learn More".
+#: languages/aioseo-lite.php:5061 languages/aioseo-pro.php:6519
+#: dist/Lite/assets/js/Advanced.9a30e93c.js:1
+msgid "The Headline Analyzer is only available in %1$s and up. %2$s"
+msgstr "De kopregel analyzer is alleen beschikbaar in %1$s en hoger. %2$s"
+
+#: languages/aioseo-lite.php:5129 languages/aioseo-pro.php:6628
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "The post comments feed allows your users to subscribe to any new comments on a specific page or post."
+msgstr "Met de feed voor bericht reacties kunnen je gebruikers zich abonneren op alle nieuwe reacties op een specifieke pagina of bericht."
+
+#: languages/aioseo-lite.php:5212 languages/aioseo-pro.php:6714
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "The static posts page feed allows users to subscribe to any new content added to your blog page."
+msgstr "Met de feed voor statische berichten pagina kunnen gebruikers zich abonneren op alle nieuwe inhoud die aan je blogpagina wordt toegevoegd."
+
+#: languages/aioseo-lite.php:4295 languages/aioseo-pro.php:5475
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Run Shortcodes"
+msgstr "Shortcodes uitvoeren"
+
+#: languages/aioseo-lite.php:4243 languages/aioseo-pro.php:5405
+msgid "REST API support"
+msgstr "REST API ondersteuning"
+
+#: languages/aioseo-lite.php:4240 languages/aioseo-pro.php:5402
+#: dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "REST API"
+msgstr "REST API"
+
+#: languages/aioseo-lite.php:4218 languages/aioseo-pro.php:5375
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Removing unrecognized query arguments from URLs and disabling unnecessary RSS feeds can help save search engine crawl quota and speed up content indexing for larger sites. If you choose to disable any feeds, those feed links will automatically redirect to your homepage or applicable archive page."
+msgstr "Het verwijderen van niet-herkende query argumenten uit URL's en het uitschakelen van onnodige RSS feeds kan helpen om crawl quota van zoekmachines te besparen en het indexeren van inhoud voor grotere sites te versnellen. Als je ervoor kiest om feeds uit te schakelen, zullen deze feed links automatisch redirecten naar je homepage of toepasselijke archief pagina."
+
+#. Translators: 1 - "Clarity", 2 - Opening HTML link tag, 3 - Closing HTML link
+#. tag.
+#: languages/aioseo-lite.php:2660 languages/aioseo-pro.php:3352
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "If you don't already have a project on %1$s, create a project %2$shere%3$s."
+msgstr "Als je nog geen project hebt op %1$s, maak dan een project %2$shier%3$s."
+
+#: languages/aioseo-lite.php:2744 languages/aioseo-pro.php:3451
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+msgid "Import Additional Pages"
+msgstr "Extra pagina's importeren"
+
+#: languages/aioseo-lite.php:2760 languages/aioseo-pro.php:3470
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Import from CSV"
+msgstr "Importeer vanuit CSV"
+
+#: languages/aioseo-lite.php:2785 languages/aioseo-pro.php:3505
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Improve SEO Rankings"
+msgstr "Verbeter je SEO rangschikkingen"
+
+#: languages/aioseo-lite.php:3150 languages/aioseo-pro.php:4037
+msgid "Looks Good! 👍👍"
+msgstr "Ziet er goed uit! 👍👍"
+
+#: languages/aioseo-lite.php:3260 languages/aioseo-pro.php:4163
+#: dist/Lite/assets/publish-panel.943b05d2.js:1
+msgid "Missing social markup!"
+msgstr "Ontbrekende sociale mark-up!"
+
+#: languages/aioseo-lite.php:3361 languages/aioseo-pro.php:4283
+msgid "New Score"
+msgstr "Nieuwe score"
+
+#: languages/aioseo-lite.php:3583 languages/aioseo-pro.php:4536
+msgid "Not Looking Great"
+msgstr "Ziet er niet goed uit"
+
+#: languages/aioseo-lite.php:3622 languages/aioseo-pro.php:4580
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Okay"
+msgstr "Okay"
+
+#: languages/aioseo-lite.php:3689 languages/aioseo-pro.php:4654
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Open Your Atom Feed"
+msgstr "Open je Atom feed"
+
+#: languages/aioseo-lite.php:3692 languages/aioseo-pro.php:4657
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Open Your Comments RSS Feed"
+msgstr "Open je reacties RSS feed"
+
+#: languages/aioseo-lite.php:3792 languages/aioseo-pro.php:4799
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Paginated RSS Feeds"
+msgstr "Gepagineerde RSS feeds"
+
+#: languages/aioseo-lite.php:3846 languages/aioseo-pro.php:4866
+#: dist/Lite/assets/user-profile-tab.5afd09ba.js:1
+msgid "Personal Options"
+msgstr "Persoonlijke opties"
+
+#: languages/aioseo-lite.php:3945 languages/aioseo-pro.php:4984
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Post Comment Feeds"
+msgstr "Bericht reactie feeds"
+
+#: languages/aioseo-lite.php:3962 languages/aioseo-pro.php:5014
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Post Type Archive Feeds"
+msgstr "Berichttype archief feeds"
+
+#: languages/aioseo-lite.php:4019 languages/aioseo-pro.php:5077
+msgid "Previous Scores"
+msgstr "Vorige scores"
+
+#: languages/aioseo-lite.php:4089 languages/aioseo-pro.php:5187
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "RDF/RSS 1.0 Feed"
+msgstr "RDF/RSS 1.0 feed"
+
+#: languages/aioseo-lite.php:4093 languages/aioseo-pro.php:5191
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Read more like this on our SEO blog"
+msgstr "Lees meer zoals dit op ons SEO blog"
+
+#: languages/aioseo-lite.php:4212 languages/aioseo-pro.php:5366
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Remove Query Args"
+msgstr "Verwijder query argumenten"
+
+#: languages/aioseo-lite.php:3176 languages/aioseo-pro.php:4071
+msgid "Manage your post and term SEO meta via the WordPress REST API. This addon also works seamlessly with headless WordPress installs."
+msgstr "Beheer je bericht en term SEO meta via de WordPress REST-API. Deze add-on werkt ook naadloos met headless WordPress installaties."
+
+#: languages/aioseo-lite.php:2550 languages/aioseo-pro.php:3219
+msgid "Here is how your headline will look like in Google search results page."
+msgstr "Bekijk hoe je kopregel er uit ziet op een Google zoekresultaten pagina."
+
+#: languages/aioseo-lite.php:2815 languages/aioseo-pro.php:3548
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Include All Post Type Archives"
+msgstr "Inclusief alle berichttype archieven"
+
+#: languages/aioseo-lite.php:3169 languages/aioseo-pro.php:4060
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Manage existing links, get relevant suggestions for adding internal links to older content, discover orphaned posts and more."
+msgstr "Beheer bestaande links, krijg relevante suggesties voor het toevoegen van interne links aan oudere inhoud, ontdek verweesde berichten en meer."
+
+#: languages/aioseo-lite.php:3293 languages/aioseo-pro.php:4206
+msgid "Most readers only look at the first and last 3 words of a headline before deciding whether to click."
+msgstr "Veel lezers kijken alléén naar de eerste en laatste 3 woorden van een kopregel voordat ze besluiten door te klikken."
+
+#. Translators: 1 - "Learn More" link.
+#: languages/aioseo-lite.php:3595 languages/aioseo-pro.php:4548
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "NOTE: Enabling this setting may cause conflicts with third-party plugins/themes. %1$s"
+msgstr "OPMERKING: het inschakelen van deze instelling kan conflicten veroorzaken met plugins/thema's van derden. %1$s"
+
+#: languages/aioseo-lite.php:3702 languages/aioseo-pro.php:4667
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Open Your Static Posts Page RSS Feed"
+msgstr "Open je statische berichten pagina RSS feed"
+
+#: languages/aioseo-lite.php:3179 dist/Lite/assets/js/Main.aca85fc1.js:1
+msgid "Manage your post and term SEO meta via the WordPress REST API. This addon also works seamlessly with headless WordPress installs. (Plus, Pro & Elite plans only)"
+msgstr "Beheer je bericht en term SEO meta via de WordPress REST-API. Deze add-on werkt ook naadloos met headless WordPress installaties. (Alleen Plus, Pro &amp; Elite abonnementnen)"
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-lite.php:1583 languages/aioseo-pro.php:2053
+#: dist/Lite/assets/link-format.ac72f907.js:1
+msgid "Did you know you can automatically add internal links using Link Assistant? %1$s"
+msgstr "Wist je dat je automatisch interne links kan toevoegen met Link Assistant? %1$s"
+
+#: languages/aioseo-lite.php:1336 languages/aioseo-pro.php:1740
+msgid "Could Be Better"
+msgstr "Kan beter"
+
+#: languages/aioseo-lite.php:1349 languages/aioseo-pro.php:1759
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Crawl Cleanup"
+msgstr "Crawl opschoning"
+
+#: languages/aioseo-lite.php:1370 languages/aioseo-pro.php:1777
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+msgid "CSV example file"
+msgstr "CSV voorbeeld bestand"
+
+#: languages/aioseo-lite.php:1380 languages/aioseo-pro.php:1794
+msgid "Current Score"
+msgstr "Huidige score"
+
+#: languages/aioseo-lite.php:1420 languages/aioseo-pro.php:1848
+#: dist/Lite/assets/user-profile-tab.5afd09ba.js:1
+msgid "Customer Data"
+msgstr "Klantgegevens"
+
+#: languages/aioseo-lite.php:1551 languages/aioseo-pro.php:2016
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Delete Page"
+msgstr "Pagina verwijderen"
+
+#: languages/aioseo-lite.php:1557 languages/aioseo-pro.php:2022
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Delete Selected Pages"
+msgstr "Verwijder geselecteerde pagina's"
+
+#: languages/aioseo-lite.php:1607 languages/aioseo-pro.php:2080
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Disabling the global RSS feed is NOT recommended. This will prevent users from subscribing to your content and can hurt your SEO rankings."
+msgstr "Het uitschakelen van de globale RSS feed wordt NIET aanbevolen. Dit zal voorkomen dat gebruikers zich abonneren op je inhoud en kan je SEO rangschikking schaden."
+
+#: languages/aioseo-lite.php:1682 languages/aioseo-pro.php:2180
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+msgid "Download Sample CSV File"
+msgstr "Dummy CSV bestand downloaden"
+
+#: languages/aioseo-lite.php:1719 languages/aioseo-pro.php:2221
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "Easily create and manage redirects for your broken links to avoid confusing search engines and users, as well as losing valuable backlinks."
+msgstr "Maak en beheer eenvoudig redirects voor je niet-werkende links om te voorkomen dat zoekmachines en gebruikers in de war raken, en waardevolle backlinks verloren gaan."
+
+#: languages/aioseo-lite.php:1860 languages/aioseo-pro.php:2407
+msgid "Ending Words"
+msgstr "Eind woorden"
+
+#: languages/aioseo-lite.php:2150 languages/aioseo-pro.php:2780
+#: dist/Lite/assets/js/Success.ca5d59e1.js:1
+msgid "Follow on YouTube"
+msgstr "Volg op YouTube"
+
+#. Translators: 1 - The upgrade call to action.
+#: languages/aioseo-lite.php:2246 languages/aioseo-pro.php:2898
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Get additional keyphrases and many more modules! %1$s"
+msgstr "Krijg extra keyphrases en veel meer modules! %1$s"
+
+#: languages/aioseo-lite.php:2329 languages/aioseo-pro.php:2980
+msgid "Getting There"
+msgstr "Komt in de buurt"
+
+#: languages/aioseo-lite.php:2336 languages/aioseo-pro.php:2987
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Global Comments RSS Feed"
+msgstr "Globale reacties RSS feed"
+
+#: languages/aioseo-lite.php:2342 languages/aioseo-pro.php:2993
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Global RSS Feed"
+msgstr "Globale RSS feeds"
+
+#: languages/aioseo-lite.php:2381 languages/aioseo-pro.php:3032
+msgid "Good 🙂"
+msgstr "Goed 🙂"
+
+#. Translators: 1 - The singular label for the current post type.
+#: languages/aioseo-lite.php:1743 languages/aioseo-pro.php:2246
+#: dist/Lite/assets/js/App.3e986f86.js:1
+msgid "Edit %1$s"
+msgstr "Bewerk %1$s"
+
+#: languages/aioseo-lite.php:1933 languages/aioseo-pro.php:2504
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "Enter your verification codes below to activate webmaster tools."
+msgstr "Voer hieronder je verificatiecodes in om webmaster tools te activeren."
+
+#: languages/aioseo-lite.php:1312 languages/aioseo-pro.php:1710
+msgid "Conversion Tools"
+msgstr "Conversie gereedschappen"
+
+#: languages/aioseo-lite.php:1848 languages/aioseo-pro.php:2391
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Enable this option to remove any unrecognized query args from your site."
+msgstr "Schakel deze optie in om alle niet-herkende query args van je site te verwijderen."
+
+#: languages/aioseo-lite.php:1881 languages/aioseo-pro.php:2438
+msgid "Enter a different headline than your post title to see how it compares."
+msgstr "Voer een andere kopregel in dan de titel van je bericht om te zien hoe deze zich verhoudt."
+
+#: languages/aioseo-lite.php:2286 languages/aioseo-pro.php:2941
+msgid "Get the #1 conversion optimization plugin to convert your growing website traffic into subscribers, leads and sales."
+msgstr "Krijg de #1 conversie optimalisatie plugin om je groeiende site verkeer om te zetten in abonnees, leads en verkoop."
+
+#: app/Common/Utils/Tags.php:296
+msgid "Description for the current media file."
+msgstr "Beschrijving voor het huidige mediabestand."
+
+#: app/Common/Utils/Tags.php:819
+msgid "Sample description for media."
+msgstr "Voorbeeld beschrijving voor media."
+
+#. Translators: 1 - The plugin shortname ("AIOSEO").
+#: languages/aioseo-lite.php:170 languages/aioseo-pro.php:188
+#: dist/Lite/assets/js/Main.5148afd0.js:1
+msgid "%1$s Overview"
+msgstr "%1$s overzicht"
+
+#. Translators: 1 - "Clarity".
+#: languages/aioseo-lite.php:174 languages/aioseo-pro.php:192
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "%1$s Project ID"
+msgstr "%1$s project ID"
+
+#: languages/aioseo-lite.php:390 languages/aioseo-pro.php:508
+msgid "Add IndexNow support to instantly notify search engines when your content has changed."
+msgstr "Voeg IndexNow ondersteuning toe om zoekmachines direct te informeren wanneer je inhoud is gewijzigd."
+
+#: languages/aioseo-lite.php:403 languages/aioseo-pro.php:536
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:2
+#: dist/Lite/assets/js/AdditionalPages.94d0616c.js:3
+msgid "Add Page"
+msgstr "Pagina toevoegen"
+
+#: languages/aioseo-lite.php:435 languages/aioseo-pro.php:580
+#: dist/Lite/assets/js/SocialProfiles.9591afec.js:1
+msgid "Additional Profiles"
+msgstr "Extra profielen"
+
+#: languages/aioseo-lite.php:505 languages/aioseo-pro.php:685
+msgid "AIOSEO Local - Business Info"
+msgstr "AIOSEO Lokaal - Bedrijfsinfo"
+
+#: languages/aioseo-lite.php:511 languages/aioseo-pro.php:691
+msgid "AIOSEO Local - Locations"
+msgstr "AIOSEO Lokaal - Locaties"
+
+#: languages/aioseo-lite.php:514 languages/aioseo-pro.php:694
+msgid "AIOSEO Local - Map"
+msgstr "AIOSEO Lokaal - Kaart"
+
+#: languages/aioseo-lite.php:517 languages/aioseo-pro.php:697
+msgid "AIOSEO Local - Opening Hours"
+msgstr "AIOSEO Lokaal - Openingsuren"
+
+#: languages/aioseo-lite.php:572 languages/aioseo-pro.php:772
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Allowed Query Args"
+msgstr "Toegestane query argumenten"
+
+#: languages/aioseo-lite.php:783 languages/aioseo-pro.php:1083
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Atom Feed"
+msgstr "Atom feed"
+
+#: languages/aioseo-lite.php:795 languages/aioseo-pro.php:1095
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Attachments Feed"
+msgstr "Bijlagen feed"
+
+#: languages/aioseo-lite.php:802 languages/aioseo-pro.php:1107
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Author Feeds"
+msgstr "Auteurfeeds"
+
+#: languages/aioseo-lite.php:895 languages/aioseo-pro.php:1211
+msgid "Beginning Words"
+msgstr "Start woorden"
+
+#: languages/aioseo-lite.php:1221 languages/aioseo-pro.php:1616
+msgid "Compare the percentages of your results to the goal for each category and adjust as necessary."
+msgstr "Vergelijk het percentage van je resultaten van het doel voor elke categorie en pas ze indien nodig aan."
+
+#: languages/aioseo-lite.php:1246 languages/aioseo-pro.php:1637
+msgid "Complete support for schema markup so you can get more clicks and traffic with rich snippets."
+msgstr "Volledige ondersteuning voor schema markup, zodat je meer klikken en verkeer krijgt met rich snippets."
+
+#: languages/aioseo-lite.php:892 languages/aioseo-pro.php:1208
+msgid "Beginning & Ending Words"
+msgstr "Begin- en eindwoorden"
+
+#. Translators: 1 - "Clarity", 2 - Learn more link.
+#: languages/aioseo-lite.php:87 languages/aioseo-pro.php:109
+#: dist/Lite/assets/js/WebmasterTools.c3eb37b9.js:11
+msgid "%1$s helps you understand how users interact with your website through heatmaps and session recordings. %2$s"
+msgstr "%1$s helpt je te begrijpen hoe gebruikers omgaan met je site door middel van heatmaps en sessie opnames. %2$s"
+
+#. Translators: 1 - "Learn More" link.
+#: languages/aioseo-lite.php:375 languages/aioseo-pro.php:484
+#: dist/Lite/assets/js/Advanced.22f8066c.js:1
+msgid "Add any query args that you want to allow, one per line. You can also use regular expressions here for advanced use. All query args that are used by WordPress Core (e.g. \"s\" for search pages) are automatically whitelisted by default. %1$s"
+msgstr "Voeg alle query args toe die je wil toestaan, één per regel. Je kan hier ook reguliere uitdrukkingen gebruiken voor geavanceerd gebruik. Alle query argumenten die door WordPress Core worden gebruikt (bv. \"s\" voor zoekpagina's) worden standaard automatisch op de lijst toegestaan gezet. %1$s"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:153 languages/aioseo-lite.php:2566
+#: languages/aioseo-pro.php:3235 dist/Lite/assets/js/Index.15fee59c.js:1
+msgid "Hey, I noticed you have been using %1$s for some time - that’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "Hey, ik zag dat je %1$s al een tijdje gebruikt - dat is geweldig! Zou je me een groot plezier willen doen en het een 5-sterren waardering geven op WordPress om ons te helpen het woord te verspreiden en onze motivatie te stimuleren?"
+
+#: app/Common/Api/PostsTerms.php:426
+msgid "No post ID or count was provided."
+msgstr "Er werd geen bericht ID of telling gegeven."
+
+#: languages/aioseo-lite.php:502 languages/aioseo-pro.php:682
+msgid "AIOSEO - HTML Sitemap"
+msgstr "AIOSEO - HTML sitemap"
+
+#: languages/aioseo-lite.php:898 languages/aioseo-pro.php:1218
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Below are the SEO scores of your published posts. Take some time to improve your SEO score to help increase your rankings."
+msgstr "Hieronder staan de SEO scores van je gepubliceerde berichten. Neem de tijd om je SEO score te verbeteren om je rankings te verhogen."
+
+#: languages/aioseo-lite.php:1111 languages/aioseo-pro.php:1490
+#: dist/Lite/assets/js/Overview.fb1ba165.js:1
+msgid "Choose a Post Type"
+msgstr "Kies een berichttype"
+
+#: languages/aioseo-lite.php:649 languages/aioseo-pro.php:874
+msgid "Analyze Headline"
+msgstr "Kopregel analyseren"
 
 #: app/Common/Api/Wizard.php:294 app/Common/Api/Wizard.php:302
 msgid "Install OptinMonster"
@@ -59,15 +1183,15 @@ msgstr "%1$s %2$s zoekresultaten voor &#8220;%3$s &#8221; feed"
 msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "%1$s %2$s %3$s %4$s feed"
 
-#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Category name.
-#: app/Common/Rss.php:292
-msgid "%1$s %2$s %3$s Category Feed"
-msgstr "%1$s %2$s %3$s categorie voer"
-
 #. Translators: 1 - The plugin short name ("AIOSEO").
 #: app/Common/Api/Wizard.php:297
 msgid "You selected to install the free OptinMonster Conversion Tools plugin during the setup of %1$s, but there was an issue during installation. Click below to manually install."
 msgstr "Je hebt ervoor gekozen om de gratis OptinMonster Conversion Tools plugin te installeren tijdens de setup van %1$s, maar er is een probleem opgetreden tijdens de installatie. Klik hieronder om handmatig te installeren."
+
+#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Category name.
+#: app/Common/Rss.php:292
+msgid "%1$s %2$s %3$s Category Feed"
+msgstr "%1$s %2$s %3$s categorie feed"
 
 #. Translators: 1 - The plugin short name ("AIOSEO").
 #: app/Common/Admin/Dashboard.php:45
@@ -695,7 +1819,7 @@ msgstr "De meest geavanceerde WordPress zoek plugin. Pas je WordPress zoekalgori
 #: languages/aioseo-lite.php:4964 languages/aioseo-pro.php:6395
 #: dist/Lite/assets/js/AboutUs.e72ab34f.js:1
 msgid "The #1 Stripe payments plugin for WordPress. Start accepting one-time and recurring payments on your WordPress site without setting up a shopping cart. No code required."
-msgstr "De #1 stripe betalingen plugin voor WordPress. Begin met het accepteren van eenmalige en terugkerende betalingen op je WordPress site zonder een winkelwagen in te stellen. Geen code nodig."
+msgstr "De #1 Stripe betalingen plugin voor WordPress. Begin met het accepteren van eenmalige en terugkerende betalingen op je WordPress site zonder een winkelwagen in te stellen. Geen code nodig."
 
 #: languages/aioseo-lite.php:1265 languages/aioseo-pro.php:1656
 #: dist/Lite/assets/js/AboutUs.e72ab34f.js:1
@@ -1050,11 +2174,6 @@ msgstr "Tenminste een"
 msgid "Negative"
 msgstr "Negatief"
 
-#: languages/aioseo-lite.php:3348 languages/aioseo-pro.php:4270
-#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
-msgid "Negative headlines are attention-grabbing and tend to perform better than neutral ones."
-msgstr "Negatieve headlines trekken de aandacht en presteren doorgaans beter dan neutrale."
-
 #: languages/aioseo-lite.php:3352 languages/aioseo-pro.php:4274
 #: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
 msgid "Neutral"
@@ -1080,36 +2199,31 @@ msgstr "Positief"
 msgid "Positive headlines tend to get better engagement than neutral or negative ones."
 msgstr "Positieve krantenkoppen hebben de neiging om een betere betrokkenheid te krijgen dan neutrale of negatieve."
 
-#: languages/aioseo-lite.php:6391 languages/aioseo-pro.php:8263
+#: languages/aioseo-lite.php:6403 languages/aioseo-pro.php:8275
 #: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
-msgid "Your headline has a neutral sentiment."
-msgstr "Je header heeft een neutraal sentiment."
+msgid "Your headline has too many words. Long headlines will get cut off in search results and won’t get as many clicks."
+msgstr "Je kopregel bevat te veel woorden. Lange kopregels worden afgekapt in de zoekresultaten en krijgen niet zoveel klikken."
 
 #: languages/aioseo-lite.php:6395 languages/aioseo-pro.php:8267
 #: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
 msgid "Your headline has a positive sentiment."
-msgstr "Je header heeft een positief sentiment."
+msgstr "Je kopregel heeft een positief sentiment."
 
-#: languages/aioseo-lite.php:6403 languages/aioseo-pro.php:8275
+#: languages/aioseo-lite.php:6391 languages/aioseo-pro.php:8263
 #: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
-msgid "Your headline has too many words. Long headlines will get cut off in search results and won’t get as many clicks."
-msgstr "Je header bevat te veel woorden. Lange koppen worden afgekapt in de zoekresultaten en krijgen niet zoveel klikken."
+msgid "Your headline has a neutral sentiment."
+msgstr "Je kopregel heeft een neutraal sentiment."
+
+#: languages/aioseo-lite.php:3348 languages/aioseo-pro.php:4270
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Negative headlines are attention-grabbing and tend to perform better than neutral ones."
+msgstr "Negatieve kopregels trekken de aandacht en presteren doorgaans beter dan neutrale."
 
 #: languages/aioseo-lite.php:2377 languages/aioseo-pro.php:3028
 #: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
 #: dist/Lite/assets/js/Overview.fb1ba165.js:1
 msgid "Good"
 msgstr "Goed"
-
-#: languages/aioseo-lite.php:6399 languages/aioseo-pro.php:8271
-#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
-msgid "Your headline has the right amount of words. Headlines are more likely to be clicked on in search results if they have about 6 words."
-msgstr "Je header heeft de juiste hoeveelheid woorden. Kopteksten worden eerder aangeklikt in zoekresultaten als ze ongeveer 6 woorden bevatten."
-
-#: languages/aioseo-lite.php:6383 languages/aioseo-pro.php:8255
-#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
-msgid "Your headline doesn’t use enough words. You have more space to add keywords and power words to improve your SEO and get more engagement."
-msgstr "Je header gebruikt niet genoeg woorden. Je hebt meer ruimte om keywords en powerwoorden toe te voegen om je SEO te verbeteren en meer betrokkenheid te krijgen."
 
 #: languages/aioseo-lite.php:2507 languages/aioseo-pro.php:3176
 #: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
@@ -1123,6 +2237,16 @@ msgstr "Teveel woorden 😑"
 #: languages/aioseo-lite.php:4167 languages/aioseo-pro.php:5307
 msgid "Reduce Word Count 🙂"
 msgstr "Verminder het aantal woorden 🙂"
+
+#: languages/aioseo-lite.php:6383 languages/aioseo-pro.php:8255
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Your headline doesn’t use enough words. You have more space to add keywords and power words to improve your SEO and get more engagement."
+msgstr "Je kopregel gebruikt niet genoeg woorden. Je hebt meer ruimte om keywords en powerwoorden toe te voegen om je SEO te verbeteren en meer betrokkenheid te krijgen."
+
+#: languages/aioseo-lite.php:6399 languages/aioseo-pro.php:8271
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Your headline has the right amount of words. Headlines are more likely to be clicked on in search results if they have about 6 words."
+msgstr "Je kopregel heeft de juiste hoeveelheid woorden. Kopregels worden eerder aangeklikt in zoekresultaten als ze ongeveer 6 woorden bevatten."
 
 #: languages/aioseo-lite.php:1129 languages/aioseo-pro.php:1511
 #: dist/Lite/assets/js/Twitter.e2bca838.js:1
@@ -1169,12 +2293,6 @@ msgstr "Voer een geldige headline op."
 msgid "Link Assistant"
 msgstr "Link assistent"
 
-#. Translators: 1 - HTML Line break tag.
-#: languages/aioseo-lite.php:3751 languages/aioseo-pro.php:4735
-#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
-msgid "Our Headline Analyzer tool enables you to write irresistible SEO headlines%1$sthat drive traffic, shares, and rank better in search results."
-msgstr "Onze headline analyzer-tool stelt je in staat om onweerstaanbare SEO-koppen te schrijven%1$sthat verkeer, aandelen en beter te scoren in zoekresultaten."
-
 #. Translators: 1 - Plugin Short Name ("AIOSEO"), 2 - Pro, 3 - Version Number
 #. ("1.0.0"), 4 - Addon name ("Redirects"), 5 - Version Number ("1.0.0").
 #: languages/aioseo-pro.php:6830
@@ -1189,6 +2307,12 @@ msgstr "Top 10 manieren om het verkeer te vergroten"
 #: languages/aioseo-lite.php:3571 languages/aioseo-pro.php:4523
 msgid "Not Enough Words 🙃"
 msgstr "Niet genoeg woorden 🙃"
+
+#. Translators: 1 - HTML Line break tag.
+#: languages/aioseo-lite.php:3751 languages/aioseo-pro.php:4735
+#: dist/Lite/assets/js/HeadlineAnalyzer.63a6fd8f.js:1
+msgid "Our Headline Analyzer tool enables you to write irresistible SEO headlines%1$sthat drive traffic, shares, and rank better in search results."
+msgstr "Onze Headline Analyzer Tool stelt je in staat om onweerstaanbare SEO kopregels te schrijven%1$sdie verkeer en shares genereren en beter scoren in de zoekresultaten."
 
 #: languages/aioseo-lite.php:453 languages/aioseo-pro.php:603
 msgid "Address:"
@@ -7335,10 +8459,6 @@ msgstr "Je hebt geen toestemming om plugins te activeren."
 msgid "Pro version is already installed."
 msgstr "Pro versie is reeds geïnstalleerd."
 
-#: app/Lite/Admin/Connect.php:391
-msgid "The Pro version installed correctly, but it needs to be activated from the Plugins page inside your WordPress admin."
-msgstr "De Pro-versie werd correct geïnstalleerd, maar moet nog geactiveerd worden via de Plugins pagina in je WordPress beheerder."
-
 #: languages/aioseo-lite.php:1292 languages/aioseo-pro.php:1692
 msgid "Content length"
 msgstr "Inhoud lengte"
@@ -7390,6 +8510,10 @@ msgstr "Focus keyphrase gebruikt aan het begin van SEO titel."
 #: languages/aioseo-lite.php:2144 languages/aioseo-pro.php:2774
 msgid "Focus keyphrase used in the URL."
 msgstr "Focus keyphrase gebruikt in de URL."
+
+#: app/Lite/Admin/Connect.php:391
+msgid "The Pro version installed correctly, but it needs to be activated from the Plugins page inside your WordPress admin."
+msgstr "De Pro versie werd correct geïnstalleerd, maar moet nog geactiveerd worden via de Plugins pagina in je WordPress beheerder."
 
 #: languages/aioseo-lite.php:3240 languages/aioseo-pro.php:4143
 #: dist/Lite/assets/js/App.3e986f86.js:1
@@ -7699,15 +8823,6 @@ msgstr "Google Tag Manager container ID"
 msgid "Twitter Preview"
 msgstr "Twitter voorbeeld"
 
-#. Translators: 1 - Expand to the number of text sections not separated by
-#. subheadings, 2 - expands to the recommended number of words following a
-#. subheading.
-#: languages/aioseo-lite.php:19 languages/aioseo-pro.php:37
-msgid "%1$d section of your text is longer than %2$d words and is not separated by any subheadings. Add subheadings to improve readability."
-msgid_plural "%1$d sections of your text are longer than %2$d words and are not separated by any subheadings. Add subheadings to improve readability."
-msgstr[0] "%1$d sectie van je tekst is langer dan %2$d woorden en wordt niet gescheiden door subkoppen. Voeg subkoppen toe om de leesbaarheid te verbeteren."
-msgstr[1] ""
-
 #: languages/aioseo-lite.php:6376 languages/aioseo-pro.php:8248
 msgid "Your H2 and H3 subheadings reflects the topic of your copy. Good job!"
 msgstr "Je H2 en H3 subkoppen weerspiegelen het onderwerp van je tekst. Goed gedaan!"
@@ -7739,6 +8854,15 @@ msgstr "Afbeeldingen/video's in inhoud"
 #: languages/aioseo-lite.php:4482 languages/aioseo-pro.php:5732
 msgid "Sentences length"
 msgstr "Lengte van zinnen"
+
+#. Translators: 1 - Expand to the number of text sections not separated by
+#. subheadings, 2 - expands to the recommended number of words following a
+#. subheading.
+#: languages/aioseo-lite.php:19 languages/aioseo-pro.php:37
+msgid "%1$d section of your text is longer than %2$d words and is not separated by any subheadings. Add subheadings to improve readability."
+msgid_plural "%1$d sections of your text are longer than %2$d words and are not separated by any subheadings. Add subheadings to improve readability."
+msgstr[0] "%1$d sectie van je tekst is langer dan %2$d woorden en wordt niet gescheiden door subkopteksten. Voeg subkopteksten toe om de leesbaarheid te verbeteren."
+msgstr[1] "%1$d secties van je tekst zijn langer dan %2$d woorden en worden niet gescheiden door subkopteksten. Voeg subkopteksten toe om de leesbaarheid te verbeteren."
 
 #. Translators: 1 - HTML line break tag, 2 - A link to our documentation.
 #: languages/aioseo-lite.php:5318 languages/aioseo-pro.php:6903
@@ -11526,7 +12650,7 @@ msgstr "Succesvol! De back-up is teruggezet."
 #: languages/aioseo-lite.php:4249 languages/aioseo-pro.php:5411
 #: dist/Lite/assets/js/ImportExport.cc0a3377.js:1
 msgid "Restore"
-msgstr "Herstellen"
+msgstr "Terugzetten"
 
 #: languages/aioseo-lite.php:1511 languages/aioseo-pro.php:1956
 #: dist/Lite/assets/js/Facebook.d1b5113f.js:1

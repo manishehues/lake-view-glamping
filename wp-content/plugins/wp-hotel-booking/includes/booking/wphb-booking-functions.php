@@ -132,6 +132,7 @@ if ( ! function_exists( 'hb_get_booking_statuses' ) ) {
 			'hb-pending'    => _x( 'Pending', 'Booking status', 'wp-hotel-booking' ),
 			'hb-processing' => _x( 'Processing', 'Booking status', 'wp-hotel-booking' ),
 			'hb-completed'  => _x( 'Completed', 'Booking status', 'wp-hotel-booking' ),
+			'hb-checkedout'  => _x( 'Checked Out', 'Booking status', 'wp-hotel-booking' ),
 		);
 
 		return apply_filters( 'hb_booking_statuses', $booking_statuses );
@@ -192,12 +193,14 @@ if ( ! function_exists( 'hb_add_order_item' ) ) {
 			array(
 				'order_item_name'   => $param['order_item_name'],
 				'order_item_type'   => $param['order_item_type'],
+				'dome_id'   		=> $param['dome_id'],
 				'order_item_parent' => isset( $param['order_item_parent'] ) ? $param['order_item_parent'] : null,
 				'order_id'          => $booking_id
 			),
 			array(
 				'%s',
 				'%s',
+				'%d',
 				'%d',
 				'%d'
 			)

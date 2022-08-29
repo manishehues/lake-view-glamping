@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-30 01:38:13+0000\n"
+"PO-Revision-Date: 2022-08-14 01:08:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,18 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - LiteSpeed Cache - Stable (latest release)\n"
+
+#: tpl/toolbox/log_viewer.tpl.php:93
+msgid "LiteSpeed Logs"
+msgstr "LiteSpeed ログ"
+
+#: tpl/toolbox/log_viewer.tpl.php:21
+msgid "Crawler Log"
+msgstr "クローラーログ"
+
+#: tpl/toolbox/log_viewer.tpl.php:16
+msgid "Purge Log"
+msgstr "パージログ"
 
 #: tpl/toolbox/settings-debug.tpl.php:166
 msgid "Prevent writing log entries that include listed strings."
@@ -64,7 +76,7 @@ msgstr "メインドメインはまだ生成されていません"
 msgid "Main domain"
 msgstr "メインドメイン"
 
-#: tpl/dash/dashboard.tpl.php:530
+#: tpl/dash/dashboard.tpl.php:514
 msgid "Viewport Image"
 msgstr "ビューポートイメージ"
 
@@ -445,7 +457,7 @@ msgstr "ページタイプが %2$s であるページに対して UCSS をバイ
 msgid "Use %1$s to generate one single UCSS for the pages which page type is %2$s while other page types still per URL."
 msgstr "%1$s を使用して、ページタイプが %2$s であるページに対して単一の UCSS を生成し、他のページタイプは依然として URL ごとに生成します。"
 
-#: tpl/page_optm/settings_css.tpl.php:69
+#: tpl/page_optm/settings_css.tpl.php:70
 msgid "Filter %s available for UCSS per page type generation."
 msgstr "ページタイプごとの UCSS 生成で使用可能なフィルタ %s。"
 
@@ -482,7 +494,7 @@ msgstr "すべてのローカライズされたリソースのエントリーを
 msgid "UCSS Allowlist"
 msgstr "UCSS 許可リスト"
 
-#: tpl/dash/dashboard.tpl.php:596
+#: tpl/dash/dashboard.tpl.php:580
 msgid "<b>Last crawled:</b> %d item(s)"
 msgstr "<b>最後にクロールされたもの：</b> %d アイテム"
 
@@ -590,44 +602,44 @@ msgstr "これにより、Google Fonts への事前接続も追加され、早�
 msgid "Delay rendering off-screen HTML elements by its selector."
 msgstr "セレクタによる画面外のHTML要素のレンダリングを遅延させる。"
 
-#: tpl/page_optm/settings_css.tpl.php:244
+#: tpl/page_optm/settings_css.tpl.php:245
 msgid "Disable this option to generate CCSS per Post Type instead of per page. This can save significant CCSS quota, however it may result in incorrect CSS styling if your site uses a page builder."
 msgstr "このオプションを無効にすると、ページ単位ではなく投稿タイプ単位で CCSS を生成することができます。これにより、CCSS の使用量を大幅に削減することができますが、ページビルダーを使用しているサイトでは、CSS のスタイリングが正しく行われない場合があります。"
 
-#: tpl/page_optm/settings_css.tpl.php:183
+#: tpl/page_optm/settings_css.tpl.php:184
 msgid "This option is bypassed due to %s option."
 msgstr "このオプションは %s オプションによりバイパスされます。"
 
-#: tpl/page_optm/settings_css.tpl.php:178
+#: tpl/page_optm/settings_css.tpl.php:179
 msgid "Elements with attribute %s in HTML code will be excluded."
 msgstr "HTML コードで属性が %s の要素は除外されます。"
 
-#: tpl/page_optm/settings_css.tpl.php:172
+#: tpl/page_optm/settings_css.tpl.php:173
 msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
 msgstr "オンラインサービスの QUIC.cloud を利用して、重要な CSS を生成し、残りの CSS を非同期で読み込む。"
 
-#: tpl/page_optm/settings_css.tpl.php:137
+#: tpl/page_optm/settings_css.tpl.php:138
 msgid "This option will automatically bypass %s option."
 msgstr "このオプションは、自動的に %s オプションを回避します。"
 
-#: tpl/page_optm/settings_css.tpl.php:135
+#: tpl/page_optm/settings_css.tpl.php:136
 msgid "Inline UCSS to reduce the extra CSS file loading. This option will not be automatically turned on for %1$s pages. To use it on %1$s pages, please set it to ON."
 msgstr "UCSS インライン化して、余分な CSS ファイルの読み込みを減らします。このオプションは、%1$s ページでは自動的にONになりません。%1$s ページで使用するには ON に設定してください。"
 
-#: tpl/page_optm/settings_css.tpl.php:119
-#: tpl/page_optm/settings_css.tpl.php:229 tpl/page_optm/settings_vpi.tpl.php:74
+#: tpl/page_optm/settings_css.tpl.php:120
+#: tpl/page_optm/settings_css.tpl.php:230 tpl/page_optm/settings_vpi.tpl.php:74
 msgid "Run %s Queue Manually"
 msgstr "%s キューを手動で実行する"
 
-#: tpl/page_optm/settings_css.tpl.php:73
+#: tpl/page_optm/settings_css.tpl.php:74
 msgid "This option is bypassed because %1$s option is %2$s."
 msgstr "%1$s オプションが %2$s であるため、このオプションはバイパスされます。"
 
-#: tpl/page_optm/settings_css.tpl.php:68
+#: tpl/page_optm/settings_css.tpl.php:69
 msgid "Automatic generation of unique CSS is in the background via a cron-based queue."
 msgstr "unique CSS の自動生成は、cronベースのキューを介してバックグラウンドで行われます。"
 
-#: tpl/page_optm/settings_css.tpl.php:66
+#: tpl/page_optm/settings_css.tpl.php:67
 msgid "This will drop the unused CSS on each page from the combined file."
 msgstr "これにより、各ページで使われていないCSSを結合ファイルから落とします。"
 
@@ -679,14 +691,14 @@ msgstr "最大限の効果を得るためには、%s をオンにする必要が
 msgid "This option enables maximum optimization for Guest Mode visitors."
 msgstr "このオプションは、ゲストモードの訪問者に対して最大限の最適化を行います。"
 
-#: tpl/dash/dashboard.tpl.php:301 tpl/dash/dashboard.tpl.php:390
-#: tpl/dash/dashboard.tpl.php:433 tpl/dash/dashboard.tpl.php:466
-#: tpl/dash/dashboard.tpl.php:499 tpl/dash/dashboard.tpl.php:531
-#: tpl/dash/dashboard.tpl.php:563
+#: tpl/dash/dashboard.tpl.php:300 tpl/dash/dashboard.tpl.php:389
+#: tpl/dash/dashboard.tpl.php:417 tpl/dash/dashboard.tpl.php:450
+#: tpl/dash/dashboard.tpl.php:483 tpl/dash/dashboard.tpl.php:515
+#: tpl/dash/dashboard.tpl.php:547
 msgid "More"
 msgstr "もっと見る"
 
-#: tpl/dash/dashboard.tpl.php:161
+#: tpl/dash/dashboard.tpl.php:160
 msgid "Remaining Daily Quota"
 msgstr "一日の残りの割当量"
 
@@ -814,7 +826,7 @@ msgstr "詳細は %s を参照してください。"
 msgid "This setting will regenerate crawler list and clear the disabled list!"
 msgstr "UCSS URI を除く"
 
-#: src/gui.cls.php:104
+#: src/gui.cls.php:78
 msgid "%1$s %2$s files left in queue"
 msgstr "%1$s %2$s ファイルがキューに残っています"
 
@@ -858,11 +870,11 @@ msgstr "クローラーのために解析された有効なサイトマップが
 msgid "CSS Combine External and Inline"
 msgstr "CSS の外部とインラインを組み合わせる"
 
-#: tpl/page_optm/settings_css.tpl.php:151
+#: tpl/page_optm/settings_css.tpl.php:152
 msgid "Include external CSS and inline CSS in combined file when %1$s is also enabled. This option helps maintain the priorities of CSS, which should minimize potential errors caused by CSS Combine."
 msgstr "%1$s も有効になっている場合、外部 CSS とインライン CSS を結合ファイルに含めます。このオプションは CSS の優先順位を維持するのに役立ち、CSS 結合によって引き起こされる潜在的なエラーを最小限に抑えることができるはずです。"
 
-#: tpl/page_optm/settings_css.tpl.php:31
+#: tpl/page_optm/settings_css.tpl.php:32
 msgid "Minify CSS files and inline CSS code."
 msgstr "CSS ファイルとインライン CSS コードを最小化します。"
 
@@ -921,7 +933,7 @@ msgstr "最新のデータファイルは"
 msgid "The list will be merged with the predefined nonces in your local data file."
 msgstr "リストは、ローカル データ ファイル内の定義済みのノンスとマージされます。"
 
-#: tpl/page_optm/settings_css.tpl.php:44
+#: tpl/page_optm/settings_css.tpl.php:45
 msgid "Combine CSS files and inline CSS code."
 msgstr "CSS ファイルとインライン CSS コードを組み合わせます。"
 
@@ -937,7 +949,7 @@ msgstr "リストされた JS ファイルまたはインライン JS コード�
 msgid "Listed CSS files or inline CSS code will not be minified/combined."
 msgstr "リストされた CSS ファイルまたはインライン CSS コードは縮小/結合されません。"
 
-#: src/css.cls.php:62 src/root.cls.php:185
+#: src/root.cls.php:185
 msgid "Queue cleared successfully."
 msgstr "キューは消去されました。"
 
@@ -997,7 +1009,7 @@ msgstr "カスタムヘッダーの設定"
 msgid "This will delete all localized resources"
 msgstr "これにより、ローカライズされたすべてのリソースを削除します"
 
-#: src/gui.cls.php:562 src/gui.cls.php:722 tpl/toolbox/purge.tpl.php:88
+#: src/gui.cls.php:536 src/gui.cls.php:696 tpl/toolbox/purge.tpl.php:88
 msgid "Localized Resources"
 msgstr "ローカライズされたリソース"
 
@@ -1021,7 +1033,7 @@ msgstr "ローカリゼーション設定"
 msgid "List the CSS selector that its style should be always contained in UCSS."
 msgstr "CSS セレクターのスタイルは常に UCSS に含まれるようにリストします。"
 
-#: tpl/page_optm/settings_css.tpl.php:65
+#: tpl/page_optm/settings_css.tpl.php:66
 msgid "Use QUIC.cloud online service to generate unique CSS."
 msgstr "QUIC.cloud オンラインサービスを使用して、固有の CSS を生成します。"
 
@@ -1029,7 +1041,7 @@ msgstr "QUIC.cloud オンラインサービスを使用して、固有の CSS �
 msgid "Generate UCSS"
 msgstr "UCSS を生成する"
 
-#: tpl/dash/dashboard.tpl.php:465 tpl/toolbox/purge.tpl.php:79
+#: tpl/dash/dashboard.tpl.php:449 tpl/toolbox/purge.tpl.php:79
 msgid "Unique CSS"
 msgstr "ユニークな CSS"
 
@@ -1475,11 +1487,11 @@ msgstr "TTL"
 msgid "If ON, the stale copy of a cached page will be shown to visitors until a new cache copy is available. Reduces the server load for following visits. If OFF, the page will be dynamically generated while visitors wait."
 msgstr "ON の場合、新しいキャッシュコピーが利用可能になるまで、キャッシュされた古いページのコピーが訪問者に表示されます。次の訪問のサーバー負荷を軽減します。 OFF の場合、訪問者が待機している間にページが動的に生成されます。"
 
-#: tpl/page_optm/settings_css.tpl.php:271
+#: tpl/page_optm/settings_css.tpl.php:272
 msgid "Swap"
 msgstr "スワップ"
 
-#: tpl/page_optm/settings_css.tpl.php:270
+#: tpl/page_optm/settings_css.tpl.php:271
 msgid "Set this to append %1$s to all %2$s rules before caching CSS to specify how fonts should be displayed while being downloaded."
 msgstr "これを設定して、CSSをキャッシュする前にすべての %2$s ルールに %1$s を追加して、ダウンロード中のフォントの表示方法を指定します。"
 
@@ -1571,11 +1583,11 @@ msgstr "LiteSpeed Cache ページの最適化"
 msgid "Media Excludes"
 msgstr "除外するメディア"
 
-#: tpl/page_optm/entry.tpl.php:6 tpl/page_optm/settings_css.tpl.php:17
+#: tpl/page_optm/entry.tpl.php:6 tpl/page_optm/settings_css.tpl.php:18
 msgid "CSS Settings"
 msgstr "CSS 設定"
 
-#: tpl/page_optm/settings_css.tpl.php:271
+#: tpl/page_optm/settings_css.tpl.php:272
 msgid "%s is recommended."
 msgstr "%s をお勧めします。"
 
@@ -1583,7 +1595,7 @@ msgstr "%s をお勧めします。"
 msgid "Deferred"
 msgstr "Deferred"
 
-#: tpl/page_optm/settings_css.tpl.php:268
+#: tpl/page_optm/settings_css.tpl.php:269
 msgid "Default"
 msgstr "デフォルト"
 
@@ -1712,8 +1724,8 @@ msgstr "一度に最大 %s 画像を要求できます。"
 msgid "Optimize images with our QUIC.cloud server"
 msgstr "QUIC.cloud サーバーで画像を最適化する"
 
-#: tpl/img_optm/summary.tpl.php:57 tpl/page_optm/settings_css.tpl.php:92
-#: tpl/page_optm/settings_css.tpl.php:202
+#: tpl/img_optm/summary.tpl.php:57 tpl/page_optm/settings_css.tpl.php:93
+#: tpl/page_optm/settings_css.tpl.php:203
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/page_optm/settings_vpi.tpl.php:48
 msgid "Current closest Cloud server is %s.&#10; Click to redetect."
@@ -1775,123 +1787,119 @@ msgstr "データベーステーブルエンジンコンバーター"
 msgid "Clean revisions older than %1$s day(s), excluding %2$s latest revisions"
 msgstr "%2$s の最新のリビジョンを除いて、%1$s日より古いリビジョンを消去します"
 
-#: tpl/dash/dashboard.tpl.php:570
+#: tpl/dash/dashboard.tpl.php:554
 msgid "Currently active crawler"
 msgstr "現在アクティブなクローラー"
 
-#: tpl/dash/dashboard.tpl.php:567
+#: tpl/dash/dashboard.tpl.php:551
 msgid "Crawler(s)"
 msgstr "クローラー"
 
-#: tpl/crawler/map.tpl.php:44 tpl/dash/dashboard.tpl.php:562
+#: tpl/crawler/map.tpl.php:44 tpl/dash/dashboard.tpl.php:546
 msgid "Crawler Status"
 msgstr "クローラーステータス"
 
-#: tpl/dash/dashboard.tpl.php:449 tpl/dash/dashboard.tpl.php:482
-#: tpl/dash/dashboard.tpl.php:514 tpl/dash/dashboard.tpl.php:546
+#: tpl/dash/dashboard.tpl.php:433 tpl/dash/dashboard.tpl.php:466
+#: tpl/dash/dashboard.tpl.php:498 tpl/dash/dashboard.tpl.php:530
 msgid "Force cron"
 msgstr "強制 cron"
 
-#: tpl/dash/dashboard.tpl.php:446 tpl/dash/dashboard.tpl.php:479
-#: tpl/dash/dashboard.tpl.php:512 tpl/dash/dashboard.tpl.php:544
+#: tpl/dash/dashboard.tpl.php:430 tpl/dash/dashboard.tpl.php:463
+#: tpl/dash/dashboard.tpl.php:496 tpl/dash/dashboard.tpl.php:528
 msgid "Requests in queue"
 msgstr "キュー内の要求"
 
-#: tpl/dash/dashboard.tpl.php:441 tpl/dash/dashboard.tpl.php:474
-#: tpl/dash/dashboard.tpl.php:507 tpl/dash/dashboard.tpl.php:539
+#: tpl/dash/dashboard.tpl.php:425 tpl/dash/dashboard.tpl.php:458
+#: tpl/dash/dashboard.tpl.php:491 tpl/dash/dashboard.tpl.php:523
 msgid "Time to execute previous request"
 msgstr "前の要求を実行する時間"
 
-#: tpl/dash/dashboard.tpl.php:418
-msgid "Cache Stats"
-msgstr "キャッシュ統計"
-
-#: tpl/dash/dashboard.tpl.php:396
+#: tpl/dash/dashboard.tpl.php:395
 msgid "Private Cache"
 msgstr "プライベートキャッシュ"
 
-#: tpl/dash/dashboard.tpl.php:395
+#: tpl/dash/dashboard.tpl.php:394
 msgid "Public Cache"
 msgstr "パブリックキャッシュ"
 
-#: tpl/dash/dashboard.tpl.php:389
+#: tpl/dash/dashboard.tpl.php:388
 msgid "Cache Status"
 msgstr "キャッシュステータス"
 
-#: tpl/dash/dashboard.tpl.php:361
+#: tpl/dash/dashboard.tpl.php:360
 msgid "Last Pull"
 msgstr "最後の戻し"
 
-#: tpl/dash/dashboard.tpl.php:326
+#: tpl/dash/dashboard.tpl.php:325
 msgid "Images Requested"
 msgstr "要求された画像"
 
-#: tpl/dash/dashboard.tpl.php:311
+#: tpl/dash/dashboard.tpl.php:310
 msgid "Image Groups Prepared"
 msgstr "準備された画像グループ"
 
-#: tpl/dash/dashboard.tpl.php:300 tpl/img_optm/entry.tpl.php:6
+#: tpl/dash/dashboard.tpl.php:299 tpl/img_optm/entry.tpl.php:6
 msgid "Image Optimization Summary"
 msgstr "画像最適化の概要"
 
-#: tpl/dash/dashboard.tpl.php:239
+#: tpl/dash/dashboard.tpl.php:238
 msgid "Refresh page score"
 msgstr "ページスコアの更新"
 
-#: tpl/dash/dashboard.tpl.php:228 tpl/img_optm/summary.tpl.php:57
-#: tpl/page_optm/settings_css.tpl.php:92 tpl/page_optm/settings_css.tpl.php:202
+#: tpl/dash/dashboard.tpl.php:227 tpl/img_optm/summary.tpl.php:57
+#: tpl/page_optm/settings_css.tpl.php:93 tpl/page_optm/settings_css.tpl.php:203
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/page_optm/settings_vpi.tpl.php:48
 msgid "Are you sure you want to redetect the closest cloud server for this service?"
 msgstr "このサービスに最も近いクラウドサーバーを再検出してもよろしいですか？"
 
-#: tpl/dash/dashboard.tpl.php:228
+#: tpl/dash/dashboard.tpl.php:227
 msgid "Current closest Cloud server is %s.&#10;Click to redetect."
 msgstr "現在最も近いクラウド サーバーは %s.&#10; クリックして再検出します。"
 
-#: tpl/dash/dashboard.tpl.php:223 tpl/dash/dashboard.tpl.php:292
-#: tpl/dash/dashboard.tpl.php:457 tpl/dash/dashboard.tpl.php:490
-#: tpl/dash/dashboard.tpl.php:522 tpl/dash/dashboard.tpl.php:554
+#: tpl/dash/dashboard.tpl.php:222 tpl/dash/dashboard.tpl.php:291
+#: tpl/dash/dashboard.tpl.php:441 tpl/dash/dashboard.tpl.php:474
+#: tpl/dash/dashboard.tpl.php:506 tpl/dash/dashboard.tpl.php:538
 msgid "Last requested"
 msgstr "最後に要求された"
 
-#: tpl/dash/dashboard.tpl.php:182
+#: tpl/dash/dashboard.tpl.php:181
 msgid "Refresh page load time"
 msgstr "ページの読み込み時間を更新"
 
-#: tpl/dash/dashboard.tpl.php:170
+#: tpl/dash/dashboard.tpl.php:169
 msgid "Go to QUIC.cloud dashboard"
 msgstr "QUIC.cloud ダッシュボードに移動"
 
-#: tpl/dash/dashboard.tpl.php:60 tpl/dash/dashboard.tpl.php:498
+#: tpl/dash/dashboard.tpl.php:59 tpl/dash/dashboard.tpl.php:482
 msgid "Low Quality Image Placeholder"
 msgstr "低品質の画像プレースホルダー"
 
-#: tpl/dash/dashboard.tpl.php:47
+#: tpl/dash/dashboard.tpl.php:46
 msgid "Sync data from Cloud"
 msgstr "クラウドからのデータを同期"
 
-#: tpl/dash/dashboard.tpl.php:44
+#: tpl/dash/dashboard.tpl.php:43
 msgid "QUIC.cloud Service Usage Statistics"
 msgstr "QUIC.cloud サービスの使用統計"
 
-#: tpl/dash/dashboard.tpl.php:152 tpl/dash/network_dash.tpl.php:101
+#: tpl/dash/dashboard.tpl.php:151 tpl/dash/network_dash.tpl.php:101
 msgid "Total images optimized in this month"
 msgstr "今月に最適化された画像の合計"
 
-#: tpl/dash/dashboard.tpl.php:151 tpl/dash/network_dash.tpl.php:100
+#: tpl/dash/dashboard.tpl.php:150 tpl/dash/network_dash.tpl.php:100
 msgid "Total Usage"
 msgstr "総使用量"
 
-#: tpl/dash/dashboard.tpl.php:133 tpl/dash/network_dash.tpl.php:93
+#: tpl/dash/dashboard.tpl.php:132 tpl/dash/network_dash.tpl.php:93
 msgid "Pay as You Go Usage Statistics"
 msgstr "従量課金制の使用統計"
 
-#: tpl/dash/dashboard.tpl.php:131 tpl/dash/network_dash.tpl.php:91
+#: tpl/dash/dashboard.tpl.php:130 tpl/dash/network_dash.tpl.php:91
 msgid "This Month Usage"
 msgstr "今月の使用状況"
 
-#: tpl/dash/dashboard.tpl.php:130 tpl/dash/network_dash.tpl.php:90
+#: tpl/dash/dashboard.tpl.php:129 tpl/dash/network_dash.tpl.php:90
 msgid "PAYG Balance"
 msgstr "PAYG バランス"
 
@@ -1899,15 +1907,15 @@ msgstr "PAYG バランス"
 msgid "Pay as You Go"
 msgstr "従量課金"
 
-#: tpl/dash/dashboard.tpl.php:117 tpl/dash/network_dash.tpl.php:78
+#: tpl/dash/dashboard.tpl.php:116 tpl/dash/network_dash.tpl.php:78
 msgid "Usage"
 msgstr "使用量"
 
-#: tpl/dash/dashboard.tpl.php:117 tpl/dash/network_dash.tpl.php:78
+#: tpl/dash/dashboard.tpl.php:116 tpl/dash/network_dash.tpl.php:78
 msgid "Fast Queue Usage"
 msgstr "高速キューの使用"
 
-#: tpl/dash/dashboard.tpl.php:59 tpl/dash/network_dash.tpl.php:29
+#: tpl/dash/dashboard.tpl.php:58 tpl/dash/network_dash.tpl.php:29
 msgid "CDN Bandwidth"
 msgstr "CDN 帯域幅"
 
@@ -2054,26 +2062,10 @@ msgstr "キーを生成する前に、このリストにあるすべての IP �
 msgid "For online services to work correctly, you must allowlist all %s server IPs."
 msgstr "オンラインサービスが正しく動作するためには、すべての %s サーバ の IP を許可リストに登録する必要があります。"
 
-#: src/gui.cls.php:572 src/gui.cls.php:732
+#: src/gui.cls.php:546 src/gui.cls.php:706
 #: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:97
 msgid "LQIP Cache"
 msgstr "LQIP キャッシュ"
-
-#: src/gui.cls.php:84
-msgid "Private Cache Hits"
-msgstr "プライベートキャッシュのヒット"
-
-#: src/gui.cls.php:83
-msgid "Private Caches"
-msgstr "プライベートキャッシュ"
-
-#: src/gui.cls.php:82
-msgid "Public Cache Hits"
-msgstr "パブリックキャッシュのヒット"
-
-#: src/gui.cls.php:81
-msgid "Public Caches"
-msgstr "パブリックキャッシュ"
 
 #: src/admin-settings.cls.php:245 src/admin-settings.cls.php:279
 msgid "Options saved."
@@ -2275,7 +2267,7 @@ msgstr "Gravator キャッシュ TTL"
 msgid "Gravatar Cache Cron"
 msgstr "Gravator キャッシュ Cron"
 
-#: src/gui.cls.php:582 src/gui.cls.php:742 src/lang.cls.php:176
+#: src/gui.cls.php:556 src/gui.cls.php:716 src/lang.cls.php:176
 #: tpl/toolbox/purge.tpl.php:106
 msgid "Gravatar Cache"
 msgstr "Gravator キャッシュ"
@@ -2531,7 +2523,7 @@ msgstr "ツールボックス"
 msgid "Database"
 msgstr "データベース"
 
-#: src/admin-display.cls.php:129 tpl/dash/dashboard.tpl.php:58
+#: src/admin-display.cls.php:129 tpl/dash/dashboard.tpl.php:57
 msgid "Page Optimization"
 msgstr "ページの最適化"
 
@@ -2663,26 +2655,26 @@ msgstr "インストール"
 msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
 msgstr "これらのオプションは、LiteSpeed Enterprise Web Server または QUIC.cloud CDN でのみ使用可能です。"
 
-#: tpl/banner/score.php:68 tpl/dash/dashboard.tpl.php:236
+#: tpl/banner/score.php:68 tpl/dash/dashboard.tpl.php:235
 msgid "PageSpeed Score"
 msgstr "PageSpeed スコア"
 
 #: tpl/banner/score.php:55 tpl/banner/score.php:94
-#: tpl/dash/dashboard.tpl.php:209 tpl/dash/dashboard.tpl.php:276
+#: tpl/dash/dashboard.tpl.php:208 tpl/dash/dashboard.tpl.php:275
 msgid "Improved by"
 msgstr "改善しました"
 
 #: tpl/banner/score.php:45 tpl/banner/score.php:84
-#: tpl/dash/dashboard.tpl.php:201 tpl/dash/dashboard.tpl.php:268
+#: tpl/dash/dashboard.tpl.php:200 tpl/dash/dashboard.tpl.php:267
 msgid "After"
 msgstr "後"
 
 #: tpl/banner/score.php:34 tpl/banner/score.php:74
-#: tpl/dash/dashboard.tpl.php:192 tpl/dash/dashboard.tpl.php:260
+#: tpl/dash/dashboard.tpl.php:191 tpl/dash/dashboard.tpl.php:259
 msgid "Before"
 msgstr "更新前"
 
-#: tpl/banner/score.php:28 tpl/dash/dashboard.tpl.php:179
+#: tpl/banner/score.php:28 tpl/dash/dashboard.tpl.php:178
 msgid "Page Load Time"
 msgstr "ページの読み込み時間"
 
@@ -2907,19 +2899,19 @@ msgstr "LiteSpeed からの高性能なページキャッシュとサイトの�
 msgid "Reset the optimized data successfully."
 msgstr "最適化されたデータをリセットします。"
 
-#: src/gui.cls.php:808
+#: src/gui.cls.php:782
 msgid "Update %s now"
 msgstr "%s を今すぐ更新"
 
-#: src/gui.cls.php:803
+#: src/gui.cls.php:777
 msgid "View %1$s version %2$s details"
 msgstr "%1$s バージョン %2$s の詳細を表示"
 
-#: src/gui.cls.php:800
+#: src/gui.cls.php:774
 msgid "<a href=\"%1$s\" %2$s>View version %3$s details</a> or <a href=\"%4$s\" %5$s target=\"_blank\">update now</a>."
 msgstr "<a href=\"%1$s\" %2$s>バージョン %3$s の詳細を表示</a>するか、 <a href=\"%4$s\" %5$s target=\"_blank\">今すぐ更新する</a>。"
 
-#: src/gui.cls.php:780
+#: src/gui.cls.php:754
 msgid "Install %s"
 msgstr "%s のインストール"
 
@@ -2983,7 +2975,7 @@ msgstr "画像を最適化し、同じフォルダ内のオリジナルのバッ
 msgid "Optimize Original Images"
 msgstr "オリジナル画像の最適化"
 
-#: tpl/page_optm/settings_css.tpl.php:175
+#: tpl/page_optm/settings_css.tpl.php:176
 msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
 msgstr "オプションを %s にすると、Google フォントを非同期に読み込みます。"
 
@@ -2991,7 +2983,7 @@ msgstr "オプションを %s にすると、Google フォントを非同期に�
 msgid "Cleaned all Critical CSS files."
 msgstr "すべての重要な CSS ファイルを消去しました。"
 
-#: tpl/page_optm/settings_css.tpl.php:257
+#: tpl/page_optm/settings_css.tpl.php:258
 msgid "This will inline the asynchronous CSS library to avoid render blocking."
 msgstr "レンダリングのブロックを避けるため、非同期 CSS ライブラリをインライン展開します。"
 
@@ -3004,18 +2996,18 @@ msgstr "インライン CSS 非同期ライブラリ"
 msgid "Run Queue Manually"
 msgstr "キューを手動で実行する"
 
-#: tpl/page_optm/settings_css.tpl.php:98 tpl/page_optm/settings_css.tpl.php:208
+#: tpl/page_optm/settings_css.tpl.php:99 tpl/page_optm/settings_css.tpl.php:209
 #: tpl/page_optm/settings_vpi.tpl.php:54
 msgid "URL list in %s queue waiting for cron"
 msgstr "%s キューのURL リストが cron を待っている"
 
-#: tpl/page_optm/settings_css.tpl.php:86 tpl/page_optm/settings_css.tpl.php:196
+#: tpl/page_optm/settings_css.tpl.php:87 tpl/page_optm/settings_css.tpl.php:197
 msgid "Last requested cost"
 msgstr "最後に要求された費用"
 
-#: tpl/dash/dashboard.tpl.php:438 tpl/dash/dashboard.tpl.php:471
-#: tpl/dash/dashboard.tpl.php:504 tpl/dash/dashboard.tpl.php:536
-#: tpl/page_optm/settings_css.tpl.php:83 tpl/page_optm/settings_css.tpl.php:193
+#: tpl/dash/dashboard.tpl.php:422 tpl/dash/dashboard.tpl.php:455
+#: tpl/dash/dashboard.tpl.php:488 tpl/dash/dashboard.tpl.php:520
+#: tpl/page_optm/settings_css.tpl.php:84 tpl/page_optm/settings_css.tpl.php:194
 #: tpl/page_optm/settings_media.tpl.php:170
 #: tpl/page_optm/settings_vpi.tpl.php:42
 msgid "Last generated"
@@ -3025,11 +3017,11 @@ msgstr "最後に生成"
 msgid "If set to %s this is done in the foreground, which may slow down page load."
 msgstr "%s に設定すると、これはフォアグラウンドで行われ、ページの読み込みが遅くなる可能性があります。"
 
-#: tpl/page_optm/settings_css.tpl.php:174
+#: tpl/page_optm/settings_css.tpl.php:175
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
 msgstr "重要な CSS の自動生成は、cron ベースのキューを介してバックグラウンドで行われます。"
 
-#: tpl/page_optm/settings_css.tpl.php:170
+#: tpl/page_optm/settings_css.tpl.php:171
 msgid "Optimize CSS delivery."
 msgstr "CSS 配信を最適化する。"
 
@@ -3037,7 +3029,7 @@ msgstr "CSS 配信を最適化する。"
 msgid "This will delete all generated critical CSS files"
 msgstr "すべての生成されたクリティカル CSS ファイルが削除されます"
 
-#: tpl/dash/dashboard.tpl.php:432 tpl/toolbox/purge.tpl.php:70
+#: tpl/dash/dashboard.tpl.php:416 tpl/toolbox/purge.tpl.php:70
 msgid "Critical CSS"
 msgstr "クリティカル CSS"
 
@@ -3146,11 +3138,11 @@ msgstr "すべてをパージするフック"
 msgid "Purged all caches successfully."
 msgstr "すべてのキャッシュをパージしました。"
 
-#: src/gui.cls.php:506 src/gui.cls.php:606 src/gui.cls.php:656
+#: src/gui.cls.php:480 src/gui.cls.php:580 src/gui.cls.php:630
 msgid "LSCache"
 msgstr "LSCache"
 
-#: src/gui.cls.php:450
+#: src/gui.cls.php:424
 msgid "Forced cacheable"
 msgstr "強制キャッシュ可能"
 
@@ -3175,19 +3167,19 @@ msgstr "デバッグ目的で LSCache とすべての最適化機能が無効に
 msgid "Disable All Features"
 msgstr "すべての機能を無効にする"
 
-#: src/gui.cls.php:533 src/gui.cls.php:693 tpl/toolbox/purge.tpl.php:61
+#: src/gui.cls.php:507 src/gui.cls.php:667 tpl/toolbox/purge.tpl.php:61
 msgid "Opcode Cache"
 msgstr "OPcode キャッシュ"
 
-#: src/gui.cls.php:514 src/gui.cls.php:664 tpl/toolbox/purge.tpl.php:43
+#: src/gui.cls.php:488 src/gui.cls.php:638 tpl/toolbox/purge.tpl.php:43
 msgid "CSS/JS Cache"
 msgstr "CSS/JS キャッシュ"
 
-#: src/gui.cls.php:761 tpl/img_optm/summary.tpl.php:175
+#: src/gui.cls.php:735 tpl/img_optm/summary.tpl.php:175
 msgid "Remove all previous unfinished image optimization requests."
 msgstr "前回の完了していない画像最適化要求をすべて削除します。"
 
-#: src/gui.cls.php:762 tpl/img_optm/summary.tpl.php:177
+#: src/gui.cls.php:736 tpl/img_optm/summary.tpl.php:177
 msgid "Clean Up Unfinished Data"
 msgstr "完了していないデータのクリーンアップ"
 
@@ -3243,7 +3235,7 @@ msgstr "LSCWP サポートフォーラムに移動"
 msgid "Rate %s on %s"
 msgstr "%s の %s での評価"
 
-#: src/lang.cls.php:25 tpl/dash/dashboard.tpl.php:348
+#: src/lang.cls.php:25 tpl/dash/dashboard.tpl.php:347
 msgid "Images notified to pull"
 msgstr "通知した画像を引き戻します"
 
@@ -3291,15 +3283,15 @@ msgstr "動作中"
 msgid "Size"
 msgstr "サイズ"
 
-#: tpl/crawler/summary.tpl.php:99 tpl/dash/dashboard.tpl.php:589
+#: tpl/crawler/summary.tpl.php:99 tpl/dash/dashboard.tpl.php:573
 msgid "Ended reason"
 msgstr "終了した理由"
 
-#: tpl/crawler/summary.tpl.php:92 tpl/dash/dashboard.tpl.php:582
+#: tpl/crawler/summary.tpl.php:92 tpl/dash/dashboard.tpl.php:566
 msgid "Last interval"
 msgstr "最後の間隔"
 
-#: tpl/crawler/summary.tpl.php:85 tpl/dash/dashboard.tpl.php:575
+#: tpl/crawler/summary.tpl.php:85 tpl/dash/dashboard.tpl.php:559
 msgid "Current crawler started at"
 msgstr "クローラーが開始されました"
 
@@ -3358,7 +3350,7 @@ msgid "Server variable(s) %s available to override this setting."
 msgstr "サーバー変数 %s は設定を無効するために使用できます。"
 
 #: src/admin-display.cls.php:1168 tpl/cache/settings-esi.tpl.php:95
-#: tpl/page_optm/settings_css.tpl.php:177
+#: tpl/page_optm/settings_css.tpl.php:178
 #: tpl/page_optm/settings_html.tpl.php:85
 #: tpl/page_optm/settings_media.tpl.php:235
 #: tpl/page_optm/settings_media_exc.tpl.php:26
@@ -3387,7 +3379,7 @@ msgstr "設定ファイル %s をインポートしました。"
 msgid "Import failed due to file error."
 msgstr "ファイルエラーのためインポートできませんでした。"
 
-#: tpl/page_optm/settings_css.tpl.php:45 tpl/page_optm/settings_js.tpl.php:35
+#: tpl/page_optm/settings_css.tpl.php:46 tpl/page_optm/settings_js.tpl.php:35
 msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "CSS / JS 最適化によって引き起こされる問題を解決する方法。"
 
@@ -3541,8 +3533,8 @@ msgstr "ポート"
 msgid "Host"
 msgstr "ホスト"
 
-#: src/gui.cls.php:523 src/gui.cls.php:683 src/lang.cls.php:114
-#: tpl/dash/dashboard.tpl.php:397 tpl/toolbox/purge.tpl.php:52
+#: src/gui.cls.php:497 src/gui.cls.php:657 src/lang.cls.php:114
+#: tpl/dash/dashboard.tpl.php:396 tpl/toolbox/purge.tpl.php:52
 msgid "Object Cache"
 msgstr "オブジェクトキャッシュ"
 
@@ -3654,7 +3646,7 @@ msgstr "Cloudflare ゾーン"
 msgid "Cloudflare Domain"
 msgstr "Cloudflare ドメイン"
 
-#: src/gui.cls.php:673 tpl/cdn/manage.tpl.php:17
+#: src/gui.cls.php:647 tpl/cdn/manage.tpl.php:17
 msgid "Cloudflare"
 msgstr "Cloudflare"
 
@@ -3719,9 +3711,9 @@ msgstr "これにより、最適化されたファイルのサイズが大きく
 msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
 msgstr "最適化する際に EXIF データ（著作権、GPS、コメント、キーワードなど）を保存します。"
 
-#: tpl/toolbox/log_viewer.tpl.php:11 tpl/toolbox/log_viewer.tpl.php:28
-msgid "Clear Log"
-msgstr "ログを消去"
+#: tpl/toolbox/log_viewer.tpl.php:61
+msgid "Clear Logs"
+msgstr "ログを消去する"
 
 #: thirdparty/woocommerce.content.tpl.php:23
 msgid "To test the cart, visit the <a %s>FAQ</a>."
@@ -3763,7 +3755,7 @@ msgstr "画像を引き戻す"
 msgid "This process is automatic."
 msgstr "この処理は自動的に行われます。"
 
-#: tpl/dash/dashboard.tpl.php:358 tpl/img_optm/summary.tpl.php:342
+#: tpl/dash/dashboard.tpl.php:357 tpl/img_optm/summary.tpl.php:342
 msgid "Last Request"
 msgstr "最後の要求"
 
@@ -3824,7 +3816,7 @@ msgid "Results can be checked in <a %s>Media Library</a>."
 msgstr "結果は<a %s>メディアライブラリ</a>で確認できます。"
 
 #: src/doc.cls.php:53 src/doc.cls.php:105 tpl/cdn/manage.tpl.php:66
-#: tpl/dash/dashboard.tpl.php:51 tpl/img_optm/summary.tpl.php:62
+#: tpl/dash/dashboard.tpl.php:50 tpl/img_optm/summary.tpl.php:62
 #: tpl/img_optm/summary.tpl.php:102 tpl/inc/check_cache_disabled.php:42
 msgid "Learn More"
 msgstr "さらに詳しく"
@@ -3833,7 +3825,7 @@ msgstr "さらに詳しく"
 msgid "Images optimized and pulled"
 msgstr "最適化され戻された画像数"
 
-#: src/lang.cls.php:24 tpl/dash/dashboard.tpl.php:338
+#: src/lang.cls.php:24 tpl/dash/dashboard.tpl.php:337
 msgid "Images requested"
 msgstr "最適化を要求した画像数"
 
@@ -3926,8 +3918,8 @@ msgstr "最適化の概要"
 msgid "LiteSpeed Cache Image Optimization"
 msgstr "LiteSpeed Cache 画像の最適化"
 
-#: src/admin-display.cls.php:127 src/gui.cls.php:639
-#: tpl/dash/dashboard.tpl.php:57 tpl/dash/network_dash.tpl.php:27
+#: src/admin-display.cls.php:127 src/gui.cls.php:613
+#: tpl/dash/dashboard.tpl.php:56 tpl/dash/network_dash.tpl.php:27
 msgid "Image Optimization"
 msgstr "画像の最適化"
 
@@ -3977,7 +3969,7 @@ msgstr "リストされた画像は遅延読み込みされません。"
 msgid "Lazy Load Image Excludes"
 msgstr "遅延読み込み Imageを除外"
 
-#: src/gui.cls.php:483
+#: src/gui.cls.php:457
 msgid "No optimization"
 msgstr "非最適化"
 
@@ -4055,23 +4047,23 @@ msgstr "LiteSpeed へようこそ"
 msgid "Remove WordPress Emoji"
 msgstr "WordPress 絵文字を削除"
 
-#: src/gui.cls.php:491
+#: src/gui.cls.php:465
 msgid "More settings"
 msgstr "追加設定"
 
-#: src/gui.cls.php:472
+#: src/gui.cls.php:446
 msgid "Private cache"
 msgstr "プライベートキャッシュ"
 
-#: src/gui.cls.php:461
+#: src/gui.cls.php:435
 msgid "Non cacheable"
 msgstr "キャッシュ不可"
 
-#: src/gui.cls.php:438
+#: src/gui.cls.php:412
 msgid "Mark this page as "
 msgstr "このページをマーク "
 
-#: src/gui.cls.php:414 src/gui.cls.php:429
+#: src/gui.cls.php:388 src/gui.cls.php:403
 msgid "Purge this page"
 msgstr "このページをパージ"
 
@@ -4099,7 +4091,7 @@ msgstr "Google フォントがすべてのページに読み込まれないよ�
 msgid "Remove Google Fonts"
 msgstr "Google フォントを削除"
 
-#: tpl/page_optm/settings_css.tpl.php:171
+#: tpl/page_optm/settings_css.tpl.php:172
 #: tpl/page_optm/settings_html.tpl.php:129 tpl/page_optm/settings_js.tpl.php:67
 msgid "This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed."
 msgstr "Pingdom、GTmetrix、PageSpeedなどのサービスでスピードスコアを向上させることができます。"
@@ -4128,7 +4120,7 @@ msgstr "サーバー管理者もブラウザのキャッシュをオンにする
 msgid "Browser caching stores static files locally in the user's browser. Turn on this setting to reduce repeated requests for static files."
 msgstr "ブラウザのキャッシュは、静的ファイルをユーザーのブラウザ内でローカルに格納します。静的ファイルの反復要求を減らすには、この設定をオンにします。"
 
-#: src/lang.cls.php:91 tpl/dash/dashboard.tpl.php:398
+#: src/lang.cls.php:91 tpl/dash/dashboard.tpl.php:397
 msgid "Browser Cache"
 msgstr "ブラウザキャッシュ"
 
@@ -4259,7 +4251,7 @@ msgstr "CDN"
 #: src/admin-display.cls.php:916 src/admin-display.cls.php:968
 #: tpl/cache/settings-cache.tpl.php:19
 #: tpl/cache/settings_inc.object.tpl.php:210 tpl/cdn/settings.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:73 tpl/page_optm/settings_js.tpl.php:63
+#: tpl/page_optm/settings_css.tpl.php:74 tpl/page_optm/settings_js.tpl.php:63
 #: tpl/page_optm/settings_media.tpl.php:162
 #: tpl/toolbox/settings-debug.tpl.php:46
 msgid "OFF"
@@ -4269,7 +4261,7 @@ msgstr "オフ"
 #: src/admin-display.cls.php:917 src/admin-display.cls.php:968
 #: tpl/cache/settings-cache.tpl.php:19
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:71 tpl/cdn/settings.tpl.php:49
-#: tpl/page_optm/settings_css.tpl.php:175
+#: tpl/page_optm/settings_css.tpl.php:176
 #: tpl/page_optm/settings_media.tpl.php:159
 #: tpl/toolbox/settings-debug.tpl.php:46
 msgid "ON"
@@ -4452,8 +4444,8 @@ msgstr "デフォルトのプライベートキャッシュ TTL"
 msgid "If your site contains public content that certain user roles can see but other roles cannot, you can specify a Vary Group for those user roles. For example, specifying an administrator vary group allows there to be a separate publicly-cached page tailored to administrators (with “edit” links, etc), while all other user roles see the default public page."
 msgstr "特定のユーザーロールには表示されるが他のロールには表示されないパブリックコンテンツがサイトに含まれている場合は、それらのユーザーロールに対して Vary Group を指定できます。例えば、管理者の異なるグループを指定すると、管理者向けに編集された公開された別のページ（「編集」リンクなど）があり、他のすべてのユーザーの役割にはデフォルトの公開ページが表示されます。"
 
-#: src/lang.cls.php:216 tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:221 tpl/page_optm/settings_vpi.tpl.php:67
+#: src/lang.cls.php:216 tpl/page_optm/settings_css.tpl.php:112
+#: tpl/page_optm/settings_css.tpl.php:222 tpl/page_optm/settings_vpi.tpl.php:67
 msgid "Vary Group"
 msgstr "グループを変更"
 
@@ -4680,7 +4672,7 @@ msgstr "LiteSpeedサーバーでクローラー機能が有効になっていま
 #: tpl/cache/settings-esi.tpl.php:35 tpl/cdn/manage.tpl.php:21
 #: tpl/crawler/summary.tpl.php:48 tpl/inc/check_cache_disabled.php:31
 #: tpl/inc/check_if_network_disable_all.php:18
-#: tpl/page_optm/settings_css.tpl.php:60 tpl/page_optm/settings_css.tpl.php:166
+#: tpl/page_optm/settings_css.tpl.php:61 tpl/page_optm/settings_css.tpl.php:167
 #: tpl/page_optm/settings_localization.tpl.php:11
 msgid "WARNING"
 msgstr "警告"
@@ -4885,7 +4877,7 @@ msgstr "例えば、サイトのホームページが %1$s にあるなら、シ
 msgid "Action"
 msgstr "操作"
 
-#: src/gui.cls.php:105
+#: src/gui.cls.php:79
 msgid "Cancel"
 msgstr "中止"
 
@@ -4901,7 +4893,7 @@ msgstr "メールアドレス"
 msgid "Warning"
 msgstr "警告"
 
-#: src/gui.cls.php:781
+#: src/gui.cls.php:755
 msgid "Install Now"
 msgstr "今すぐインストール"
 
@@ -5038,7 +5030,7 @@ msgstr "これにより、サーバーに負荷がかかるかもしれません
 msgid "This will clear EVERYTHING inside the cache."
 msgstr "この操作により、キャッシュ内のすべてがクリアされます。"
 
-#: src/gui.cls.php:606
+#: src/gui.cls.php:580
 msgid "LiteSpeed Cache Purge All"
 msgstr "LiteSpeed Cache すべてをパージする"
 
@@ -5070,7 +5062,7 @@ msgstr "このメッセージは、プラグインがサーバー管理者によ
 msgid "LiteSpeed Cache plugin is installed!"
 msgstr "LiteSpeed Cache プラグインがインストールされています!"
 
-#: src/lang.cls.php:260 tpl/toolbox/log_viewer.tpl.php:7
+#: src/lang.cls.php:260 tpl/toolbox/log_viewer.tpl.php:11
 msgid "Debug Log"
 msgstr "デバッグログ"
 
@@ -5378,7 +5370,7 @@ msgstr "ファイル %s は書き込み可能ではありません。"
 msgid "JS Settings"
 msgstr "JS 設定"
 
-#: src/gui.cls.php:622 tpl/cdn/entry.tpl.php:8 tpl/cdn/settings.tpl.php:194
+#: src/gui.cls.php:596 tpl/cdn/entry.tpl.php:8 tpl/cdn/settings.tpl.php:194
 #: tpl/db_optm/entry.tpl.php:6
 msgid "Manage"
 msgstr "管理"
@@ -5550,13 +5542,13 @@ msgstr "LiteSpeed Cache の設定"
 msgid "Notified LiteSpeed Web Server to purge all LSCache entries."
 msgstr "すべての LSCache エントリをパージするように LiteSpeed Web Server に通知しました。"
 
-#: src/gui.cls.php:498 src/gui.cls.php:506 src/gui.cls.php:514
-#: src/gui.cls.php:523 src/gui.cls.php:533 src/gui.cls.php:543
-#: src/gui.cls.php:553 src/gui.cls.php:562 src/gui.cls.php:572
-#: src/gui.cls.php:582 src/gui.cls.php:648 src/gui.cls.php:656
-#: src/gui.cls.php:664 src/gui.cls.php:673 src/gui.cls.php:683
-#: src/gui.cls.php:693 src/gui.cls.php:703 src/gui.cls.php:713
-#: src/gui.cls.php:722 src/gui.cls.php:732 src/gui.cls.php:742
+#: src/gui.cls.php:472 src/gui.cls.php:480 src/gui.cls.php:488
+#: src/gui.cls.php:497 src/gui.cls.php:507 src/gui.cls.php:517
+#: src/gui.cls.php:527 src/gui.cls.php:536 src/gui.cls.php:546
+#: src/gui.cls.php:556 src/gui.cls.php:622 src/gui.cls.php:630
+#: src/gui.cls.php:638 src/gui.cls.php:647 src/gui.cls.php:657
+#: src/gui.cls.php:667 src/gui.cls.php:677 src/gui.cls.php:687
+#: src/gui.cls.php:696 src/gui.cls.php:706 src/gui.cls.php:716
 #: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:37
 #: tpl/toolbox/purge.tpl.php:43 tpl/toolbox/purge.tpl.php:52
 #: tpl/toolbox/purge.tpl.php:61 tpl/toolbox/purge.tpl.php:70
@@ -5566,6 +5558,6 @@ msgstr "すべての LSCache エントリをパージするように LiteSpeed W
 msgid "Purge All"
 msgstr "すべてをパージする"
 
-#: src/admin-display.cls.php:285 src/gui.cls.php:630
+#: src/admin-display.cls.php:285 src/gui.cls.php:604
 msgid "Settings"
 msgstr "設定"

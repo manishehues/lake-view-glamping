@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Redirection - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-28 16:09:08+0000\n"
+"PO-Revision-Date: 2022-08-14 13:16:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -337,7 +337,7 @@ msgstr "Aliasdomein"
 
 #: redirection-strings.php:688 redirection.js:2
 msgid "You will need to configure your system (DNS and server) to pass requests for these domains to this WordPress install."
-msgstr "Je moet je systeem (DNS en server) configureren om verzoeken voor deze domeinen door te geven aan deze WordPress-installatie."
+msgstr "Je moet je systeem (DNS en server) configureren om aanvragen voor deze domeinen door te geven aan deze WordPress installatie."
 
 #: redirection-strings.php:687 redirection.js:2
 msgid "A site alias is another domain that you want to be redirected to this site. For example, an old domain, or a subdomain. This will redirect all URLs, including WordPress login and admin."
@@ -370,7 +370,7 @@ msgstr "De volgende plugins zijn gedetecteerd."
 
 #: redirection-strings.php:181 redirection.js:2
 msgid "WordPress automatically creates redirects when you change a post URL. Importing these into Redirection will allow you to manage and monitor them."
-msgstr "WordPress maakt automatisch omleidingen wanneer je een bericht-URL wijzigt. Door deze in omleiding te importeren, kun je ze beheren en controleren."
+msgstr "WordPress maakt automatisch omleidingen wanneer je een bericht URL wijzigt. Door deze in omleiding te importeren, kun je ze beheren en controleren."
 
 #: redirection-strings.php:180 redirection.js:2
 msgid "Importing existing redirects from WordPress or other plugins is a good way to get started with Redirection. Check each set of redirects you wish to import."
@@ -571,7 +571,7 @@ msgstr "Toon alles"
 
 #: redirection-strings.php:125 redirection.js:2
 msgid "Your URL appears to contain a domain inside the path: {{code}}%(relative)s{{/code}}. Did you mean to use {{code}}%(absolute)s{{/code}} instead?"
-msgstr "Jew URL lijkt een domein te bevatten binnen het pad: {{code}}%(relatieve)s{{/code}}. Wilde je {{code}}%(absolute)s{{/code} gebruiken?} in plaats daarvan?"
+msgstr "Je URL lijkt een domein te bevatten binnen het pad: {{code}}%(relative)s{{/code}}. Wilde je {{code}}%(absolute)s{{/code}} in plaats daarvan gebruiken?"
 
 #: redirection-strings.php:585 redirection.js:2
 msgid "Comma separated list of languages to match against (i.e. da, en-GB)"
@@ -783,7 +783,7 @@ msgstr "Dit kan een beveiliging plugin zijn, of je server heeft onvoldoende gehe
 
 #: redirection-strings.php:726 redirection.js:2
 msgid "Your REST API is probably being blocked by a security plugin. Please disable this, or configure it to allow REST API requests."
-msgstr "Je REST API wordt waarschijnlijk geblokkeerd door een beveiligingsplugin. Schakel dit uit of configureer het om REST API-verzoeken toe te staan."
+msgstr "Je REST API wordt waarschijnlijk geblokkeerd door een beveiliging plugin. Schakel dit uit of configureer het om REST API aanvragen toe te staan."
 
 #: redirection-strings.php:727 redirection-strings.php:734
 #: redirection-strings.php:740 redirection-strings.php:745 redirection.js:2
@@ -1040,7 +1040,7 @@ msgstr "Vergeet niet om de \"regex\"optie aan te zetten als dit een reguliere ex
 
 #: redirection-strings.php:114 redirection.js:2
 msgid "The source URL should probably start with a {{code}}/{{/code}}"
-msgstr "De bron-URL moet waarschijnlijk beginnen met een {{code}}/{{/code}}"
+msgstr "De bron URL moet waarschijnlijk beginnen met een {{code}}/{{/code}}"
 
 #: redirection-strings.php:113 redirection.js:2
 msgid "This will be converted to a server redirect for the domain {{code}}%(server)s{{/code}}."
@@ -1110,7 +1110,7 @@ msgstr "Upgrade database"
 #. translators: 1: URL to plugin page
 #: redirection-admin.php:115
 msgid "Please complete your <a href=\"%s\">Redirection setup</a> to activate the plugin."
-msgstr "Voltooi je <a href=\"%s\"> omleidingsinstellingen </a> om de plugin te activeren."
+msgstr "Voltooi je <a href=\"%s\">omleiding instellingen</a> om de plugin te activeren."
 
 #. translators: version number
 #: api/api-plugin.php:119
@@ -1588,7 +1588,7 @@ msgstr "Plugin importeerders"
 msgid "The following redirect plugins were detected on your site and can be imported from."
 msgstr "De volgende redirect plugins, waar vandaan je kunt importeren, zijn gevonden op je site."
 
-#: redirection-strings.php:288 redirection.js:2
+#: redirection-strings.php:288
 msgid "total = "
 msgstr "totaal = "
 
@@ -1615,7 +1615,7 @@ msgstr "<code> Redirectioni10n </code> is niet gedefinieerd. Dit betekent meesta
 
 #: redirection-admin.php:526
 msgid "Also check if your browser is able to load <code>redirection.js</code>:"
-msgstr "Controleer ook of je browser <code> redirection.js </code> kan laden:"
+msgstr "Controleer ook of je browser <code>redirection.js</code> kan laden:"
 
 #: redirection-admin.php:514
 msgid "Unable to load Redirection"
@@ -1656,7 +1656,7 @@ msgstr "URL bijhouden veranderingen"
 
 #: redirection-strings.php:655 redirection.js:2
 msgid "Save changes to this group"
-msgstr "Bewaar veranderingen in deze groep"
+msgstr "Wijzigingen aan deze groep opslaan"
 
 #: redirection-strings.php:656 redirection.js:2
 msgid "For example \"/amp\""
@@ -1732,7 +1732,7 @@ msgstr "Maak je browser cache leeg en laad deze pagina nogmaals."
 
 #: redirection-strings.php:725 redirection.js:2
 msgid "WordPress did not return a response. This could mean an error occurred or that the request was blocked. Please check your server error_log."
-msgstr "WordPress heeft geen reactie gegeven. Dit kan betekenen dat er een fout is opgetreden of dat het verzoek werd geblokkeerd. Bekijk je server foutlog."
+msgstr "WordPress heeft geen reactie gegeven. Dit kan betekenen dat er een fout is opgetreden of dat de aanvraag werd geblokkeerd. Bekijk je server fout log."
 
 #: redirection-admin.php:530
 msgid "If you think Redirection is at fault then create an issue."

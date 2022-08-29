@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-07 18:28:35+0000\n"
+"PO-Revision-Date: 2022-08-22 07:23:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1726,7 +1726,7 @@ msgstr "Fel vid borttagning av objektet."
 
 #: wp-admin/edit.php:150 wp-admin/post.php:291 wp-admin/upload.php:183
 msgid "Error in restoring the item from Trash."
-msgstr "Fel vid återställning av objekt från papperskorgen."
+msgstr "Fel inträffade när objektet skulle återställas från papperskorgen."
 
 #: wp-admin/edit.php:122 wp-admin/post.php:261 wp-admin/upload.php:162
 msgid "Error in moving the item to Trash."
@@ -2470,7 +2470,7 @@ msgstr "Denna uppdatering går inte att installera eftersom WordPress %1$s behö
 
 #: wp-admin/includes/class-wp-site-health.php:1276
 msgid "UTF8MB4 is the character set WordPress prefers for database storage because it safely supports the widest set of characters and encodings, including Emoji, enabling better support for non-English languages."
-msgstr "UTF8MB4 är den teckenkodning WordPress rekommenderar för databaslagring eftersom den på ett säkert sätt stöder flest tecken och teckenkoder, inklusive emotikoner och innebär bättre stöd för olika språk."
+msgstr "UTF8MB4 är den teckenuppsättning WordPress rekommenderar för databaslagring eftersom den på ett säkert sätt stöder flest tecken och teckenkoder, inklusive emotikoner och innebär bättre stöd för olika språk."
 
 #: wp-admin/privacy.php:52
 msgid "https://wordpress.org/about/stats/"
@@ -5927,7 +5927,7 @@ msgstr "Okänt API-fel."
 #. translators: %d: Numeric HTTP status code, e.g. 400, 403, 500, 504, etc.
 #: wp-admin/includes/class-wp-community-events.php:119
 msgid "Invalid API response code (%d)."
-msgstr "Ogiltigt svarskod från API (%d)."
+msgstr "Ogiltig svarskod från API (%d)."
 
 #: wp-admin/users.php:186 wp-admin/users.php:275
 msgid "Sorry, you are not allowed to delete users."
@@ -8695,7 +8695,7 @@ msgstr "Ingen ytterligare åtgärd krävs från din sida."
 #. translators: 1: Home URL, 2: WordPress version.
 #: wp-admin/includes/class-wp-automatic-updater.php:743
 msgid "Howdy! Your site at %1$s has been updated automatically to WordPress %2$s."
-msgstr "Hejsan! Din webbplats på %1$s har automatiskt uppdaterats till WordPress %2$s."
+msgstr "Hej! Din webbplats på %1$s har automatiskt uppdaterats till WordPress %2$s."
 
 #. translators: Site down notification email subject. 1: Site title.
 #: wp-admin/includes/class-wp-automatic-updater.php:726
@@ -9597,7 +9597,7 @@ msgstr "Du kan ta bort Länkkategorier i massredigeringsmenyn, men åtgärderna 
 
 #: wp-admin/edit-form-advanced.php:324
 msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. This screen also has the distraction-free writing space, available in both the Visual and Text modes via the Fullscreen buttons. The Page editor mostly works the same as the Post editor, but there are some Page-specific features in the Page Attributes box."
-msgstr "Att skapa en sida är väldigt likt att skapa ett inlägg, och vyerna kan anpassas på samma sätt genom att dra och släppa, fliken ”Skärmalternativ” och minimera/maximera paneler efter dina önskemål. Även denna vy erbjuder det nya distraktionsfria skrivläget som är tillgängligt i både i det visuella läget och i textläge, via knapparna för fullskärmsläget. Sidredigeraren fungerar i stort på samma sätt som inläggsredigeraren, men det finns vissa sidspecifika funktioner i panelen ”Sidattribut”:"
+msgstr "Att skapa en sida är väldigt likt att skapa ett inlägg, och vyerna kan anpassas på samma sätt genom att dra och släppa, fliken ”Skärmalternativ” och minimera/maximera paneler efter dina önskemål. Även denna vy erbjuder det nya distraktionsfria skrivläget som är tillgängligt både i det visuella läget och i textläget, via knapparna för fullskärmsläget. Sidredigeraren fungerar i stort på samma sätt som inläggsredigeraren, men det finns vissa sidspecifika funktioner i panelen ”Sidattribut”:"
 
 #: wp-admin/includes/class-custom-image-header.php:579
 msgid "You can select an image to be shown at the top of your site by uploading from your computer or choosing from your media library. After selecting an image you will be able to crop it."
@@ -11095,7 +11095,7 @@ msgstr "Friheterna"
 
 #: wp-admin/includes/class-custom-image-header.php:701
 msgid "You can use one of these cool headers or show a random one on each page."
-msgstr "Du kan använda en av dessa sidhuvuden eller visa en slumpvis för varje sida."
+msgstr "Du kan använda ett av dessa häftiga sidhuvuden eller visa en slumpmässig på varje sida."
 
 #: wp-admin/includes/class-custom-image-header.php:699
 msgid "If you don&lsquo;t want to upload your own image, you can use one of these cool headers, or show a random one."
@@ -11115,7 +11115,7 @@ msgstr "Uppladdade bilder"
 
 #: wp-admin/includes/class-custom-image-header.php:316
 msgid "<strong>Random:</strong> Show a different image on each page."
-msgstr "<strong>Slumpvis:</strong> Visa olika bilder slumpvis på varje sida."
+msgstr "<strong>Slumpmässigt:</strong> Visa en annan bild på varje sida."
 
 #: wp-admin/users.php:328
 msgid "You have specified this user for deletion:"
@@ -11253,7 +11253,7 @@ msgstr "WordPress &rsaquo; Uppdatera"
 #. translators: %s: WordPress version.
 #: wp-admin/update-core.php:188
 msgid "You are about to install WordPress %s <strong>in English (US).</strong> There is a chance this update will break your translation. You may prefer to wait for the localized version to be released."
-msgstr "Dessa knappar (om)installerar WordPress %s <strong>på engelska (US)</strong>. Detta kan medföra att ditt nuvarande svenska språkpaket inte kommer att fungera som det ska. Du kanske hellre vill vänta tills den nya svenska versionen släpps (visas ovanför den engelska när den är tillgänglig)."
+msgstr "Du är på väg att (om)installera WordPress %s <strong>på engelska (US)</strong>. Det kan medföra att ditt nuvarande svenska språkpaket inte kommer att fungera som det ska. Du kanske hellre vill vänta tills den nya svenska versionen släpps."
 
 #. translators: 1: Plugin name, 2: Details URL, 3: Additional link attributes,
 #. 4: Version number.
@@ -12040,12 +12040,12 @@ msgstr "Inga objekt."
 #. translators: %s: Asterisk symbol (*).
 #: wp-admin/includes/schema.php:1108
 msgid "To use a subdomain configuration, you must have a wildcard entry in your DNS. This usually means adding a %s hostname record pointing at your web server in your DNS configuration tool."
-msgstr "Om du vill använda en konfiguration med subdomäner måste du skapa en ”wildcard”-post i dina DNS-inställningar. Detta betyder vanligtvis att du i ditt verktyg för konfiguration av DNS lägger till en post med värdnamnet %s och pekar den mot din webbserver."
+msgstr "Om du vill använda en konfiguration med subdomäner måste du skapa en ”joker/wildcard”-post i dina DNS-inställningar. Detta betyder vanligtvis att du i ditt verktyg för konfiguration av DNS lägger till en post med servernamnet %s och pekar den mot din webbserver."
 
 #. translators: %s: Host name.
 #: wp-admin/includes/schema.php:1097
 msgid "The installer attempted to contact a random hostname (%s) on your domain."
-msgstr "Installeraren försökte kontakta ett slumpmässigt värdnamn (%s) på din domän."
+msgstr "Installeraren försökte kontakta ett slumpmässigt servernamn (%s) på din domän."
 
 #: wp-admin/nav-menus.php:265
 msgid "The menu item has been successfully deleted."
@@ -12086,7 +12086,7 @@ msgstr "Du har specificerat dessa användare för borttagning:"
 
 #: wp-admin/users.php:166 wp-admin/users.php:264
 msgid "User deletion is not allowed from this screen."
-msgstr "Radering av användare är inte tillåtet från denna sida."
+msgstr "Det är inte möjligt att ta bort användare i denna vy."
 
 #: wp-admin/includes/class-bulk-upgrader-skin.php:157
 msgid "Show details."
@@ -15080,7 +15080,7 @@ msgstr "Kategorier kan, till skillnad från etiketter, ha en hierarki. Du kanske
 
 #: wp-admin/edit-link-form.php:133
 msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
-msgstr "Detta kommer att visas om man för muspekaren över en länk i länklistan eller valfritt under länken."
+msgstr "Detta kommer visas när någon för muspekaren över en länk i länklistan, eller under länken om du valt att visa det."
 
 #: wp-admin/edit-link-form.php:125
 msgid "Example: <code>https://wordpress.org/</code> &#8212; do not forget the <code>https://</code>"
@@ -15227,8 +15227,8 @@ msgstr "Godkänd"
 #: wp-admin/edit-comments.php:318
 msgid "%s comment permanently deleted."
 msgid_plural "%s comments permanently deleted."
-msgstr[0] "%s kommentar raderad permanent."
-msgstr[1] "%s kommentarer raderade permanent."
+msgstr[0] "%s kommentar togs bort permanent."
+msgstr[1] "%s kommentarer togs bort permanent."
 
 #. translators: %s: Number of comments.
 #: wp-admin/edit-comments.php:302

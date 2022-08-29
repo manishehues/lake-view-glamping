@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.0.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-15 13:20:11+0000\n"
+"PO-Revision-Date: 2022-08-24 06:10:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -205,81 +205,81 @@ msgid "Sunday"
 msgstr "日曜日"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:168 wp-includes/js/dist/components.js:60843
+#: wp-includes/class-wp-locale.php:168 wp-includes/js/dist/components.js:61056
 #, gp-priority: high
 msgid "December"
 msgstr "12月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:167 wp-includes/js/dist/components.js:60841
+#: wp-includes/class-wp-locale.php:167 wp-includes/js/dist/components.js:61054
 #, gp-priority: high
 msgid "November"
 msgstr "11月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:166 wp-includes/js/dist/components.js:60839
+#: wp-includes/class-wp-locale.php:166 wp-includes/js/dist/components.js:61052
 #, gp-priority: high
 msgid "October"
 msgstr "10月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:165 wp-includes/js/dist/components.js:60837
+#: wp-includes/class-wp-locale.php:165 wp-includes/js/dist/components.js:61050
 #, gp-priority: high
 msgid "September"
 msgstr "9月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:164 wp-includes/js/dist/components.js:60835
+#: wp-includes/class-wp-locale.php:164 wp-includes/js/dist/components.js:61048
 #, gp-priority: high
 msgid "August"
 msgstr "8月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:163 wp-includes/js/dist/components.js:60833
+#: wp-includes/class-wp-locale.php:163 wp-includes/js/dist/components.js:61046
 #, gp-priority: high
 msgid "July"
 msgstr "7月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:162 wp-includes/js/dist/components.js:60831
+#: wp-includes/class-wp-locale.php:162 wp-includes/js/dist/components.js:61044
 #, gp-priority: high
 msgid "June"
 msgstr "6月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:161 wp-includes/js/dist/components.js:60829
+#: wp-includes/class-wp-locale.php:161 wp-includes/js/dist/components.js:61042
 #, gp-priority: high
 msgid "May"
 msgstr "5月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:160 wp-includes/js/dist/components.js:60827
+#: wp-includes/class-wp-locale.php:160 wp-includes/js/dist/components.js:61040
 #, gp-priority: high
 msgid "April"
 msgstr "4月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:159 wp-includes/js/dist/components.js:60825
+#: wp-includes/class-wp-locale.php:159 wp-includes/js/dist/components.js:61038
 #, gp-priority: high
 msgid "March"
 msgstr "3月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:158 wp-includes/js/dist/components.js:60823
+#: wp-includes/class-wp-locale.php:158 wp-includes/js/dist/components.js:61036
 #, gp-priority: high
 msgid "February"
 msgstr "2月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:157 wp-includes/js/dist/components.js:60821
+#: wp-includes/class-wp-locale.php:157 wp-includes/js/dist/components.js:61034
 #, gp-priority: high
 msgid "January"
 msgstr "1月"
 
 #: wp-includes/category-template.php:161
-#: wp-includes/js/dist/block-editor.js:23348
-#: wp-includes/js/dist/block-editor.js:23353
-#: wp-includes/js/dist/block-editor.js:24263
+#: wp-includes/js/dist/block-editor.js:23363
+#: wp-includes/js/dist/block-editor.js:23368
+#: wp-includes/js/dist/block-editor.js:24278
 #: wp-includes/js/dist/edit-post.js:4726 wp-admin/includes/upgrade.php:158
 #, gp-priority: high
 msgid "Uncategorized"
@@ -768,17 +768,17 @@ msgid "Displays posts on the homepage, or on the Posts page if a static homepage
 msgstr "ホームページ上に、または、静的ホームページが設定されている場合には投稿ページ上に、投稿を表示します。"
 
 #. translators: %1s: file name; %2s: slug value found.
-#: wp-includes/block-patterns.php:271
+#: wp-includes/block-patterns.php:267
 msgid "Could not register file \"%s\" as a block pattern (\"Title\" field missing)"
 msgstr "ファイル「%s」をブロックパターンとして登録できません (「Title」フィールドがありません)"
 
 #. translators: %1s: file name; %2s: slug value found.
-#: wp-includes/block-patterns.php:253
+#: wp-includes/block-patterns.php:249
 msgid "Could not register file \"%1$s\" as a block pattern (invalid slug \"%2$s\")"
 msgstr "ファイル「%1$s」をブロックパターンとして登録できません (不正なスラッグ「%2$s」)"
 
 #. translators: %s: file name.
-#: wp-includes/block-patterns.php:240
+#: wp-includes/block-patterns.php:236
 msgid "Could not register file \"%s\" as a block pattern (\"Slug\" field missing)"
 msgstr "ファイル「%s」をブロックパターンとして登録できません (「Slug」フィールドがありません)"
 
@@ -1570,7 +1570,7 @@ msgstr "ブロックスタイル名にスペースは使えません。"
 #. translators: %s: Template part slug.
 #. translators: %s: Template part slug
 #: wp-includes/blocks/template-part.php:118
-#: wp-includes/js/dist/block-library.js:45087
+#: wp-includes/js/dist/block-library.js:45107
 msgid "Template part has been deleted or is unavailable: %s"
 msgstr "テンプレートパーツは削除されたか、利用できません: %s"
 
@@ -1759,12 +1759,12 @@ msgid "Index"
 msgstr "インデックス"
 
 #: wp-includes/block-template-utils.php:87
-#: wp-includes/js/dist/block-library.js:45199
+#: wp-includes/js/dist/block-library.js:45219
 msgid "The Footer template defines a page area that typically contains site credits, social links, or any other combination of blocks."
 msgstr "フッターテンプレートは一般にクレジット、ソーシャルリンク、またはその他のブロックの組み合わせを含むページエリアを定義します。"
 
 #: wp-includes/block-template-utils.php:78
-#: wp-includes/js/dist/block-library.js:45190
+#: wp-includes/js/dist/block-library.js:45210
 msgid "The Header template defines a page area that typically contains a title, logo, and main navigation."
 msgstr "ヘッダーテンプレートは一般にタイトル、ロゴ、メインナビゲーションを含むページエリアを定義します。"
 
@@ -1952,16 +1952,16 @@ msgid "Small"
 msgstr "小"
 
 #: wp-includes/blocks/query-pagination-previous.php:22
-#: wp-includes/js/dist/block-library.js:36688
+#: wp-includes/js/dist/block-library.js:36708
 msgid "Previous Page"
 msgstr "前のページ"
 
 #: wp-includes/blocks/query-pagination-next.php:23
-#: wp-includes/js/dist/block-library.js:36511
+#: wp-includes/js/dist/block-library.js:36531
 msgid "Next Page"
 msgstr "次のページ"
 
-#: wp-includes/js/dist/block-library.js:35475
+#: wp-includes/js/dist/block-library.js:35495
 #: wp-admin/includes/plugin-install.php:325
 #: wp-admin/includes/theme-install.php:103
 msgid "Keyword"
@@ -2670,7 +2670,7 @@ msgstr "投稿の月別アーカイブを表示します。"
 #. translators: %s: User login.
 #. translators: %s: Theme name.
 #. translators: %s: Site URL.
-#: wp-includes/js/dist/block-editor.js:27683
+#: wp-includes/js/dist/block-editor.js:27698
 #: wp-admin/includes/class-wp-links-list-table.php:181
 #: wp-admin/includes/class-wp-media-list-table.php:403
 #: wp-admin/includes/class-wp-plugins-list-table.php:991
@@ -2683,12 +2683,12 @@ msgstr "投稿の月別アーカイブを表示します。"
 msgid "Select %s"
 msgstr "%sを選択"
 
-#: wp-includes/js/dist/block-editor.js:25286
+#: wp-includes/js/dist/block-editor.js:25301
 #: wp-includes/js/dist/block-library.js:30519 wp-admin/edit-form-blocks.php:188
 msgid "Type / to choose a block"
 msgstr "ブロックを選択するには「/」を入力"
 
-#: wp-includes/js/dist/block-editor.js:36914
+#: wp-includes/js/dist/block-editor.js:36929
 #: wp-includes/js/dist/edit-site.js:7286 wp-includes/js/dist/edit-site.js:9040
 #: wp-admin/includes/class-wp-screen.php:1205 wp-admin/includes/theme.php:342
 #: wp-admin/includes/theme.php:378 wp-admin/index.php:70
@@ -3254,7 +3254,7 @@ msgstr "(ホームのリンク、新しいタブで開く)"
 
 #. translators: 1: Block type, 2: Typography supports key, e.g: fontSize,
 #. lineHeight, etc. 3: block.json, 4: Old metadata key, 5: New metadata key.
-#: wp-includes/blocks.php:1066
+#: wp-includes/blocks.php:1067
 msgid "Block \"%1$s\" is declaring %2$s support in %3$s file under %4$s. %2$s support is now declared under %5$s."
 msgstr "%1$sブロックは、%3$s ファイルの %4$s で、%2$s のサポートを宣言しています。現在、%2$s のサポートは %5$s で宣言されています。"
 
@@ -3855,7 +3855,7 @@ msgstr "&larr; タグへ戻る"
 msgid "&#8592; Go to library"
 msgstr "&#8592; ライブラリーへ戻る"
 
-#: wp-includes/js/dist/block-editor.js:34237
+#: wp-includes/js/dist/block-editor.js:34252
 #: wp-includes/js/dist/edit-post.js:4828 wp-includes/js/dist/edit-site.js:5047
 #: wp-admin/menu.php:188
 msgid "Appearance"
@@ -4329,7 +4329,7 @@ msgstr "コメント"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1372
 #: wp-includes/js/dist/block-library.js:20309
-#: wp-includes/js/dist/block-library.js:39479
+#: wp-includes/js/dist/block-library.js:39499
 #: wp-admin/includes/image-edit.php:62
 msgid "Crop"
 msgstr "切り抜き"
@@ -5203,7 +5203,7 @@ msgctxt "block keyword"
 msgid "links"
 msgstr "リンク"
 
-#: wp-includes/media.php:4568 wp-includes/js/dist/block-library.js:46683
+#: wp-includes/media.php:4568 wp-includes/js/dist/block-library.js:46703
 msgid "Select poster image"
 msgstr "ポスター画像を選択"
 
@@ -5448,19 +5448,19 @@ msgstr "メディア一覧"
 msgid "Filter media"
 msgstr "メディアを絞り込む"
 
-#: wp-includes/media-template.php:316 wp-includes/js/dist/block-editor.js:40421
+#: wp-includes/media-template.php:316 wp-includes/js/dist/block-editor.js:40433
 #: wp-includes/js/dist/block-library.js:21930
 #: wp-includes/js/dist/block-library.js:34805
-#: wp-includes/js/dist/block-library.js:37988
+#: wp-includes/js/dist/block-library.js:38008
 #: wp-admin/includes/class-wp-media-list-table.php:45
 msgid "Grid view"
 msgstr "グリッド表示"
 
-#: wp-includes/media-template.php:313 wp-includes/js/dist/block-editor.js:40024
-#: wp-includes/js/dist/block-editor.js:40057
+#: wp-includes/media-template.php:313 wp-includes/js/dist/block-editor.js:40039
+#: wp-includes/js/dist/block-editor.js:40072
 #: wp-includes/js/dist/block-library.js:21923
 #: wp-includes/js/dist/block-library.js:34798
-#: wp-includes/js/dist/block-library.js:37981
+#: wp-includes/js/dist/block-library.js:38001
 #: wp-admin/includes/class-wp-media-list-table.php:44
 msgid "List view"
 msgstr "リスト表示"
@@ -6334,7 +6334,7 @@ msgstr "クラシックブロックのキーボードショートカット"
 msgid "Sorry, you are not allowed to view autosaves of this post."
 msgstr "この投稿の自動保存を表示する権限がありません。"
 
-#: wp-includes/js/dist/block-library.js:44717
+#: wp-includes/js/dist/block-library.js:44737
 #: wp-includes/js/dist/edit-post.js:7778 wp-includes/js/dist/edit-site.js:10482
 #: wp-admin/options-privacy.php:268
 msgid "Create"
@@ -6400,7 +6400,7 @@ msgid "Visibility:"
 msgstr "公開状態:"
 
 #: wp-includes/media-template.php:514 wp-includes/media-template.php:743
-#: wp-includes/js/dist/components.js:47786 wp-includes/js/dist/editor.js:9781
+#: wp-includes/js/dist/components.js:47947 wp-includes/js/dist/editor.js:9781
 #: wp-admin/async-upload.php:73
 #: wp-admin/includes/class-wp-media-list-table.php:824
 #: wp-admin/includes/class-wp-privacy-policy-content.php:425
@@ -6428,7 +6428,7 @@ msgstr "コメントを許可"
 msgid "Order"
 msgstr "順序"
 
-#: wp-includes/js/dist/components.js:66718
+#: wp-includes/js/dist/components.js:66931
 #: wp-admin/includes/edit-tag-messages.php:14
 msgid "Item added."
 msgstr "項目を追加しました。"
@@ -6441,7 +6441,7 @@ msgstr "項目を追加しました。"
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:58
 #: wp-includes/functions.php:8104 wp-includes/media-template.php:167
 #: wp-includes/widgets/class-wp-widget-custom-html.php:318 wp-login.php:648
-#: wp-includes/js/dist/components.js:62360
+#: wp-includes/js/dist/components.js:62573
 #: wp-includes/js/dist/customize-widgets.js:1232
 #: wp-includes/js/dist/edit-post.js:3479 wp-includes/js/dist/edit-site.js:5399
 #: wp-includes/js/dist/edit-widgets.js:3756 wp-includes/js/dist/editor.js:7866
@@ -7588,7 +7588,7 @@ msgid "Estonian"
 msgstr "エストニア語"
 
 #: wp-includes/script-loader.php:1033
-#: wp-includes/js/dist/block-library.js:46322 wp-admin/includes/ms.php:670
+#: wp-includes/js/dist/block-library.js:46342 wp-admin/includes/ms.php:670
 msgid "English"
 msgstr "英語"
 
@@ -7649,7 +7649,7 @@ msgid "Live Broadcast"
 msgstr "生放送"
 
 #: wp-includes/script-loader.php:1018
-#: wp-includes/js/dist/block-library.js:46201
+#: wp-includes/js/dist/block-library.js:46221
 msgid "Chapters"
 msgstr "チャプター"
 
@@ -7890,24 +7890,24 @@ msgid "Hour"
 msgstr "時"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:160
-#: wp-includes/js/dist/components.js:60865
+#: wp-includes/js/dist/components.js:61078
 msgid "Time"
 msgstr "時刻"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:146
 #: wp-includes/js/dist/block-library.js:1753
-#: wp-includes/js/dist/components.js:60798 wp-admin/includes/template.php:832
+#: wp-includes/js/dist/components.js:61011 wp-admin/includes/template.php:832
 msgid "Day"
 msgstr "日"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:130
 #: wp-includes/js/dist/block-library.js:1747
-#: wp-includes/js/dist/components.js:60813 wp-admin/includes/template.php:822
+#: wp-includes/js/dist/components.js:61026 wp-admin/includes/template.php:822
 msgid "Month"
 msgstr "月"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:127
-#: wp-includes/js/dist/components.js:60849
+#: wp-includes/js/dist/components.js:61062
 #: wp-admin/includes/ajax-actions.php:2202
 #: wp-admin/includes/class-wp-posts-list-table.php:700
 #: wp-admin/includes/class-wp-posts-list-table.php:1649
@@ -8900,7 +8900,7 @@ msgstr "ユーザーにこの権限グループを与える権限がありませ
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:221
 msgid "Sorry, you are not allowed to order users by this parameter."
-msgstr "このパラメーターでユーザーを並び替える権限がありません。"
+msgstr "このパラメータでユーザーを並び替える権限がありません。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:196
 msgid "Sorry, you are not allowed to filter users by role."
@@ -9137,7 +9137,7 @@ msgstr "パスワードを入力してください。"
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:178
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:558
 msgid "Invalid user parameter(s)."
-msgstr "無効なユーザーパラメーターです。"
+msgstr "無効なユーザーパラメータです。"
 
 #: wp-includes/script-loader.php:1225
 msgctxt "label for hide controls button without length constraints"
@@ -9264,7 +9264,7 @@ msgstr "動作するには ID が必要です。"
 msgid "Homepage"
 msgstr "ホームページ"
 
-#: wp-includes/script-loader.php:868 wp-includes/js/dist/components.js:55597
+#: wp-includes/script-loader.php:868 wp-includes/js/dist/components.js:55759
 msgid "Item selected."
 msgstr "項目を選択しました。"
 
@@ -10662,7 +10662,7 @@ msgstr "リンク設定"
 msgid "Link inserted."
 msgstr "リンクを挿入しました。"
 
-#: wp-includes/script-loader.php:1173 wp-includes/js/dist/block-editor.js:43288
+#: wp-includes/script-loader.php:1173 wp-includes/js/dist/block-editor.js:43300
 msgid "Link selected."
 msgstr "リンクを選択しました。"
 
@@ -10804,7 +10804,7 @@ msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "%1$s %2$s %3$s %4$s のフィード"
 
 #: wp-includes/functions.php:7140 wp-includes/media-template.php:199
-#: wp-includes/media-template.php:347 wp-includes/js/dist/components.js:55989
+#: wp-includes/media-template.php:347 wp-includes/js/dist/components.js:56151
 msgid "Close dialog"
 msgstr "ダイアログを閉じる"
 
@@ -10884,7 +10884,7 @@ msgid "Invalid object type."
 msgstr "無効なオブジェクトの種類。"
 
 #: wp-includes/class-wp-editor.php:1385
-#: wp-includes/js/dist/block-editor.js:43363
+#: wp-includes/js/dist/block-editor.js:43375
 msgid "Paste URL or type to search"
 msgstr "URL をペーストまたは入力して検索"
 
@@ -10925,7 +10925,7 @@ msgstr "<strong>エラー</strong>: 許可されていないユーザー名で�
 
 #: wp-includes/rest-api/class-wp-rest-request.php:913
 msgid "Invalid parameter."
-msgstr "無効なパラメーターです。"
+msgstr "無効なパラメータです。"
 
 #. translators: %s: Menu name.
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:79
@@ -11261,12 +11261,12 @@ msgstr "このサイトでは JSONP のサポートは無効になっていま�
 #: wp-includes/rest-api/class-wp-rest-request.php:845
 #: wp-includes/rest-api/class-wp-rest-request.php:927
 msgid "Invalid parameter(s): %s"
-msgstr "無効なパラメーター: %s"
+msgstr "無効なパラメータ: %s"
 
 #. translators: %s: List of required parameters.
 #: wp-includes/rest-api/class-wp-rest-request.php:888
 msgid "Missing parameter(s): %s"
-msgstr "パラメーター不足: %s"
+msgstr "パラメータ不足: %s"
 
 #. translators: 1: pre_get_posts, 2: WP_Query->is_main_query(), 3:
 #. is_main_query(), 4: Documentation URL.
@@ -11497,7 +11497,7 @@ msgstr[0] "%s <span class=\"screen-reader-text\">コメント</span>"
 #: wp-includes/blocks/read-more.php:24
 #: wp-includes/js/dist/block-library.js:21970
 #: wp-includes/js/dist/block-library.js:24456
-#: wp-includes/js/dist/block-library.js:37801
+#: wp-includes/js/dist/block-library.js:37821
 msgid "Read more"
 msgstr "続きを読む"
 
@@ -12495,7 +12495,7 @@ msgstr "選択範囲を編集"
 
 #: wp-includes/script-loader.php:1860
 #: wp-includes/js/dist/block-library.js:32689
-#: wp-includes/js/dist/components.js:66896
+#: wp-includes/js/dist/components.js:67109
 msgid "Previous"
 msgstr "前"
 
@@ -12603,7 +12603,7 @@ msgctxt "horizontal table cell alignment"
 msgid "H Align"
 msgstr "横配置"
 
-#: wp-includes/class-wp-editor.php:1299 wp-includes/js/dist/components.js:49436
+#: wp-includes/class-wp-editor.php:1299 wp-includes/js/dist/components.js:49598
 msgid "Border color"
 msgstr "枠線の色"
 
@@ -12625,13 +12625,13 @@ msgid "Custom color"
 msgstr "カスタムカラー"
 
 #: wp-includes/class-wp-editor.php:1267
-#: wp-includes/js/dist/block-editor.js:32126
-#: wp-includes/js/dist/block-editor.js:33158
-#: wp-includes/js/dist/block-editor.js:48425
-#: wp-includes/js/dist/block-editor.js:48482
+#: wp-includes/js/dist/block-editor.js:32141
+#: wp-includes/js/dist/block-editor.js:33173
+#: wp-includes/js/dist/block-editor.js:48437
+#: wp-includes/js/dist/block-editor.js:48494
 #: wp-includes/js/dist/block-library.js:11437
 #: wp-includes/js/dist/block-library.js:26439
-#: wp-includes/js/dist/block-library.js:41939
+#: wp-includes/js/dist/block-library.js:41959
 #: wp-includes/js/dist/edit-site.js:6871 wp-includes/js/dist/edit-site.js:6924
 msgid "Color"
 msgstr "色"
@@ -12913,7 +12913,7 @@ msgstr "時間"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:151
 #: wp-includes/media.php:2923 wp-includes/js/dist/block-library.js:1744
-#: wp-includes/js/dist/components.js:60854 wp-admin/includes/template.php:833
+#: wp-includes/js/dist/components.js:61067 wp-admin/includes/template.php:833
 msgid "Year"
 msgstr "年"
 
@@ -12933,7 +12933,7 @@ msgstr "アーティスト"
 
 #: wp-includes/media-template.php:1213
 #: wp-includes/widgets/class-wp-widget-media-image.php:130
-#: wp-includes/js/dist/block-editor.js:48017
+#: wp-includes/js/dist/block-editor.js:48029
 msgid "Link CSS Class"
 msgstr "リンク CSS クラス"
 
@@ -12951,12 +12951,12 @@ msgstr "画像タイトル属性"
 msgid "Advanced Options"
 msgstr "上級者向け設定"
 
-#: wp-includes/media-template.php:1143 wp-includes/js/dist/components.js:65876
+#: wp-includes/media-template.php:1143 wp-includes/js/dist/components.js:66089
 msgid "Custom Size"
 msgstr "カスタムサイズ"
 
 #: wp-includes/media-template.php:1090
-#: wp-includes/js/dist/block-library.js:38497
+#: wp-includes/js/dist/block-library.js:38517
 msgid "Display Settings"
 msgstr "表示設定"
 
@@ -13375,7 +13375,7 @@ msgstr "プレイリストを新規作成"
 #: wp-includes/class-wp-customize-widgets.php:893
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:72
 #: wp-includes/customize/class-wp-customize-themes-panel.php:70
-#: wp-includes/media.php:4473 wp-includes/js/dist/components.js:67859
+#: wp-includes/media.php:4473 wp-includes/js/dist/components.js:68072
 #: wp-includes/js/dist/edit-post.js:3791 wp-includes/js/dist/edit-post.js:5169
 #: wp-includes/js/dist/edit-site.js:10842 wp-admin/includes/ms.php:49
 #: wp-admin/theme-install.php:61
@@ -13392,14 +13392,14 @@ msgstr "ポスター画像"
 
 #: wp-includes/media-template.php:1309 wp-includes/media-template.php:1408
 #: wp-includes/js/dist/block-library.js:2908
-#: wp-includes/js/dist/block-library.js:46130
+#: wp-includes/js/dist/block-library.js:46150
 msgid "Autoplay"
 msgstr "自動再生"
 
 #: wp-includes/media-template.php:1300 wp-includes/media-template.php:1399
 #: wp-includes/js/dist/block-library.js:2931
-#: wp-includes/js/dist/block-library.js:46079
-#: wp-includes/js/dist/block-library.js:46204
+#: wp-includes/js/dist/block-library.js:46099
+#: wp-includes/js/dist/block-library.js:46224
 #: wp-admin/includes/meta-boxes.php:1483
 msgid "Metadata"
 msgstr "メタデータ"
@@ -13433,8 +13433,8 @@ msgstr "「続きを読む」タグを挿入"
 msgid "Toolbar Toggle"
 msgstr "ツールバー切り替え"
 
-#: wp-includes/js/dist/block-editor.js:47639
-#: wp-includes/js/dist/block-editor.js:47645
+#: wp-includes/js/dist/block-editor.js:47651
+#: wp-includes/js/dist/block-editor.js:47657
 #: wp-includes/js/dist/block-library.js:24939
 #: wp-includes/js/dist/customize-widgets.js:1212
 #: wp-includes/js/dist/edit-post.js:3408 wp-includes/js/dist/edit-site.js:5385
@@ -13456,7 +13456,7 @@ msgid "Background color"
 msgstr "背景色"
 
 #: wp-includes/class-wp-editor.php:1318
-#: wp-includes/js/dist/block-library.js:43761
+#: wp-includes/js/dist/block-library.js:43781
 msgid "Delete column"
 msgstr "列を削除"
 
@@ -13474,7 +13474,7 @@ msgstr "ヘッダーセル"
 
 #. translators: accessibility text for the footer landmark region.
 #: wp-includes/block-template-utils.php:86
-#: wp-includes/js/dist/block-library.js:45198
+#: wp-includes/js/dist/block-library.js:45218
 #: wp-includes/js/dist/edit-post.js:1633 wp-includes/js/dist/edit-site.js:2287
 #: wp-includes/js/dist/edit-widgets.js:1217
 msgid "Footer"
@@ -13517,11 +13517,11 @@ msgid "Find and replace"
 msgstr "検索置換"
 
 #: wp-includes/media-template.php:1226 wp-includes/media.php:4471
-#: wp-includes/js/dist/block-editor.js:44810
+#: wp-includes/js/dist/block-editor.js:44822
 #: wp-includes/js/dist/block-library.js:11385
 #: wp-includes/js/dist/block-library.js:34886
-#: wp-includes/js/dist/block-library.js:45110
-#: wp-includes/js/dist/block-library.js:46695
+#: wp-includes/js/dist/block-library.js:45130
+#: wp-includes/js/dist/block-library.js:46715
 msgid "Replace"
 msgstr "置換"
 
@@ -13575,9 +13575,9 @@ msgid "Insert image"
 msgstr "画像を挿入"
 
 #: wp-includes/class-wp-editor.php:1221
-#: wp-includes/js/dist/block-editor.js:32849
-#: wp-includes/js/dist/block-editor.js:33151
-#: wp-includes/js/dist/components.js:49452
+#: wp-includes/js/dist/block-editor.js:32864
+#: wp-includes/js/dist/block-editor.js:33166
+#: wp-includes/js/dist/components.js:49614
 #: wp-includes/js/dist/edit-site.js:6916
 msgid "Style"
 msgstr "スタイル"
@@ -13680,7 +13680,7 @@ msgstr "ウィジェットを移動するエリアを選択:"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1093
 #: wp-includes/class-wp-customize-widgets.php:722
-#: wp-includes/js/dist/block-editor.js:27190
+#: wp-includes/js/dist/block-editor.js:27205
 #: wp-admin/includes/class-walker-nav-menu-edit.php:147
 #: wp-admin/includes/template.php:1351
 msgid "Move up"
@@ -13688,7 +13688,7 @@ msgstr "上に移動"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1094
 #: wp-includes/class-wp-customize-widgets.php:721
-#: wp-includes/js/dist/block-editor.js:27196
+#: wp-includes/js/dist/block-editor.js:27211
 #: wp-admin/includes/class-walker-nav-menu-edit.php:164
 #: wp-admin/includes/template.php:1361
 msgid "Move down"
@@ -14092,7 +14092,7 @@ msgstr "無効なユーザー ID です。"
 msgid "Random Order"
 msgstr "ランダム"
 
-#: wp-includes/media.php:4524 wp-includes/js/dist/block-editor.js:45457
+#: wp-includes/media.php:4524 wp-includes/js/dist/block-editor.js:45469
 msgid "Insert from URL"
 msgstr "URL から挿入"
 
@@ -14161,7 +14161,7 @@ msgid "Manage Video"
 msgstr "動画の管理"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:28
-#: wp-includes/js/dist/block-editor.js:45407 wp-includes/js/dist/editor.js:7130
+#: wp-includes/js/dist/block-editor.js:45419 wp-includes/js/dist/editor.js:7130
 msgid "Video"
 msgstr "動画"
 
@@ -14194,7 +14194,7 @@ msgid "Insert into page"
 msgstr "固定ページに挿入"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:28
-#: wp-includes/js/dist/block-editor.js:45403 wp-includes/js/dist/editor.js:7106
+#: wp-includes/js/dist/block-editor.js:45415 wp-includes/js/dist/editor.js:7106
 msgid "Audio"
 msgstr "音声"
 
@@ -14217,9 +14217,9 @@ msgstr "カスタム URL"
 #: wp-includes/js/dist/block-library.js:16247
 #: wp-includes/js/dist/block-library.js:17152
 #: wp-includes/js/dist/block-library.js:21893
-#: wp-includes/js/dist/block-library.js:35444
-#: wp-includes/js/dist/block-library.js:38029
-#: wp-includes/js/dist/block-library.js:45553
+#: wp-includes/js/dist/block-library.js:35467
+#: wp-includes/js/dist/block-library.js:38049
+#: wp-includes/js/dist/block-library.js:45573
 #: wp-admin/includes/class-wp-screen.php:1156
 msgid "Columns"
 msgstr "カラム"
@@ -14235,7 +14235,7 @@ msgstr "添付ファイルの詳細"
 #: wp-includes/block-editor.php:167 wp-includes/media-template.php:856
 #: wp-includes/media-template.php:936 wp-includes/media-template.php:1127
 #: wp-includes/media.php:4104 wp-includes/js/dist/block-editor.js:3258
-#: wp-includes/js/dist/block-library.js:41780
+#: wp-includes/js/dist/block-library.js:41800
 #: wp-admin/includes/class-custom-background.php:606
 #: wp-admin/includes/media.php:1188
 msgid "Large"
@@ -14270,7 +14270,7 @@ msgid "Insert gallery"
 msgstr "ギャラリーを挿入"
 
 #: wp-includes/media-template.php:209 wp-includes/media-template.php:216
-#: wp-includes/media-template.php:253 wp-includes/js/dist/components.js:61899
+#: wp-includes/media-template.php:253 wp-includes/js/dist/components.js:62112
 #: wp-admin/includes/media.php:2231
 msgid "Drop files to upload"
 msgstr "ファイルをドロップしてアップロード"
@@ -14279,7 +14279,7 @@ msgstr "ファイルをドロップしてアップロード"
 msgid "Create gallery"
 msgstr "ギャラリーを作成"
 
-#: wp-includes/media.php:4487 wp-includes/js/dist/block-editor.js:45475
+#: wp-includes/media.php:4487 wp-includes/js/dist/block-editor.js:45487
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:80
 #: wp-admin/upload.php:220
 msgid "Media Library"
@@ -14340,7 +14340,7 @@ msgstr ""
 
 #: wp-includes/media-template.php:819 wp-includes/media-template.php:894
 #: wp-includes/media-template.php:1167
-#: wp-includes/js/dist/block-editor.js:47946
+#: wp-includes/js/dist/block-editor.js:47958
 #: wp-includes/js/dist/block-library.js:15910
 #: wp-includes/js/dist/block-library.js:16801
 msgid "Media File"
@@ -14348,7 +14348,7 @@ msgstr "メディアファイル"
 
 #: wp-includes/media-template.php:826 wp-includes/media-template.php:891
 #: wp-includes/media-template.php:1170
-#: wp-includes/js/dist/block-editor.js:47954
+#: wp-includes/js/dist/block-editor.js:47966
 #: wp-includes/js/dist/block-library.js:15907
 #: wp-includes/js/dist/block-library.js:16798 wp-admin/includes/media.php:2608
 msgid "Attachment Page"
@@ -14422,9 +14422,9 @@ msgstr "%2$s%1$s"
 msgid "Could not insert term relationship into the database."
 msgstr "キーワードの関係をデータベースに挿入できませんでした。"
 
-#: wp-includes/media-template.php:756 wp-includes/js/dist/components.js:48905
-#: wp-includes/js/dist/components.js:54574
-#: wp-includes/js/dist/components.js:62254 wp-admin/theme-install.php:218
+#: wp-includes/media-template.php:756 wp-includes/js/dist/components.js:49067
+#: wp-includes/js/dist/components.js:54736
+#: wp-includes/js/dist/components.js:62467 wp-admin/theme-install.php:218
 #: wp-admin/theme-install.php:240 wp-admin/js/color-picker.js:154
 msgid "Clear"
 msgstr "クリア"
@@ -14653,7 +14653,7 @@ msgstr "アップロードできるファイル"
 #: wp-includes/customize/class-wp-customize-media-control.php:259
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:158
 #: wp-includes/media-template.php:574 wp-includes/media.php:4472
-#: wp-includes/js/dist/block-library.js:46705
+#: wp-includes/js/dist/block-library.js:46725
 #: wp-includes/js/dist/edit-post.js:392
 #: wp-admin/includes/class-walker-nav-menu-edit.php:287
 #: wp-admin/includes/class-wp-users-list-table.php:278
@@ -14661,10 +14661,10 @@ msgstr "アップロードできるファイル"
 msgid "Remove"
 msgstr "削除"
 
-#: wp-includes/js/dist/block-editor.js:44949
-#: wp-includes/js/dist/block-editor.js:45507
-#: wp-includes/js/dist/block-editor.js:45520
-#: wp-includes/js/dist/block-library.js:46462
+#: wp-includes/js/dist/block-editor.js:44961
+#: wp-includes/js/dist/block-editor.js:45519
+#: wp-includes/js/dist/block-editor.js:45532
+#: wp-includes/js/dist/block-library.js:46482
 #: wp-admin/includes/class-custom-background.php:339
 #: wp-admin/includes/class-custom-image-header.php:651
 #: wp-admin/includes/class-wp-theme-install-list-table.php:63
@@ -15192,8 +15192,8 @@ msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a 
 msgstr "アカウントを有効化しました。<a href=\"%1$s\">サイトを表示する</a>か<a href=\"%2$s\">ログイン</a>してください"
 
 #: wp-includes/class-wp-editor.php:1256
-#: wp-includes/js/dist/block-editor.js:34089
-#: wp-includes/js/dist/block-editor.js:38899
+#: wp-includes/js/dist/block-editor.js:34104
+#: wp-includes/js/dist/block-editor.js:38914
 #: wp-includes/js/dist/block-library.js:4368
 #: wp-includes/js/dist/block-library.js:28067
 #: wp-includes/js/dist/block-library.js:29222
@@ -15229,7 +15229,7 @@ msgstr "ポスター"
 #: wp-includes/media-template.php:1296 wp-includes/media-template.php:1395
 #: wp-includes/widgets/class-wp-widget-media-audio.php:72
 #: wp-includes/widgets/class-wp-widget-media-video.php:74
-#: wp-includes/js/dist/block-library.js:46151
+#: wp-includes/js/dist/block-library.js:46171
 msgid "Preload"
 msgstr "先読み"
 
@@ -16307,7 +16307,7 @@ msgstr "新しいユーザー名は %s です"
 #: wp-includes/class-wp-customize-nav-menus.php:1112
 #: wp-includes/script-loader.php:1859 wp-signup.php:626
 #: wp-includes/js/dist/block-library.js:32689
-#: wp-includes/js/dist/components.js:66899
+#: wp-includes/js/dist/components.js:67112
 msgid "Next"
 msgstr "次"
 
@@ -16534,7 +16534,7 @@ msgstr "/"
 
 #: wp-includes/class-wp-editor.php:1212 wp-includes/script-loader.php:900
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
-#: wp-includes/js/dist/block-editor.js:45405 wp-includes/js/dist/editor.js:7115
+#: wp-includes/js/dist/block-editor.js:45417 wp-includes/js/dist/editor.js:7115
 #: wp-admin/includes/media.php:2925
 msgid "Image"
 msgstr "画像"
@@ -16844,13 +16844,13 @@ msgstr "選択したユーザーが見つかりません。"
 
 #: wp-includes/class-wp-locale.php:202
 #: wp-includes/customize/class-wp-customize-date-time-control.php:173
-#: wp-includes/js/dist/components.js:60902
+#: wp-includes/js/dist/components.js:61115
 msgid "PM"
 msgstr "PM"
 
 #: wp-includes/class-wp-locale.php:201
 #: wp-includes/customize/class-wp-customize-date-time-control.php:172
-#: wp-includes/js/dist/components.js:60898
+#: wp-includes/js/dist/components.js:61111
 msgid "AM"
 msgstr "AM"
 
@@ -16897,13 +16897,13 @@ msgid "Fill Screen"
 msgstr "フルスクリーン"
 
 #: wp-includes/class-wp-editor.php:1253
-#: wp-includes/js/dist/block-editor.js:48055
+#: wp-includes/js/dist/block-editor.js:48067
 msgid "Remove link"
 msgstr "リンクの削除"
 
 #: wp-includes/class-wp-editor.php:1257 wp-includes/script-loader.php:711
-#: wp-includes/js/dist/block-editor.js:47753
-#: wp-includes/js/dist/block-editor.js:48026
+#: wp-includes/js/dist/block-editor.js:47765
+#: wp-includes/js/dist/block-editor.js:48038
 msgid "Insert link"
 msgstr "リンクを挿入"
 
@@ -16925,7 +16925,7 @@ msgstr "キー"
 
 #: wp-includes/media-template.php:1209
 #: wp-includes/widgets/class-wp-widget-media-image.php:137
-#: wp-includes/js/dist/block-editor.js:48013
+#: wp-includes/js/dist/block-editor.js:48025
 msgid "Link Rel"
 msgstr "リンク rel 属性"
 
@@ -16934,25 +16934,25 @@ msgid "Source"
 msgstr "ソース"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:79
-#: wp-includes/js/dist/components.js:24193
+#: wp-includes/js/dist/components.js:24281
 #: wp-admin/includes/class-custom-background.php:407
 msgid "Bottom Right"
 msgstr "右下"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:71
-#: wp-includes/js/dist/components.js:24191
+#: wp-includes/js/dist/components.js:24279
 #: wp-admin/includes/class-custom-background.php:399
 msgid "Bottom Left"
 msgstr "左下"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:51
-#: wp-includes/js/dist/components.js:24187
+#: wp-includes/js/dist/components.js:24275
 #: wp-admin/includes/class-custom-background.php:379
 msgid "Top Right"
 msgstr "右上"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:43
-#: wp-includes/js/dist/components.js:24185
+#: wp-includes/js/dist/components.js:24273
 #: wp-admin/includes/class-custom-background.php:371
 msgid "Top Left"
 msgstr "左上"
@@ -16965,7 +16965,7 @@ msgstr "ミュート"
 msgid "Fullscreen"
 msgstr "フルスクリーン"
 
-#: wp-includes/admin-bar.php:1049 wp-includes/js/dist/block-editor.js:34079
+#: wp-includes/admin-bar.php:1049 wp-includes/js/dist/block-editor.js:34094
 #: wp-includes/js/dist/block-library.js:26448
 #: wp-includes/js/dist/edit-site.js:8590 wp-includes/js/dist/edit-site.js:8899
 #: wp-includes/js/dist/format-library.js:1441
@@ -16975,7 +16975,7 @@ msgstr "背景"
 
 #: wp-includes/media-template.php:1028 wp-includes/media-template.php:1092
 #: wp-includes/js/dist/block-editor.js:12076
-#: wp-includes/js/dist/block-editor.js:37739
+#: wp-includes/js/dist/block-editor.js:37754
 msgid "Align"
 msgstr "配置"
 
@@ -16983,11 +16983,11 @@ msgstr "配置"
 #: wp-includes/widgets/class-wp-widget-media-audio.php:77
 #: wp-includes/widgets/class-wp-widget-media-video.php:80
 #: wp-includes/js/dist/block-library.js:2913
-#: wp-includes/js/dist/block-library.js:46135
+#: wp-includes/js/dist/block-library.js:46155
 msgid "Loop"
 msgstr "ループ"
 
-#: wp-includes/js/dist/components.js:54405
+#: wp-includes/js/dist/components.js:54567
 #: wp-admin/includes/ajax-actions.php:2202
 msgid "Type"
 msgstr "タイプ"
@@ -17011,7 +17011,7 @@ msgstr "入力された URL はメールアドレスのようです。必要な 
 
 #: wp-includes/class-wp-editor.php:1336
 #: wp-includes/customize/class-wp-customize-background-position-control.php:75
-#: wp-includes/js/dist/components.js:50804
+#: wp-includes/js/dist/components.js:50966
 #: wp-admin/includes/class-custom-background.php:403
 msgid "Bottom"
 msgstr "下"
@@ -17022,8 +17022,8 @@ msgstr "中央"
 
 #: wp-includes/class-wp-editor.php:1334
 #: wp-includes/customize/class-wp-customize-background-position-control.php:47
-#: wp-includes/js/dist/components.js:50803
-#: wp-includes/js/dist/components.js:64228
+#: wp-includes/js/dist/components.js:50965
+#: wp-includes/js/dist/components.js:64441
 #: wp-admin/includes/class-custom-background.php:375
 msgid "Top"
 msgstr "上"
@@ -17037,15 +17037,15 @@ msgid "Vertical space"
 msgstr "上下余白"
 
 #: wp-includes/class-wp-editor.php:1222
-#: wp-includes/js/dist/block-editor.js:48432
-#: wp-includes/js/dist/block-editor.js:48489
+#: wp-includes/js/dist/block-editor.js:48444
+#: wp-includes/js/dist/block-editor.js:48501
 #: wp-includes/js/dist/edit-site.js:7089
 msgid "Dimensions"
 msgstr "寸法"
 
 #: wp-includes/class-wp-editor.php:1217
-#: wp-includes/js/dist/block-editor.js:48435
-#: wp-includes/js/dist/block-editor.js:48492
+#: wp-includes/js/dist/block-editor.js:48447
+#: wp-includes/js/dist/block-editor.js:48504
 #: wp-includes/js/dist/edit-site.js:6899
 msgid "Border"
 msgstr "枠線"
@@ -17064,8 +17064,8 @@ msgstr "貼り付け"
 
 #: wp-includes/class-wp-customize-manager.php:4360
 #: wp-includes/class-wp-editor.php:1171
-#: wp-includes/js/dist/block-editor.js:29654
-#: wp-includes/js/dist/components.js:47786 wp-includes/js/dist/editor.js:9781
+#: wp-includes/js/dist/block-editor.js:29669
+#: wp-includes/js/dist/components.js:47947 wp-includes/js/dist/editor.js:9781
 msgid "Copy"
 msgstr "コピー"
 
@@ -17084,13 +17084,13 @@ msgid "Subscript"
 msgstr "下付き"
 
 #: wp-includes/class-wp-editor.php:1152
-#: wp-includes/js/dist/block-editor.js:35429
+#: wp-includes/js/dist/block-editor.js:35444
 #: wp-includes/js/dist/format-library.js:1150
 msgid "Strikethrough"
 msgstr "打ち消し線"
 
 #: wp-includes/class-wp-editor.php:1151
-#: wp-includes/js/dist/block-editor.js:35425
+#: wp-includes/js/dist/block-editor.js:35440
 #: wp-includes/js/dist/format-library.js:1196
 msgid "Underline"
 msgstr "下線"
@@ -17139,7 +17139,7 @@ msgid "Heading 1"
 msgstr "見出し1"
 
 #: wp-includes/class-wp-editor.php:1143
-#: wp-includes/js/dist/block-library.js:40087
+#: wp-includes/js/dist/block-library.js:40107
 msgid "Paragraph"
 msgstr "段落"
 
@@ -17167,7 +17167,7 @@ msgstr "カラム"
 #: wp-includes/class-wp-editor.php:1301
 #: wp-includes/js/dist/block-library.js:18343
 msgid "Row"
-msgstr "横並び"
+msgstr "行"
 
 #: wp-includes/class-wp-editor.php:1295
 msgid "Delete table"
@@ -17206,27 +17206,27 @@ msgid "Merge table cells"
 msgstr "セルの結合"
 
 #: wp-includes/class-wp-editor.php:1314
-#: wp-includes/js/dist/block-library.js:43756
+#: wp-includes/js/dist/block-library.js:43776
 msgid "Insert column after"
 msgstr "列を右に挿入"
 
 #: wp-includes/class-wp-editor.php:1313
-#: wp-includes/js/dist/block-library.js:43751
+#: wp-includes/js/dist/block-library.js:43771
 msgid "Insert column before"
 msgstr "列を左に挿入"
 
 #: wp-includes/class-wp-editor.php:1317
-#: wp-includes/js/dist/block-library.js:43746
+#: wp-includes/js/dist/block-library.js:43766
 msgid "Delete row"
 msgstr "行を削除"
 
 #: wp-includes/class-wp-editor.php:1312
-#: wp-includes/js/dist/block-library.js:43741
+#: wp-includes/js/dist/block-library.js:43761
 msgid "Insert row after"
 msgstr "行を下に挿入"
 
 #: wp-includes/class-wp-editor.php:1311
-#: wp-includes/js/dist/block-library.js:43736
+#: wp-includes/js/dist/block-library.js:43756
 msgid "Insert row before"
 msgstr "行を上に挿入"
 
@@ -17594,7 +17594,7 @@ msgid "Automatically add paragraphs"
 msgstr "自動的に段落追加する"
 
 #: wp-includes/widgets/class-wp-widget-text.php:43
-#: wp-includes/js/dist/block-editor.js:34071
+#: wp-includes/js/dist/block-editor.js:34086
 #: wp-includes/js/dist/block-library.js:26444
 #: wp-includes/js/dist/blocks.js:5547 wp-includes/js/dist/edit-site.js:8412
 #: wp-includes/js/dist/edit-site.js:8442 wp-includes/js/dist/edit-site.js:8614
@@ -17612,7 +17612,7 @@ msgstr "カレンダー"
 #: wp-includes/widgets/class-wp-widget-categories.php:198
 #: wp-includes/js/dist/block-library.js:1736
 #: wp-includes/js/dist/block-library.js:5323
-#: wp-includes/js/dist/block-library.js:44399
+#: wp-includes/js/dist/block-library.js:44419
 msgid "Show post counts"
 msgstr "投稿数を表示"
 
@@ -17834,10 +17834,10 @@ msgstr "%s へのコメント"
 #: wp-includes/class-wp-customize-nav-menus.php:335
 #: wp-includes/script-loader.php:863 wp-includes/script-loader.php:1172
 #: wp-includes/js/dist/block-directory.js:1375
-#: wp-includes/js/dist/block-editor.js:23701
+#: wp-includes/js/dist/block-editor.js:23716
 #: wp-includes/js/dist/block-library.js:8589
 #: wp-includes/js/dist/block-library.js:33057
-#: wp-includes/js/dist/components.js:68390 wp-admin/includes/nav-menu.php:600
+#: wp-includes/js/dist/components.js:68603 wp-admin/includes/nav-menu.php:600
 #: wp-admin/includes/nav-menu.php:895 wp-admin/js/nav-menu.js:1463
 msgid "No results found."
 msgstr "見つかりませんでした。"
@@ -17852,10 +17852,10 @@ msgstr "&laquo; 前ページへ"
 
 #. translators: 'Label. Used to signify a layout property (eg: margin, padding)
 #. will apply uniformly to all screensizes.'
-#: wp-includes/js/dist/block-editor.js:47425
-#: wp-includes/js/dist/components.js:50802
-#: wp-includes/js/dist/components.js:69693
-#: wp-includes/js/dist/components.js:69710 wp-admin/export.php:189
+#: wp-includes/js/dist/block-editor.js:47437
+#: wp-includes/js/dist/components.js:50964
+#: wp-includes/js/dist/components.js:69906
+#: wp-includes/js/dist/components.js:69923 wp-admin/export.php:189
 #: wp-admin/export.php:201 wp-admin/export.php:226 wp-admin/export.php:248
 #: wp-admin/export.php:273 wp-admin/includes/class-wp-users-list-table.php:190
 msgid "All"
@@ -17915,10 +17915,10 @@ msgstr "タイトル:"
 #: wp-includes/customize/class-wp-customize-media-control.php:237
 #: wp-includes/customize/class-wp-customize-media-control.php:248
 #: wp-includes/customize/class-wp-customize-media-control.php:258
-#: wp-includes/js/dist/block-editor.js:34261
-#: wp-includes/js/dist/block-editor.js:34821
-#: wp-includes/js/dist/components.js:61094
-#: wp-includes/js/dist/components.js:65590
+#: wp-includes/js/dist/block-editor.js:34276
+#: wp-includes/js/dist/block-editor.js:34836
+#: wp-includes/js/dist/components.js:61307
+#: wp-includes/js/dist/components.js:65803
 #: wp-includes/js/dist/edit-post.js:5893 wp-includes/js/dist/edit-post.js:6022
 #: wp-includes/js/dist/edit-site.js:8711 wp-includes/js/dist/edit-site.js:8765
 #: wp-includes/js/dist/edit-site.js:9285 wp-admin/js/color-picker.js:149
@@ -17927,10 +17927,10 @@ msgstr "デフォルト"
 
 #: wp-includes/class-wp-editor.php:1324 wp-includes/media-template.php:1155
 #: wp-includes/widgets/class-wp-widget-media-image.php:84
-#: wp-includes/js/dist/block-editor.js:42900
+#: wp-includes/js/dist/block-editor.js:42912
 #: wp-includes/js/dist/block-library.js:32314
 #: wp-includes/js/dist/block-library.js:32324
-#: wp-includes/js/dist/block-library.js:42253 wp-admin/options-media.php:65
+#: wp-includes/js/dist/block-library.js:42273 wp-admin/options-media.php:65
 msgid "Height"
 msgstr "高さ"
 
@@ -17977,9 +17977,9 @@ msgstr "最初の投稿"
 #: wp-includes/js/dist/block-library.js:9062
 #: wp-includes/js/dist/block-library.js:9574
 #: wp-includes/js/dist/block-library.js:31880
-#: wp-includes/js/dist/block-library.js:35429
-#: wp-includes/js/dist/block-library.js:36375
-#: wp-includes/js/dist/block-library.js:39441
+#: wp-includes/js/dist/block-library.js:35452
+#: wp-includes/js/dist/block-library.js:36395
+#: wp-includes/js/dist/block-library.js:39461
 #: wp-includes/js/dist/edit-post.js:1627 wp-includes/js/dist/edit-post.js:8059
 #: wp-includes/js/dist/edit-site.js:2281 wp-includes/js/dist/edit-site.js:9972
 #: wp-includes/js/dist/edit-widgets.js:1211
@@ -18064,14 +18064,14 @@ msgstr "<strong>エラー</strong>: ユーザー名を入力してください�
 
 #: wp-includes/class-wp-editor.php:1325 wp-includes/media-template.php:1150
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
-#: wp-includes/js/dist/block-editor.js:33042
-#: wp-includes/js/dist/block-editor.js:33143
-#: wp-includes/js/dist/block-editor.js:42893
+#: wp-includes/js/dist/block-editor.js:33057
+#: wp-includes/js/dist/block-editor.js:33158
+#: wp-includes/js/dist/block-editor.js:42905
 #: wp-includes/js/dist/block-library.js:6146
 #: wp-includes/js/dist/block-library.js:32333
 #: wp-includes/js/dist/block-library.js:32343
-#: wp-includes/js/dist/block-library.js:38499
-#: wp-includes/js/dist/block-library.js:42246
+#: wp-includes/js/dist/block-library.js:38519
+#: wp-includes/js/dist/block-library.js:42266
 #: wp-includes/js/dist/edit-site.js:6904 wp-includes/js/dist/edit-site.js:6909
 #: wp-includes/js/dist/format-library.js:295 wp-admin/options-media.php:62
 msgid "Width"
@@ -18157,8 +18157,8 @@ msgstr "メディアを編集"
 msgid "New Page"
 msgstr "新規固定ページ"
 
-#: wp-includes/media.php:4468 wp-includes/js/dist/block-editor.js:47656
-#: wp-includes/js/dist/block-library.js:46695
+#: wp-includes/media.php:4468 wp-includes/js/dist/block-editor.js:47668
+#: wp-includes/js/dist/block-library.js:46715
 #: wp-includes/js/dist/editor.js:5341 wp-admin/includes/template.php:1961
 #: wp-admin/nav-menus.php:905 wp-admin/plugin-editor.php:236
 #: wp-admin/theme-editor.php:239
@@ -18169,12 +18169,12 @@ msgstr "選択"
 #: wp-includes/class-wp-customize-manager.php:5707
 #: wp-includes/class-wp-editor.php:1179 wp-includes/class-wp-editor.php:1868
 #: wp-includes/script-loader.php:902 wp-includes/script-loader.php:1216
-#: wp-includes/script-loader.php:1855 wp-includes/js/dist/block-editor.js:24144
-#: wp-includes/js/dist/block-editor.js:29414
-#: wp-includes/js/dist/block-editor.js:47770
+#: wp-includes/script-loader.php:1855 wp-includes/js/dist/block-editor.js:24159
+#: wp-includes/js/dist/block-editor.js:29429
+#: wp-includes/js/dist/block-editor.js:47782
 #: wp-includes/js/dist/block-library.js:29777
-#: wp-includes/js/dist/block-library.js:46344
-#: wp-includes/js/dist/components.js:60991
+#: wp-includes/js/dist/block-library.js:46364
+#: wp-includes/js/dist/components.js:61204
 #: wp-includes/js/dist/customize-widgets.js:1146
 #: wp-includes/js/dist/edit-post.js:1759 wp-includes/js/dist/edit-post.js:4210
 #: wp-includes/js/dist/edit-post.js:5325 wp-includes/js/dist/edit-post.js:7745
@@ -18239,7 +18239,7 @@ msgstr "画像"
 msgid "By %s"
 msgstr "作者: %s"
 
-#: wp-includes/js/dist/block-library.js:44225
+#: wp-includes/js/dist/block-library.js:44245
 #: wp-admin/includes/class-plugin-installer-skin.php:217
 #: wp-admin/includes/class-theme-installer-skin.php:240
 #: wp-admin/includes/class-wp-debug-data.php:69
@@ -18252,13 +18252,13 @@ msgstr "バージョン"
 #: wp-includes/blocks/search.php:25 wp-includes/blocks/search.php:26
 #: wp-includes/blocks/search.php:45 wp-includes/class-wp-editor.php:1889
 #: wp-includes/media.php:4467 wp-includes/media.php:4512
-#: wp-includes/js/dist/block-editor.js:23659
-#: wp-includes/js/dist/block-editor.js:24721
-#: wp-includes/js/dist/block-editor.js:24840
-#: wp-includes/js/dist/block-library.js:38458
-#: wp-includes/js/dist/block-library.js:38624
-#: wp-includes/js/dist/block-library.js:38625
-#: wp-includes/js/dist/components.js:67430
+#: wp-includes/js/dist/block-editor.js:23674
+#: wp-includes/js/dist/block-editor.js:24736
+#: wp-includes/js/dist/block-editor.js:24855
+#: wp-includes/js/dist/block-library.js:38478
+#: wp-includes/js/dist/block-library.js:38644
+#: wp-includes/js/dist/block-library.js:38645
+#: wp-includes/js/dist/components.js:67643
 #: wp-includes/js/dist/edit-site.js:8272
 #: wp-admin/includes/class-wp-media-list-table.php:307
 #: wp-admin/includes/class-wp-theme-install-list-table.php:59
@@ -18327,7 +18327,7 @@ msgstr "公開"
 msgid "Private"
 msgstr "非公開"
 
-#: wp-includes/class-wp-editor.php:1177 wp-includes/js/dist/components.js:56078
+#: wp-includes/class-wp-editor.php:1177 wp-includes/js/dist/components.js:56240
 #: wp-admin/includes/meta-boxes.php:155 wp-admin/includes/meta-boxes.php:208
 #: wp-admin/includes/template.php:867 wp-admin/js/post.js:1029
 msgid "OK"
@@ -18346,7 +18346,7 @@ msgstr "操作"
 #. translators: Default privacy policy heading.
 #: wp-includes/block-template-utils.php:165
 #: wp-includes/class-wp-editor.php:1229 wp-includes/media.php:4464
-#: wp-includes/media.php:5122 wp-includes/js/dist/block-editor.js:45400
+#: wp-includes/media.php:5122 wp-includes/js/dist/block-editor.js:45412
 #: wp-includes/js/dist/blocks.js:5550 wp-includes/js/dist/core-data.js:2058
 #: wp-admin/export.php:293
 #: wp-admin/includes/class-wp-privacy-policy-content.php:504
@@ -18375,9 +18375,9 @@ msgstr "配置"
 #: wp-includes/media-template.php:843 wp-includes/media-template.php:922
 #: wp-includes/media-template.php:1114
 #: wp-includes/widgets/class-wp-widget-media-image.php:72
-#: wp-includes/js/dist/block-library.js:41900
-#: wp-includes/js/dist/block-library.js:41901
-#: wp-includes/js/dist/components.js:65803 wp-admin/includes/media.php:1237
+#: wp-includes/js/dist/block-library.js:41920
+#: wp-includes/js/dist/block-library.js:41921
+#: wp-includes/js/dist/components.js:66016 wp-admin/includes/media.php:1237
 msgid "Size"
 msgstr "サイズ"
 
@@ -18400,7 +18400,7 @@ msgstr "中"
 #: wp-includes/class-wp-editor.php:1331
 #: wp-includes/customize/class-wp-customize-background-position-control.php:65
 #: wp-includes/media-template.php:782 wp-includes/media-template.php:1038
-#: wp-includes/media-template.php:1102 wp-includes/js/dist/components.js:50806
+#: wp-includes/media-template.php:1102 wp-includes/js/dist/components.js:50968
 #: wp-admin/includes/class-custom-background.php:393
 #: wp-admin/includes/media.php:1146 wp-admin/includes/media.php:2966
 msgid "Right"
@@ -18418,8 +18418,8 @@ msgstr "中央"
 #: wp-includes/class-wp-editor.php:1329
 #: wp-includes/customize/class-wp-customize-background-position-control.php:57
 #: wp-includes/media-template.php:776 wp-includes/media-template.php:1032
-#: wp-includes/media-template.php:1096 wp-includes/js/dist/components.js:50805
-#: wp-includes/js/dist/components.js:64223
+#: wp-includes/media-template.php:1096 wp-includes/js/dist/components.js:50967
+#: wp-includes/js/dist/components.js:64436
 #: wp-admin/includes/class-custom-background.php:385
 #: wp-admin/includes/media.php:1144 wp-admin/includes/media.php:2962
 msgid "Left"
@@ -18498,7 +18498,7 @@ msgstr "サイドバー"
 
 #. translators: accessibility text for the top bar landmark region.
 #: wp-includes/admin-bar.php:1063 wp-includes/block-template-utils.php:77
-#: wp-includes/js/dist/block-library.js:45189
+#: wp-includes/js/dist/block-library.js:45209
 #: wp-includes/js/dist/edit-post.js:1618 wp-includes/js/dist/edit-site.js:2272
 #: wp-includes/js/dist/edit-widgets.js:1202
 #: wp-admin/includes/class-custom-image-header.php:73 wp-admin/menu.php:233
@@ -18551,17 +18551,17 @@ msgstr "コンテンツ"
 
 #: wp-includes/class-wp-editor.php:1178 wp-includes/class-wp-editor.php:1914
 #: wp-includes/media.php:4469 wp-includes/script-loader.php:1215
-#: wp-includes/js/dist/block-editor.js:29468
-#: wp-includes/js/dist/block-editor.js:42737
-#: wp-includes/js/dist/block-editor.js:45443
-#: wp-includes/js/dist/block-editor.js:45446
+#: wp-includes/js/dist/block-editor.js:29483
+#: wp-includes/js/dist/block-editor.js:42749
+#: wp-includes/js/dist/block-editor.js:45455
+#: wp-includes/js/dist/block-editor.js:45458
 #: wp-includes/js/dist/block-library.js:25637
 #: wp-includes/js/dist/block-library.js:25646
 #: wp-includes/js/dist/block-library.js:29791
-#: wp-includes/js/dist/block-library.js:35775
-#: wp-includes/js/dist/block-library.js:44700
-#: wp-includes/js/dist/block-library.js:45121
-#: wp-includes/js/dist/components.js:56077
+#: wp-includes/js/dist/block-library.js:35795
+#: wp-includes/js/dist/block-library.js:44720
+#: wp-includes/js/dist/block-library.js:45141
+#: wp-includes/js/dist/components.js:56239
 #: wp-includes/js/dist/edit-post.js:7773 wp-includes/js/dist/edit-post.js:8595
 #: wp-includes/js/dist/edit-site.js:10477
 #: wp-includes/js/dist/edit-site.js:12928 wp-includes/js/dist/editor.js:5623
@@ -18600,9 +18600,9 @@ msgstr "最近のコメント"
 #. translators: button label text should, if possible, be under 16 characters.
 #: wp-includes/class-wp-customize-manager.php:4314
 #: wp-includes/class-wp-editor.php:1245 wp-includes/media-template.php:1488
-#: wp-includes/js/dist/block-editor.js:27735
-#: wp-includes/js/dist/block-editor.js:28312
-#: wp-includes/js/dist/block-editor.js:48097
+#: wp-includes/js/dist/block-editor.js:27750
+#: wp-includes/js/dist/block-editor.js:28327
+#: wp-includes/js/dist/block-editor.js:48109
 #: wp-includes/js/dist/block-library.js:19557 wp-admin/customize.php:207
 #: wp-admin/includes/class-custom-background.php:264
 #: wp-admin/includes/class-custom-image-header.php:537
@@ -18621,8 +18621,8 @@ msgstr "プレビュー"
 msgid "RSS"
 msgstr "RSS"
 
-#: wp-includes/js/dist/block-editor.js:44660
-#: wp-includes/js/dist/block-editor.js:47777
+#: wp-includes/js/dist/block-editor.js:44672
+#: wp-includes/js/dist/block-editor.js:47789
 #: wp-admin/includes/dashboard.php:1375 wp-admin/setup-config.php:250
 msgid "Submit"
 msgstr "送信"
@@ -18635,7 +18635,7 @@ msgstr "匿名"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:57
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
-#: wp-includes/js/dist/components.js:55260 wp-admin/includes/widgets.php:297
+#: wp-includes/js/dist/components.js:55422 wp-admin/includes/widgets.php:297
 #: wp-admin/js/set-post-thumbnail.js:21
 msgid "Done"
 msgstr "完了"
@@ -18695,8 +18695,8 @@ msgid "Description"
 msgstr "説明"
 
 #: wp-includes/comment-template.php:2370
-#: wp-includes/js/dist/block-library.js:37720
-#: wp-includes/js/dist/block-library.js:44706
+#: wp-includes/js/dist/block-library.js:37740
+#: wp-includes/js/dist/block-library.js:44726
 #: wp-includes/js/dist/edit-post.js:7757 wp-includes/js/dist/edit-site.js:10432
 #: wp-includes/js/dist/edit-site.js:12915
 #: wp-includes/js/dist/reusable-blocks.js:363 wp-admin/edit-form-comment.php:49
@@ -18710,7 +18710,7 @@ msgid "Name"
 msgstr "名前"
 
 #: wp-includes/class-wp-editor.php:1215
-#: wp-includes/js/dist/block-editor.js:48508 wp-admin/edit-link-form.php:34
+#: wp-includes/js/dist/block-editor.js:48520 wp-admin/edit-link-form.php:34
 msgid "Advanced"
 msgstr "高度な設定"
 
@@ -18725,7 +18725,7 @@ msgstr "リンクターゲット"
 #: wp-includes/widgets/class-wp-widget-categories.php:48
 #: wp-includes/js/dist/block-library.js:5298
 #: wp-includes/js/dist/block-library.js:5336
-#: wp-includes/js/dist/components.js:69698 wp-admin/edit-link-form.php:31
+#: wp-includes/js/dist/components.js:69911 wp-admin/edit-link-form.php:31
 #: wp-admin/includes/class-wp-links-list-table.php:135
 #: wp-admin/includes/upgrade.php:421
 msgid "Categories"
@@ -18828,11 +18828,11 @@ msgstr "コメント"
 
 #: wp-includes/class-wp-customize-widgets.php:800
 #: wp-includes/class-wp-editor.php:1386 wp-includes/media.php:4509
-#: wp-includes/js/dist/block-editor.js:29471
-#: wp-includes/js/dist/block-editor.js:42735
-#: wp-includes/js/dist/block-editor.js:45101
-#: wp-includes/js/dist/block-editor.js:45217
-#: wp-includes/js/dist/block-library.js:41504
+#: wp-includes/js/dist/block-editor.js:29486
+#: wp-includes/js/dist/block-editor.js:42747
+#: wp-includes/js/dist/block-editor.js:45113
+#: wp-includes/js/dist/block-editor.js:45229
+#: wp-includes/js/dist/block-library.js:41524
 #: wp-includes/js/dist/format-library.js:301
 #: wp-admin/includes/class-wp-list-table.php:513
 #: wp-admin/includes/class-wp-screen.php:1093
@@ -18873,14 +18873,14 @@ msgstr "%s前"
 #: wp-includes/class-walker-comment.php:261
 #: wp-includes/class-walker-comment.php:460
 #: wp-includes/class-wp-editor.php:1384
-#: wp-includes/js/dist/block-editor.js:44262
-#: wp-includes/js/dist/block-editor.js:45060
-#: wp-includes/js/dist/block-editor.js:47653
+#: wp-includes/js/dist/block-editor.js:44274
+#: wp-includes/js/dist/block-editor.js:45072
+#: wp-includes/js/dist/block-editor.js:47665
 #: wp-includes/js/dist/block-library.js:7967
 #: wp-includes/js/dist/block-library.js:29881
 #: wp-includes/js/dist/block-library.js:29883
 #: wp-includes/js/dist/block-library.js:31345
-#: wp-includes/js/dist/block-library.js:46254
+#: wp-includes/js/dist/block-library.js:46274
 #: wp-includes/js/dist/edit-post.js:7738 wp-admin/comment.php:238
 #: wp-admin/edit-form-comment.php:139
 #: wp-admin/includes/class-walker-nav-menu-edit.php:185
@@ -18933,8 +18933,8 @@ msgstr "コメント"
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:61
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:175
 #: wp-includes/widgets/class-wp-widget-media-image.php:113
-#: wp-includes/js/dist/block-editor.js:43391
-#: wp-includes/js/dist/block-editor.js:45210
+#: wp-includes/js/dist/block-editor.js:43403
+#: wp-includes/js/dist/block-editor.js:45222
 #: wp-includes/js/dist/block-library.js:13646 wp-admin/comment.php:183
 #: wp-admin/edit-form-comment.php:59
 #: wp-admin/includes/class-walker-nav-menu-edit.php:196
@@ -18947,7 +18947,7 @@ msgstr "URL"
 
 #: wp-includes/class-wp-editor.php:1209 wp-includes/theme-compat/sidebar.php:29
 #: wp-includes/js/dist/block-library.js:30870
-#: wp-includes/js/dist/components.js:69709 wp-includes/js/dist/editor.js:6518
+#: wp-includes/js/dist/components.js:69922 wp-includes/js/dist/editor.js:6518
 #: wp-includes/js/dist/editor.js:6580 wp-admin/comment.php:172
 #: wp-admin/edit-form-comment.php:43
 #: wp-admin/includes/class-plugin-installer-skin.php:218
@@ -19017,7 +19017,7 @@ msgstr "公開済み"
 
 #: wp-includes/class-wp-editor.php:1205 wp-includes/media-template.php:484
 #: wp-includes/media-template.php:713 wp-includes/revision.php:32
-#: wp-includes/js/dist/block-library.js:44908
+#: wp-includes/js/dist/block-library.js:44928
 #: wp-includes/js/dist/edit-post.js:5902 wp-includes/js/dist/edit-site.js:5905
 #: wp-includes/js/dist/editor.js:4797 wp-includes/js/dist/editor.js:5461
 #: wp-includes/js/dist/widgets.js:1519 wp-admin/includes/ajax-actions.php:2202

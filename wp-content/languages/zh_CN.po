@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.0.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-03 02:37:51+0000\n"
+"PO-Revision-Date: 2022-08-15 08:22:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -330,7 +330,7 @@ msgstr "显示文章、页面或任何其他内容类型的链接。"
 #: wp-includes/blocks/read-more/block.json
 msgctxt "block title"
 msgid "Read More"
-msgstr "继续阅读"
+msgstr "阅读更多"
 
 #: wp-includes/blocks/query-no-results/block.json
 msgctxt "block description"
@@ -355,7 +355,7 @@ msgstr "文章评论（已弃用）"
 #: wp-includes/blocks/post-author/block.json
 msgctxt "block description"
 msgid "Display post author details such as name, avatar, and bio."
-msgstr "显示文章作者的详细信息，例如姓名、头像和简介。"
+msgstr "显示文章作者的详细信息，例如姓名、头像和个人说明。"
 
 #: wp-includes/blocks/post-author-biography/block.json
 msgctxt "block description"
@@ -385,7 +385,7 @@ msgstr "在布局容器里收集区块。"
 #: wp-includes/blocks/comments-title/block.json
 msgctxt "block description"
 msgid "Displays a title with the number of comments"
-msgstr "显示带有评论数量的标题"
+msgstr "显示包含评论数量的标题"
 
 #: wp-includes/blocks/comments-title/block.json
 msgctxt "block title"
@@ -470,12 +470,12 @@ msgstr "显示评论的内容。"
 #: wp-includes/blocks/comment-author-name/block.json
 msgctxt "block description"
 msgid "Displays the name of the author of the comment."
-msgstr "显示评论作者的姓名。"
+msgstr "显示评论者的名称。"
 
 #: wp-includes/blocks/comment-author-name/block.json
 msgctxt "block title"
 msgid "Comment Author Name"
-msgstr "评论作者姓名"
+msgstr "评论者名称"
 
 #: wp-includes/blocks/avatar/block.json
 msgctxt "block description"
@@ -533,7 +533,7 @@ msgstr "密码不能包含空格或全是空格。"
 #. translators: 1: Documentation URL, 2: wp-config.php
 #: wp-load.php:95 wp-admin/setup-config.php:190
 msgid "Need more help? <a href=\"%1$s\">Read the support article on %2$s</a>."
-msgstr "需要帮助？<a href=\"%1$s\">阅读关于 %2$s 的支持文章</a>。"
+msgstr "需要帮助？<a href=\"%1$s\">阅读 %2$s 支持文章</a>。"
 
 #. translators: %s: Database name.
 #: wp-includes/wp-db.php:1189
@@ -562,7 +562,7 @@ msgstr "找不到指定视频。检查您的<a href=\"%s\">媒体库</a>并确�
 #. translators: %s: URL to media library.
 #: wp-includes/widgets/class-wp-widget-media-image.php:44
 msgid "That image cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
-msgstr "找不到指定图像。检查您的<a href=\"%s\">媒体库</a>并确保其未被删除。"
+msgstr "找不到指定图片。检查您的<a href=\"%s\">媒体库</a>并确保其未被删除。"
 
 #. translators: %s: URL to media library.
 #: wp-includes/widgets/class-wp-widget-media-audio.php:44
@@ -585,7 +585,7 @@ msgstr "网络字体的字体粗细必须是正确格式化的字符串或整数
 
 #: wp-includes/script-loader.php:3215
 msgid "Each webfont src must be a non-empty string."
-msgstr "每一个网络字体 src 必须是非空字符串。"
+msgstr "每个网络字体 src 必须是非空字符串。"
 
 #: wp-includes/script-loader.php:3207
 msgid "Webfont src must be a non-empty string or an array of strings."
@@ -988,7 +988,7 @@ msgstr "“%1$s”脚本不应与新的小部件编辑器（%2$s 或 %3$s）一�
 
 #: wp-includes/class-wp-taxonomy.php:610
 msgid "The description is not prominent by default; however, some themes may show it."
-msgstr "默认情况下，描述不突出；但是，某些主题可能会显示它。"
+msgstr "描述默认不显示，但某些主题可能会显示。"
 
 #: wp-includes/class-wp-taxonomy.php:609
 msgid "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band."
@@ -1012,7 +1012,7 @@ msgstr "模板组件区"
 
 #: wp-includes/script-loader.php:927
 msgid "The server cannot process the image. This can happen if the server is busy or does not have enough resources to complete the task. Uploading a smaller image may help. Suggested maximum size is 2560 pixels."
-msgstr "服务器无法处理图像。如果服务器繁忙或没有足够的资源来完成任务，就会发生这种情况。上传较小的图像可能会有所帮助。建议的最大尺寸为 2560 像素。"
+msgstr "服务器无法处理图片。如果服务器繁忙或没有足够的资源来完成任务，就会发生这种情况。上传较小的图片可能会有所帮助。建议的最大尺寸为 2560 像素。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1590
 msgid "Limit result set to users who have published posts."
@@ -1045,7 +1045,7 @@ msgstr "无效的URL"
 #. translators: 1: HTML meta tag, 2: HTML meta tag.
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:111
 msgid "The Open Graph image link of the %1$s or %2$s element from the URL."
-msgstr "URL 中 %1$s 或 %2$s 元素的开放图谱图像链接。"
+msgstr "URL 中 %1$s 或 %2$s 元素的开放图谱图片链接。"
 
 #. translators: %s: HTML meta tag.
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:101
@@ -1055,7 +1055,7 @@ msgstr "URL 中 %s 元素的内容。"
 #. translators: %s: HTML link tag.
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:90
 msgid "The favicon image link of the %s element from the URL."
-msgstr "来自 URL 的 %s 元素的图标图像链接。"
+msgstr "来自 URL 的 %s 元素的图标图片链接。"
 
 #. translators: %s: HTML title tag.
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:80
@@ -1660,7 +1660,7 @@ msgstr "显示某个媒体项目或附件。"
 
 #: wp-includes/block-template-utils.php:162
 msgid "Displays latest posts with a single post tag."
-msgstr "显示带有某个标签的最新文章。"
+msgstr "显示包含某个标签的最新文章。"
 
 #: wp-includes/block-template-utils.php:161
 msgctxt "Template name"
@@ -3548,7 +3548,7 @@ msgstr "归档"
 #: wp-includes/blocks/gallery/block.json
 msgctxt "block title"
 msgid "Gallery"
-msgstr "画廊"
+msgstr "图库"
 
 #: wp-includes/blocks/quote/block.json
 msgctxt "block title"
@@ -4370,7 +4370,7 @@ msgstr "页眉"
 #: wp-includes/block-patterns.php:42
 msgctxt "Block pattern category"
 msgid "Gallery"
-msgstr "画廊"
+msgstr "图库"
 
 #: wp-includes/block-patterns.php:40
 msgctxt "Block pattern category"
@@ -4923,7 +4923,7 @@ msgstr "主题的样式表。这是主题的唯一标识。"
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:94
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:680
 msgid "Block namespace."
-msgstr "区块名字空间。"
+msgstr "区块命名空间。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:385
 msgid "A list of the inner block's own inner blocks. This is a recursive definition following the parent innerBlocks schema."
@@ -5340,7 +5340,7 @@ msgstr "此主题是否使用编辑器样式CSS wrapper。"
 
 #: wp-includes/theme.php:4065
 msgid "Custom gradient presets if defined by the theme."
-msgstr "如果可由主题定义，便自定义预设渐变色。"
+msgstr "如果可由主题定义，便自定义预设梯度。"
 
 #: wp-includes/theme.php:4040
 msgid "Custom font sizes if defined by the theme."
@@ -5352,7 +5352,7 @@ msgstr "如果可由主题定义，便自定义调色盘。"
 
 #: wp-includes/theme.php:4007
 msgid "Whether the theme disables custom gradients."
-msgstr "主题是否禁用自定义渐变色。"
+msgstr "主题是否禁用自定义梯度。"
 
 #: wp-includes/theme.php:4000
 msgid "Whether the theme disables custom font sizes."
@@ -5796,7 +5796,7 @@ msgstr "允许他人在新文章上发表评论。"
 #. translators: %s: Documentation URL.
 #: wp-includes/user.php:3234
 msgid "<strong>Error</strong>: The email could not be sent. Your site may not be correctly configured to send emails. <a href=\"%s\">Get support for resetting your password</a>."
-msgstr "<strong>错误</strong>：邮件未能发送。您的主机可能未获正确配置。<a href=\"%s\">获取关于重设您的密码的帮助</a>。"
+msgstr "<strong>错误</strong>：邮件未能发送。您的主机可能未获正确配置。<a href=\"%s\">获取重设密码帮助</a>。"
 
 #: wp-includes/user.php:3235
 msgid "https://wordpress.org/support/article/resetting-your-password/"
@@ -7296,14 +7296,14 @@ msgstr "未选择图片"
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:30
 msgid "Displays an image gallery."
-msgstr "显示图片画廊。"
+msgstr "显示图片库。"
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:28
 #: wp-includes/js/dist/block-library.js:16225
 #: wp-includes/js/dist/block-library.js:17128
 #: wp-includes/js/dist/editor.js:7112 wp-admin/includes/media.php:20
 msgid "Gallery"
-msgstr "画廊"
+msgstr "图库"
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:334
 msgid "Custom HTML Widget"
@@ -8306,7 +8306,7 @@ msgstr "更换图片"
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:41
 msgctxt "label for button in the gallery widget; should not be longer than ~13 characters long"
 msgid "Edit Gallery"
-msgstr "编辑画廊"
+msgstr "编辑图库"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:30
 msgid "Displays an image."
@@ -16201,7 +16201,7 @@ msgstr "需要有效的电子邮箱地址。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:3974
 msgid "Comment author name and email are required."
-msgstr "评论者名字和电邮是必填的。"
+msgstr "评论者名称和电邮是必填的。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1446
 #: wp-includes/class-wp-xmlrpc-server.php:1741
@@ -17706,12 +17706,12 @@ msgstr "取消回复"
 #. translators: %s: Author of the comment being replied to.
 #: wp-includes/comment-template.php:2008 wp-includes/comment-template.php:2495
 msgid "Leave a Reply to %s"
-msgstr "向%s进行回复"
+msgstr "回复 %s"
 
 #: wp-includes/comment-template.php:2003 wp-includes/comment-template.php:2493
 #: wp-includes/js/dist/block-library.js:31178
 msgid "Leave a Reply"
-msgstr "发表评论"
+msgstr "发表回复"
 
 #: wp-includes/comment-template.php:1900
 msgid "Click here to cancel reply."
@@ -17761,7 +17761,7 @@ msgstr "访问%s的站点"
 #: wp-includes/widgets/class-wp-widget-meta.php:33
 #: wp-includes/widgets/class-wp-widget-meta.php:46
 msgid "Meta"
-msgstr "功能"
+msgstr "其他操作"
 
 #: wp-includes/theme-templates.php:196
 msgid "Skip to content"

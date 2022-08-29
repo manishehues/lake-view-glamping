@@ -39,10 +39,22 @@ defined( 'ABSPATH' ) || exit(); ?>
 		<?php do_action( 'hotel_booking_email_after_room_item', $item, $booking ); ?>
 	<?php } ?>
 
+
+    <?php if($booking->coupon_id ){ ?>
+        <tr>
+            <td colspan="4"><b><?php _e( 'Coupon Code ('.$booking->coupon_code.') Discount', 'wp-hotel-booking' ) ?></b></td>
+            <td>
+                - <?php echo  hb_format_price( $booking->coupon_value, hb_get_currency_symbol( $booking->currency ) ); ?>
+            </td>
+        </tr>
+
+    <?php } ?>
+
     <tr>
         <td colspan="4"><b><?php _e( 'Subtotal', 'wp-hotel-booking' ) ?></b></td>
         <td><?php printf( '%s', hb_format_price( $booking->sub_total(), hb_get_currency_symbol( $booking->currency ) ) ) ?></td>
     </tr>
+    
     <tr>
         <td colspan="4"><b><?php _e( 'Tax', 'wp-hotel-booking' ) ?></b></td>
         <td>

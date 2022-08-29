@@ -2884,3 +2884,16 @@ body.wp-hotel-booking-thank-you #main .fusion-row{
 .extrasDetails .hb_extra_detail_price label small {
   display: none;
 }
+
+.ui-datepicker.ui-widget .ui-datepicker-calendar .ui-state-default {
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.ui-datepicker.ui-widget .ui-datepicker-calendar td.ui-state-disabled.blocked-dates{
+    opacity:1;
+}
+.ui-datepicker.ui-widget .ui-datepicker-calendar td.ui-state-disabled.blocked-dates .ui-state-default{
+    background:var(--sec-color);
+    color:var(--thi-color);
+}

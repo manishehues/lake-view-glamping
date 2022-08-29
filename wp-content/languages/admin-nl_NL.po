@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-30 12:09:20+0000\n"
+"PO-Revision-Date: 2022-08-25 13:18:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -232,7 +232,7 @@ msgstr "Instellingen opslaan is mislukt."
 
 #: wp-admin/options-privacy.php:192
 msgid "After your Privacy Policy page is set, you should edit it."
-msgstr "Nadat je privacybeleid-pagina is ingesteld, moet je deze bewerken."
+msgstr "Nadat je privacybeleid pagina is ingesteld, moet je deze bewerken."
 
 #. translators: 1: .htaccess, 2: Documentation URL, 3: Ctrl + A, 4: ⌘ + A
 #: wp-admin/options-permalink.php:429
@@ -506,7 +506,7 @@ msgstr "Dit scherm bevat suggesties om je te helpen je eigen privacybeleid te sc
 
 #: wp-admin/options-privacy.php:37
 msgid "The Privacy screen lets you either build a new privacy-policy page or choose one you already have to show."
-msgstr "In het Privacy scherm kun je een nieuwe privacybeleidspagina maken of er een kiezen die je al hebt om te tonen."
+msgstr "In het Privacy scherm kun je een nieuwe privacybeleid pagina maken of er een kiezen die je al hebt om te tonen."
 
 #: wp-admin/options-discussion.php:61
 msgid "Individual posts may override these settings. Changes here will only be applied to new posts."
@@ -1617,7 +1617,7 @@ msgstr "Maximale toegestane grootte van berichtgegevens"
 #: wp-admin/includes/class-wp-debug-data.php:551
 #: wp-admin/includes/class-wp-site-health.php:2333
 msgid "File uploads"
-msgstr "Uploads van bestanden"
+msgstr "Bestand uploads"
 
 #: wp-admin/includes/class-wp-debug-data.php:534
 msgid "File upload settings"
@@ -2310,7 +2310,7 @@ msgstr[1] "Kijk naar de <strong>%1$d items</strong> op het <a href=\"%2$s\">Site
 
 #: wp-admin/includes/dashboard.php:1952
 msgid "Your site&#8217;s health is looking good, but there are still some things you can do to improve its performance and security."
-msgstr "De sitediagnose ziet er goed uit, maar er zijn nog steeds een paar punten die je kunt uitvoeren om de snelheid en beveiliging te verbeteren."
+msgstr "Je sitediagnose ziet er goed uit, maar er zijn nog steeds een paar dingen die je kunt doen om zijn snelheid en beveiliging te verbeteren."
 
 #: wp-admin/includes/dashboard.php:1944
 msgid "Great job! Your site currently passes all site health checks."
@@ -5217,7 +5217,7 @@ msgstr "Een privacybeleid pagina selecteren"
 
 #: wp-admin/options-privacy.php:279
 msgid "Change your Privacy Policy page"
-msgstr "Privacybeleidspagina wijzigen"
+msgstr "Privacybeleidpagina wijzigen"
 
 #. translators: 1: URL to edit Privacy Policy page, 2: URL to view Privacy
 #. Policy page.
@@ -6057,7 +6057,7 @@ msgstr "Herhalen"
 #: wp-admin/network.php:83 wp-admin/network/settings.php:65
 #: wp-admin/network/themes.php:326 wp-admin/network/upgrade.php:33
 msgid "<a href=\"https://wordpress.org/support/\">Support</a>"
-msgstr "<a href=\"https://nl.wordpress.org/support/\">Ondersteuningsforum</a>"
+msgstr "<a href=\"https://nl.wordpress.org/support/\">Ondersteuning</a>"
 
 #. translators: %s: Number of failed updates.
 #: wp-admin/includes/update.php:910
@@ -8310,7 +8310,7 @@ msgstr "Status bewerken"
 #: wp-admin/network/site-new.php:33 wp-admin/network/sites.php:47
 #: wp-admin/network/user-new.php:30 wp-admin/network/users.php:243
 msgid "<a href=\"https://wordpress.org/support/forum/multisite/\">Support Forums</a>"
-msgstr "<a href=\"https://nl.forums.wordpress.org/\">NL supportforums</a>"
+msgstr "<a href=\"https://nl.wordpress.org/support/forums/\">Ondersteuningsforums</a>"
 
 #. translators: %s: https://wordpress.org
 #: wp-admin/admin-footer.php:37
@@ -11030,7 +11030,7 @@ msgstr "Netwerk instellen"
 
 #: wp-admin/menu.php:346
 msgid "Available Tools"
-msgstr "Beschikbare hulpmiddelen"
+msgstr "Beschikbare gereedschappen"
 
 #: wp-admin/includes/credits.php:104
 msgctxt "Translate this to be the equivalent of English Translators in your language for the credits page Translators section"
@@ -11662,7 +11662,7 @@ msgstr "Je kunt een reactie bewerken mocht dat nodig zijn. Dit kan handig zijn b
 #. translators: %s: Documentation URL.
 #: wp-admin/options-reading.php:34
 msgid "You can also control the display of your content in RSS feeds, including the maximum number of posts to display and whether to show full text or an excerpt. <a href=\"%s\">Learn more about feeds</a>."
-msgstr "Je kunt ook de weergave van je inhoud in RSS feeds besturen , waaronder het maximum aantal te tonen berichten en/of er volledige tekst of een samenvatting moet worden getoond. <a href=\"%s\">Meer informatie over feeds</a>."
+msgstr "Je kunt ook de weergave van je inhoud in RSS-feeds regelen, inclusief het maximale aantal berichten dat moet worden weergegeven en of er volledige tekst of een samenvatting moet worden getoond. <a href=\"%s\">Meer informatie over feeds</a>."
 
 #: wp-admin/options-reading.php:26
 msgid "This screen contains the settings that affect the display of your content."

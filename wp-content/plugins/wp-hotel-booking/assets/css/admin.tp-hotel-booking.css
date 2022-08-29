@@ -1066,3 +1066,8 @@ th.column-room_type {
 
 .wp-hotel-booking_page_wphb-tools #wphb-theme-override-templates tbody .template-row.outdated .template-version, .wp-hotel-booking_page_wphb-tools #wphb-theme-override-templates tbody .template-row.undefined .template-version {
 	color: #FF0000; }
+
+	/*================custom css===========*/
+span.hb-booking-status.hb-checkedout a {
+    background: #02a01c;
+}

@@ -93,8 +93,6 @@ class VPI extends Base {
 
 		list( $post_data ) = $this->cls( 'Cloud' )->extract_msg( $post_data, 'vpi' );
 
-		global $wpdb;
-
 		$notified_data = $post_data[ 'data' ];
 		if ( empty( $notified_data ) || ! is_array( $notified_data ) ) {
 			self::debug( '❌ notify exit: no notified data' );
@@ -108,8 +106,12 @@ class VPI extends Base {
 				self::debug( '❌ notify bypass: no request_url', $v );
 				continue;
 			}
-			$is_mobile = !empty( $v[ 'is_mobile' ] );
-			$queue_k = ( $is_mobile ? 'mobile' : '' ) . ' ' . $v[ 'request_url' ];
+			if ( empty( $v[ 'queue_k' ] ) ) {
+				self::debug( '❌ notify bypass: no queue_k', $v );
+				continue;
+			}
+			// $queue_k = ( $is_mobile ? 'mobile' : '' ) . ' ' . $v[ 'request_url' ];
+			$queue_k = $v[ 'queue_k' ];
 
 			if ( empty( $this->_queue[ $queue_k ] ) ) {
 				self::debug( '❌ notify bypass: no this queue [q_k]' . $queue_k );
@@ -117,10 +119,10 @@ class VPI extends Base {
 			}
 
 			// Save data
-			if ( ! empty( $v[ 'data' ] ) ) {
+			if ( ! empty( $v[ 'data_vpi' ] ) ) {
 				$post_id = $this->_queue[ $queue_k ][ 'post_id' ];
-				$name = $is_mobile ? 'litespeed_vpi_list_mobile' : 'litespeed_vpi_list';
-				$this->cls( 'Metabox' )->save( $post_id, $name, $v[ 'data' ], true );
+				$name = !empty( $v[ 'is_mobile' ] ) ? 'litespeed_vpi_list_mobile' : 'litespeed_vpi_list';
+				$this->cls( 'Metabox' )->save( $post_id, $name, $v[ 'data_vpi' ], true );
 
 				$valid_i ++;
 			}
@@ -270,9 +272,7 @@ class VPI extends Base {
 			return false;
 		}
 
-		// Generate critical css
 		$data = array(
-			// 'type'			=> strtoupper( $type ), // Backward compatibility for v4.1-
 			'url'			=> $request_url,
 			'queue_k'		=> $queue_k,
 			'user_agent'	=> $user_agent,

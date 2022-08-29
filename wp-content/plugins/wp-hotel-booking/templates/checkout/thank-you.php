@@ -100,6 +100,16 @@ $key        = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['ke
 						<?php } ?>
 					<?php } ?>
 
+					<?php if($booking->coupon_id ){ ?>
+						<tr>
+							<td colspan="4"><?php _e( 'Coupon Code ('.$booking->coupon_code.') Discount', 'wp-hotel-booking' ) ?></td>
+							<td>
+								- <?php echo  hb_format_price( $booking->coupon_value, hb_get_currency_symbol( $booking->currency ) ); ?>
+							</td>
+						</tr>
+
+					<?php } ?>
+
 					<tr>
 						<td colspan="4"><?php _e( 'Sub Total', 'wp-hotel-booking' ) ?></td>
 						<td>

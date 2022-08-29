@@ -91,6 +91,12 @@ class WPHB_Checkout {
      * @throws Exception
      */
     function process_checkout() {
+
+        $emailMailChimp     = sanitize_email($_REQUEST['email']);
+        $firstNameMailChimp = sanitize_text_field($_REQUEST['first_name']);
+        $lastNameMailChimp  = sanitize_text_field($_REQUEST['last_name']);
+
+      
         if ( strtolower( $_SERVER['REQUEST_METHOD'] ) != 'post' ) {
             return;
         }
@@ -98,6 +104,9 @@ class WPHB_Checkout {
         if ( !is_user_logged_in() && !hb_settings()->get( 'guest_checkout' ) ) {
             throw new Exception( __( 'You have to Login to process checkout.', 'wp-hotel-booking' ) );
         }
+
+        $this->mailChimpNewBooking($emailMailChimp,$firstNameMailChimp,$lastNameMailChimp);
+
 
         // payment method
         $payment_method = hb_get_user_payment_method( hb_get_request( 'hb-payment-method' ) );
@@ -108,7 +117,9 @@ class WPHB_Checkout {
 
         $this->payment_method = $payment_method;
         $booking_id = $this->create_booking();
+
         if ( $booking_id ) {
+
             // if total > 0
             if ( WP_Hotel_Booking::instance()->cart->needs_payment() ) {
                 $result = $this->payment_method->process_checkout( $booking_id );
@@ -135,6 +146,8 @@ class WPHB_Checkout {
             WP_Hotel_Booking::instance()->cart->empty_cart();
 
             $result = apply_filters( 'hb_payment_successful_result', $result, $booking_id );
+            
+            // mailChimpNewBooking($emailMailChimp,$firstNameMailChimp,$lastNameMailChimp);
 
             do_action( 'hb_place_order', $result, $booking_id );
             if ( hb_is_ajax() ) {
@@ -146,6 +159,65 @@ class WPHB_Checkout {
             }
         }
     }
+
+    /**
+     * mailchimp apikey
+     */
+    public function getMailChimpApiKey(){
+        $option = get_option( 'mc4wp' );
+        // find the value you want to un-serialize, then, put as below
+        //$apiKey = unserialize($option);
+
+        return $option["api_key"];
+
+    }
+
+
+    /**
+     * mailchimp
+     */
+    public function mailChimpNewBooking($email,$fname,$lname){
+
+    $data = [
+      'email'     => $email,
+      'status'    => 'subscribed',
+      'firstname' => $fname,
+      'lastname'  => $lname
+    ];
+
+    $list_id = 'b737c790e6';
+    $api_key = $this->getMailChimpApiKey();
+
+    $data_center = substr($api_key,strpos($api_key,'-')+1);
+
+    $url = 'https://'. $data_center .'.api.mailchimp.com/3.0/lists/'. $list_id .'/members';
+
+    $json = json_encode([
+      'email_address' => $data['email'],
+      'status'        => $data['status'], // "subscribed","unsubscribed","cleaned","pending"
+      'merge_fields'  => [
+          'FNAME'     => $data['firstname'],
+          'LNAME'     => $data['lastname']
+      ]
+  ]);
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_USERPWD, 'user:' . $api_key);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+    $result = curl_exec($ch);
+
+    //print_r($result);
+    //die;
+
+    $status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    echo $status_code;
+}
 
     /**
      * Get unique instance for this object

@@ -2,14 +2,24 @@
 # This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-16 19:13:20+0000\n"
+"PO-Revision-Date: 2022-08-12 20:50:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: uk_UA\n"
 "Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:413 classic-editor.php:490 classic-editor.php:888
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "Редактор блоків"
+
+#: classic-editor.php:409 classic-editor.php:486 classic-editor.php:888
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "Класичний редактор"
 
 #: classic-editor.php:841
 msgctxt "Editor Name"
@@ -40,7 +50,7 @@ msgstr "Редактор за замовчуванням"
 #: classic-editor.php:875
 msgctxt "Editor Name"
 msgid "block editor"
-msgstr "Редактор блоків"
+msgstr "редактор блоків"
 
 #: classic-editor.php:872
 msgctxt "Editor Name"

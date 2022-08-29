@@ -3,7 +3,7 @@ Contributors: LiteSpeedTech
 Tags: caching, optimize, performance, pagespeed, core web vitals, seo, speed, image optimize, compress, object cache, redis, memcached, database cleaner
 Requires at least: 4.0
 Tested up to: 6.0.1
-Stable tag: 5.0.1
+Stable tag: 5.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -249,6 +249,15 @@ For more detailed information about crawler setup, please see [the Crawler docum
 The vast majority of plugins and themes are compatible with LiteSpeed Cache. The most up-to-date compatibility information can be found [in our documentation](https://docs.litespeedtech.com/lscache/lscwp/thirdparty/)
 
 == Changelog ==
+
+= 5.1 - Aug 1 2022 =
+* 🌱**Toolbox** Debug log can now show Purge/Crawler logs as well. (Tynan)
+* **UCSS** Prepared for future message queue.
+* **UCSS** Moved UCSS class to its own file.
+* **3rd** Added 3rd-party support for WC PDF Product Vouchers. (Tynan)
+* **Core** Fixed potential PHP warning when saving summary data. (Sarah Richardson)
+* **Purge** Purge can now clear the summary correctly. (Kevin)
+* **VPI** Added `queue_k` to API notification.
 
 = 5.0.1 - Jul 27 2022 =
 * 🐞**Cloud** Fixed a potential PHP error that could occur with the cloud service summary. (Bruno Cantuaria)

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-27 21:18:07+0000\n"
+"PO-Revision-Date: 2022-08-01 21:16:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,18 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: uk_UA\n"
 "Project-Id-Version: Plugins - LiteSpeed Cache - Stable (latest release)\n"
+
+#: tpl/toolbox/log_viewer.tpl.php:93
+msgid "LiteSpeed Logs"
+msgstr "Журнали LiteSpeed"
+
+#: tpl/toolbox/log_viewer.tpl.php:21
+msgid "Crawler Log"
+msgstr "Журнал сканера"
+
+#: tpl/toolbox/log_viewer.tpl.php:16
+msgid "Purge Log"
+msgstr "Журнал очищення"
 
 #: tpl/toolbox/settings-debug.tpl.php:166
 msgid "Prevent writing log entries that include listed strings."
@@ -64,7 +76,7 @@ msgstr "Основний домен ще не згенеровано"
 msgid "Main domain"
 msgstr "Основний домен"
 
-#: tpl/dash/dashboard.tpl.php:530
+#: tpl/dash/dashboard.tpl.php:514
 msgid "Viewport Image"
 msgstr "Viewport Image"
 
@@ -445,7 +457,7 @@ msgstr "Використовуйте %1$s, щоб обійти UCSS для ст�
 msgid "Use %1$s to generate one single UCSS for the pages which page type is %2$s while other page types still per URL."
 msgstr "Використовуйте %1$s, щоб згенерувати єдиний UCSS для сторінок із типом сторінки %2$s та інших типів сторінок, які все ще генеруються для URL-адреси."
 
-#: tpl/page_optm/settings_css.tpl.php:69
+#: tpl/page_optm/settings_css.tpl.php:70
 msgid "Filter %s available for UCSS per page type generation."
 msgstr "Фільтр %s доступний у UCSS для генерування типу сторінки."
 
@@ -482,7 +494,7 @@ msgstr "Очищено всі локалізовані записи ресурс
 msgid "UCSS Allowlist"
 msgstr "Список дозволених UCSS"
 
-#: tpl/dash/dashboard.tpl.php:596
+#: tpl/dash/dashboard.tpl.php:580
 msgid "<b>Last crawled:</b> %d item(s)"
 msgstr "<b>Останнє сканування:</b> %d елемент(ів)"
 
@@ -590,44 +602,44 @@ msgstr "Це також додасть попереднє підключення
 msgid "Delay rendering off-screen HTML elements by its selector."
 msgstr "Затримати відтворення позаекранних елементів HTML за допомогою селектора."
 
-#: tpl/page_optm/settings_css.tpl.php:244
+#: tpl/page_optm/settings_css.tpl.php:245
 msgid "Disable this option to generate CCSS per Post Type instead of per page. This can save significant CCSS quota, however it may result in incorrect CSS styling if your site uses a page builder."
 msgstr "Вимкніть цю опцію, щоб генерувати CCSS за типом запису, а не за сторінкою. Це може заощадити значну квоту CCSS, однак це може призвести до неправильного стилю CSS, якщо на вашому сайті використовується конструктор сторінок."
 
-#: tpl/page_optm/settings_css.tpl.php:183
+#: tpl/page_optm/settings_css.tpl.php:184
 msgid "This option is bypassed due to %s option."
 msgstr "Цей параметр пропущено завдяки параметру %s."
 
-#: tpl/page_optm/settings_css.tpl.php:178
+#: tpl/page_optm/settings_css.tpl.php:179
 msgid "Elements with attribute %s in HTML code will be excluded."
 msgstr "Елементи з атрибутом %s у HTML-коді будуть виключені."
 
-#: tpl/page_optm/settings_css.tpl.php:172
+#: tpl/page_optm/settings_css.tpl.php:173
 msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
 msgstr "Використовуйте онлайн-сервіс QUIC.cloud для створення критичного CSS та асинхронного завантаження решти CSS."
 
-#: tpl/page_optm/settings_css.tpl.php:137
+#: tpl/page_optm/settings_css.tpl.php:138
 msgid "This option will automatically bypass %s option."
 msgstr "Цей параметр автоматично пропустить параметр %s."
 
-#: tpl/page_optm/settings_css.tpl.php:135
+#: tpl/page_optm/settings_css.tpl.php:136
 msgid "Inline UCSS to reduce the extra CSS file loading. This option will not be automatically turned on for %1$s pages. To use it on %1$s pages, please set it to ON."
 msgstr "Вбудований UCSS для зменшення додаткового завантаження файлу CSS. Цей параметр не буде автоматично ввімкнено для сторінок %1$s. Щоб використовувати його на сторінках %1$s, увімкніть його."
 
-#: tpl/page_optm/settings_css.tpl.php:119
-#: tpl/page_optm/settings_css.tpl.php:229 tpl/page_optm/settings_vpi.tpl.php:74
+#: tpl/page_optm/settings_css.tpl.php:120
+#: tpl/page_optm/settings_css.tpl.php:230 tpl/page_optm/settings_vpi.tpl.php:74
 msgid "Run %s Queue Manually"
 msgstr "Запустити %s чергу вручну"
 
-#: tpl/page_optm/settings_css.tpl.php:73
+#: tpl/page_optm/settings_css.tpl.php:74
 msgid "This option is bypassed because %1$s option is %2$s."
 msgstr "Цей параметр пропущено, оскільки параметр %1$s становить %2$s."
 
-#: tpl/page_optm/settings_css.tpl.php:68
+#: tpl/page_optm/settings_css.tpl.php:69
 msgid "Automatic generation of unique CSS is in the background via a cron-based queue."
 msgstr "Автоматичне генерування унікального CSS відбувається у фоновому режимі за допомогою черги на основі cron."
 
-#: tpl/page_optm/settings_css.tpl.php:66
+#: tpl/page_optm/settings_css.tpl.php:67
 msgid "This will drop the unused CSS on each page from the combined file."
 msgstr "Це видалить невикористаний CSS на кожній сторінці з об’єднаного файлу."
 
@@ -679,14 +691,14 @@ msgstr "Вам потрібно увімкнути %s, щоб отримати �
 msgid "This option enables maximum optimization for Guest Mode visitors."
 msgstr "Цей параметр забезпечує максимальну оптимізацію для відвідувачів у гостьовому режимі."
 
-#: tpl/dash/dashboard.tpl.php:301 tpl/dash/dashboard.tpl.php:390
-#: tpl/dash/dashboard.tpl.php:433 tpl/dash/dashboard.tpl.php:466
-#: tpl/dash/dashboard.tpl.php:499 tpl/dash/dashboard.tpl.php:531
-#: tpl/dash/dashboard.tpl.php:563
+#: tpl/dash/dashboard.tpl.php:300 tpl/dash/dashboard.tpl.php:389
+#: tpl/dash/dashboard.tpl.php:417 tpl/dash/dashboard.tpl.php:450
+#: tpl/dash/dashboard.tpl.php:483 tpl/dash/dashboard.tpl.php:515
+#: tpl/dash/dashboard.tpl.php:547
 msgid "More"
 msgstr "Більше"
 
-#: tpl/dash/dashboard.tpl.php:161
+#: tpl/dash/dashboard.tpl.php:160
 msgid "Remaining Daily Quota"
 msgstr "Залишок щоденної квоти"
 
@@ -814,7 +826,7 @@ msgstr "Будь ласка, дивіться %s для більш деталь�
 msgid "This setting will regenerate crawler list and clear the disabled list!"
 msgstr "Це налаштування перегенерує список сканера та очистить вимкнені!"
 
-#: src/gui.cls.php:104
+#: src/gui.cls.php:78
 msgid "%1$s %2$s files left in queue"
 msgstr "%1$s %2$s файлів залишилося в черзі"
 
@@ -858,11 +870,11 @@ msgstr "Немає дійсного sitemap для сканера."
 msgid "CSS Combine External and Inline"
 msgstr "Об'єднання зовнішнього та вбудованого CSS"
 
-#: tpl/page_optm/settings_css.tpl.php:151
+#: tpl/page_optm/settings_css.tpl.php:152
 msgid "Include external CSS and inline CSS in combined file when %1$s is also enabled. This option helps maintain the priorities of CSS, which should minimize potential errors caused by CSS Combine."
 msgstr "Включити зовнішній CSS та вбудований CSS до об’єднаного файлу, за умови увімкнення %1$s. Цей параметр допомагає підтримувати пріоритети CSS, які повинні мінімізувати потенційні помилки, спричинені об'єднанням CSS."
 
-#: tpl/page_optm/settings_css.tpl.php:31
+#: tpl/page_optm/settings_css.tpl.php:32
 msgid "Minify CSS files and inline CSS code."
 msgstr "Мінімізувати файли CSS та вбудований код CSS."
 
@@ -921,7 +933,7 @@ msgstr "Останній файл даних є"
 msgid "The list will be merged with the predefined nonces in your local data file."
 msgstr "Список буде об’єднано з попередньо визначеними одноразовими ідентифікаторами у вашому локальному файлі даних."
 
-#: tpl/page_optm/settings_css.tpl.php:44
+#: tpl/page_optm/settings_css.tpl.php:45
 msgid "Combine CSS files and inline CSS code."
 msgstr "Об'єднати файли CSS та вбудований код CSS."
 
@@ -937,7 +949,7 @@ msgstr "Перераховані файли JS або вбудований ко�
 msgid "Listed CSS files or inline CSS code will not be minified/combined."
 msgstr "Перераховані файли CSS або вбудований код CSS не будуть мінімізовані/об’єднані."
 
-#: src/css.cls.php:62 src/root.cls.php:185
+#: src/root.cls.php:185
 msgid "Queue cleared successfully."
 msgstr "Чергу успішно очищено."
 
@@ -997,7 +1009,7 @@ msgstr "Налаштування власних заголовків"
 msgid "This will delete all localized resources"
 msgstr "Це призведе до видалення всіх локалізованих ресурсів"
 
-#: src/gui.cls.php:562 src/gui.cls.php:722 tpl/toolbox/purge.tpl.php:88
+#: src/gui.cls.php:536 src/gui.cls.php:696 tpl/toolbox/purge.tpl.php:88
 msgid "Localized Resources"
 msgstr "Локалізовані ресурси"
 
@@ -1021,7 +1033,7 @@ msgstr "Налаштування локалізації"
 msgid "List the CSS selector that its style should be always contained in UCSS."
 msgstr "Перелік CSS селектор, для яких стиль завжди буде міститись в UCSS."
 
-#: tpl/page_optm/settings_css.tpl.php:65
+#: tpl/page_optm/settings_css.tpl.php:66
 msgid "Use QUIC.cloud online service to generate unique CSS."
 msgstr "Використовуйте онлайн-сервіс QUIC.cloud для створення унікального CSS."
 
@@ -1029,7 +1041,7 @@ msgstr "Використовуйте онлайн-сервіс QUIC.cloud для
 msgid "Generate UCSS"
 msgstr "Згенерувати UCSS"
 
-#: tpl/dash/dashboard.tpl.php:465 tpl/toolbox/purge.tpl.php:79
+#: tpl/dash/dashboard.tpl.php:449 tpl/toolbox/purge.tpl.php:79
 msgid "Unique CSS"
 msgstr "Унікальний CSS"
 
@@ -1473,11 +1485,11 @@ msgstr "TTL"
 msgid "If ON, the stale copy of a cached page will be shown to visitors until a new cache copy is available. Reduces the server load for following visits. If OFF, the page will be dynamically generated while visitors wait."
 msgstr "Якщо увімкнено, застаріла копія кешованої сторінки відображатиметься відвідувачам, доки не буде доступна нова копія кешу. Зменшує навантаження на сервер для наступних відвідувань. Якщо вимкнено, сторінка буде генеруватися динамічно, поки відвідувачі чекатимуть."
 
-#: tpl/page_optm/settings_css.tpl.php:271
+#: tpl/page_optm/settings_css.tpl.php:272
 msgid "Swap"
 msgstr "Обмін"
 
-#: tpl/page_optm/settings_css.tpl.php:270
+#: tpl/page_optm/settings_css.tpl.php:271
 msgid "Set this to append %1$s to all %2$s rules before caching CSS to specify how fonts should be displayed while being downloaded."
 msgstr "Встановіть це, щоб додати %1$s до всіх %2$s правил перед кешуванням CSS, та указати, як шрифти мають відображатися під час завантаження."
 
@@ -1569,11 +1581,11 @@ msgstr "Оптимізація сторінки LiteSpeed Cache"
 msgid "Media Excludes"
 msgstr "Виключенні Медіа"
 
-#: tpl/page_optm/entry.tpl.php:6 tpl/page_optm/settings_css.tpl.php:17
+#: tpl/page_optm/entry.tpl.php:6 tpl/page_optm/settings_css.tpl.php:18
 msgid "CSS Settings"
 msgstr "Налаштування CSS"
 
-#: tpl/page_optm/settings_css.tpl.php:271
+#: tpl/page_optm/settings_css.tpl.php:272
 msgid "%s is recommended."
 msgstr "%s рекомендується."
 
@@ -1581,7 +1593,7 @@ msgstr "%s рекомендується."
 msgid "Deferred"
 msgstr "‎Відкладено"
 
-#: tpl/page_optm/settings_css.tpl.php:268
+#: tpl/page_optm/settings_css.tpl.php:269
 msgid "Default"
 msgstr "За замовчуванням"
 
@@ -1710,8 +1722,8 @@ msgstr "Одночасно можна запитати максимум %s зо�
 msgid "Optimize images with our QUIC.cloud server"
 msgstr "Оптимізуйте зображення за допомогою нашого сервера QUIC.cloud"
 
-#: tpl/img_optm/summary.tpl.php:57 tpl/page_optm/settings_css.tpl.php:92
-#: tpl/page_optm/settings_css.tpl.php:202
+#: tpl/img_optm/summary.tpl.php:57 tpl/page_optm/settings_css.tpl.php:93
+#: tpl/page_optm/settings_css.tpl.php:203
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/page_optm/settings_vpi.tpl.php:48
 msgid "Current closest Cloud server is %s.&#10; Click to redetect."
@@ -1773,123 +1785,119 @@ msgstr "Конвертер таблиць баз даних"
 msgid "Clean revisions older than %1$s day(s), excluding %2$s latest revisions"
 msgstr "Видалити редакції, старіші за %1$s день(ів), за винятком %2$s останніх редакцій"
 
-#: tpl/dash/dashboard.tpl.php:570
+#: tpl/dash/dashboard.tpl.php:554
 msgid "Currently active crawler"
 msgstr "Наразі діючий сканер"
 
-#: tpl/dash/dashboard.tpl.php:567
+#: tpl/dash/dashboard.tpl.php:551
 msgid "Crawler(s)"
 msgstr "Сканер(и)"
 
-#: tpl/crawler/map.tpl.php:44 tpl/dash/dashboard.tpl.php:562
+#: tpl/crawler/map.tpl.php:44 tpl/dash/dashboard.tpl.php:546
 msgid "Crawler Status"
 msgstr "Статус сканера"
 
-#: tpl/dash/dashboard.tpl.php:449 tpl/dash/dashboard.tpl.php:482
-#: tpl/dash/dashboard.tpl.php:514 tpl/dash/dashboard.tpl.php:546
+#: tpl/dash/dashboard.tpl.php:433 tpl/dash/dashboard.tpl.php:466
+#: tpl/dash/dashboard.tpl.php:498 tpl/dash/dashboard.tpl.php:530
 msgid "Force cron"
 msgstr "Примусовий cron"
 
-#: tpl/dash/dashboard.tpl.php:446 tpl/dash/dashboard.tpl.php:479
-#: tpl/dash/dashboard.tpl.php:512 tpl/dash/dashboard.tpl.php:544
+#: tpl/dash/dashboard.tpl.php:430 tpl/dash/dashboard.tpl.php:463
+#: tpl/dash/dashboard.tpl.php:496 tpl/dash/dashboard.tpl.php:528
 msgid "Requests in queue"
 msgstr "Запити в черзі"
 
-#: tpl/dash/dashboard.tpl.php:441 tpl/dash/dashboard.tpl.php:474
-#: tpl/dash/dashboard.tpl.php:507 tpl/dash/dashboard.tpl.php:539
+#: tpl/dash/dashboard.tpl.php:425 tpl/dash/dashboard.tpl.php:458
+#: tpl/dash/dashboard.tpl.php:491 tpl/dash/dashboard.tpl.php:523
 msgid "Time to execute previous request"
 msgstr "Час для виконання попереднього запиту"
 
-#: tpl/dash/dashboard.tpl.php:418
-msgid "Cache Stats"
-msgstr "Статистика кешу"
-
-#: tpl/dash/dashboard.tpl.php:396
+#: tpl/dash/dashboard.tpl.php:395
 msgid "Private Cache"
 msgstr "Приватний кеш"
 
-#: tpl/dash/dashboard.tpl.php:395
+#: tpl/dash/dashboard.tpl.php:394
 msgid "Public Cache"
 msgstr "Загальнодоступний кеш"
 
-#: tpl/dash/dashboard.tpl.php:389
+#: tpl/dash/dashboard.tpl.php:388
 msgid "Cache Status"
 msgstr "Статус кешу"
 
-#: tpl/dash/dashboard.tpl.php:361
+#: tpl/dash/dashboard.tpl.php:360
 msgid "Last Pull"
 msgstr "Останнє вилучення"
 
-#: tpl/dash/dashboard.tpl.php:326
+#: tpl/dash/dashboard.tpl.php:325
 msgid "Images Requested"
 msgstr "Запитані зображення"
 
-#: tpl/dash/dashboard.tpl.php:311
+#: tpl/dash/dashboard.tpl.php:310
 msgid "Image Groups Prepared"
 msgstr "Підготовлені групи зображень"
 
-#: tpl/dash/dashboard.tpl.php:300 tpl/img_optm/entry.tpl.php:6
+#: tpl/dash/dashboard.tpl.php:299 tpl/img_optm/entry.tpl.php:6
 msgid "Image Optimization Summary"
 msgstr "Підсумок оптимізації зображення"
 
-#: tpl/dash/dashboard.tpl.php:239
+#: tpl/dash/dashboard.tpl.php:238
 msgid "Refresh page score"
 msgstr "Оновити оцінку сторінки"
 
-#: tpl/dash/dashboard.tpl.php:228 tpl/img_optm/summary.tpl.php:57
-#: tpl/page_optm/settings_css.tpl.php:92 tpl/page_optm/settings_css.tpl.php:202
+#: tpl/dash/dashboard.tpl.php:227 tpl/img_optm/summary.tpl.php:57
+#: tpl/page_optm/settings_css.tpl.php:93 tpl/page_optm/settings_css.tpl.php:203
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/page_optm/settings_vpi.tpl.php:48
 msgid "Are you sure you want to redetect the closest cloud server for this service?"
 msgstr "Ви впевнені, що хочете повторно шукати найближчий хмарний сервер для цієї служби?"
 
-#: tpl/dash/dashboard.tpl.php:228
+#: tpl/dash/dashboard.tpl.php:227
 msgid "Current closest Cloud server is %s.&#10;Click to redetect."
 msgstr "Поточний, найближчий, хмарний сервер %s.&#10;Натисніть, щоб повторно шукати."
 
-#: tpl/dash/dashboard.tpl.php:223 tpl/dash/dashboard.tpl.php:292
-#: tpl/dash/dashboard.tpl.php:457 tpl/dash/dashboard.tpl.php:490
-#: tpl/dash/dashboard.tpl.php:522 tpl/dash/dashboard.tpl.php:554
+#: tpl/dash/dashboard.tpl.php:222 tpl/dash/dashboard.tpl.php:291
+#: tpl/dash/dashboard.tpl.php:441 tpl/dash/dashboard.tpl.php:474
+#: tpl/dash/dashboard.tpl.php:506 tpl/dash/dashboard.tpl.php:538
 msgid "Last requested"
 msgstr "Останній запитаний"
 
-#: tpl/dash/dashboard.tpl.php:182
+#: tpl/dash/dashboard.tpl.php:181
 msgid "Refresh page load time"
 msgstr "Оновити час завантаження сторінки"
 
-#: tpl/dash/dashboard.tpl.php:170
+#: tpl/dash/dashboard.tpl.php:169
 msgid "Go to QUIC.cloud dashboard"
 msgstr "Перейти у майстерню QUIC.cloud"
 
-#: tpl/dash/dashboard.tpl.php:60 tpl/dash/dashboard.tpl.php:498
+#: tpl/dash/dashboard.tpl.php:59 tpl/dash/dashboard.tpl.php:482
 msgid "Low Quality Image Placeholder"
 msgstr "Заповнювач зображення низької якості (LQIP)"
 
-#: tpl/dash/dashboard.tpl.php:47
+#: tpl/dash/dashboard.tpl.php:46
 msgid "Sync data from Cloud"
 msgstr "Синхронізуйте дані з хмари"
 
-#: tpl/dash/dashboard.tpl.php:44
+#: tpl/dash/dashboard.tpl.php:43
 msgid "QUIC.cloud Service Usage Statistics"
 msgstr "Статистика використання служби QUIC.cloud"
 
-#: tpl/dash/dashboard.tpl.php:152 tpl/dash/network_dash.tpl.php:101
+#: tpl/dash/dashboard.tpl.php:151 tpl/dash/network_dash.tpl.php:101
 msgid "Total images optimized in this month"
 msgstr "Загальна кількість зображень, оптимізованих за цей місяць"
 
-#: tpl/dash/dashboard.tpl.php:151 tpl/dash/network_dash.tpl.php:100
+#: tpl/dash/dashboard.tpl.php:150 tpl/dash/network_dash.tpl.php:100
 msgid "Total Usage"
 msgstr "Усього використано"
 
-#: tpl/dash/dashboard.tpl.php:133 tpl/dash/network_dash.tpl.php:93
+#: tpl/dash/dashboard.tpl.php:132 tpl/dash/network_dash.tpl.php:93
 msgid "Pay as You Go Usage Statistics"
 msgstr "Статистика використання плати по мірі використання (Pay as You Go)"
 
-#: tpl/dash/dashboard.tpl.php:131 tpl/dash/network_dash.tpl.php:91
+#: tpl/dash/dashboard.tpl.php:130 tpl/dash/network_dash.tpl.php:91
 msgid "This Month Usage"
 msgstr "Використано цього місяця"
 
-#: tpl/dash/dashboard.tpl.php:130 tpl/dash/network_dash.tpl.php:90
+#: tpl/dash/dashboard.tpl.php:129 tpl/dash/network_dash.tpl.php:90
 msgid "PAYG Balance"
 msgstr "Баланс Pay as You Go"
 
@@ -1897,15 +1905,15 @@ msgstr "Баланс Pay as You Go"
 msgid "Pay as You Go"
 msgstr "Pay as You Go"
 
-#: tpl/dash/dashboard.tpl.php:117 tpl/dash/network_dash.tpl.php:78
+#: tpl/dash/dashboard.tpl.php:116 tpl/dash/network_dash.tpl.php:78
 msgid "Usage"
 msgstr "Використання"
 
-#: tpl/dash/dashboard.tpl.php:117 tpl/dash/network_dash.tpl.php:78
+#: tpl/dash/dashboard.tpl.php:116 tpl/dash/network_dash.tpl.php:78
 msgid "Fast Queue Usage"
 msgstr "Використання швидкої черги"
 
-#: tpl/dash/dashboard.tpl.php:59 tpl/dash/network_dash.tpl.php:29
+#: tpl/dash/dashboard.tpl.php:58 tpl/dash/network_dash.tpl.php:29
 msgid "CDN Bandwidth"
 msgstr "Пропускна здатність CDN"
 
@@ -2052,26 +2060,10 @@ msgstr "Перш ніж генерувати ключ, перевірте, чи 
 msgid "For online services to work correctly, you must allowlist all %s server IPs."
 msgstr "Щоб онлайн-сервіси працювали правильно, ви повинні внести у список дозволених усі IP-адреси сервера %s."
 
-#: src/gui.cls.php:572 src/gui.cls.php:732
+#: src/gui.cls.php:546 src/gui.cls.php:706
 #: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:97
 msgid "LQIP Cache"
 msgstr "LQIP Кеш"
-
-#: src/gui.cls.php:84
-msgid "Private Cache Hits"
-msgstr "Звернення до приватного кешу"
-
-#: src/gui.cls.php:83
-msgid "Private Caches"
-msgstr "Приватні кеші"
-
-#: src/gui.cls.php:82
-msgid "Public Cache Hits"
-msgstr "Звернення до загальнодоступного кешу"
-
-#: src/gui.cls.php:81
-msgid "Public Caches"
-msgstr "Загальнодоступні кеші"
 
 #: src/admin-settings.cls.php:245 src/admin-settings.cls.php:279
 msgid "Options saved."
@@ -2273,7 +2265,7 @@ msgstr "Gravatar Кеш TTL"
 msgid "Gravatar Cache Cron"
 msgstr "Gravatar Кеш Cron"
 
-#: src/gui.cls.php:582 src/gui.cls.php:742 src/lang.cls.php:176
+#: src/gui.cls.php:556 src/gui.cls.php:716 src/lang.cls.php:176
 #: tpl/toolbox/purge.tpl.php:106
 msgid "Gravatar Cache"
 msgstr "Gravatar кеш"
@@ -2529,7 +2521,7 @@ msgstr "Панель інструментів"
 msgid "Database"
 msgstr "База даних"
 
-#: src/admin-display.cls.php:129 tpl/dash/dashboard.tpl.php:58
+#: src/admin-display.cls.php:129 tpl/dash/dashboard.tpl.php:57
 msgid "Page Optimization"
 msgstr "Оптимізація сторінки"
 
@@ -2661,26 +2653,26 @@ msgstr "Встановити"
 msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
 msgstr "Ці параметри доступні лише з LiteSpeed Enterprise Web Server або QUIC.cloud CDN."
 
-#: tpl/banner/score.php:68 tpl/dash/dashboard.tpl.php:236
+#: tpl/banner/score.php:68 tpl/dash/dashboard.tpl.php:235
 msgid "PageSpeed Score"
 msgstr "Оцінка PageSpeed"
 
 #: tpl/banner/score.php:55 tpl/banner/score.php:94
-#: tpl/dash/dashboard.tpl.php:209 tpl/dash/dashboard.tpl.php:276
+#: tpl/dash/dashboard.tpl.php:208 tpl/dash/dashboard.tpl.php:275
 msgid "Improved by"
 msgstr "Покращено"
 
 #: tpl/banner/score.php:45 tpl/banner/score.php:84
-#: tpl/dash/dashboard.tpl.php:201 tpl/dash/dashboard.tpl.php:268
+#: tpl/dash/dashboard.tpl.php:200 tpl/dash/dashboard.tpl.php:267
 msgid "After"
 msgstr "Після"
 
 #: tpl/banner/score.php:34 tpl/banner/score.php:74
-#: tpl/dash/dashboard.tpl.php:192 tpl/dash/dashboard.tpl.php:260
+#: tpl/dash/dashboard.tpl.php:191 tpl/dash/dashboard.tpl.php:259
 msgid "Before"
 msgstr "Перед"
 
-#: tpl/banner/score.php:28 tpl/dash/dashboard.tpl.php:179
+#: tpl/banner/score.php:28 tpl/dash/dashboard.tpl.php:178
 msgid "Page Load Time"
 msgstr "Час завантаження сторінки"
 
@@ -2905,19 +2897,19 @@ msgstr "Високопродуктивне кешування сторінок �
 msgid "Reset the optimized data successfully."
 msgstr "Скидання оптимізованих даних виконано успішно."
 
-#: src/gui.cls.php:808
+#: src/gui.cls.php:782
 msgid "Update %s now"
 msgstr "Оновити %s зараз"
 
-#: src/gui.cls.php:803
+#: src/gui.cls.php:777
 msgid "View %1$s version %2$s details"
 msgstr "Переглянути %1$s деталі версії %2$s"
 
-#: src/gui.cls.php:800
+#: src/gui.cls.php:774
 msgid "<a href=\"%1$s\" %2$s>View version %3$s details</a> or <a href=\"%4$s\" %5$s target=\"_blank\">update now</a>."
 msgstr "<a href=\"%1$s\" %2$s>Переглянути деталі версії %3$s</a> або <a href=\"%4$s\" %5$s target=\"_blank\">оновити зараз</a>."
 
-#: src/gui.cls.php:780
+#: src/gui.cls.php:754
 msgid "Install %s"
 msgstr "Встановити %s"
 
@@ -2981,7 +2973,7 @@ msgstr "Оптимізуйте зображення та зберігайте р
 msgid "Optimize Original Images"
 msgstr "Оптимізація оригінальних зображень"
 
-#: tpl/page_optm/settings_css.tpl.php:175
+#: tpl/page_optm/settings_css.tpl.php:176
 msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
 msgstr "Коли цей параметр увімкнено %s, він також завантажуватиме шрифти Google асинхронно."
 
@@ -2989,7 +2981,7 @@ msgstr "Коли цей параметр увімкнено %s, він тако�
 msgid "Cleaned all Critical CSS files."
 msgstr "Очищені всі Critical CSS файли."
 
-#: tpl/page_optm/settings_css.tpl.php:257
+#: tpl/page_optm/settings_css.tpl.php:258
 msgid "This will inline the asynchronous CSS library to avoid render blocking."
 msgstr "Це вбудує асинхронну бібліотеку CSS, щоб уникнути блокування візуалізації."
 
@@ -3002,18 +2994,18 @@ msgstr "Вбудована асинхронна бібліотека CSS"
 msgid "Run Queue Manually"
 msgstr "Запустити чергу вручну"
 
-#: tpl/page_optm/settings_css.tpl.php:98 tpl/page_optm/settings_css.tpl.php:208
+#: tpl/page_optm/settings_css.tpl.php:99 tpl/page_optm/settings_css.tpl.php:209
 #: tpl/page_optm/settings_vpi.tpl.php:54
 msgid "URL list in %s queue waiting for cron"
 msgstr "Список URL-адрес у %s черзі, який очікує на cron"
 
-#: tpl/page_optm/settings_css.tpl.php:86 tpl/page_optm/settings_css.tpl.php:196
+#: tpl/page_optm/settings_css.tpl.php:87 tpl/page_optm/settings_css.tpl.php:197
 msgid "Last requested cost"
 msgstr "Остання запитана вартість"
 
-#: tpl/dash/dashboard.tpl.php:438 tpl/dash/dashboard.tpl.php:471
-#: tpl/dash/dashboard.tpl.php:504 tpl/dash/dashboard.tpl.php:536
-#: tpl/page_optm/settings_css.tpl.php:83 tpl/page_optm/settings_css.tpl.php:193
+#: tpl/dash/dashboard.tpl.php:422 tpl/dash/dashboard.tpl.php:455
+#: tpl/dash/dashboard.tpl.php:488 tpl/dash/dashboard.tpl.php:520
+#: tpl/page_optm/settings_css.tpl.php:84 tpl/page_optm/settings_css.tpl.php:194
 #: tpl/page_optm/settings_media.tpl.php:170
 #: tpl/page_optm/settings_vpi.tpl.php:42
 msgid "Last generated"
@@ -3023,11 +3015,11 @@ msgstr "Востаннє згенеровано"
 msgid "If set to %s this is done in the foreground, which may slow down page load."
 msgstr "Якщо встановлено значення %s, це виконується на передньому плані, що може уповільнити завантаження сторінки."
 
-#: tpl/page_optm/settings_css.tpl.php:174
+#: tpl/page_optm/settings_css.tpl.php:175
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
 msgstr "Автоматичне створення critical CSS відбувається у фоновому режимі через чергу на основі cron."
 
-#: tpl/page_optm/settings_css.tpl.php:170
+#: tpl/page_optm/settings_css.tpl.php:171
 msgid "Optimize CSS delivery."
 msgstr "Оптимізуйте доставку CSS."
 
@@ -3035,7 +3027,7 @@ msgstr "Оптимізуйте доставку CSS."
 msgid "This will delete all generated critical CSS files"
 msgstr "Це призведе до видалення всіх створених critical CSS файлів"
 
-#: tpl/dash/dashboard.tpl.php:432 tpl/toolbox/purge.tpl.php:70
+#: tpl/dash/dashboard.tpl.php:416 tpl/toolbox/purge.tpl.php:70
 msgid "Critical CSS"
 msgstr "Critical CSS"
 
@@ -3144,11 +3136,11 @@ msgstr "Очистити Всі Хуки"
 msgid "Purged all caches successfully."
 msgstr "Успішно очищено весь кеш."
 
-#: src/gui.cls.php:506 src/gui.cls.php:606 src/gui.cls.php:656
+#: src/gui.cls.php:480 src/gui.cls.php:580 src/gui.cls.php:630
 msgid "LSCache"
 msgstr "LSCache"
 
-#: src/gui.cls.php:450
+#: src/gui.cls.php:424
 msgid "Forced cacheable"
 msgstr "Примусове кешування"
 
@@ -3173,19 +3165,19 @@ msgstr "Це призведе до вимкнення LSCache та всіх фу
 msgid "Disable All Features"
 msgstr "Вимкнути всі функції"
 
-#: src/gui.cls.php:533 src/gui.cls.php:693 tpl/toolbox/purge.tpl.php:61
+#: src/gui.cls.php:507 src/gui.cls.php:667 tpl/toolbox/purge.tpl.php:61
 msgid "Opcode Cache"
 msgstr "Кеш Opcode"
 
-#: src/gui.cls.php:514 src/gui.cls.php:664 tpl/toolbox/purge.tpl.php:43
+#: src/gui.cls.php:488 src/gui.cls.php:638 tpl/toolbox/purge.tpl.php:43
 msgid "CSS/JS Cache"
 msgstr "Кеш CSS/JS"
 
-#: src/gui.cls.php:761 tpl/img_optm/summary.tpl.php:175
+#: src/gui.cls.php:735 tpl/img_optm/summary.tpl.php:175
 msgid "Remove all previous unfinished image optimization requests."
 msgstr "Видалити усі попередні незавершені запити на оптимізацію зображення."
 
-#: src/gui.cls.php:762 tpl/img_optm/summary.tpl.php:177
+#: src/gui.cls.php:736 tpl/img_optm/summary.tpl.php:177
 msgid "Clean Up Unfinished Data"
 msgstr "Очистити незавершені дані"
 
@@ -3241,7 +3233,7 @@ msgstr "Відвідайте форум підтримки LSCWP"
 msgid "Rate %s on %s"
 msgstr "Оцінити %s на %s"
 
-#: src/lang.cls.php:25 tpl/dash/dashboard.tpl.php:348
+#: src/lang.cls.php:25 tpl/dash/dashboard.tpl.php:347
 msgid "Images notified to pull"
 msgstr "Зображення повідомлені про вилучення"
 
@@ -3289,15 +3281,15 @@ msgstr "Виконується"
 msgid "Size"
 msgstr "Розмір"
 
-#: tpl/crawler/summary.tpl.php:99 tpl/dash/dashboard.tpl.php:589
+#: tpl/crawler/summary.tpl.php:99 tpl/dash/dashboard.tpl.php:573
 msgid "Ended reason"
 msgstr "Кінцева причина"
 
-#: tpl/crawler/summary.tpl.php:92 tpl/dash/dashboard.tpl.php:582
+#: tpl/crawler/summary.tpl.php:92 tpl/dash/dashboard.tpl.php:566
 msgid "Last interval"
 msgstr "Останній інтервал"
 
-#: tpl/crawler/summary.tpl.php:85 tpl/dash/dashboard.tpl.php:575
+#: tpl/crawler/summary.tpl.php:85 tpl/dash/dashboard.tpl.php:559
 msgid "Current crawler started at"
 msgstr "Поточний сканер запущено о"
 
@@ -3356,7 +3348,7 @@ msgid "Server variable(s) %s available to override this setting."
 msgstr "Змінна(і) сервера %s доступна(і) для заміни цього налаштування."
 
 #: src/admin-display.cls.php:1168 tpl/cache/settings-esi.tpl.php:95
-#: tpl/page_optm/settings_css.tpl.php:177
+#: tpl/page_optm/settings_css.tpl.php:178
 #: tpl/page_optm/settings_html.tpl.php:85
 #: tpl/page_optm/settings_media.tpl.php:235
 #: tpl/page_optm/settings_media_exc.tpl.php:26
@@ -3385,7 +3377,7 @@ msgstr "Файл налаштувань %s імпортовано успішно
 msgid "Import failed due to file error."
 msgstr "Не вдалося імпортувати через помилку файлу."
 
-#: tpl/page_optm/settings_css.tpl.php:45 tpl/page_optm/settings_js.tpl.php:35
+#: tpl/page_optm/settings_css.tpl.php:46 tpl/page_optm/settings_js.tpl.php:35
 msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "Як усунути проблеми, спричинені оптимізацією CSS/JS."
 
@@ -3539,8 +3531,8 @@ msgstr "Порт"
 msgid "Host"
 msgstr "Хост"
 
-#: src/gui.cls.php:523 src/gui.cls.php:683 src/lang.cls.php:114
-#: tpl/dash/dashboard.tpl.php:397 tpl/toolbox/purge.tpl.php:52
+#: src/gui.cls.php:497 src/gui.cls.php:657 src/lang.cls.php:114
+#: tpl/dash/dashboard.tpl.php:396 tpl/toolbox/purge.tpl.php:52
 msgid "Object Cache"
 msgstr "Кеш Object"
 
@@ -3652,7 +3644,7 @@ msgstr "Cloudflare Зона"
 msgid "Cloudflare Domain"
 msgstr "Cloudflare Домен"
 
-#: src/gui.cls.php:673 tpl/cdn/manage.tpl.php:17
+#: src/gui.cls.php:647 tpl/cdn/manage.tpl.php:17
 msgid "Cloudflare"
 msgstr "Cloudflare"
 
@@ -3717,9 +3709,9 @@ msgstr "Це призведе до збільшення розміру опти�
 msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
 msgstr "Зберегти дані EXIF (авторські права, GPS, коментарі, ключові слова тощо) під час оптимізації."
 
-#: tpl/toolbox/log_viewer.tpl.php:11 tpl/toolbox/log_viewer.tpl.php:28
-msgid "Clear Log"
-msgstr "Очистити журнал"
+#: tpl/toolbox/log_viewer.tpl.php:61
+msgid "Clear Logs"
+msgstr "Очистити журнали"
 
 #: thirdparty/woocommerce.content.tpl.php:23
 msgid "To test the cart, visit the <a %s>FAQ</a>."
@@ -3761,7 +3753,7 @@ msgstr "Вилучити зображення"
 msgid "This process is automatic."
 msgstr "Це автоматичний процес."
 
-#: tpl/dash/dashboard.tpl.php:358 tpl/img_optm/summary.tpl.php:342
+#: tpl/dash/dashboard.tpl.php:357 tpl/img_optm/summary.tpl.php:342
 msgid "Last Request"
 msgstr "Останній запит"
 
@@ -3822,7 +3814,7 @@ msgid "Results can be checked in <a %s>Media Library</a>."
 msgstr "Результати можна перевірити в <a %s>Бібліотеці медіа</a>."
 
 #: src/doc.cls.php:53 src/doc.cls.php:105 tpl/cdn/manage.tpl.php:66
-#: tpl/dash/dashboard.tpl.php:51 tpl/img_optm/summary.tpl.php:62
+#: tpl/dash/dashboard.tpl.php:50 tpl/img_optm/summary.tpl.php:62
 #: tpl/img_optm/summary.tpl.php:102 tpl/inc/check_cache_disabled.php:42
 msgid "Learn More"
 msgstr "Дізнатися більше"
@@ -3831,7 +3823,7 @@ msgstr "Дізнатися більше"
 msgid "Images optimized and pulled"
 msgstr "Зображення оптимізовано та вилучено"
 
-#: src/lang.cls.php:24 tpl/dash/dashboard.tpl.php:338
+#: src/lang.cls.php:24 tpl/dash/dashboard.tpl.php:337
 msgid "Images requested"
 msgstr "Запитувані зображення"
 
@@ -3924,8 +3916,8 @@ msgstr "Підсумок оптимізації"
 msgid "LiteSpeed Cache Image Optimization"
 msgstr "LiteSpeed Cache оптимізація зображень"
 
-#: src/admin-display.cls.php:127 src/gui.cls.php:639
-#: tpl/dash/dashboard.tpl.php:57 tpl/dash/network_dash.tpl.php:27
+#: src/admin-display.cls.php:127 src/gui.cls.php:613
+#: tpl/dash/dashboard.tpl.php:56 tpl/dash/network_dash.tpl.php:27
 msgid "Image Optimization"
 msgstr "Оптимізація зображень"
 
@@ -3975,7 +3967,7 @@ msgstr "Перераховані зображення не будуть lazy loa
 msgid "Lazy Load Image Excludes"
 msgstr "Виключені зображення з Lazy Load"
 
-#: src/gui.cls.php:483
+#: src/gui.cls.php:457
 msgid "No optimization"
 msgstr "Без оптимізації"
 
@@ -4053,23 +4045,23 @@ msgstr "Ласкаво просимо до LiteSpeed"
 msgid "Remove WordPress Emoji"
 msgstr "Видалити WordPress емоджі"
 
-#: src/gui.cls.php:491
+#: src/gui.cls.php:465
 msgid "More settings"
 msgstr "Більше налаштувань"
 
-#: src/gui.cls.php:472
+#: src/gui.cls.php:446
 msgid "Private cache"
 msgstr "Приватний кеш"
 
-#: src/gui.cls.php:461
+#: src/gui.cls.php:435
 msgid "Non cacheable"
 msgstr "Не кешується"
 
-#: src/gui.cls.php:438
+#: src/gui.cls.php:412
 msgid "Mark this page as "
 msgstr "Позначити цю сторінку як "
 
-#: src/gui.cls.php:414 src/gui.cls.php:429
+#: src/gui.cls.php:388 src/gui.cls.php:403
 msgid "Purge this page"
 msgstr "Очистити цю сторінку"
 
@@ -4097,7 +4089,7 @@ msgstr "Заборонити завантаження шрифтів Google на
 msgid "Remove Google Fonts"
 msgstr "Видалити шрифти Google"
 
-#: tpl/page_optm/settings_css.tpl.php:171
+#: tpl/page_optm/settings_css.tpl.php:172
 #: tpl/page_optm/settings_html.tpl.php:129 tpl/page_optm/settings_js.tpl.php:67
 msgid "This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed."
 msgstr "Це може покращити ваш показник швидкості в таких службах, як Pingdom, GTmetrix і PageSpeed."
@@ -4126,7 +4118,7 @@ msgstr "Ви також можете ввімкнути кешування бр�
 msgid "Browser caching stores static files locally in the user's browser. Turn on this setting to reduce repeated requests for static files."
 msgstr "Кешування браузера зберігає статичні файли локально в браузері користувача. Увімкніть цей параметр, щоб зменшити кількість повторних запитів на статичні файли."
 
-#: src/lang.cls.php:91 tpl/dash/dashboard.tpl.php:398
+#: src/lang.cls.php:91 tpl/dash/dashboard.tpl.php:397
 msgid "Browser Cache"
 msgstr "Кеш браузера"
 
@@ -4257,7 +4249,7 @@ msgstr "CDN"
 #: src/admin-display.cls.php:916 src/admin-display.cls.php:968
 #: tpl/cache/settings-cache.tpl.php:19
 #: tpl/cache/settings_inc.object.tpl.php:210 tpl/cdn/settings.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:73 tpl/page_optm/settings_js.tpl.php:63
+#: tpl/page_optm/settings_css.tpl.php:74 tpl/page_optm/settings_js.tpl.php:63
 #: tpl/page_optm/settings_media.tpl.php:162
 #: tpl/toolbox/settings-debug.tpl.php:46
 msgid "OFF"
@@ -4267,7 +4259,7 @@ msgstr "ВИМК"
 #: src/admin-display.cls.php:917 src/admin-display.cls.php:968
 #: tpl/cache/settings-cache.tpl.php:19
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:71 tpl/cdn/settings.tpl.php:49
-#: tpl/page_optm/settings_css.tpl.php:175
+#: tpl/page_optm/settings_css.tpl.php:176
 #: tpl/page_optm/settings_media.tpl.php:159
 #: tpl/toolbox/settings-debug.tpl.php:46
 msgid "ON"
@@ -4450,8 +4442,8 @@ msgstr "TTL для приватного кешу за замовчуванням
 msgid "If your site contains public content that certain user roles can see but other roles cannot, you can specify a Vary Group for those user roles. For example, specifying an administrator vary group allows there to be a separate publicly-cached page tailored to administrators (with “edit” links, etc), while all other user roles see the default public page."
 msgstr "Якщо ваш сайт містить загальнодоступний вміст, який можуть бачити лише певні ролі користувачів, ви можете вказати групу для ролей користувачів. Наприклад, група - адміністратор дозволяє створити окрему, загальнодоступну кешовану сторінку, спеціально для адміністраторів (з посиланнями «редагувати» тощо), тоді як усі інші ролі користувачів бачать загальнодоступну сторінку за замовчуванням."
 
-#: src/lang.cls.php:216 tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:221 tpl/page_optm/settings_vpi.tpl.php:67
+#: src/lang.cls.php:216 tpl/page_optm/settings_css.tpl.php:112
+#: tpl/page_optm/settings_css.tpl.php:222 tpl/page_optm/settings_vpi.tpl.php:67
 msgid "Vary Group"
 msgstr "Група"
 
@@ -4678,7 +4670,7 @@ msgstr "Функція сканера не ввімкнена на сервер�
 #: tpl/cache/settings-esi.tpl.php:35 tpl/cdn/manage.tpl.php:21
 #: tpl/crawler/summary.tpl.php:48 tpl/inc/check_cache_disabled.php:31
 #: tpl/inc/check_if_network_disable_all.php:18
-#: tpl/page_optm/settings_css.tpl.php:60 tpl/page_optm/settings_css.tpl.php:166
+#: tpl/page_optm/settings_css.tpl.php:61 tpl/page_optm/settings_css.tpl.php:167
 #: tpl/page_optm/settings_localization.tpl.php:11
 msgid "WARNING"
 msgstr "УВАГА"
@@ -4883,7 +4875,7 @@ msgstr "Наприклад, якщо домашня сторінка сайту 
 msgid "Action"
 msgstr "Дія"
 
-#: src/gui.cls.php:105
+#: src/gui.cls.php:79
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -4899,7 +4891,7 @@ msgstr "Електронна адреса"
 msgid "Warning"
 msgstr "Увага"
 
-#: src/gui.cls.php:781
+#: src/gui.cls.php:755
 msgid "Install Now"
 msgstr "Встановити зараз"
 
@@ -5036,7 +5028,7 @@ msgstr "Це може призвести до сильного навантаж�
 msgid "This will clear EVERYTHING inside the cache."
 msgstr "Це очистить ВСЕ всередині кешу."
 
-#: src/gui.cls.php:606
+#: src/gui.cls.php:580
 msgid "LiteSpeed Cache Purge All"
 msgstr "LiteSpeed Cache очистити все"
 
@@ -5068,7 +5060,7 @@ msgstr "Це повідомлення вказує на те, що плагін 
 msgid "LiteSpeed Cache plugin is installed!"
 msgstr "Плагін LiteSpeed Cache встановлено!"
 
-#: src/lang.cls.php:260 tpl/toolbox/log_viewer.tpl.php:7
+#: src/lang.cls.php:260 tpl/toolbox/log_viewer.tpl.php:11
 msgid "Debug Log"
 msgstr "Журнал налагодження"
 
@@ -5376,7 +5368,7 @@ msgstr "Файл %s недоступний для запису."
 msgid "JS Settings"
 msgstr "Налаштування JS"
 
-#: src/gui.cls.php:622 tpl/cdn/entry.tpl.php:8 tpl/cdn/settings.tpl.php:194
+#: src/gui.cls.php:596 tpl/cdn/entry.tpl.php:8 tpl/cdn/settings.tpl.php:194
 #: tpl/db_optm/entry.tpl.php:6
 msgid "Manage"
 msgstr "Керувати"
@@ -5548,13 +5540,13 @@ msgstr "Налаштування LiteSpeed Cache"
 msgid "Notified LiteSpeed Web Server to purge all LSCache entries."
 msgstr "Повідомлено веб-сервер LiteSpeed про очищення всіх записів LSCache."
 
-#: src/gui.cls.php:498 src/gui.cls.php:506 src/gui.cls.php:514
-#: src/gui.cls.php:523 src/gui.cls.php:533 src/gui.cls.php:543
-#: src/gui.cls.php:553 src/gui.cls.php:562 src/gui.cls.php:572
-#: src/gui.cls.php:582 src/gui.cls.php:648 src/gui.cls.php:656
-#: src/gui.cls.php:664 src/gui.cls.php:673 src/gui.cls.php:683
-#: src/gui.cls.php:693 src/gui.cls.php:703 src/gui.cls.php:713
-#: src/gui.cls.php:722 src/gui.cls.php:732 src/gui.cls.php:742
+#: src/gui.cls.php:472 src/gui.cls.php:480 src/gui.cls.php:488
+#: src/gui.cls.php:497 src/gui.cls.php:507 src/gui.cls.php:517
+#: src/gui.cls.php:527 src/gui.cls.php:536 src/gui.cls.php:546
+#: src/gui.cls.php:556 src/gui.cls.php:622 src/gui.cls.php:630
+#: src/gui.cls.php:638 src/gui.cls.php:647 src/gui.cls.php:657
+#: src/gui.cls.php:667 src/gui.cls.php:677 src/gui.cls.php:687
+#: src/gui.cls.php:696 src/gui.cls.php:706 src/gui.cls.php:716
 #: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:37
 #: tpl/toolbox/purge.tpl.php:43 tpl/toolbox/purge.tpl.php:52
 #: tpl/toolbox/purge.tpl.php:61 tpl/toolbox/purge.tpl.php:70
@@ -5564,6 +5556,6 @@ msgstr "Повідомлено веб-сервер LiteSpeed про очищен
 msgid "Purge All"
 msgstr "Очистити все"
 
-#: src/admin-display.cls.php:285 src/gui.cls.php:630
+#: src/admin-display.cls.php:285 src/gui.cls.php:604
 msgid "Settings"
 msgstr "Налаштування"

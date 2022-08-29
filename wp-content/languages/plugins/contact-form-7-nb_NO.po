@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-26 23:51:16+0000\n"
+"PO-Revision-Date: 2022-08-04 17:13:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,26 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: nb_NO\n"
 "Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
+
+#: modules/text.php:204
+msgid "Please enter a telephone number."
+msgstr "Vennligst oppgi et telefonnummer."
+
+#: modules/text.php:197
+msgid "Please enter a URL."
+msgstr "Vennligst skriv inn en url."
+
+#: modules/text.php:190
+msgid "Please enter an email address."
+msgstr "Vennligst oppgi en e-postadresse."
+
+#: modules/number.php:185
+msgid "Please enter a number."
+msgstr "Vennligst skriv inn et tall."
+
+#: includes/contact-form-template.php:201
+msgid "Please fill out this field."
+msgstr "Vennligst fyll ut dette feltet."
 
 #. translators: 1: PHP function name, 2: version number, 3: alternative
 #. function name

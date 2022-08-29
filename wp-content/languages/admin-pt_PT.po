@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-25 12:24:02+0000\n"
+"PO-Revision-Date: 2022-08-09 10:00:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -120,9 +120,22 @@ msgstr "Novos atalhos de teclado permitem seleccionar múltiplos blocos a partir
 msgid "Better List View"
 msgstr "Melhor vista de lista"
 
+#. translators: %s Working with Patterns dev note link.
+#: wp-admin/about.php:171
+msgid "Patterns will now appear when you need them in even more places, like in the quick inserter or when creating a new header or footer. If you&#8217;re a block theme author, you can even <a href=\"%s\">register patterns from the Pattern Directory using <code>theme.json</code></a>, enabling you to prioritize specific patterns that are most helpful to your theme&#8217;s users."
+msgstr "Os padrões são agora mostrados em mais locais, sempre que necessário, como no painel de inserir ou ao criar um novo cabeçalho ou rodapé. Se é um autor de um tema de blocos, pode <a href=\"%s\">registar padrões do directório de padrões através do <code>theme.json</code></a>, permitindo-lhe priorizar padrões específicos que são mais úteis para os utilizadores do seu tema."
+
 #: wp-admin/about.php:165
 msgid "Integrated Patterns"
 msgstr "Padrões integrados"
+
+#: wp-admin/about.php:155
+msgid "The query block supports filtering on multiple authors, support for custom taxonomies, and support for customizing what is shown when there are no results."
+msgstr "O bloco de consulta suporta filtrar por múltiplos autores, taxonomias personalizadas, e personalizar o que é mostrado na ausência de resultados."
+
+#: wp-admin/about.php:149
+msgid "While editing a template, at the root, or between blocks, the quick inserter shows you patterns and template parts to help you work faster and discover new layout options."
+msgstr "Ao editar um modelo, na raiz ou entre blocos, o painel de inserir mostra-lhe padrões e partes de modelos para ajudar a trabalhar mais rapidamente e descobrir novas opções de layout."
 
 #: wp-admin/about.php:143
 msgid "New featured image sizing controls make it easier to get the results you want."
@@ -132,21 +145,53 @@ msgstr "Os novos controlos do tamanho da imagem de destaque facilitam a obtenç�
 msgid "Featured images can be used in the cover block."
 msgstr "As imagens de destaque podem ser usadas no bloco de capa."
 
+#: wp-admin/about.php:132
+msgid "WordPress 6.0 includes five new template options: author, date, categories, tag, and taxonomy. These additional templates provide greater flexibility for content creators. Tailor each with the tools you already know or with the following new options in this release."
+msgstr "O WordPress 6.0 inclui cinco novos modelos: autor, data, categorias, etiqueta e taxonomia. Estes modelos adicionais proporcionam uma maior flexibilidade para os criadores de conteúdos. Adapte-os com as ferramentas que já conhece, ou com as seguintes novas opções incluídas nesta versão."
+
 #: wp-admin/about.php:129
 msgid "More Template Choices"
 msgstr "Mais escolhas de modelos"
+
+#: wp-admin/about.php:115
+msgid "Block themes now include the option to contain multiple style variations. This expands the new Style system even further and enables shortcuts to switch the look and feel of your site all within a single theme. You can change both the available settings, like the font weight, and the style options, like the default color palette. Change the look and feel of your site with just a few clicks."
+msgstr "Os temas de blocos incluem agora a opção de conter múltiplas variações de estilo. Isto expande ainda mais o novo sistema de estilos e permite atalhos para alterar o aspecto e a experiência do seu site, tudo dentro de um único tema. Pode alterar tanto as opções disponíveis, como o peso de letra, as opções de estilo ou a paleta de cores por omissão. Altere o aspecto do seu site com apenas alguns cliques."
 
 #: wp-admin/about.php:112
 msgid "Style Switching"
 msgstr "Trocar estilo"
 
+#: wp-admin/about.php:104
+msgid "Make tag clouds and social icons even more appealing with updated settings and controls, and a new outline style for the tag cloud."
+msgstr "Torne as nuvens de etiquetas e os ícones de redes sociais ainda mais apelativos com opções e controlos melhorados, e um novo estilo de contorno para a nuvem de etiquetas."
+
+#: wp-admin/about.php:103
+msgid "Create customized buttons and any new buttons you make will retain the style customizations automatically."
+msgstr "Crie botões personalizados e quaisquer novos botões que faça manterão automaticamente as personalizações de estilo."
+
+#: wp-admin/about.php:102
+msgid "Keep existing styles when you transform some blocks from one kind to another—from a Paragraph block to a Code block, for instance."
+msgstr "Mantenha os estilos existentes ao transformar alguns blocos de um tipo para outro, como por exemplo, ao transformar um parágrafo num bloco de código."
+
+#: wp-admin/about.php:101
+msgid "Type two open brackets <code>[[</code> to quickly access the link menu."
+msgstr "Digite duas vezes abrir parênteses rectos <code>[[</code> para rapidamente aceder ao menu das ligações."
+
 #: wp-admin/about.php:100
 msgid "Select text across multiple blocks and edit it all at once."
 msgstr "Selecione o texto em vários blocos e edite tudo de uma vez."
 
+#: wp-admin/about.php:97
+msgid "Writing improvements abound, whether you&#8217;re writing a brand new post or adding elements to an existing page. Explore more ways to streamline your content creation process, including:"
+msgstr "As melhorias de escrita são abundantes, quer escreva um novo artigo ou adicione elementos a uma página existente. Explore mais formas de simplificar o seu processo de criação de conteúdos, incluindo:"
+
 #: wp-admin/about.php:94
 msgid "Enhanced Writing Experience"
 msgstr "Melhor experiência de escrita"
+
+#: wp-admin/about.php:83
+msgid "WordPress 6.0 includes more than 500 enhancements and 400 bug fixes. This page highlights several key advancements aimed at making your WordPress content-creating and site-building experience more feature-rich and intuitive. You will also find resources for developers and anyone wanting a deeper understanding of WordPress."
+msgstr "O WordPress 6.0 inclui mais de 500 melhorias e 400 correcções de erros. Esta página destaca as principais melhorias destinadas a tornar a sua experiência mais rica e intuitiva para criar conteúdos e sites em WordPress. Encontrará também funcionalidades para programadores e para quem queira compreender mais profundamente o WordPress."
 
 #: wp-admin/includes/ajax-actions.php:1324
 #: wp-admin/includes/ajax-actions.php:1426
@@ -157,6 +202,30 @@ msgstr "Por favor escreva um comentário."
 msgid "You cannot remove users."
 msgstr "Não pode remover utilizadores."
 
+#. translators: 1: URL to my-sites.php, 2: Number of sites the user has.
+#: wp-admin/user-edit.php:759
+msgid "Application passwords grant access to <a href=\"%1$s\">the %2$s site on the network as you have Super Admin rights</a>."
+msgid_plural "Application passwords grant access to <a href=\"%1$s\">all %2$s sites on the network as you have Super Admin rights</a>."
+msgstr[0] "As senhas de aplicação dão acesso a <a href=\"%1$s\">%2$s site nesta instalação em que tem permissão de Super Admin</a>."
+msgstr[1] "As senhas de aplicação dão acesso a <a href=\"%1$s\">todos os %2$s sites nesta instalação em que tem permissão de Super Admin</a>."
+
+#: wp-admin/upgrade.php:140
+msgid "WordPress has been updated! Next and final step is to update your database to the newest version."
+msgstr "O WordPress foi actualizado! O próximo e último passo é actualizar a base de dados para a nova versão."
+
+#: wp-admin/themes.php:208
+msgid "<a href=\"https://wordpress.org/support/article/appearance-themes-screen/\">Documentation on Managing Themes</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/appearance-themes-screen/\">Documentação sobre a gestão de temas</a>"
+
+#. translators: %s: wp-config.php
+#: wp-admin/setup-config.php:173
+msgid "This information is being used to create a %s file."
+msgstr "Esta informação é usada para criar um ficheiro %s."
+
+#: wp-admin/setup-config.php:161
+msgid "Welcome to WordPress. Before getting started, you will need to know the following items."
+msgstr "Bem-vindo ao WordPress. Antes de começar, precisará de conhecer os seguintes itens."
+
 #: wp-admin/options.php:336
 msgid "Settings save failed."
 msgstr "Falha ao guardar as configurações."
@@ -165,9 +234,63 @@ msgstr "Falha ao guardar as configurações."
 msgid "After your Privacy Policy page is set, you should edit it."
 msgstr "Após definir a página de política de privacidade, deverá editá-la."
 
+#. translators: 1: .htaccess, 2: Documentation URL, 3: Ctrl + A, 4: ⌘ + A
+#: wp-admin/options-permalink.php:429
+msgid "<strong>Error:</strong> Your %1$s file is not <a href=\"%2$s\">writable</a>, so updating it automatically was not possible. These are the mod_rewrite rules you should have in your %1$s file. Click in the field and press %3$s (or %4$s on Mac) to select all."
+msgstr "<strong>Erro:</strong> O seu ficheiro %1$s não tem <a href=\"%2$s\">permissão de escrita</a>, por isso não foi possível actualizar automaticamente. Estas são as regras de mod_rewrite que deve incluir no seu ficheiro %1$s. Clique no campo e prima %3$s (ou %4$s em Mac) para seleccionar tudo."
+
+#. translators: 1: web.config, 2: Documentation URL, 3: Ctrl + A, 4: ⌘ + A,
+#. 5: Element code.
+#: wp-admin/options-permalink.php:371
+msgid "<strong>Error:</strong> Your %1$s file is not <a href=\"%2$s\">writable</a>, so updating it automatically was not possible. This is the URL rewrite rule you should have in your %1$s file. Click in the field and press %3$s (or %4$s on Mac) to select all. Then insert this rule inside of the %5$s element in %1$s file."
+msgstr "<strong>Erro:</strong> O seu ficheiro %1$s não tem <a href=\"%2$s\">permissão de escrita</a>, por isso não foi possível actualizar automaticamente. Esta é a regra de reescrita de URL que deve incluir no seu ficheiro %1$s. Clique no campo e prima %3$s (ou %4$s em Mac) para seleccionar tudo. Depois insira esta regra no elemento %5$s do ficheiro %1$s."
+
+#: wp-admin/options-discussion.php:221
+msgid "An avatar is an image that can be associated with a user across multiple websites. In this area, you can choose to display avatars of users who interact with the site."
+msgstr "Um avatar é uma imagem que pode ser associada a um utilizador em múltiplos sites. Nesta área, pode optar por mostrar os avatares dos utilizadores que interagem com o site."
+
 #: wp-admin/includes/post.php:1510
 msgid "Change Permalink Structure"
 msgstr "Alterar estrutura das ligações permanentes"
+
+#. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
+#. those are placeholders.
+#: wp-admin/includes/misc.php:1428
+msgid ""
+"Howdy ###USERNAME###,\n"
+"\n"
+"Someone with administrator capabilities recently requested to have the\n"
+"administration email address changed on this site:\n"
+"###SITEURL###\n"
+"\n"
+"To confirm this change, please click on the following link:\n"
+"###ADMIN_URL###\n"
+"\n"
+"You can safely ignore and delete this email if you do not want to\n"
+"take this action.\n"
+"\n"
+"This email has been sent to ###EMAIL###\n"
+"\n"
+"Regards,\n"
+"All at ###SITENAME###\n"
+"###SITEURL###"
+msgstr ""
+"Olá ###USERNAME###,\n"
+"\n"
+"Alguém com capacidades de administrador solicitou há pouco\n"
+"a alteração do endereço de email de administração deste site:\n"
+"###SITEURL###\n"
+"\n"
+"Para confirmar esta alteração, clique na ligação abaixo:\n"
+"###ADMIN_URL###\n"
+"\n"
+"Pode ignorar e eliminar este email se não quiser alterar o email.\n"
+"\n"
+"Este email foi enviado a ###EMAIL###\n"
+"\n"
+"Cumprimentos,\n"
+"A equipa ###SITENAME###\n"
+"###SITEURL###"
 
 #: wp-admin/includes/meta-boxes.php:709
 msgid "https://wordpress.org/support/article/excerpt/"
@@ -206,13 +329,41 @@ msgstr "A actualização não pôde ser instalada por não ter sido possível co
 msgid "<strong>Media</strong> &mdash; A list of URLs for media files the user uploads."
 msgstr "<strong>Multimédia</strong> &mdash; Uma lista dos URL dos ficheiros multimédia que o utilizador carrega."
 
+#: wp-admin/export-personal-data.php:36
+msgid "<strong>Community Events Location</strong> &mdash; The IP Address of the user, which populates the Upcoming Community Events dashboard widget with relevant information."
+msgstr "<strong>Localização de eventos da comunidade</strong> &mdash; O endereço de IP do utilizador que foi usado para mostrar informações relevantes no widget do painel sobre os próximos eventos da comunidade."
+
+#: wp-admin/export-personal-data.php:34
+msgid "WordPress collects (but <em>never</em> publishes) a limited amount of data from registered users who have logged in to the site. Generally, these users are people who contribute to the site in some way -- content, store management, and so on. With rare exceptions, these users do not include occasional visitors who might have registered to comment on articles or buy products. The data WordPress retains can include:"
+msgstr "O WordPress recolhe (mas <em>nunca</em> publica) uma quantidade limitada de dados de utilizadores registados que tenham iniciado sessão no site. Geralmente, estes utilizadores são pessoas que contribuem para o site de alguma forma -- conteúdos, gestão da loja, etc. Com raras excepções, estes utilizadores não incluem visitantes ocasionais que possam ter-se registado para comentar artigos ou comprar produtos. Os dados que o WordPress retém poderão incluir o seguinte:"
+
+#: wp-admin/export-personal-data.php:25
+msgid "Note: Since this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with export requests. For example, you should also send the requester some of the data collected from or stored with the 3rd party services your organization uses."
+msgstr "Atenção: Uma vez que esta ferramenta apenas recolhe dados do WordPress e plugins participantes, poderá ter de fazer mais para cumprir com os pedidos de exportação. Por exemplo, deverá também enviar ao requerente alguns dos dados recolhidos ou armazenados com os serviços de terceiros que a sua organização utiliza."
+
+#: wp-admin/export-personal-data.php:23
+msgid "Privacy Laws around the world require businesses and online services to provide an export of some of the data they collect about an individual, and to deliver that export on request. The rights those laws enshrine are sometimes called the \"Right of Data Portability\". It allows individuals to obtain and reuse their personal data for their own purposes across different services. It allows them to move, copy or transfer personal data easily from one IT environment to another."
+msgstr "As leis de privacidade em todo o mundo exigem que as empresas e os serviços online forneçam uma exportação de alguns dos dados que recolhem sobre um indivíduo, e que entreguem essa exportação a pedido. Os direitos consagrados nessas leis são por vezes chamados de \"Direito de portabilidade dos dados\". Permite aos indivíduos obter e reutilizar os seus dados pessoais para os seus próprios fins através de diferentes serviços. Permite-lhes mover, copiar ou transferir facilmente dados pessoais de um ambiente informático para outro."
+
+#: wp-admin/erase-personal-data.php:38
+msgid "<strong>Comments</strong> &mdash; WordPress does not delete comments. The software does anonymize (but, again, <em>never</em> publishes) the associated Email Address, IP Address, and User Agent (Browser/OS)."
+msgstr "<strong>Comentários</strong> &mdash; O WordPress não elimina comentários. Este software anonimiza (sem <em>nunca</em> publicar) o endereço de email, o endereço de IP e o agente de utilizador (navegador/sistema operativo) associados."
+
 #: wp-admin/erase-personal-data.php:34
 msgid "WordPress collects (but <em>never</em> publishes) a limited amount of data from logged-in users but then deletes it or anonymizes it. That data can include: "
 msgstr "O WordPress recolhe (mas <em>nunca</em> publica) uma quantidade limitada de dados de utilizadores com sessão iniciada, que depois são eliminados ou anonimizados. Estes dados poderão incluir: "
 
+#: wp-admin/erase-personal-data.php:25
+msgid "Note: As this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with erasure requests. For example, you are also responsible for ensuring that data collected by or stored with the 3rd party services your organization uses gets deleted."
+msgstr "Atenção: Como esta ferramenta apenas recolhe dados do WordPress e plugins participantes, poderá ter de fazer mais para cumprir com os pedidos de eliminação. Por exemplo, é também responsável por assegurar a eliminação dos dados recolhidos ou armazenados por serviços de terceiros que a sua organização utiliza."
+
 #: wp-admin/erase-personal-data.php:23
 msgid "Privacy Laws around the world require businesses and online services to delete, anonymize, or forget the data they collect about an individual. The rights those laws enshrine are sometimes called the \"Right to be Forgotten\"."
 msgstr "As leis de privacidade em todo o mundo exigem que as empresas e os serviços online eliminem, tornem anónimos, ou esqueçam os dados recolhidos sobre um indivíduo. Os direitos consagrados nessas leis são por vezes chamados de \"Direito ao esquecimento\"."
+
+#: wp-admin/erase-personal-data.php:22
+msgid "This screen is where you manage requests to erase personal data."
+msgstr "Esta página permite-lhe gerir os pedidos para eliminar dados pessoais."
 
 #: wp-admin/edit-form-advanced.php:451
 msgid "This post is being backed up in your browser, just in case."

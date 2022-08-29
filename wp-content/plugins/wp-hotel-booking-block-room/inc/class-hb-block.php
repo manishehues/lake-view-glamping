@@ -97,7 +97,11 @@ if ( ! class_exists( 'Hotel_Booking_Block' ) ) {
 		 * @return mixed
 		 */
 		public function block_menu( $menus ) {
-			$menus['block'] = array(
+
+			
+
+
+			$menus['block1'] = array(
 				'tp_hotel_booking',
 				__( 'Block Special Date', 'wp-hotel-booking-block' ),
 				__( 'Block Special Date', 'wp-hotel-booking-block' ),
@@ -106,6 +110,15 @@ if ( ! class_exists( 'Hotel_Booking_Block' ) ) {
 				array( $this, 'block_build_page' )
 			);
 
+
+			// $menus['bookings'] = array(
+			// 						'tp_hotel_booking',
+			// 						__( 'Calendar bookings', 'wp-hotel-booking-block' ),
+			// 						__( 'Calendar bookings', 'wp-hotel-booking-block' ),
+			// 						'manage_hb_booking',
+			// 						'tp_hotel_calendar_bookings',
+			// 						array( $this, 'booking_calender_page' )
+			// 					);
 			return $menus;
 		}
 
@@ -116,13 +129,22 @@ if ( ! class_exists( 'Hotel_Booking_Block' ) ) {
 			require_once TP_HB_BLOCK_DIR . '/inc/admin/views/block.php';
 		}
 
+		public function booking_calender_page() {
+			require_once TP_HB_BLOCK_DIR . '/inc/admin/views/booking_calendar.php';
+		}
+
+		
+
 		/**
 		 * Enqueue scripts js multi datepicker libraries
 		 */
 		public function enqueue_scripts() {
 			wp_enqueue_script( 'tp_hotel_booking_block_angular', TP_HB_BLOCK_URI . 'inc/libraries/angular.min.js', array(), TP_HB_BLOCK_VER );
 			wp_enqueue_script( 'tp_hotel_booking_block_moment', TP_HB_BLOCK_URI . 'inc/libraries/multidatespicker/moment.min.js', array(), TP_HB_BLOCK_VER );
+
 			wp_enqueue_script( 'tp_hotel_booking_block_lib_datepicker', TP_HB_BLOCK_URI . 'inc/libraries/multidatespicker/multipleDatePicker.min.js', array(), TP_HB_BLOCK_VER );
+			wp_enqueue_script( 'tp_hotel_booking_block_lib_datepicker1', TP_HB_BLOCK_URI . 'inc/libraries/multidatespicker/multipleDatePicker1.min.js', array(), TP_HB_BLOCK_VER );
+
 			wp_enqueue_style( 'tp_hotel_booking_block_lib_datepicker', TP_HB_BLOCK_URI . 'inc/libraries/multidatespicker/multiple-date-picker.css' );
 			wp_enqueue_script( 'wp-util' );
 
@@ -293,6 +315,368 @@ if ( ! class_exists( 'Hotel_Booking_Block' ) ) {
 
 			return $calendars;
 		}
+
+
+		public function get_bookings_dates() {
+			global $wpdb;
+
+			$query = "SELECT order_item_id,order_item_name
+						FROM $wpdb->hotel_booking_order_items";
+
+			$results = $wpdb->get_results( $query, OBJECT );
+
+
+
+			$calendars = array();
+			$betweendates = [];
+			if ( $results ) {
+				foreach ( $results as $key => $result ) {
+
+					$query = "SELECT * FROM $wpdb->hotel_booking_order_itemmeta
+							WHERE meta_key IN ('check_in_date','check_out_date')
+							AND hotel_booking_order_item_id = $result->order_item_id";
+
+					$results1 = $wpdb->get_results( $query, OBJECT );
+
+					//print_r($results1);
+					$dates = [];
+					
+					foreach ($results1 as $key => $result1) {
+
+
+						if(in_array($result1->meta_key, ['check_in_date','check_out_date'])){
+							$dates[$result1->meta_key] = $result1->meta_value;
+						}
+						
+						  
+						// Use for loop to store dates into array
+						// 86400 sec = 24 hrs = 60*60*24 = 1 day
+						$array = [];
+						// for ($currentDate = $check_in_date; $currentDate <= $check_out_date; $currentDate += (86400)) {
+						                                      
+						// 	$Store = date('Y-m-d', $currentDate);
+						// 	$array[] = $Store;
+
+						// 	echo $currentDate."-====-<br>";
+						// }
+
+						
+
+
+						// code...
+					}
+					$check_in_date = $dates['check_in_date'];
+					$check_out_date = $dates['check_out_date'];
+
+					for ($currentDate = $check_in_date; $currentDate <= $check_out_date; $currentDate += (86400)) {
+						                                      
+						//$Store = date('Y-m-d', $currentDate);
+
+						if(!in_array($currentDate, $betweendates)){
+
+							$betweendates[] = hotel_block_convert_current_time( $currentDate, 1 ) * 1000; $currentDate;
+						}
+
+						
+					}
+
+					$calendars['selected'] = $betweendates;
+
+					//print_r($betweendates);
+
+
+					// // selected
+					// if ( ! isset( $calendars[ $post->calendarID ]->selected ) ) {
+					// 	$calendars[ $post->calendarID ]->selected = array();
+					// }
+
+					// if ( $post->selected <= current_time( 'timstamp' ) ) {
+					// 	$time = hotel_block_convert_current_time( $post->selected, 1 ) * 1000;
+					// 	if ( ! in_array( $time, $calendars[ $post->calendarID ]->selected ) ) {
+					// 		$calendars[ $post->calendarID ]->selected[] = $time;
+					// 	}
+					// }
+				}
+			} else {
+				$time             = time();
+				$object           = new stdClass();
+				$object->id       = $time;
+				$object->post_id  = array();
+				$object->selected = array();
+
+				$calendars[ $time ] = $object;
+			}
+			//$calendars[ $post->calendarID ]->selected = $betweendates;
+
+			return $calendars;
+		}
+
+
+		// public function get_bookings_dates_frontend() {
+		// 	global $wpdb;
+
+		// 	$query = "SELECT meta_value
+		// 					FROM $wpdb->hotel_booking_order_itemmeta 
+		// 					WHERE `meta_key` = 'product_id' GROUP by meta_value";
+
+
+		// 	$results = $wpdb->get_results( $query, OBJECT );
+
+		// 	$calendars = array();
+		// 	$betweendates = [];
+
+		// 	$bookings_items = [];
+		// 	if ( $results ) {
+		// 		foreach ( $results as $key => $result ) {
+
+		// 			$query = "SELECT hotel_booking_order_item_id FROM `wp_hotel_booking_order_itemmeta` WHERE meta_value = $result->meta_value";
+
+
+		// 			$results1 = $wpdb->get_results( $query, OBJECT );
+
+		// 			$dates = [];
+
+
+					
+		// 			foreach ($results1 as $key => $result1) {
+
+		// 				$query = "SELECT meta_value FROM `wp_hotel_booking_order_itemmeta` WHERE hotel_booking_order_item_id= meta_value = $result->meta_value";
+
+
+		// 				print_r($result1->hotel_booking_order_item_id);
+		// 				$bookings_items[$result->meta_value][] = $result1->hotel_booking_order_item_id;
+
+
+
+		// 			}
+
+
+					
+		// 			$check_in_date = $dates['check_in_date'];
+		// 			$check_out_date = $dates['check_out_date'];
+
+		// 			for ($currentDate = $check_in_date; $currentDate <= $check_out_date; $currentDate += (86400)) {
+						                                      
+		// 				//$Store = date('Y-m-d', $currentDate);
+
+		// 				if(!in_array($currentDate, $betweendates)){
+
+		// 					$betweendates[] = hotel_block_convert_current_time( $currentDate, 1 ) * 1000; $currentDate;
+		// 				}
+
+						
+		// 			}
+
+		// 			$calendars['selected'] = $betweendates;
+
+		// 			//print_r($betweendates);
+
+
+		// 			// // selected
+		// 			// if ( ! isset( $calendars[ $post->calendarID ]->selected ) ) {
+		// 			// 	$calendars[ $post->calendarID ]->selected = array();
+		// 			// }
+
+		// 			// if ( $post->selected <= current_time( 'timstamp' ) ) {
+		// 			// 	$time = hotel_block_convert_current_time( $post->selected, 1 ) * 1000;
+		// 			// 	if ( ! in_array( $time, $calendars[ $post->calendarID ]->selected ) ) {
+		// 			// 		$calendars[ $post->calendarID ]->selected[] = $time;
+		// 			// 	}
+		// 			// }
+		// 		}
+
+		// 		$new_dates_array=[];
+
+		// 		foreach ($bookings_items as $key => $value) {
+		// 			foreach ($value as $key1 => $value1) {
+
+
+		// 				$query = "SELECT meta_value FROM $wpdb->hotel_booking_order_itemmeta
+		// 					WHERE meta_key = 'check_in_date'
+		// 					AND hotel_booking_order_item_id = $value1";
+
+		// 				$check_in_date = $wpdb->get_var($query);
+
+		// 				$query1 = "SELECT meta_value FROM $wpdb->hotel_booking_order_itemmeta
+		// 					WHERE meta_key = 'check_out_date'
+		// 					AND hotel_booking_order_item_id = $value1";
+
+		// 				$check_out_date = $wpdb->get_var($query1);
+
+
+
+
+
+					
+		// 				// code...
+		// 				echo $key."===".$check_out_date."==".$check_in_date."===".$value1."<br>";
+
+
+
+		// 				for ($currentDate = $check_in_date; $currentDate <= $check_out_date; $currentDate += (86400)) {
+						                                      
+		// 					echo $booking_date1 = date('Y-m-d', $currentDate);
+
+		// 					$new_dates_array[$key][] = $booking_date1;
+		// 					echo "<br>";
+
+
+		// 					// if(!in_array($currentDate, $betweendates)){
+
+		// 					// 	$betweendates[] = hotel_block_convert_current_time( $currentDate, 1 ) * 1000; $currentDate;
+		// 					// }
+
+							
+		// 				}
+
+
+
+
+		// 			}
+		// 		}
+
+		// 	} else {
+		// 		$time             = time();
+		// 		$object           = new stdClass();
+		// 		$object->id       = $time;
+		// 		$object->post_id  = array();
+		// 		$object->selected = array();
+
+		// 		$calendars[ $time ] = $object;
+		// 	}
+
+			
+		// 	print_r($new_dates_array);
+		// 	print_r($bookings_items);
+		// 	//$calendars[ $post->calendarID ]->selected = $betweendates;
+
+		// 	return $calendars;
+		// }
+		public function get_bookings_dates_frontend() {
+			global $wpdb;
+
+			$query = "SELECT meta_value as dome_id
+							FROM $wpdb->hotel_booking_order_itemmeta 
+							WHERE `meta_key` = 'product_id' GROUP by meta_value";
+
+			// echo $query = "SELECT dome_id 
+			// 				FROM $wpdb->hotel_booking_order_items 
+			// 				WHERE dome_id IS NOT NULL  and order_item_type = 'line_item'
+			// 				GROUP by dome_id";
+
+
+			$results = $wpdb->get_results( $query, OBJECT );
+
+			$calendars = array();
+			$betweendates = [];
+
+			$bookings_items = [];
+			if ( $results ) {
+				foreach ( $results as $key => $result ) {
+
+					$query = "SELECT hotel_booking_order_item_id 
+								FROM $wpdb->hotel_booking_order_itemmeta
+								WHERE meta_value = $result->dome_id";
+
+					$results1 = $wpdb->get_results( $query, OBJECT );
+
+					$dates = [];
+					
+					foreach ($results1 as $key => $result1) {
+
+						$query = "SELECT meta_value 
+									FROM $wpdb->hotel_booking_order_itemmeta 
+									WHERE hotel_booking_order_item_id =".$result1->hotel_booking_order_item_id;
+
+						$bookings_items[$result->dome_id][] = $result1->hotel_booking_order_item_id;
+
+					}
+
+				}
+
+				$new_booked_dates=[];
+
+
+				foreach ($bookings_items as $key => $value) {
+					foreach ($value as $key1 => $value1) {
+
+						$query = "SELECT meta_value FROM $wpdb->hotel_booking_order_itemmeta
+							WHERE meta_key = 'check_in_date'
+							AND hotel_booking_order_item_id = $value1";
+
+						$check_in_date = $wpdb->get_var($query);
+
+						$query1 = "SELECT meta_value FROM $wpdb->hotel_booking_order_itemmeta
+							WHERE meta_key = 'check_out_date'
+							AND hotel_booking_order_item_id = $value1";
+
+						$check_out_date = $wpdb->get_var($query1);
+
+						// code...
+						//echo $key."===".$check_out_date."==".$check_in_date."===".$value1."<br>";
+						for ($currentDate = $check_in_date; $currentDate <= $check_out_date; $currentDate += (86400)) {
+						                                      
+							$booking_date1 = date('Y-m-d', $currentDate);
+
+							if($booking_date1 >= date('Y-m-d')){
+
+								$new_booked_dates[$key][] = $booking_date1;
+							}
+
+							// if(!in_array($currentDate, $betweendates)){
+							// 	$betweendates[] = hotel_block_convert_current_time( $currentDate, 1 ) * 1000; $currentDate;
+							// }
+							
+						}
+					}
+
+					//print_r($new_booked_dates);
+				}
+
+			} else {
+				$time             = time();
+				$object           = new stdClass();
+				$object->id       = $time;
+				$object->post_id  = array();
+				$object->selected = array();
+
+				$calendars[ $time ] = $object;
+			}
+
+			$domes_ids = [1026,705,742,751,748,753,744,755];
+			
+			foreach ($domes_ids as $key => $domes_id) {
+
+				if(!array_key_exists($domes_id,$new_booked_dates)){
+
+					$new_booked_dates[$domes_id] = [];
+
+				}
+				// code...
+			}
+
+
+
+			//$calendars[ $post->calendarID ]->selected = $betweendates;
+			$data = array_unique(array_intersect($new_booked_dates[1026], 
+												$new_booked_dates[705], 
+												$new_booked_dates[742], 
+												$new_booked_dates[751], 
+												$new_booked_dates[748], 
+												$new_booked_dates[753], 
+												$new_booked_dates[744], 
+												$new_booked_dates[755]
+											)
+						);
+
+			return $data;
+		}
+
+
+
+
+
+		
 
 		/**
 		 * Ajax delete block.
